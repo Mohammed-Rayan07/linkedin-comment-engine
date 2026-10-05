@@ -1,0 +1,120 @@
+# Where posts come from. Three kinds of lanes:
+#   intent: buyer     -> SMB owners/operators posting about pain you solve (these are leads)
+#   intent: audience  -> creators your buyers follow (visibility in front of buyers)
+#   intent: prospect  -> specific people you want as clients (warm them up before DMing)
+#
+# These defaults are a starting hypothesis built from your Notion strategy. Run
+#   python -m engine yield-test
+# once you have an Apify token. It measures what share of each lane's authors are real buyers,
+# and you should keep or kill lanes based on that, not on gut feel.
+#
+# LinkedIn search syntax works in queries: quotes for phrases, OR between terms.
+
+vendor_headline_patterns:
+  # Authors whose headline matches these are other builders/sellers, not buyers.
+  # Applied to buyer lanes only (you still want to comment on big creators in audience lanes).
+  - "ai automation"
+  - "automation agency"
+  - "automation specialist"
+  - "automation expert"
+  - "ai agency"
+  - "ai agent"
+  - "ai employees"
+  - "n8n"
+  - "make.com"
+  - "zapier"
+  - "gohighlevel"
+  - "ghl"
+  - "voice ai"
+  - "chatbot"
+  - "lead gen"
+  - "lead generation"
+  - "growth hacker"
+  - "prompt engineer"
+  - "no-code"
+  - "saas founder"
+  - "crm consultant"
+
+lanes:
+  - id: clinics
+    name: Clinic & med-spa owners (GCC)
+    kind: search
+    intent: buyer
+    enabled: true
+    weight: 1.0
+    posted_limit: 24h
+    max_posts_per_query: 10
+    queries:
+      - '"missed calls" clinic'
+      - 'clinic receptionist patients bookings'
+      - '"no-show" patients clinic'
+      - 'dental clinic WhatsApp appointments'
+      - 'med spa bookings patients'
+    buyer_headline_hints: [clinic, dental, dentist, "med spa", aesthetic, dermatolog, physio, "medical director", "practice owner", "clinic manager", "healthcare"]
+
+  - id: realestate
+    name: Real-estate brokers & brokerage owners (UAE/KSA)
+    kind: search
+    intent: buyer
+    enabled: true
+    weight: 1.0
+    posted_limit: 24h
+    max_posts_per_query: 10
+    queries:
+      - 'real estate leads follow up Dubai'
+      - '"speed to lead" real estate'
+      - 'brokerage leads WhatsApp Dubai'
+      - 'Riyadh real estate leads'
+    buyer_headline_hints: [broker, brokerage, "real estate", realtor, property, "sales director", "managing director", ceo, founder]
+
+  - id: agencies
+    name: Marketing-agency owners (white-label partners)
+    kind: search
+    intent: buyer
+    enabled: true
+    weight: 0.9
+    posted_limit: 24h
+    max_posts_per_query: 10
+    queries:
+      - 'marketing agency clients leads "follow up"'
+      - 'agency owner clients missed leads'
+      - 'performance marketing clinic leads quality'
+    buyer_headline_hints: [agency, "marketing director", "founder", "ceo", "managing partner", "performance marketing", "media buyer"]
+
+  - id: ops
+    name: Ops leaders drowning in calls, WhatsApp & Excel
+    kind: search
+    intent: buyer
+    enabled: false   # turn on after the yield test; this is the MedLog angle
+    weight: 0.8
+    posted_limit: 24h
+    max_posts_per_query: 10
+    queries:
+      - 'dispatch drivers calls WhatsApp operations'
+      - 'manual invoice matching purchase orders'
+      - 'operations Excel WhatsApp chaos'
+    buyer_headline_hints: [operations, logistics, "supply chain", "coo", "general manager", procurement, fleet, warehouse]
+
+  - id: creators
+    name: Creators your buyers follow
+    kind: profiles
+    intent: audience
+    enabled: false   # add real URLs first, then enable
+    weight: 0.8
+    posted_limit: 24h
+    max_posts_per_profile: 2
+    # Paste LinkedIn profile URLs. Pick people CLINIC / BROKER / SMB OWNERS follow,
+    # not AI-automation influencers (their audience is your competitors).
+    # `python -m engine suggest-creators` lists high-engagement authors the engine keeps seeing.
+    profiles: []
+
+  - id: prospects
+    name: Dream prospects
+    kind: profiles
+    intent: prospect
+    enabled: false   # add real URLs first, then enable
+    weight: 1.3
+    posted_limit: week
+    max_posts_per_profile: 1
+    # 30-100 specific owners you'd love as clients. Every post they make jumps your queue.
+    profiles: []

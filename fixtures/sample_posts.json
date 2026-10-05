@@ -1,0 +1,51 @@
+[
+  {
+    "_lane": "clinics", "_age_hours": 1.5,
+    "type": "post", "id": "9001", "linkedinUrl": "https://www.linkedin.com/posts/sample-9001",
+    "content": "We spent 40k SAR on Meta ads last quarter and our booking numbers barely moved. My front desk team swears they answer every call. Then I checked the phone logs: 31 missed calls last week, most of them after 6 PM and on Fridays. Nobody called them back. I'm now wondering how much of our ad budget we are simply throwing at a phone that rings out. Has anyone solved after-hours bookings without hiring a night shift?",
+    "author": {"type": "profile", "name": "Dr. Sara Al-Harbi", "info": "Founder & Medical Director at a dental clinic in Riyadh", "linkedinUrl": "https://www.linkedin.com/in/sample-sara"},
+    "engagement": {"likes": 46, "comments": 12, "shares": 2}
+  },
+  {
+    "_lane": "clinics", "_age_hours": 3,
+    "type": "post", "id": "9002", "linkedinUrl": "https://www.linkedin.com/posts/sample-9002",
+    "content": "I build AI receptionists for clinics using n8n and Vapi. Here are 7 reasons your clinic needs one in 2026: 1) never miss a call 2) 24/7 bookings 3) multilingual 4) cheaper than staff 5) instant replies 6) CRM sync 7) more revenue. DM me AI for a free demo!",
+    "author": {"type": "profile", "name": "Some Vendor", "info": "AI Automation Agency Owner | n8n Expert", "linkedinUrl": "https://www.linkedin.com/in/sample-vendor"},
+    "engagement": {"likes": 12, "comments": 30, "shares": 0}
+  },
+  {
+    "_lane": "clinics", "_age_hours": 2,
+    "type": "post", "id": "9003", "linkedinUrl": "https://www.linkedin.com/posts/sample-9003",
+    "content": "نحن في العيادة نواجه تحديات كبيرة في إدارة المواعيد والمكالمات الفائتة بعد ساعات العمل، ونبحث عن حلول عملية تساعدنا على تحسين تجربة المرضى وزيادة الحجوزات دون زيادة عدد الموظفين في الاستقبال.",
+    "author": {"type": "profile", "name": "Arabic Author", "info": "Clinic Manager", "linkedinUrl": "https://www.linkedin.com/in/sample-ar"},
+    "engagement": {"likes": 20, "comments": 4, "shares": 0}
+  },
+  {
+    "_lane": "realestate", "_age_hours": 4,
+    "type": "post", "id": "9101", "linkedinUrl": "https://www.linkedin.com/posts/sample-9101",
+    "content": "Unpopular opinion: Dubai brokerages don't have a lead problem. We bought 600 leads from portals last month. My agents called maybe half of them within the first hour. The rest got a WhatsApp the next morning, by which point another agency had already booked the viewing. I'm thinking of making a rule: no lead waits more than 5 minutes. How are other brokerage owners enforcing speed without burning out their agents?",
+    "author": {"type": "profile", "name": "Omar Haddad", "info": "CEO & Founder at a Dubai real estate brokerage", "linkedinUrl": "https://www.linkedin.com/in/sample-omar"},
+    "engagement": {"likes": 88, "comments": 21, "shares": 5}
+  },
+  {
+    "_lane": "realestate", "_age_hours": 60,
+    "type": "post", "id": "9102", "linkedinUrl": "https://www.linkedin.com/posts/sample-9102",
+    "content": "Old post about the property market cycle and why off-plan sales in Dubai are slowing down this year. Investors are waiting for rate cuts and developers are offering longer payment plans to keep momentum going.",
+    "author": {"type": "profile", "name": "Old Poster", "info": "Real Estate Broker", "linkedinUrl": "https://www.linkedin.com/in/sample-old"},
+    "engagement": {"likes": 140, "comments": 33, "shares": 3}
+  },
+  {
+    "_lane": "agencies", "_age_hours": 2.5,
+    "type": "post", "id": "9201", "linkedinUrl": "https://www.linkedin.com/posts/sample-9201",
+    "content": "Agency owners, real talk. Our clinic clients keep telling us the leads we send are low quality. So we audited one account: 220 form leads in a month, and the clinic replied to the average lead after 9 hours. The leads weren't bad. They were cold by the time anyone called. We're now debating whether to offer lead response as part of our retainer or keep telling clients it's their problem.",
+    "author": {"type": "profile", "name": "Lina Farouk", "info": "Founder, performance marketing agency for healthcare brands", "linkedinUrl": "https://www.linkedin.com/in/sample-lina"},
+    "engagement": {"likes": 64, "comments": 18, "shares": 4}
+  },
+  {
+    "_lane": "agencies", "_age_hours": 1,
+    "type": "post", "id": "9202", "linkedinUrl": "https://www.linkedin.com/posts/sample-9202",
+    "content": "We're hiring! Our agency is looking for a senior media buyer to join our Dubai team. Apply now via the link in comments. Experience with Meta and Google ads required, healthcare experience is a plus.",
+    "author": {"type": "profile", "name": "Hiring Agency", "info": "Agency Founder", "linkedinUrl": "https://www.linkedin.com/in/sample-hiring"},
+    "engagement": {"likes": 10, "comments": 2, "shares": 0}
+  }
+]

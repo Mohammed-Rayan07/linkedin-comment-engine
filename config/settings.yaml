@@ -1,0 +1,41 @@
+# Global knobs. Lanes (where posts come from) live in lanes.yaml.
+
+timezone: Asia/Riyadh
+
+models:
+  # Default: Claude Opus 5.5 for both. To cut scoring cost ~4x, set scoring to claude-haiku-4-5
+  # (scoring is a simple classification job; drafting is where quality matters).
+  scoring: claude-opus-5-5
+  scoring_effort: low
+  drafting: claude-opus-5-5
+  drafting_effort: high
+  # Server-side refusal fallback (beta). Leave on unless the API rejects it.
+  server_fallbacks: true
+
+budgets:
+  # Apify bills ~$0.002 per returned post (+$0.001 per query that returns nothing).
+  # The free plan gives $5 of credit EVERY MONTH: 25/day ≈ $1.50/month, 80/day ≈ $5/month.
+  max_posts_scraped_per_day: 25
+  # Split across the enabled lanes each run (3 scheduled runs/day ≈ 24 posts).
+  max_posts_per_run: 8
+  # How many filtered posts get an LLM score per run.
+  max_llm_scored_per_run: 40
+  # Cards you receive in Telegram. 15-20/day is a solid, sustainable commenting habit.
+  max_cards_per_day: 20
+  max_cards_per_run: 8
+  # Minimum final priority (0-10) for a post to become a card.
+  min_priority: 6.0
+
+filters:
+  min_post_chars: 180
+  max_age_hours: 36          # early comments get the reach; older posts are skipped
+  max_comments: 150          # past this, your comment is buried
+  skip_non_english: true     # you review every comment before posting, so drafts stay in a language you can check
+
+comment:
+  min_chars: 140
+  max_chars: 650
+  options_per_post: 3
+
+telegram:
+  enabled: true

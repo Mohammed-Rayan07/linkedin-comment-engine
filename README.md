@@ -58,6 +58,8 @@ python -m engine run --mock
 
 ## Daily use
 
+**Start here: [HOW_TO_POST.md](HOW_TO_POST.md)** has the step-by-step for turning a card into a posted comment.
+
 ```bash
 python -m engine run      # one pass: fetch, score, draft, send cards
 python -m engine bot      # local mode only: stay online so button taps apply instantly
@@ -91,9 +93,9 @@ which is why the engine favours fresh posts.
 
 Button taps are applied at the start of the next scheduled run.
 
-**Pick one mode: local or scheduled. Don't run both.** The scheduled runs keep their own database
-in the Actions cache. A local `bot` or `run` would use a different database, and it would consume the
-same Telegram button taps.
+**The schedule is the only runner.** The database (`data/engine.db`) lives in this repo and every
+scheduled run commits it back, so there's one copy of your cards. Don't run `run`, `fill` or `bot`
+locally while the schedule is on. If you ever do, `git pull` first and push right after.
 
 ## Costs
 

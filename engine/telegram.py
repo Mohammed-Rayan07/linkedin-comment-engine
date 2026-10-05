@@ -102,6 +102,30 @@ class Telegram:
         except RuntimeError as e:
             log.debug("could not update buttons: %s", e)
 
+    def pin_status(self, store, text: str) -> None:
+        """Keep one pinned message at the top of the chat that every run edits in place."""
+        if not self.enabled:
+            print("\n" + text)
+            return
+        msg_id = store.get("status_message_id")
+        if msg_id:
+            try:
+                self._call("editMessageText", chat_id=self.cfg.telegram_chat_id, message_id=int(msg_id),
+                           text=text, parse_mode="HTML", disable_web_page_preview=True)
+                return
+            except RuntimeError as e:
+                if "not modified" in str(e):
+                    return
+                log.info("status message gone (%s); posting a new one", e)
+        new_id = self.send(text)
+        if new_id:
+            store.put("status_message_id", str(new_id))
+            try:
+                self._call("pinChatMessage", chat_id=self.cfg.telegram_chat_id, message_id=new_id,
+                           disable_notification=True)
+            except RuntimeError as e:
+                log.info("could not pin status: %s", e)
+
     def poll(self, offset: int, timeout: int = 0) -> list[dict[str, Any]]:
         if not self.enabled:
             return []

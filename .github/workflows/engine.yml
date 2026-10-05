@@ -1,6 +1,7 @@
 # Runs the engine on a schedule so it works while your laptop is off.
-# Use a PRIVATE repo: the state database holds names of people whose posts were scraped.
-# State persists between runs via the Actions cache (not committed to git).
+# The state database (data/engine.db) lives in this PRIVATE repo and is committed back after every run,
+# so there is exactly one copy of your cards and your Telegram taps always land on the right one.
+# Don't run the engine locally while this schedule is on: two copies of the database would drift apart.
 name: comment-engine
 
 on:
@@ -12,6 +13,9 @@ on:
 concurrency:
   group: comment-engine
   cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   run:
@@ -27,13 +31,6 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Restore state
-        uses: actions/cache/restore@v4
-        with:
-          path: data
-          key: engine-db-${{ github.run_id }}
-          restore-keys: engine-db-
-
       - name: Run engine
         run: python -m engine run
         env:
@@ -45,7 +42,11 @@ jobs:
 
       - name: Save state
         if: always()
-        uses: actions/cache/save@v4
-        with:
-          path: data
-          key: engine-db-${{ github.run_id }}
+        run: |
+          git config user.name "comment-engine"
+          git config user.email "comment-engine@users.noreply.github.com"
+          git add -f data/engine.db
+          if git diff --cached --quiet; then echo "no state change"; exit 0; fi
+          git commit -m "state: run ${{ github.run_id }}"
+          git pull --rebase
+          git push

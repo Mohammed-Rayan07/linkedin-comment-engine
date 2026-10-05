@@ -88,7 +88,20 @@ connection_note: only when asked for one in the request, otherwise "". When aske
 that references this specific post, makes no pitch, and gives the person a reason to accept.""" + _learned(examples)
 
 
-def _user(p: Post, lane: Lane, score: dict[str, Any], feedback: str | None) -> str:
+def _recently_used(store) -> tuple[list[str], list[str]]:
+    """Proofs and opening lines from the last 24h of cards, so twenty comments don't all sound alike."""
+    proofs: dict[str, int] = {}
+    openers: list[str] = []
+    for row in store.db.execute("SELECT options_json FROM cards WHERE created_at >= datetime('now','-1 day')"):
+        for o in json.loads(row["options_json"]):
+            for pid in o.get("proof_ids", []):
+                proofs[pid] = proofs.get(pid, 0) + 1
+            openers.append(o["text"].split(".")[0][:90])
+    overused = [pid for pid, n in sorted(proofs.items(), key=lambda kv: -kv[1]) if n >= 2]
+    return overused, openers[-15:]
+
+
+def _user(p: Post, lane: Lane, score: dict[str, Any], feedback: str | None, store=None) -> str:
     want_note = lane.intent in ("buyer", "prospect") and score.get("author_type") == "buyer"
     payload = {
         "lane": lane.name,
@@ -105,6 +118,11 @@ def _user(p: Post, lane: Lane, score: dict[str, Any], feedback: str | None) -> s
         "post_text": p.text[:4000],
     }
     msg = "Draft comments for this post:\n" + json.dumps(payload, ensure_ascii=False, indent=1)
+    if store is not None:
+        overused, openers = _recently_used(store)
+        if overused or openers:
+            msg += ("\n\nRayan has already used these proofs in recent comments; prefer different ones or the "
+                    f"post's own details: {overused}\nDon't start with or echo these recent opening lines: {openers}")
     if feedback:
         msg += ("\n\nYour previous drafts broke these rules. Rewrite all options so none of these "
                 "problems remain, without inventing anything new:\n" + feedback)
@@ -148,7 +166,7 @@ def draft_comments(cfg: Config, llm: LLM, p: Post, lane: Lane, score: dict[str, 
         max_tokens=16000,
         mock=lambda: _mock(p, lane, score),
     )
-    result = llm.json(user=_user(p, lane, score, None), **call)
+    result = llm.json(user=_user(p, lane, score, None, llm.store), **call)
     if not result.get("can_add_value"):
         return Draft([], None, result.get("skip_reason") or "nothing specific to add")
 
@@ -156,7 +174,7 @@ def draft_comments(cfg: Config, llm: LLM, p: Post, lane: Lane, score: dict[str, 
     if bad:
         feedback = "\n".join(f"- option {i + 1}: " + "; ".join(v) for i, v in bad.items())
         log.info("post %s: regenerating, violations:\n%s", p.id, feedback)
-        result = llm.json(user=_user(p, lane, score, feedback), **call)
+        result = llm.json(user=_user(p, lane, score, feedback, llm.store), **call)
         if not result.get("can_add_value"):
             return Draft([], None, result.get("skip_reason") or "nothing specific to add")
 

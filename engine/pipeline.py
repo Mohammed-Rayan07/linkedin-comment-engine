@@ -132,10 +132,15 @@ class Engine:
     def handle_command(self, text: str) -> str:
         if text.startswith("/stats"):
             return stats_text(self.store)
+        if text.startswith("/queue"):
+            return queue_text(self.store)
         if text.startswith("/help") or text.startswith("/start"):
             return ("I send you posts worth commenting on, with 3 drafted options each.\n"
                     "Tap ✅ Posted N after you post (edit freely first), ⏭ Skip, or 🔁 New angles.\n"
-                    "/stats shows the last 7 days.")
+                    "/queue lists every card still waiting, with links.\n"
+                    "/stats shows the last 7 days.\n"
+                    "Taps are applied at the next scheduled run (08:00, 13:00, 18:00 Riyadh), "
+                    "so a spinning button is normal.")
         return ""
 
     def sync(self, timeout: int = 0) -> int:
@@ -202,7 +207,14 @@ class Engine:
             self._deliver_best(report, card_quota)
         except LLMUnavailable as e:
             report.notes.append(f"{e}; unscored/undrafted posts will be retried next run")
+        self.update_board()
         return report
+
+    def update_board(self) -> None:
+        try:
+            self.tg.pin_status(self.store, status_text(self.store))
+        except Exception as e:  # the board is a nice-to-have; never fail a run over it
+            log.warning("status board update failed: %s", e)
 
     def _deliver_best(self, report: RunReport, card_quota: int | None = None) -> None:
         cfg, store = self.cfg, self.store
@@ -233,6 +245,45 @@ class Engine:
             except SendFailed as e:
                 report.notes.append(f"telegram send failed, stopping this run: {e}")
                 break
+
+
+def queue_text(store: Store, limit: int = 40) -> str:
+    rows = store.db.execute(
+        """SELECT c.id, p.lane_id, p.author_name, p.url, p.priority FROM cards c JOIN posts p ON p.id=c.post_id
+           WHERE c.status='sent' ORDER BY p.priority DESC LIMIT ?""", (limit,)).fetchall()
+    if not rows:
+        return "Queue is empty. New cards arrive at 08:00, 13:00 and 18:00 Riyadh."
+    lines = [f"📥 {len(rows)} cards waiting (best first). Scroll up to the card number to copy a comment."]
+    for r in rows:
+        lines.append(f"#{r['id']} · {r['lane_id']} · {r['priority']:.1f} · {r['author_name']}\n{r['url']}")
+    return "\n".join(lines)[:4000]
+
+
+def status_text(store: Store) -> str:
+    """The pinned board: what's waiting, what you've done, what it cost."""
+    by = {(r["lane_id"], r["status"]): r["n"] for r in store.db.execute(
+        "SELECT p.lane_id, c.status, COUNT(*) n FROM cards c JOIN posts p ON p.id=c.post_id GROUP BY 1, 2")}
+    lanes = sorted({lane for lane, _ in by})
+    waiting = sum(n for (_, s), n in by.items() if s == "sent")
+    posted = sum(n for (_, s), n in by.items() if s == "posted")
+    week = store.db.execute(
+        "SELECT COUNT(*) FROM cards WHERE status='posted' AND acted_at >= datetime('now','-7 days')").fetchone()[0]
+    learned = store.db.execute("SELECT COUNT(*) FROM examples").fetchone()[0]
+    scraped = store.db.execute(
+        "SELECT COALESCE(SUM(posts_scraped),0) FROM usage WHERE day >= date('now','start of month')").fetchone()[0]
+    lines = ["📊 <b>Comment engine</b>",
+             f"📥 Waiting: <b>{waiting}</b>   ✅ Posted: <b>{posted}</b> ({week} this week)",
+             ""]
+    for lane in lanes:
+        lines.append(f"• {lane}: {by.get((lane, 'sent'), 0)} waiting · {by.get((lane, 'posted'), 0)} posted · "
+                     f"{by.get((lane, 'skipped'), 0)} skipped")
+    lines += ["",
+              f"🧠 Comments learned from: {learned}",
+              f"💵 Apify this month: ~${scraped * PRICE_PER_POST_USD:.2f} of $5",
+              f"🕒 Updated {datetime.now(timezone.utc).strftime('%d %b %H:%M')} UTC · "
+              "next runs 08:00 / 13:00 / 18:00 Riyadh",
+              "/queue = waiting cards with links"]
+    return "\n".join(lines)
 
 
 def stats_text(store: Store, days: int = 7) -> str:

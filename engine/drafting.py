@@ -50,7 +50,17 @@ class Draft:
     skip_reason: str | None = None
 
 
-def _system(cfg: Config) -> str:
+def _learned(examples) -> str:
+    if not examples:
+        return ""
+    parts = ["\n# Comments Rayan actually posted (strongest signal for his voice; match how he writes)"]
+    for ex in examples:
+        label = "he rewrote it to" if ex["source"] == "edited" else "he picked"
+        parts.append(f"Post: {ex['post_excerpt'][:240]}\n{label}: {ex['comment']}")
+    return "\n\n".join(parts)
+
+
+def _system(cfg: Config, examples=()) -> str:
     profile_yaml = yaml.safe_dump(cfg.profile, sort_keys=False, allow_unicode=True, width=120)
     n = cfg.s("comment", "options_per_post", default=3)
     return f"""You ghost-draft LinkedIn comments for Rayan. He reads every draft, edits it, and posts it himself.
@@ -75,7 +85,7 @@ Write {n} options, each using a DIFFERENT angle (missing_step, field_detail, pus
 Each option: {cfg.s('comment', 'min_chars', default=140)}-{cfg.s('comment', 'max_chars', default=650)} characters, ready to paste, English only.
 proof_ids lists the profile proofs each option draws on (empty if it uses only opinions or the post).
 connection_note: only when asked for one in the request, otherwise "". When asked: a connection request note under {NOTE_MAX} characters
-that references this specific post, makes no pitch, and gives the person a reason to accept."""
+that references this specific post, makes no pitch, and gives the person a reason to accept.""" + _learned(examples)
 
 
 def _user(p: Post, lane: Lane, score: dict[str, Any], feedback: str | None) -> str:
@@ -132,9 +142,8 @@ def _violations(d: dict[str, Any], cfg: Config, p: Post) -> dict[int, list[str]]
 
 def draft_comments(cfg: Config, llm: LLM, p: Post, lane: Lane, score: dict[str, Any]) -> Draft:
     call = dict(
-        model=cfg.s("models", "drafting"),
-        effort=cfg.s("models", "drafting_effort", default="high"),
-        system=_system(cfg),
+        task="drafting",
+        system=_system(cfg, llm.store.recent_examples(10)),
         schema=SCHEMA,
         max_tokens=16000,
         mock=lambda: _mock(p, lane, score),

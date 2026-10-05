@@ -51,6 +51,8 @@ def render_card(card_id: int, p: Post, lane: Lane, score: dict[str, Any], prio: 
     if d.connection_note:
         lines.append("🤝 <b>Connection note</b> (send after your comment):")
         lines.append(f"<code>{e(d.connection_note)}</code>")
+    lines.append("")
+    lines.append("<i>Edited it? Reply to this message with your final comment so I learn your voice.</i>")
     text = "\n".join(lines)
     # Telegram caps messages at 4096 chars; shrink the snippet rather than cut through an HTML tag
     if len(text) > 4096 and snippet_chars > 0:
@@ -117,7 +119,8 @@ class Telegram:
 
 
 def process_updates(tg: Telegram, store, handle_action: Callable[[str, int, int | None], str],
-                    handle_command: Callable[[str], str], timeout: int = 0) -> int:
+                    handle_command: Callable[[str], str], handle_reply: Callable[[int, str], str],
+                    timeout: int = 0) -> int:
     """Apply pending button taps / commands. Returns number of updates handled."""
     offset = int(store.get("tg_offset", "0") or 0)
     updates = tg.poll(offset, timeout)
@@ -140,7 +143,9 @@ def process_updates(tg: Telegram, store, handle_action: Callable[[str, int, int 
         elif msg := u.get("message"):
             if str(msg.get("chat", {}).get("id")) != str(tg.cfg.telegram_chat_id):
                 continue
-            reply = handle_command((msg.get("text") or "").strip())
+            text = (msg.get("text") or "").strip()
+            replied_to = (msg.get("reply_to_message") or {}).get("message_id")
+            reply = handle_reply(replied_to, text) if replied_to else handle_command(text)
             if reply:
                 tg.send(reply)
         store.put("tg_offset", str(offset))  # ack as we go so a crash never replays a tap

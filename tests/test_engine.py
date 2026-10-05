@@ -103,7 +103,8 @@ def test_live_budget_split_and_query_rotation(cfg, monkeypatch):
                 for i in range(max_items)]
 
     monkeypatch.setattr(sources, "_run_actor", fake_actor)
-    monkeypatch.setenv("ANTHROPIC_API_KEY", "test-key")
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    cfg.settings["budgets"].update(max_posts_scraped_per_day=25, max_posts_per_run=8)
     cfg.mock = False
     cfg.apify_token = "test"
     engine = Engine(cfg)
@@ -118,3 +119,17 @@ def test_live_budget_split_and_query_rotation(cfg, monkeypatch):
     for _ in range(3):
         engine.run()
     assert engine.store.today()["posts_scraped"] == 25        # daily cap respected exactly
+
+
+def test_learning_from_posted_and_edited_comments(cfg):
+    engine = Engine(cfg)
+    engine.run()
+    engine.store.set_card_message(1, 111)
+    engine.store.set_card_message(2, 222)
+    engine.handle_action("p", 1, 1)                       # picked option 1 as-is
+    assert engine.handle_reply(222, "My own rewritten comment about missed calls after 7 PM.").startswith("🧠")
+    ex = engine.store.recent_examples()
+    assert [e["source"] for e in ex] == ["edited", "picked"]
+    assert engine.store.get_card(2)["status"] == "posted"
+    from engine.drafting import _system
+    assert "My own rewritten comment" in _system(cfg, ex)

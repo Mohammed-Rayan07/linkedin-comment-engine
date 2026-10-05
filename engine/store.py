@@ -47,6 +47,14 @@ CREATE TABLE IF NOT EXISTS usage (
     llm_cost_usd REAL NOT NULL DEFAULT 0
 );
 CREATE TABLE IF NOT EXISTS kv (key TEXT PRIMARY KEY, value TEXT);
+CREATE TABLE IF NOT EXISTS examples (           -- comments Rayan actually posted: the writer learns from these
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    card_id INTEGER,
+    post_excerpt TEXT NOT NULL,
+    comment TEXT NOT NULL,
+    source TEXT NOT NULL,                        -- edited (his own final words) | picked (an option as-is)
+    created_at TEXT NOT NULL
+);
 """
 
 
@@ -129,6 +137,22 @@ class Store:
         if card and status in ("posted", "skipped"):
             self.db.execute("UPDATE posts SET status=? WHERE id=?", (status, card["post_id"]))
         self.db.commit()
+
+    def card_by_message(self, message_id: int) -> sqlite3.Row | None:
+        return self.db.execute("SELECT * FROM cards WHERE tg_message_id=?", (message_id,)).fetchone()
+
+    # --- learning examples -------------------------------------------------
+    def add_example(self, card_id: int, post_excerpt: str, comment: str, source: str) -> None:
+        # one example per card: an edit replaces an earlier "picked" option
+        self.db.execute("DELETE FROM examples WHERE card_id=?", (card_id,))
+        self.db.execute(
+            "INSERT INTO examples (card_id, post_excerpt, comment, source, created_at) VALUES (?,?,?,?,?)",
+            (card_id, post_excerpt, comment, source, _now()))
+        self.db.commit()
+
+    def recent_examples(self, limit: int = 10) -> list[sqlite3.Row]:
+        return self.db.execute(
+            "SELECT * FROM examples ORDER BY (source='edited') DESC, created_at DESC LIMIT ?", (limit,)).fetchall()
 
     # --- usage / budgets ---------------------------------------------------
     def _bump(self, column: str, n: int) -> None:

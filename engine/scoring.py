@@ -125,8 +125,7 @@ def score_posts(cfg: Config, llm: LLM, items: list[tuple[Post, Lane]]) -> list[t
     for i in range(0, len(items), BATCH):
         chunk = [(f"p{j}", p, lane) for j, (p, lane) in enumerate(items[i:i + BATCH])]
         result = llm.json(
-            model=cfg.s("models", "scoring"),
-            effort=cfg.s("models", "scoring_effort", default="low"),
+            task="scoring",
             system=_system(cfg),
             user=_user(chunk),
             schema=SCHEMA,

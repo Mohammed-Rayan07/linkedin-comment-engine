@@ -91,6 +91,9 @@ class Engine:
             return f"Already {card['status']}"
         if kind == "p":
             self.store.resolve_card(card_id, "posted", opt)
+            options = json.loads(card["options_json"])
+            if opt and 1 <= opt <= len(options):
+                self._learn(card, options[opt - 1]["text"], "picked")
             return f"✅ Logged: posted option {opt}"
         if kind == "s":
             self.store.resolve_card(card_id, "skipped")
@@ -111,6 +114,21 @@ class Engine:
             return "Couldn't send new angles"
         return "🔁 New angles sent"
 
+    def _learn(self, card, comment: str, source: str) -> None:
+        row = self.store.get_post_row(card["post_id"])
+        excerpt = (row["text"] if row else "")[:400]
+        self.store.add_example(card["id"], excerpt, comment.strip(), source)
+
+    def handle_reply(self, message_id: int, text: str) -> str:
+        """Rayan replied to a card with the comment he actually posted: the best training signal there is."""
+        card = self.store.card_by_message(message_id)
+        if not card or len(text) < 20:
+            return ""
+        self._learn(card, text, "edited")
+        if card["status"] == "sent":
+            self.store.resolve_card(card["id"], "posted", 0)
+        return "🧠 Saved. Future drafts will learn from how you wrote this one."
+
     def handle_command(self, text: str) -> str:
         if text.startswith("/stats"):
             return stats_text(self.store)
@@ -121,7 +139,8 @@ class Engine:
         return ""
 
     def sync(self, timeout: int = 0) -> int:
-        return process_updates(self.tg, self.store, self.handle_action, self.handle_command, timeout)
+        return process_updates(self.tg, self.store, self.handle_action, self.handle_command,
+                               self.handle_reply, timeout)
 
     # ---- main run ------------------------------------------------------------
     def run(self, lane_ids: list[str] | None = None) -> RunReport:

@@ -28,8 +28,8 @@ copy .env.example .env
 
 Fill in `.env`:
 
-1. **ANTHROPIC_API_KEY**: from console.anthropic.com
-2. **APIFY_TOKEN**: from console.apify.com > Settings > Integrations. The free plan's $5 credit renews monthly; the default 25 posts/day uses about $1.50 of it.
+1. **GEMINI_API_KEY**: free, from aistudio.google.com > Get API key. The engine uses Gemini 3.8 Flash by default; to use Claude instead, set `models.provider: claude` and add `ANTHROPIC_API_KEY`
+2. **APIFY_TOKEN**: from console.apify.com > Settings > Integrations. The default 80 posts a day costs about $4.80 a month, which fits inside the free plan's $5 monthly credit.
 3. **Telegram**: message @BotFather, send `/newbot`, and paste the token into `TELEGRAM_BOT_TOKEN`. Then open your new bot, send it `hi`, and run:
    ```bash
    python -m engine telegram-setup
@@ -70,6 +70,11 @@ angles (tap the text to copy), and a connection note for buyer posts. After you 
 **✅ Posted N** (it logs which angle you used), or tap **⏭ Skip** or **🔁 New angles**. Send `/stats`
 to the bot at any time.
 
+**How it learns your voice.** Every comment you mark ✅ Posted becomes an example for future drafts.
+When you edit a draft before posting, **reply to the card with your final version**. That's the
+strongest signal, and edited examples are weighted first. After a couple of weeks the drafts should read
+like you.
+
 Comment as early as you can. The first 60–90 minutes after a post goes up get most of the reach,
 which is why the engine favours fresh posts.
 
@@ -94,14 +99,11 @@ same Telegram button taps.
 
 | Item | Monthly |
 |---|---|
-| Apify (25 posts/day cap) | ~$1.50, covered by the free plan's $5/month |
-| Claude (scoring + drafting ~15–20 cards/day on Opus 5.5) | **unverified estimate: ~$20–60.** Check `/stats` after day one, since it tracks real spend. |
+| Apify (80 posts/day cap) | ~$4.80, covered by the free plan's $5/month |
+| Gemini 3.8 Flash (free tier) | $0. It's rate-limited, so the engine paces its calls and falls back to Gemini 3.7 Flash if the daily quota runs out. On the free tier, Google may use the prompts (public posts + your proof bank) to improve its products. |
 | GitHub Actions (private repo) | free (~300 of 2,000 free minutes) |
 
-If Claude costs come in high, the levers in `config/settings.yaml` are:
-- `drafting_effort: medium` (the biggest lever, since thinking tokens bill as output)
-- `scoring: claude-haiku-4-5` (scoring is simple classification)
-- a lower `max_cards_per_day`
+If you switch to Claude (`models.provider: claude`), `/stats` tracks real spend. `drafting_effort: medium` is the biggest cost lever.
 
 ## Files
 

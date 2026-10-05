@@ -51,6 +51,25 @@ CREATE TABLE IF NOT EXISTS usage (
     llm_cost_usd REAL NOT NULL DEFAULT 0
 );
 CREATE TABLE IF NOT EXISTS kv (key TEXT PRIMARY KEY, value TEXT);
+CREATE TABLE IF NOT EXISTS metrics (            -- daily numbers: followers (scraped) or impressions (you type them in)
+    day TEXT NOT NULL,
+    key TEXT NOT NULL,
+    value REAL NOT NULL,
+    PRIMARY KEY (day, key)
+);
+CREATE TABLE IF NOT EXISTS my_comments (        -- your own LinkedIn comments, read back from your public activity
+    id TEXT PRIMARY KEY,
+    post_id TEXT,
+    card_id INTEGER,
+    url TEXT,
+    post_url TEXT,
+    post_author TEXT,
+    text TEXT,
+    created_at TEXT,
+    likes INTEGER NOT NULL DEFAULT 0,
+    replies INTEGER NOT NULL DEFAULT 0,
+    checked_at TEXT NOT NULL
+);
 CREATE TABLE IF NOT EXISTS examples (           -- comments Rayan actually posted: the writer learns from these
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     card_id INTEGER,
@@ -72,10 +91,14 @@ class Store:
         self.db = sqlite3.connect(path)
         self.db.row_factory = sqlite3.Row
         self.db.executescript(SCHEMA)
-        try:  # databases created before cost tracking existed
-            self.db.execute("ALTER TABLE usage ADD COLUMN llm_cost_usd REAL NOT NULL DEFAULT 0")
-        except sqlite3.OperationalError:
-            pass
+        # columns added after the first release
+        for table, column in [("usage", "llm_cost_usd REAL NOT NULL DEFAULT 0"),
+                              ("cards", "stage TEXT"),   # CRM stage after posting: connected | replied | dm | call | client
+                              ("cards", "note TEXT")]:
+            try:
+                self.db.execute(f"ALTER TABLE {table} ADD COLUMN {column}")
+            except sqlite3.OperationalError:
+                pass
 
     # --- posts -------------------------------------------------------------
     def known_ids(self, ids: list[str]) -> set[str]:
@@ -153,6 +176,23 @@ class Store:
             self.db.execute("UPDATE posts SET status=? WHERE id=?", (status, card["post_id"]))
         self.db.commit()
 
+    def reopen_card(self, card_id: int) -> None:
+        """Undo a skip (or a wrong Posted tap): the card goes back to the queue."""
+        self.db.execute("UPDATE cards SET status='sent', chosen_option=NULL, stage=NULL, acted_at=? WHERE id=?",
+                        (_now(), card_id))
+        card = self.get_card(card_id)
+        if card:
+            self.db.execute("UPDATE posts SET status='carded' WHERE id=?", (card["post_id"],))
+        self.db.commit()
+
+    def set_stage(self, card_id: int, stage: str | None) -> None:
+        self.db.execute("UPDATE cards SET stage=? WHERE id=?", (stage, card_id))
+        self.db.commit()
+
+    def set_note(self, card_id: int, note: str) -> None:
+        self.db.execute("UPDATE cards SET note=? WHERE id=?", (note, card_id))
+        self.db.commit()
+
     def card_by_message(self, message_id: int) -> sqlite3.Row | None:
         return self.db.execute("SELECT * FROM cards WHERE tg_message_id=?", (message_id,)).fetchone()
 
@@ -202,6 +242,23 @@ class Store:
     def put(self, key: str, value: str) -> None:
         self.db.execute("INSERT INTO kv (key, value) VALUES (?, ?) "
                         "ON CONFLICT(key) DO UPDATE SET value=excluded.value", (key, value))
+        self.db.commit()
+
+    # --- metrics -------------------------------------------------------------
+    def put_metric(self, day: str, key: str, value: float) -> None:
+        self.db.execute("INSERT INTO metrics (day, key, value) VALUES (?,?,?) "
+                        "ON CONFLICT(day, key) DO UPDATE SET value=excluded.value", (day, key, value))
+        self.db.commit()
+
+    def upsert_my_comment(self, row: dict[str, Any]) -> None:
+        self.db.execute(
+            """INSERT INTO my_comments (id, post_id, card_id, url, post_url, post_author, text, created_at,
+                                        likes, replies, checked_at)
+               VALUES (:id, :post_id, :card_id, :url, :post_url, :post_author, :text, :created_at,
+                       :likes, :replies, :checked_at)
+               ON CONFLICT(id) DO UPDATE SET likes=excluded.likes, replies=excluded.replies,
+                   text=excluded.text, checked_at=excluded.checked_at,
+                   card_id=COALESCE(excluded.card_id, my_comments.card_id)""", row)
         self.db.commit()
 
     # --- reporting ---------------------------------------------------------

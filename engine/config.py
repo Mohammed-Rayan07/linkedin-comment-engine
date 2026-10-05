@@ -56,6 +56,14 @@ class Config:
         return node
 
     @property
+    def state_dir(self) -> Path:
+        """Where the dashboard files live: state/ in the repo for the real database, next to any other one
+        (tests, --mock) so those never overwrite the real dashboard data."""
+        if self.db_path.resolve() == (DATA_DIR / "engine.db").resolve():
+            return ROOT / "state"
+        return self.db_path.parent
+
+    @property
     def enabled_lanes(self) -> list[Lane]:
         return [lane for lane in self.lanes if lane.enabled]
 

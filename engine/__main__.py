@@ -1,6 +1,7 @@
 """CLI.  python -m engine <command> [--mock]
 
   run               one full pass (sync taps, fetch, score, draft, send cards)
+  dashboard         open the CRM dashboard (hosted on GitHub Pages, works on your phone too)
   bot               stay online: apply button taps instantly and handle /stats
   yield-test        measure which lanes actually surface buyers (spends a little Apify credit)
   suggest-creators  authors who keep showing up with high engagement (watchlist candidates)
@@ -22,11 +23,13 @@ from .config import load_config
 from .pipeline import Engine, stats_text
 from .sources import PRICE_PER_POST_USD, fetch_lane
 
+DASHBOARD_URL = "https://mohammed-rayan07.github.io/comment-crm/"
+
 
 def main() -> int:
     ap = argparse.ArgumentParser(prog="engine", description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("command", choices=["run", "fill", "bot", "yield-test", "suggest-creators", "stats",
+    ap.add_argument("command", choices=["run", "fill", "dashboard", "bot", "yield-test", "suggest-creators", "stats",
                                         "telegram-setup", "check"])
     ap.add_argument("text", nargs="?", help="comment text for `check`")
     ap.add_argument("--mock", action="store_true", help="use fixtures + fake LLM, no API keys needed")
@@ -67,6 +70,12 @@ def main() -> int:
             return 1
         for c in chats:
             print(f"TELEGRAM_CHAT_ID={c}")
+        return 0
+
+    if args.command == "dashboard":
+        import webbrowser
+        print(f"Dashboard: {DASHBOARD_URL}")
+        webbrowser.open(DASHBOARD_URL)
         return 0
 
     engine = Engine(cfg)

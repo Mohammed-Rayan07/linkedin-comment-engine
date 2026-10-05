@@ -145,3 +145,72 @@ def test_spelled_out_numbers_are_checked(cfg):
     assert any("'8'" in x for x in check(cfg, "It saved eight hours a week of admin."))
     # spelled-out numbers that ARE in the proof bank still pass
     assert check(cfg, "Three missed calls a day at a thirty percent booking rate adds up fast.") == []
+
+
+def _write_actions(cfg, actions):
+    import json as _json
+    path = cfg.state_dir / "actions.jsonl"
+    with open(path, "a", encoding="utf-8") as f:
+        for a in actions:
+            f.write(_json.dumps(a) + "\n")
+
+
+def test_dashboard_actions_apply_once_and_feed_learning(cfg):
+    import json as _json
+    from engine import inbox
+    engine = Engine(cfg)
+    engine.run()
+    opt1 = _json.loads(engine.store.get_card(1)["options_json"])[0]["text"]
+    _write_actions(cfg, [
+        {"kind": "posted", "card": 1, "opt": 1},                                   # as-is, like a Telegram tap
+        {"kind": "posted", "card": 2, "opt": 2, "text": "My own final wording about after-hours calls."},
+        {"kind": "stage", "card": 2, "stage": "replied"},
+        {"kind": "note", "card": 2, "note": "asked about pricing"},
+        {"kind": "skip", "card": 3},
+        {"kind": "bogus", "card": 3},                                              # ignored, never blocks the rest
+        {"kind": "metric", "key": "impressions_7d", "value": 1234, "day": "2026-10-06"},
+    ])
+    assert inbox.apply_actions(engine) == 6
+    assert inbox.apply_actions(engine) == 0                                        # replaying applies nothing
+    c1, c2, c3 = (engine.store.get_card(i) for i in (1, 2, 3))
+    assert (c1["status"], c1["chosen_option"]) == ("posted", 1)
+    assert (c2["status"], c2["stage"], c2["note"]) == ("posted", "replied", "asked about pricing")
+    assert c3["status"] == "skipped"
+    ex = {e["card_id"]: e for e in engine.store.recent_examples()}
+    assert (ex[1]["source"], ex[1]["comment"]) == ("picked", opt1)                 # same row a Telegram tap makes
+    assert (ex[2]["source"], ex[2]["comment"]) == ("edited", "My own final wording about after-hours calls.")
+    # the snapshot the dashboard reads reflects all of it
+    from engine.export import snapshot
+    snap = snapshot(cfg, engine.store)
+    assert snap["actions_applied"] == 7
+    card2 = next(c for c in snap["cards"] if c["id"] == 2)
+    assert card2["stage"] == "replied" and card2["options"]
+    assert snap["metrics"]["impressions_7d"][0]["value"] == 1234
+
+
+def test_reopen_and_stage_from_queue(cfg):
+    from engine import inbox
+    engine = Engine(cfg)
+    engine.run()
+    _write_actions(cfg, [{"kind": "skip", "card": 1}, {"kind": "reopen", "card": 1},
+                         {"kind": "stage", "card": 2, "stage": "connected"}])       # dragged straight from To post
+    inbox.apply_actions(engine)
+    assert engine.store.get_card(1)["status"] == "sent"
+    c2 = engine.store.get_card(2)
+    assert (c2["status"], c2["stage"]) == ("posted", "connected")
+
+
+def test_my_comment_matches_card_by_ugc_or_activity_id(cfg):
+    from engine import mystats
+    engine = Engine(cfg)
+    engine.run()
+    card = engine.store.get_card(1)
+    engine.store.db.execute("UPDATE posts SET url=? WHERE id=?",
+                            ("https://www.linkedin.com/posts/x_y-activity-7512630430219616256-M30A", card["post_id"]))
+    # LinkedIn gives the same post an activity id and a ugcPost id; either one in either URL must match
+    item = {"id": "c1", "postId": "7511860364372774912", "post": {"id": "7511860364372774912",
+            "shareUrn": "urn:li:activity:7512630430219616256",
+            "linkedinUrl": "https://www.linkedin.com/posts/x_y-ugcPost-7511860364372774912-Mk6R"}}
+    assert mystats.match_card(engine.store, item)["id"] == 1
+    assert mystats.match_card(engine.store, {"id": "c3", "postId": card["post_id"]})["id"] == 1
+    assert mystats.match_card(engine.store, {"id": "c2", "postId": "123", "post": {"id": "123"}}) is None

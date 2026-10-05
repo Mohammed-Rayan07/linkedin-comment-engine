@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Comment CRM</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%234f46e5'/><path d='M9 11h14v8H14l-5 4z' fill='white'/></svg>">
+<style>
+:root {
+  --bg: #f4f5fa; --panel: #ffffff; --panel-2: #f8f9fc; --line: #e4e6ef; --line-2: #d5d8e5;
+  --text: #171a2b; --muted: #636a85; --faint: #9aa0b8;
+  --accent: #4f46e5; --accent-2: #6366f1; --accent-soft: #eef0ff; --on-accent: #fff;
+  --good: #0f9d6e; --good-soft: #e3f7ef; --warn: #b7791f; --warn-soft: #fdf3e1; --bad: #d14343; --bad-soft: #fde8e8;
+  --shadow: 0 1px 2px rgba(20,24,50,.06), 0 4px 16px rgba(20,24,50,.06);
+  --shadow-lg: 0 12px 48px rgba(20,24,50,.18);
+  --l-clinics: #0d9488; --l-realestate: #d97706; --l-smb_owners: #7c3aed; --l-gcc_audience: #2563eb; --l-other: #64748b;
+  --radius: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1020; --panel: #161a2e; --panel-2: #1b2036; --line: #262b45; --line-2: #333a5a;
+    --text: #e8eaf6; --muted: #a2a8c6; --faint: #6e7596;
+    --accent: #818cf8; --accent-2: #a5b4fc; --accent-soft: #23284a; --on-accent: #0e1020;
+    --good: #34d399; --good-soft: #10342a; --warn: #fbbf24; --warn-soft: #3a2e12; --bad: #f87171; --bad-soft: #3d1c1c;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
+    --shadow-lg: 0 12px 48px rgba(0,0,0,.5);
+    --l-clinics: #2dd4bf; --l-realestate: #fbbf24; --l-smb_owners: #a78bfa; --l-gcc_audience: #60a5fa; --l-other: #94a3b8;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--text); font: 14px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; }
+button { font: inherit; color: inherit; cursor: pointer; }
+textarea, input { font: inherit; color: var(--text); }
+.wrap { max-width: 1440px; margin: 0 auto; padding: 0 20px 48px; }
+
+/* header */
+header { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.hbar { max-width: 1440px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; letter-spacing: -.01em; }
+.logo { width: 30px; height: 30px; border-radius: 9px; background: linear-gradient(135deg, var(--accent), #06b6d4); display: grid; place-items: center; color: #fff; font-size: 15px; }
+.brand small { display: block; font-weight: 500; color: var(--muted); font-size: 12px; letter-spacing: 0; }
+.tabs { display: flex; gap: 4px; background: var(--panel); border: 1px solid var(--line); padding: 4px; border-radius: 12px; margin-left: 8px; }
+.tab { white-space: nowrap; border: 0; background: transparent; padding: 7px 14px; border-radius: 9px; font-weight: 600; color: var(--muted); }
+.tab[aria-selected="true"] { background: var(--accent); color: var(--on-accent); }
+.tab .count { font-size: 11px; background: color-mix(in srgb, currentColor 18%, transparent); padding: 1px 7px; border-radius: 99px; margin-left: 6px; }
+.spacer { flex: 1; }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; padding: 5px 10px; border-radius: 99px; background: var(--panel); border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--faint); }
+.dot.ok { background: var(--good); } .dot.run { background: var(--warn); animation: pulse 1.2s infinite; } .dot.bad { background: var(--bad); }
+@keyframes pulse { 50% { opacity: .35; } }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; border: 1px solid var(--line-2); background: var(--panel); padding: 7px 12px; border-radius: 10px; font-weight: 600; font-size: 13px; transition: transform .06s, background .15s, border-color .15s; white-space: nowrap; }
+.btn:hover { border-color: var(--accent); }
+.btn:active { transform: translateY(1px); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn.good { background: var(--good); border-color: var(--good); color: #fff; }
+.btn.ghost { background: transparent; border-color: transparent; color: var(--muted); }
+.btn.ghost:hover { background: var(--panel-2); border-color: var(--line); }
+.btn.big { padding: 11px 18px; font-size: 14px; border-radius: 12px; }
+.btn.sm { padding: 4px 9px; font-size: 12px; border-radius: 8px; }
+@media (max-width: 480px) { .btn .lbl { display: none; } }
+.btn:disabled { opacity: .5; cursor: default; }
+
+/* kpis */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(165px, 1fr)); gap: 12px; margin: 18px 0; }
+.kpi { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow); }
+.kpi .label { font-size: 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.kpi .value { font-size: 26px; font-weight: 750; letter-spacing: -.02em; margin-top: 2px; }
+.kpi .value small { font-size: 14px; color: var(--muted); font-weight: 600; }
+.kpi .sub { font-size: 12px; color: var(--muted); }
+.bar { height: 6px; background: var(--line); border-radius: 99px; overflow: hidden; margin-top: 8px; }
+.bar > i { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), #06b6d4); border-radius: 99px; }
+
+/* chips */
+.chip { max-width: 100%; overflow: hidden; display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 99px; background: color-mix(in srgb, var(--lane) 14%, transparent); color: var(--lane); white-space: nowrap; }
+.chip::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--lane); }
+.score { font-weight: 800; font-size: 12px; padding: 2px 8px; border-radius: 8px; background: var(--accent-soft); color: var(--accent); }
+.score.hi { background: var(--good-soft); color: var(--good); }
+.tag { font-size: 11px; padding: 2px 7px; border-radius: 6px; background: var(--panel-2); border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.tag.pending { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.meta { color: var(--muted); font-size: 12px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+
+/* focus view */
+.focus { display: grid; grid-template-columns: 340px 1fr; gap: 16px; align-items: start; }
+.list { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; position: sticky; top: 76px; max-height: calc(100vh - 96px); display: flex; flex-direction: column; }
+.list-head { padding: 12px 14px; border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 8px; }
+.list-head b { font-size: 13px; }
+.list-body { overflow: auto; }
+.item { display: block; width: 100%; text-align: left; border: 0; border-bottom: 1px solid var(--line); background: transparent; padding: 11px 14px; }
+.item:hover { background: var(--panel-2); }
+.item[aria-current="true"] { background: var(--accent-soft); box-shadow: inset 3px 0 0 var(--accent); }
+.item .row1 { display: flex; align-items: center; gap: 8px; }
+.item .name { font-weight: 650; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.item .snip { color: var(--muted); font-size: 12px; margin-top: 3px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.detail { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 22px; min-width: 0; }
+.dhead { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.dhead .id { font-weight: 800; color: var(--faint); }
+.author { margin-top: 12px; display: flex; align-items: center; gap: 12px; }
+.avatar { width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; font-weight: 800; color: #fff; background: var(--lane); flex: none; }
+.author .n { font-weight: 700; font-size: 16px; }
+.author .h { color: var(--muted); font-size: 13px; }
+.post { margin-top: 14px; background: var(--panel-2); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; white-space: pre-wrap; word-wrap: break-word; font-size: 13.5px; }
+.post.clamp { max-height: 160px; overflow: hidden; -webkit-mask-image: linear-gradient(#000 70%, transparent); mask-image: linear-gradient(#000 70%, transparent); }
+.why { margin-top: 10px; padding: 10px 12px; border-radius: 10px; background: var(--accent-soft); font-size: 13px; }
+.step { display: flex; align-items: center; gap: 10px; margin: 22px 0 10px; font-weight: 750; font-size: 14px; }
+.step .num { width: 24px; height: 24px; border-radius: 50%; background: var(--accent); color: var(--on-accent); display: grid; place-items: center; font-size: 12px; flex: none; }
+.step .hint { font-weight: 500; color: var(--muted); font-size: 12.5px; }
+.opts { display: grid; gap: 12px; }
+.opt { border: 1px solid var(--line); border-radius: 12px; padding: 12px; background: var(--panel); transition: border-color .15s; }
+.opt:focus-within { border-color: var(--accent); }
+.opt.chosen { border-color: var(--good); background: var(--good-soft); }
+.opt-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.opt-head b { font-size: 13px; }
+.opt-head .k { font-size: 11px; color: var(--faint); border: 1px solid var(--line); border-radius: 5px; padding: 0 5px; }
+.opt textarea, .note textarea, .field textarea { width: 100%; border: 1px solid var(--line); background: var(--panel-2); border-radius: 10px; padding: 10px 12px; resize: vertical; min-height: 90px; line-height: 1.55; }
+.opt textarea:focus, .note textarea:focus, .field textarea:focus, input:focus { outline: 2px solid color-mix(in srgb, var(--accent) 40%, transparent); border-color: var(--accent); }
+.opt-foot { display: flex; align-items: center; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+.opt-foot .chars { font-size: 11.5px; color: var(--faint); margin-right: auto; }
+.opt-foot .edited { color: var(--warn); font-weight: 600; }
+.actions { display: flex; gap: 8px; margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--line); flex-wrap: wrap; }
+.empty { text-align: center; padding: 56px 20px; color: var(--muted); }
+.empty .big { font-size: 40px; }
+
+/* board */
+.toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
+.toolbar input[type=search] { border: 1px solid var(--line); background: var(--panel); border-radius: 10px; padding: 7px 12px; min-width: 220px; }
+.fchip { border: 1px solid var(--line); background: var(--panel); border-radius: 99px; padding: 5px 11px; font-size: 12px; font-weight: 600; color: var(--muted); }
+.fchip[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+.board { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(250px, 1fr); gap: 12px; overflow-x: auto; padding-bottom: 8px; align-items: start; }
+.col { background: var(--panel-2); border: 1px solid var(--line); border-radius: var(--radius); min-height: 200px; display: flex; flex-direction: column; }
+.col.drop { border-color: var(--accent); background: var(--accent-soft); }
+.col-head { padding: 10px 12px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid var(--line); }
+.col-head b { font-size: 13px; }
+.col-head .n { margin-left: auto; font-size: 12px; font-weight: 700; color: var(--muted); background: var(--panel); border: 1px solid var(--line); border-radius: 99px; padding: 0 8px; }
+.col-body > * { min-width: 0; }
+.col-body { padding: 8px; display: grid; gap: 8px; max-height: calc(100vh - 330px); overflow: auto; }
+.kcard { background: var(--panel); border: 1px solid var(--line); border-radius: 11px; padding: 10px 11px; box-shadow: var(--shadow); cursor: pointer; text-align: left; width: 100%; }
+.kcard:hover { border-color: var(--accent); }
+.kcard.dragging { opacity: .4; }
+.kcard .t { font-weight: 650; font-size: 13px; margin: 5px 0 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.kcard .s { color: var(--muted); font-size: 12px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.kcard .f { display: flex; gap: 8px; align-items: center; margin-top: 7px; font-size: 11.5px; color: var(--muted); flex-wrap: wrap; }
+.col-empty { color: var(--faint); font-size: 12px; text-align: center; padding: 18px 8px; }
+
+/* drawer */
+.scrim { position: fixed; inset: 0; background: rgba(10,12,30,.45); z-index: 40; display: none; }
+.scrim.open { display: block; }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(720px, 100vw); background: var(--panel); z-index: 41; box-shadow: var(--shadow-lg); transform: translateX(100%); transition: transform .2s ease; overflow: auto; }
+.drawer.open { transform: none; }
+.drawer .detail { border: 0; box-shadow: none; border-radius: 0; }
+.stages { display: flex; flex-wrap: wrap; gap: 6px; }
+.stage-btn { border: 1px solid var(--line); background: var(--panel); border-radius: 99px; padding: 5px 11px; font-size: 12px; font-weight: 600; }
+.stage-btn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.mine { margin-top: 10px; padding: 10px 12px; border: 1px solid var(--good); background: var(--good-soft); border-radius: 10px; font-size: 13px; }
+
+/* stats */
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 14px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px 18px; min-width: 0; }
+.panel { overflow-x: auto; }
+.panel h3 { margin: 0 0 4px; font-size: 15px; }
+.panel .desc { color: var(--muted); font-size: 12.5px; margin: 0 0 12px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; color: var(--muted); font-weight: 600; font-size: 12px; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+td { padding: 7px 8px; border-bottom: 1px solid var(--line); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.funnel { display: grid; gap: 7px; }
+.frow { display: grid; grid-template-columns: 130px 1fr 70px; align-items: center; gap: 10px; font-size: 13px; }
+.ftrack { height: 22px; background: var(--panel-2); border-radius: 7px; overflow: hidden; }
+.ftrack i { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), #06b6d4); border-radius: 7px; min-width: 2px; }
+.chart { width: 100%; height: 180px; display: block; }
+.legend { display: flex; gap: 14px; font-size: 12px; color: var(--muted); margin-top: 6px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+.form { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; align-items: end; }
+.field label { display: block; font-size: 12px; color: var(--muted); font-weight: 600; margin-bottom: 4px; }
+.field input { width: 100%; border: 1px solid var(--line); background: var(--panel-2); border-radius: 9px; padding: 7px 10px; }
+.callout { padding: 12px 14px; border-radius: 12px; background: var(--warn-soft); color: var(--text); font-size: 13px; border: 1px solid color-mix(in srgb, var(--warn) 30%, transparent); }
+.callout code { background: var(--panel); padding: 1px 5px; border-radius: 5px; }
+
+/* toast + banner */
+.toasts { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); z-index: 60; display: grid; gap: 8px; }
+.toast { background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 12px; box-shadow: var(--shadow-lg); font-weight: 600; font-size: 13px; animation: up .2s ease; max-width: 90vw; }
+.toast.err { background: var(--bad); color: #fff; }
+@keyframes up { from { transform: translateY(8px); opacity: 0; } }
+.banner { margin-top: 14px; padding: 10px 14px; border-radius: 12px; background: var(--bad-soft); color: var(--bad); font-weight: 600; display: none; }
+.loading { padding: 80px 0; text-align: center; color: var(--muted); }
+.hidden { display: none !important; }
+.setup { max-width: 640px; margin: 24px auto; }
+.setup h2 { margin: 0 0 6px; }
+.setup ol { padding-left: 20px; display: grid; gap: 6px; margin: 14px 0 18px; }
+.setup code { background: var(--panel-2); border: 1px solid var(--line); padding: 1px 6px; border-radius: 6px; }
+body.saving { cursor: progress; }
+kbd { font: 11px ui-monospace, monospace; border: 1px solid var(--line-2); border-bottom-width: 2px; border-radius: 5px; padding: 0 5px; color: var(--muted); }
+
+.mnav { display: none; align-items: center; gap: 8px; margin-bottom: 10px; }
+.mnav span { flex: 1; text-align: center; font-weight: 650; color: var(--muted); font-size: 13px; }
+@media (max-width: 900px) {
+  header { position: static; }
+  .hbar { gap: 8px; padding-top: 10px; padding-bottom: 10px; }
+  .brand { flex: 1; font-size: 15px; }
+  .brand small, .hbar .spacer, #runpill { display: none; }
+  .logo { width: 26px; height: 26px; font-size: 13px; }
+  .focus { grid-template-columns: 1fr; }
+  .list { display: none; }
+  .mnav { display: flex; }
+  .tabs { margin-left: 0; order: 3; width: 100%; }
+  .tab { flex: 1; padding: 6px 8px; }
+  .kpis { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: minmax(140px, 44%); overflow-x: auto; scroll-snap-type: x mandatory; margin: 12px 0; gap: 8px; }
+  .kpi { scroll-snap-align: start; padding: 10px 12px; }
+  .kpi .value { font-size: 20px; }
+  .step .hint { display: none; }
+  .opt-foot .btn { flex: 1; }
+  .wrap, .hbar { padding-left: 16px; padding-right: 16px; }
+  .grid2 { grid-template-columns: 1fr; }
+  .detail { padding: 16px; }
+  .frow { grid-template-columns: 100px 1fr 60px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="hbar">
+    <div class="brand"><div class="logo">💬</div><div>Comment CRM<small>Raynix AI · LinkedIn engine</small></div></div>
+    <nav class="tabs" role="tablist">
+      <button class="tab" role="tab" data-tab="focus" aria-selected="true">▶ Post now <span class="count" id="tc-focus">0</span></button>
+      <button class="tab" role="tab" data-tab="board" aria-selected="false">Pipeline</button>
+      <button class="tab" role="tab" data-tab="stats" aria-selected="false">Stats</button>
+    </nav>
+    <div class="spacer"></div>
+    <span class="pill" id="runpill"><span class="dot"></span><span>Loading…</span></span>
+    <button class="btn" id="btn-refresh" title="Reload from GitHub">↻ <span class="lbl">Refresh</span></button>
+    <button class="btn" id="btn-run" title="Apply your clicks now and look for new posts">▶ <span class="lbl">Run now</span></button>
+    <button class="btn ghost" id="btn-settings" title="GitHub key for this device" aria-label="Settings">⚙</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="banner" id="banner"></div>
+  <div class="kpis" id="kpis"></div>
+  <main id="view"><div class="loading">Loading your cards from GitHub…</div></main>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true"></aside>
+<div class="toasts" id="toasts"></div>
+
+<script>
+"use strict";
+// ---------------------------------------------------------------------------------------------
+// All text from LinkedIn is untrusted: it only ever reaches the page through textContent.
+// ---------------------------------------------------------------------------------------------
+const STAGES = [
+  { key: "todo", label: "To post", icon: "📥" },
+  { key: "commented", label: "Commented", icon: "💬" },
+  { key: "connected", label: "Connection sent", icon: "🤝" },
+  { key: "replied", label: "They replied", icon: "↩️" },
+  { key: "dm", label: "In DMs", icon: "✉️" },
+  { key: "call", label: "Call booked", icon: "📞" },
+  { key: "client", label: "Client", icon: "🏆" },
+];
+const STAGE_RANK = Object.fromEntries(STAGES.map((s, i) => [s.key, i]));
+const ANGLES = { missing_step: "Missing step", field_detail: "Field detail", pushback: "Pushback", make_concrete: "Make it concrete", sharp_question: "Sharp question" };
+const LANE_VARS = { clinics: "--l-clinics", realestate: "--l-realestate", smb_owners: "--l-smb_owners", gcc_audience: "--l-gcc_audience" };
+const DAILY_GOAL = 20;
+
+const state = { data: null, cards: [], tab: "focus", focusId: null, laneFilter: new Set(), q: "", showSkipped: false, drawerId: null, edits: {}, busy: false };
+
+// ---- tiny DOM helper -------------------------------------------------------------------------
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") el.className = v;
+    else if (k === "style") el.style.cssText = v;
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else if (k === "href") { if (/^https:\/\//.test(v)) el.setAttribute("href", v); }
+    else el.setAttribute(k, v === true ? "" : v);
+  }
+  for (const kid of kids.flat()) {
+    if (kid == null || kid === false) continue;
+    el.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+  }
+  return el;
+}
+const $ = (s) => document.querySelector(s);
+const laneColor = (lane) => `var(${LANE_VARS[lane] || "--l-other"})`;
+const chip = (c) => h("span", { class: "chip", style: `--lane:${laneColor(c.lane)}` }, c.lane_name || c.lane);
+const scoreBadge = (p) => h("span", { class: "score" + (p >= 8 ? " hi" : "") }, p.toFixed(1));
+const initials = (n) => (n || "?").replace(/^(dr\.?|eng\.?)\s+/i, "").split(/\s+/).slice(0, 2).map((w) => w[0] || "").join("").toUpperCase();
+
+function ago(iso) {
+  if (!iso) return "";
+  const m = (Date.now() - new Date(iso).getTime()) / 60000;
+  if (m < 60) return `${Math.max(1, Math.round(m))}m ago`;
+  if (m < 60 * 24) return `${Math.round(m / 60)}h ago`;
+  return `${Math.round(m / 1440)}d ago`;
+}
+const dayKey = (d) => { const x = new Date(d); return `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, "0")}-${String(x.getDate()).padStart(2, "0")}`; };
+const today = () => dayKey(new Date());
+const fmtTime = (iso) => new Date(iso).toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" });
+
+function toast(msg, err) {
+  const t = h("div", { class: "toast" + (err ? " err" : "") }, msg);
+  $("#toasts").append(t);
+  setTimeout(() => t.remove(), err ? 6000 : 3200);
+}
+
+// ---- GitHub (the private repo is the only backend) --------------------------------------------
+// Your GitHub key lives only in this browser (localStorage). It is sent to api.github.com and nowhere else.
+const LOCAL_TEST = location.hostname === "127.0.0.1" && location.port === "8766";
+const API = LOCAL_TEST ? location.origin + "/gh" : "https://api.github.com";
+const DEFAULT_REPO = "Mohammed-Rayan07/linkedin-comment-engine";
+const SNAPSHOT = "state/dashboard.json", ACTIONS = "state/actions.jsonl", WORKFLOW = "engine.yml";
+const store = {
+  get(k) { try { return localStorage.getItem("crm." + k) || ""; } catch { return ""; } },
+  set(k, v) { try { v ? localStorage.setItem("crm." + k, v) : localStorage.removeItem("crm." + k); } catch {} },
+};
+const cfg = () => ({ token: store.get("token"), repo: store.get("repo") || DEFAULT_REPO });
+
+async function gh(path, opts = {}) {
+  const { token } = cfg();
+  const r = await fetch(API + path, { method: opts.method || "GET", body: opts.body, cache: "no-store", headers: {
+    Authorization: `Bearer ${token}`, Accept: opts.accept || "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28", ...(opts.body ? { "Content-Type": "application/json" } : {}) } });
+  if (r.status === 401) throw Object.assign(new Error("GitHub key rejected (expired or revoked). Add a new one in ⚙ Settings."), { auth: true });
+  if (opts.okStatus && opts.okStatus.includes(r.status)) return r;
+  if (r.status === 404 && opts.okMissing) return null;
+  if (r.status === 403 || r.status === 404) {
+    const why = (await r.json().catch(() => ({}))).message || "";
+    throw Object.assign(new Error(r.status === 404 ? "Repo or file not found. Check the repo name and that the key can access it." : `GitHub said no: ${why}`), { status: r.status });
+  }
+  if (!r.ok) throw Object.assign(new Error(`GitHub error ${r.status}`), { status: r.status });
+  return r;
+}
+const b64decode = (b64) => new TextDecoder().decode(Uint8Array.from(atob(b64.replace(/\s/g, "")), (ch) => ch.charCodeAt(0)));
+function b64encode(text) {
+  const bytes = new TextEncoder().encode(text); let bin = "";
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+  return btoa(bin);
+}
+async function readFile(path) {
+  const { repo } = cfg();
+  const r = await gh(`/repos/${repo}/contents/${path}`, { okMissing: true });
+  if (!r) return { text: null, sha: null };
+  const d = await r.json();
+  if (d.content) return { text: b64decode(d.content), sha: d.sha };
+  const raw = await gh(`/repos/${repo}/contents/${path}`, { accept: "application/vnd.github.raw+json" });  // files over 1 MB
+  return { text: await raw.text(), sha: d.sha };
+}
+async function appendAction(a) {
+  const { repo } = cfg();
+  for (let attempt = 0; ; attempt++) {
+    const { text, sha } = await readFile(ACTIONS);
+    let body = text || "";
+    if (body && !body.endsWith("\n")) body += "\n";
+    body += JSON.stringify(a) + "\n";
+    const what = a.card != null ? `#${a.card} ${a.kind}` : a.kind;
+    const r = await gh(`/repos/${repo}/contents/${ACTIONS}`, { method: "PUT", okStatus: [409, 422],
+      body: JSON.stringify({ message: `dashboard: ${what}`, content: b64encode(body), ...(sha ? { sha } : {}) }) });
+    if (r.ok) return;
+    if (attempt >= 3) throw new Error("GitHub was busy saving another change. Try again.");
+    await new Promise((res) => setTimeout(res, 800 * (attempt + 1)));  // a run or another device saved in between
+  }
+}
+async function latestRun() {
+  const { repo } = cfg();
+  try {
+    const r = await gh(`/repos/${repo}/actions/workflows/${WORKFLOW}/runs?per_page=1`, { okMissing: true });
+    return r ? ((await r.json()).workflow_runs || [])[0] || null : null;
+  } catch { return null; }  // a key without Actions access still gets the board
+}
+
+// ---- data ------------------------------------------------------------------------------------
+async function load(quiet) {
+  if (!cfg().token) return showSetup();
+  try {
+    const [snapFile, actionsFile, run] = await Promise.all([readFile(SNAPSHOT), readFile(ACTIONS), latestRun()]);
+    const snapshot = snapFile.text ? JSON.parse(snapFile.text) : null;
+    const applied = snapshot?.actions_applied || 0;
+    const pending = (actionsFile.text || "").split("\n").filter((l) => l.trim()).slice(applied)
+      .map((l) => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+    state.data = { snapshot, pending, run };
+    $("#banner").style.display = "none";
+    applyOverlay();
+    render();
+    if (!quiet) toast("Up to date");
+  } catch (e) {
+    if (e.auth) return showSetup(e.message);
+    const b = $("#banner");
+    b.textContent = "Couldn't load from GitHub: " + e.message;
+    b.style.display = "block";
+  }
+}
+
+// Snapshot (what the last run saw) + your clicks the engine hasn't applied yet.
+function applyOverlay() {
+  const snap = state.data.snapshot || { cards: [], usage: [], metrics: {}, my_comments: [] };
+  const cards = new Map(snap.cards.map((c) => [c.id, { ...c, pending: false }]));
+  const metrics = JSON.parse(JSON.stringify(snap.metrics || {}));
+  for (const a of state.data.pending || []) {
+    if (a.kind === "metric") {
+      const arr = (metrics[a.key] = (metrics[a.key] || []).filter((m) => m.day !== a.day));
+      arr.push({ day: a.day, value: Number(a.value) }); arr.sort((x, y) => x.day.localeCompare(y.day));
+      continue;
+    }
+    const c = cards.get(a.card);
+    if (!c) continue;
+    c.pending = true;
+    if (a.kind === "posted") { if (c.status === "sent") { c.status = "posted"; c.chosen_option = a.opt || 0; c.acted_at = a.ts; } if (a.text) c.final_text = a.text; }
+    else if (a.kind === "skip") { if (c.status === "sent") { c.status = "skipped"; c.acted_at = a.ts; } }
+    else if (a.kind === "regen") { if (c.status === "sent") c.status = "regen"; }
+    else if (a.kind === "reopen") { c.status = "sent"; c.stage = null; c.chosen_option = null; }
+    else if (a.kind === "stage") { if (c.status !== "posted") { c.status = "posted"; c.acted_at = c.acted_at || a.ts; } c.stage = a.stage === "commented" ? null : a.stage; }
+    else if (a.kind === "note") { c.note = a.note; }
+  }
+  state.cards = [...cards.values()];
+  state.metrics = metrics;
+}
+
+const stageOf = (c) => c.status === "sent" ? "todo" : c.status === "posted" ? (c.stage || "commented") : c.status;
+const waiting = () => state.cards.filter((c) => c.status === "sent").sort((a, b) => b.priority - a.priority || b.id - a.id);
+
+const newId = () => Math.random().toString(16).slice(2, 14).padEnd(12, "0");
+async function act(payload, msg) {
+  if (state.busy) { toast("Still saving the last change…", true); return false; }
+  state.busy = true;
+  document.body.classList.add("saving");
+  const a = { ...payload, id: newId(), ts: new Date().toISOString() };
+  try {
+    await appendAction(a);
+    state.data.pending = [...(state.data.pending || []), a];
+    applyOverlay();
+    render();
+    if (msg) toast(msg);
+    return true;
+  } catch (e) {
+    toast("Not saved: " + e.message, true);
+    return false;
+  } finally { state.busy = false; document.body.classList.remove("saving"); }
+}
+
+async function copy(text, what) {
+  try { await navigator.clipboard.writeText(text); toast(`${what} copied. Paste it on LinkedIn.`); }
+  catch { toast("Couldn't copy. Select the text and press Ctrl+C.", true); }
+}
+
+// ---- header + kpis ---------------------------------------------------------------------------
+function renderHeader() {
+  const run = state.data.run, pill = $("#runpill");
+  pill.replaceChildren();
+  let cls = "", txt = "No runs yet";
+  if (run) {
+    if (run.status !== "completed") { cls = "run"; txt = "Engine running now…"; }
+    else { cls = run.conclusion === "success" ? "ok" : "bad"; txt = `Last run ${fmtTime(run.updated_at)}${run.conclusion === "success" ? "" : " (failed)"}`; }
+  }
+  pill.append(h("span", { class: "dot " + cls }), h("span", {}, txt));
+  pill.title = "Runs at 08:00, 13:00 and 18:00 Riyadh. Your clicks are applied at the next run.";
+  $("#tc-focus").textContent = waiting().length;
+}
+
+function kpi(label, value, sub, pct) {
+  return h("div", { class: "kpi" }, h("div", { class: "label" }, label), h("div", { class: "value" }, value), sub ? h("div", { class: "sub" }, sub) : null,
+    pct != null ? h("div", { class: "bar" }, h("i", { style: `width:${Math.min(100, Math.max(0, pct))}%` })) : null);
+}
+
+function renderKpis() {
+  const snap = state.data.snapshot || {};
+  const cs = state.cards.filter((c) => c.status !== "regen");
+  const posted = cs.filter((c) => c.status === "posted");
+  const postedToday = posted.filter((c) => c.acted_at && dayKey(c.acted_at) === today()).length;
+  const weekAgo = Date.now() - 7 * 864e5;
+  const postedWeek = posted.filter((c) => c.acted_at && new Date(c.acted_at) >= weekAgo).length;
+  const convo = posted.filter((c) => STAGE_RANK[stageOf(c)] >= STAGE_RANK.replied).length;
+  const calls = posted.filter((c) => STAGE_RANK[stageOf(c)] >= STAGE_RANK.call).length;
+  const followers = (state.metrics.followers || []).slice(-1)[0];
+  const k = $("#kpis");
+  k.replaceChildren(...[
+    kpi("Waiting to post", waiting().length, "best first in ▶ Post now"),
+    kpi("Posted today", h("span", {}, postedToday, h("small", {}, ` / ${DAILY_GOAL}`)), "5–8 per session, 2–3 sessions", (postedToday / DAILY_GOAL) * 100),
+    kpi("Posted this week", postedWeek, `${posted.length} all time`),
+    kpi("Conversations", convo, posted.length ? `${((convo / posted.length) * 100).toFixed(0)}% of posted comments` : "replies + DMs + calls"),
+    kpi("Calls booked", calls, "goal: 10–20 a month"),
+    followers ? kpi("Followers", Math.round(followers.value), `as of ${followers.day}`) : null,
+    kpi("Apify this month", `$${(snap.apify_month_usd || 0).toFixed(2)}`, `of $${snap.apify_month_cap_usd || 5} free credit`, ((snap.apify_month_usd || 0) / (snap.apify_month_cap_usd || 5)) * 100),
+  ].filter(Boolean));
+}
+
+// ---- card detail (used by Post now + the drawer) ---------------------------------------------
+function optionBlock(c, i, o, interactive) {
+  const key = `${c.id}:${i}`;
+  const val = state.edits[key] ?? o.text;
+  const chosen = c.status === "posted" && c.chosen_option === i + 1;
+  const ta = h("textarea", { rows: 4, "aria-label": `Option ${i + 1}` });
+  ta.value = val;
+  const chars = h("span", { class: "chars" });
+  const upd = () => {
+    state.edits[key] = ta.value;
+    chars.replaceChildren(`${ta.value.length} chars`, ta.value.trim() !== o.text.trim() ? h("span", { class: "edited" }, " · edited, your version will be learned") : "");
+    ta.style.height = "auto"; ta.style.height = ta.scrollHeight + 2 + "px";
+  };
+  ta.addEventListener("input", upd);
+  requestAnimationFrame(upd);
+  return h("div", { class: "opt" + (chosen ? " chosen" : "") },
+    h("div", { class: "opt-head" }, h("b", {}, `Option ${i + 1}`), h("span", { class: "tag" }, ANGLES[o.angle] || o.angle), chosen ? h("span", { class: "tag" }, "✓ you posted this") : null, h("span", { class: "spacer" }), interactive ? h("span", { class: "k" }, `${i + 1}`) : null),
+    ta,
+    h("div", { class: "opt-foot" }, chars,
+      h("button", { class: "btn primary", onclick: () => copy(ta.value, "Comment") }, "⧉ Copy"),
+      c.status === "sent" ? h("button", { class: "btn good", onclick: () => markPosted(c, i + 1, ta.value, o.text) }, "✓ I posted this") : null));
+}
+
+async function markPosted(c, opt, text, original) {
+  const edited = text.trim() !== original.trim();
+  const ok = await act({ kind: "posted", card: c.id, opt, text: edited ? text.trim() : null },
+    `#${c.id} logged as posted${edited ? " (your edit will be learned)" : ""}. Next one!`);
+  if (ok && state.tab === "focus") { state.focusId = null; render(); window.scrollTo({ top: 0, behavior: "smooth" }); }
+}
+
+function cardDetail(c, interactive) {
+  const lane = laneColor(c.lane);
+  const post = h("div", { class: "post clamp" }, c.post_text || "");
+  const more = (c.post_text || "").length > 420 ? h("button", { class: "btn ghost sm", onclick: (e) => { post.classList.toggle("clamp"); e.target.textContent = post.classList.contains("clamp") ? "Show full post" : "Show less"; } }, "Show full post") : null;
+  if (!more) post.classList.remove("clamp");
+  const noteTa = c.connection_note ? h("textarea", { rows: 3 }) : null;
+  if (noteTa) noteTa.value = state.edits[`${c.id}:note`] ?? c.connection_note;
+  noteTa?.addEventListener("input", () => (state.edits[`${c.id}:note`] = noteTa.value));
+  const isBuyer = c.intent === "buyer" || c.intent === "prospect";
+
+  const el = h("div", { class: "detail" },
+    h("div", { class: "dhead" }, h("span", { class: "id" }, `#${c.id}`), chip(c), scoreBadge(c.priority),
+      h("span", { class: "tag" }, c.intent === "buyer" ? "🎯 Buyer" : c.intent === "audience" ? "📣 Audience" : c.intent || ""),
+      c.pending ? h("span", { class: "tag pending", title: "Saved. The engine applies it at its next run." }, "⏳ syncs next run") : null,
+      h("span", { class: "spacer", style: "flex:1" }),
+      h("span", { class: "meta" }, h("span", {}, `posted ${ago(c.posted_at)}`), h("span", {}, `👍 ${c.likes ?? 0}`), h("span", {}, `💬 ${c.comments ?? 0}`))),
+    h("div", { class: "author" }, h("div", { class: "avatar", style: `--lane:${lane}` }, initials(c.author_name)),
+      h("div", {}, h("div", { class: "n" }, c.author_url ? h("a", { href: c.author_url, target: "_blank", rel: "noopener" }, c.author_name) : c.author_name), h("div", { class: "h" }, c.author_headline || ""))),
+    post, more,
+    c.why ? h("div", { class: "why" }, "💡 ", c.why) : null,
+    c.my_comment ? h("div", { class: "mine" }, h("b", {}, "Your comment on LinkedIn: "), `👍 ${c.my_comment.likes} · ↩️ ${c.my_comment.replies} replies `, c.my_comment.url ? h("a", { href: c.my_comment.url, target: "_blank", rel: "noopener" }, "open ↗") : null) : null,
+
+    h("div", { class: "step" }, h("span", { class: "num" }, "1"), "Open the post", h("span", { class: "hint" }, "read it, then come back here")),
+    h("a", { class: "btn big primary", href: c.post_url, target: "_blank", rel: "noopener" }, "Open post on LinkedIn ↗"),
+
+    h("div", { class: "step" }, h("span", { class: "num" }, "2"), "Copy a comment, paste it under the post", h("span", { class: "hint" }, "rewrite the first line in your own words")),
+    h("div", { class: "opts" }, c.options.map((o, i) => optionBlock(c, i, o, interactive))),
+
+    c.connection_note ? h("div", {},
+      h("div", { class: "step" }, h("span", { class: "num" }, "3"), "Send a connection request with this note", h("span", { class: "hint" }, isBuyer ? "after your comment is up" : "optional")),
+      h("div", { class: "note" }, noteTa),
+      h("div", { class: "opt-foot" }, h("span", { class: "chars" }, "max 300 chars on LinkedIn"),
+        c.author_url ? h("a", { class: "btn", href: c.author_url, target: "_blank", rel: "noopener" }, "Open profile ↗") : null,
+        h("button", { class: "btn primary", onclick: () => copy(noteTa.value, "Note") }, "⧉ Copy note"),
+        h("button", { class: "btn", onclick: () => act({ kind: "stage", card: c.id, stage: "connected" }, `#${c.id} moved to Connection sent`) }, "🤝 I sent it"))) : null,
+  );
+
+  if (c.status !== "sent") {
+    const notes = h("textarea", { rows: 3, placeholder: "e.g. replied asking about pricing, DM'd Tuesday, call on the 14th" });
+    notes.value = c.note || "";
+    el.append(
+      h("div", { class: "step" }, h("span", { class: "num" }, "★"), "Where is this lead?", h("span", { class: "hint" }, "move it along as the conversation grows")),
+      h("div", { class: "stages" }, STAGES.slice(1).map((s) => h("button", { class: "stage-btn", "aria-pressed": String(stageOf(c) === s.key), onclick: () => act({ kind: "stage", card: c.id, stage: s.key }, `#${c.id} → ${s.label}`) }, `${s.icon} ${s.label}`))),
+      h("div", { class: "field", style: "margin-top:12px" }, h("label", {}, "Notes"), notes),
+      h("div", { class: "opt-foot" }, h("span", { class: "chars" }), h("button", { class: "btn", onclick: () => act({ kind: "note", card: c.id, note: notes.value }, "Note saved") }, "Save note")));
+  }
+
+  const actions = h("div", { class: "actions" });
+  if (c.status === "sent") {
+    actions.append(
+      h("button", { class: "btn", onclick: () => act({ kind: "skip", card: c.id }, `#${c.id} skipped`).then((ok) => ok && (state.focusId = null, render())) }, "⏭ Skip"),
+      h("button", { class: "btn", title: "Three fresh drafts arrive in Telegram and here after the next run", onclick: () => act({ kind: "regen", card: c.id }, "New angles come with the next run").then((ok) => ok && (state.focusId = null, render())) }, "🔁 New angles"),
+      h("span", { style: "flex:1" }),
+      interactive ? h("button", { class: "btn primary", onclick: () => step(1) }, "Next card →") : null);
+  } else {
+    actions.append(h("button", { class: "btn ghost", onclick: () => act({ kind: "reopen", card: c.id }, `#${c.id} is back in the queue`) }, "↺ Move back to To post"));
+  }
+  el.append(actions);
+  return el;
+}
+
+// ---- Post now --------------------------------------------------------------------------------
+function step(d) {
+  const list = waiting();
+  if (!list.length) return;
+  const i = Math.max(0, list.findIndex((c) => c.id === state.focusId));
+  state.focusId = list[(i + d + list.length) % list.length].id;
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function renderFocus() {
+  const list = waiting();
+  if (!list.length) {
+    return h("div", { class: "detail empty" }, h("div", { class: "big" }, "🎉"), h("h2", {}, "Queue empty"),
+      h("p", {}, "Nothing waiting. New cards arrive after the 08:00, 13:00 and 18:00 runs (Riyadh)."));
+  }
+  if (!list.some((c) => c.id === state.focusId)) state.focusId = list[0].id;
+  const cur = list.find((c) => c.id === state.focusId);
+  const items = list.map((c) => h("button", { class: "item", "aria-current": String(c.id === state.focusId), onclick: () => { state.focusId = c.id; render(); } },
+    h("div", { class: "row1" }, h("span", { class: "name" }, c.author_name), scoreBadge(c.priority)),
+    h("div", { class: "meta", style: "margin-top:3px" }, chip(c), h("span", {}, `#${c.id}`), h("span", {}, ago(c.posted_at))),
+    h("div", { class: "snip" }, (c.post_text || "").slice(0, 160))));
+  const pos = list.findIndex((c) => c.id === state.focusId);
+  const mnav = h("div", { class: "mnav" }, h("button", { class: "btn", onclick: () => step(-1) }, "‹ Prev"),
+    h("span", {}, `Card ${pos + 1} of ${list.length} · best first`), h("button", { class: "btn", onclick: () => step(1) }, "Next ›"));
+  return h("div", { class: "focus" },
+    h("div", { class: "list" }, h("div", { class: "list-head" }, h("b", {}, `${list.length} waiting`), h("span", { class: "meta" }, "best first"), h("span", { style: "flex:1" }), h("span", { class: "meta" }, h("kbd", {}, "J"), h("kbd", {}, "K"))), h("div", { class: "list-body" }, items)),
+    h("div", { style: "min-width:0" }, mnav, cardDetail(cur, true)));
+}
+
+// ---- Pipeline board --------------------------------------------------------------------------
+function filtered() {
+  const q = state.q.trim().toLowerCase();
+  return state.cards.filter((c) => c.status !== "regen"
+    && (!state.laneFilter.size || state.laneFilter.has(c.lane))
+    && (!q || [c.author_name, c.author_headline, c.post_text, c.note].join(" ").toLowerCase().includes(q)));
+}
+
+function renderBoard() {
+  const lanes = [...new Map(state.cards.map((c) => [c.lane, c])).values()];
+  const cols = state.showSkipped ? [...STAGES, { key: "skipped", label: "Skipped", icon: "⏭" }] : STAGES;
+  const cs = filtered();
+  const search = h("input", { type: "search", placeholder: "Search people, posts, notes…", "aria-label": "Search" });
+  search.value = state.q;
+  search.addEventListener("input", () => { state.q = search.value; const pos = search.selectionStart; render(); const s = $(".toolbar input"); s.focus(); s.setSelectionRange(pos, pos); });
+  const toolbar = h("div", { class: "toolbar" }, search,
+    lanes.map((c) => h("button", { class: "fchip", "aria-pressed": String(state.laneFilter.has(c.lane)), onclick: () => { state.laneFilter.has(c.lane) ? state.laneFilter.delete(c.lane) : state.laneFilter.add(c.lane); render(); } }, c.lane_name || c.lane)),
+    h("span", { style: "flex:1" }),
+    h("button", { class: "fchip", "aria-pressed": String(state.showSkipped), onclick: () => { state.showSkipped = !state.showSkipped; render(); } }, "Show skipped"),
+    h("span", { class: "meta" }, "Drag cards between columns, or click one"));
+
+  const board = h("div", { class: "board" }, cols.map((s) => {
+    const inCol = cs.filter((c) => stageOf(c) === s.key).sort((a, b) => s.key === "todo" ? b.priority - a.priority : (b.acted_at || "").localeCompare(a.acted_at || ""));
+    const body = h("div", { class: "col-body" }, inCol.length ? inCol.map(kcard) : h("div", { class: "col-empty" }, s.key === "todo" ? "All caught up" : "Drop cards here"));
+    const col = h("section", { class: "col", "data-stage": s.key }, h("div", { class: "col-head" }, h("span", {}, s.icon), h("b", {}, s.label), h("span", { class: "n" }, inCol.length)), body);
+    if (s.key !== "skipped") {
+      col.addEventListener("dragover", (e) => { e.preventDefault(); col.classList.add("drop"); });
+      col.addEventListener("dragleave", () => col.classList.remove("drop"));
+      col.addEventListener("drop", (e) => { e.preventDefault(); col.classList.remove("drop"); const id = Number(e.dataTransfer.getData("text/plain")); moveTo(id, s.key); });
+    }
+    return col;
+  }));
+  return h("div", {}, toolbar, board);
+}
+
+function kcard(c) {
+  const el = h("button", { class: "kcard", draggable: "true", onclick: () => openDrawer(c.id) },
+    h("div", { class: "meta" }, chip(c), scoreBadge(c.priority), c.pending ? h("span", { class: "tag pending" }, "⏳") : null, h("span", { style: "margin-left:auto" }, `#${c.id}`)),
+    h("div", { class: "t" }, c.author_name),
+    h("div", { class: "s" }, c.author_headline || (c.post_text || "").slice(0, 120)),
+    h("div", { class: "f" }, h("span", {}, c.status === "sent" ? `posted ${ago(c.posted_at)}` : `you ${ago(c.acted_at)}`),
+      c.my_comment ? h("span", {}, `👍 ${c.my_comment.likes} ↩️ ${c.my_comment.replies}`) : null,
+      c.note ? h("span", { title: c.note }, "📝 note") : null));
+  el.addEventListener("dragstart", (e) => { e.dataTransfer.setData("text/plain", String(c.id)); el.classList.add("dragging"); });
+  el.addEventListener("dragend", () => el.classList.remove("dragging"));
+  return el;
+}
+
+function moveTo(id, stage) {
+  const c = state.cards.find((x) => x.id === id);
+  if (!c || stageOf(c) === stage) return;
+  const label = STAGES.find((s) => s.key === stage)?.label;
+  if (stage === "todo") return act({ kind: "reopen", card: id }, `#${id} is back in To post`);
+  act({ kind: "stage", card: id, stage }, `#${id} → ${label}`);
+}
+
+function openDrawer(id) { state.drawerId = id; renderDrawer(); }
+function closeDrawer() { state.drawerId = null; renderDrawer(); }
+function renderDrawer() {
+  const d = $("#drawer"), s = $("#scrim");
+  const c = state.cards.find((x) => x.id === state.drawerId);
+  d.classList.toggle("open", !!c); s.classList.toggle("open", !!c); d.setAttribute("aria-hidden", String(!c));
+  if (!c) return;
+  d.replaceChildren(h("div", { style: "display:flex;justify-content:flex-end;padding:12px 16px 0" }, h("button", { class: "btn ghost", onclick: closeDrawer }, "✕ Close")), cardDetail(c, false));
+}
+
+// ---- Stats -----------------------------------------------------------------------------------
+function barChart(days, series) {
+  const W = 640, H = 180, pad = 22, max = Math.max(1, ...days.flatMap((d) => series.map((s) => s.get(d) || 0)));
+  const bw = (W - pad * 2) / days.length;
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("class", "chart"); svg.setAttribute("preserveAspectRatio", "none");
+  const add = (tag, attrs, text) => { const e = document.createElementNS("http://www.w3.org/2000/svg", tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); if (text != null) e.textContent = text; svg.append(e); };
+  add("line", { x1: pad, x2: W - pad, y1: H - pad, y2: H - pad, stroke: "var(--line)" });
+  days.forEach((d, i) => {
+    series.forEach((s, j) => {
+      const v = s.get(d) || 0, bh = ((H - pad * 2) * v) / max, w = (bw - 6) / series.length;
+      add("rect", { x: pad + i * bw + 3 + j * w, y: H - pad - bh, width: Math.max(1, w - 2), height: bh, rx: 3, fill: s.color });
+    });
+    if (i % Math.ceil(days.length / 7) === 0) add("text", { x: pad + i * bw + bw / 2, y: H - 6, "text-anchor": "middle", "font-size": 10, fill: "var(--faint)" }, d.slice(5));
+  });
+  add("text", { x: pad, y: 12, "font-size": 10, fill: "var(--faint)" }, `max ${max}`);
+  return svg;
+}
+
+function renderStats() {
+  const snap = state.data.snapshot || {};
+  const cs = state.cards.filter((c) => c.status !== "regen");
+  const posted = cs.filter((c) => c.status === "posted");
+  const days = [...Array(14)].map((_, i) => dayKey(Date.now() - (13 - i) * 864e5));
+  const count = (arr, f) => { const m = new Map(); arr.forEach((c) => { const k = f(c); if (k) m.set(k, (m.get(k) || 0) + 1); }); return m; };
+  const delivered = count(cs, (c) => dayKey(c.created_at));
+  const postedBy = count(posted, (c) => c.acted_at && dayKey(c.acted_at));
+  delivered.color = "var(--line-2)"; postedBy.color = "var(--accent)";
+
+  // funnel
+  const reached = (k) => posted.filter((c) => STAGE_RANK[stageOf(c)] >= STAGE_RANK[k]).length;
+  const steps = [["Cards delivered", cs.length], ["Commented", posted.length], ["Connection sent", reached("connected")], ["They replied", reached("replied")], ["In DMs", reached("dm")], ["Call booked", reached("call")], ["Client", reached("client")]];
+  const top = Math.max(1, steps[0][1]);
+  const funnel = h("div", { class: "funnel" }, steps.map(([l, n], i) => h("div", { class: "frow" }, h("span", {}, l), h("div", { class: "ftrack" }, h("i", { style: `width:${(n / top) * 100}%` })),
+    h("b", { class: "num", style: "text-align:right" }, n, i > 1 && steps[1][1] ? h("small", { style: "color:var(--muted);font-weight:500" }, ` ${((n / steps[1][1]) * 100).toFixed(0)}%`) : ""))));
+
+  // lanes
+  const lanes = [...new Set(cs.map((c) => c.lane))];
+  const laneRows = lanes.map((l) => {
+    const lc = cs.filter((c) => c.lane === l), lp = lc.filter((c) => c.status === "posted");
+    const conv = lp.filter((c) => STAGE_RANK[stageOf(c)] >= STAGE_RANK.replied).length;
+    const sk = lc.filter((c) => c.status === "skipped").length;
+    return h("tr", {}, h("td", {}, chip(lc[0])), h("td", { class: "num" }, lc.length), h("td", { class: "num" }, lp.length), h("td", { class: "num" }, lc.length ? `${((sk / lc.length) * 100).toFixed(0)}%` : "–"), h("td", { class: "num" }, conv), h("td", { class: "num" }, (lc.reduce((a, c) => a + c.priority, 0) / lc.length).toFixed(1)));
+  });
+
+  // your LinkedIn
+  const mc = snap.my_comments || [];
+  const weekAgo = Date.now() - 7 * 864e5;
+  const mcWeek = mc.filter((m) => m.created_at && new Date(m.created_at) >= weekAgo);
+  const liStats = snap.settings?.stats_enabled
+    ? h("div", {},
+        h("div", { class: "kpis", style: "margin:0 0 12px" },
+          kpi("Your comments (7d)", mcWeek.length), kpi("Likes on them", mcWeek.reduce((a, m) => a + (m.likes || 0), 0)), kpi("Replies to them", mcWeek.reduce((a, m) => a + (m.replies || 0), 0))),
+        h("table", {}, h("thead", {}, h("tr", {}, h("th", {}, "Post by"), h("th", {}, "When"), h("th", { class: "num" }, "👍"), h("th", { class: "num" }, "↩️"), h("th", {}, ""))),
+          h("tbody", {}, mc.slice(0, 12).map((m) => h("tr", {}, h("td", {}, m.post_author || "?", m.card_id ? h("span", { class: "tag", style: "margin-left:6px" }, `#${m.card_id}`) : null), h("td", {}, ago(m.created_at)), h("td", { class: "num" }, m.likes), h("td", { class: "num" }, m.replies), h("td", {}, m.url ? h("a", { href: m.url, target: "_blank", rel: "noopener" }, "open ↗") : null))))),
+        h("p", { class: "desc", style: "margin-top:8px" }, snap.stats_last_checked ? `Last checked ${ago(snap.stats_last_checked)} · every 2 days` : "Not checked yet: the next run will."))
+    : h("div", { class: "callout" }, "Automatic tracking of your comments (likes, replies, auto-marking cards as posted) is off. It reads your public activity, never your login, and costs about $1 a month of the Apify credit. To turn it on, set ", h("code", {}, "my_stats.enabled: true"), " in config/settings.yaml.");
+
+  // manual numbers
+  const M = [["impressions_7d", "Post impressions (7 days)"], ["profile_viewers_90d", "Profile viewers (90 days)"], ["search_appearances_7d", "Search appearances (7 days)"], ["followers", "Followers"]];
+  const inputs = Object.fromEntries(M.map(([k]) => [k, h("input", { type: "number", min: 0, inputmode: "numeric" })]));
+  const dateIn = h("input", { type: "date" }); dateIn.value = today();
+  const saveManual = async () => {
+    let n = 0;
+    for (const [k] of M) { const v = inputs[k].value; if (v !== "") { if (await act({ kind: "metric", key: k, value: Number(v), day: dateIn.value })) n++; } }
+    toast(n ? `Saved ${n} number${n > 1 ? "s" : ""}` : "Type at least one number", !n);
+  };
+  const metricRows = M.map(([k, l]) => { const s = state.metrics[k] || []; const last = s.slice(-1)[0], prev = s.slice(-2)[0];
+    const delta = last && prev && last !== prev ? last.value - prev.value : null;
+    return h("tr", {}, h("td", {}, l), h("td", { class: "num" }, last ? Math.round(last.value).toLocaleString() : "–"), h("td", { class: "num", style: delta > 0 ? "color:var(--good)" : delta < 0 ? "color:var(--bad)" : "" }, delta == null ? "" : (delta > 0 ? "+" : "") + Math.round(delta).toLocaleString()), h("td", {}, last ? last.day : "")); });
+
+  // engine
+  const usage = snap.usage || [];
+  return h("div", { class: "grid2" },
+    h("div", { class: "panel" }, h("h3", {}, "Comments per day"), h("p", { class: "desc" }, "Cards delivered vs comments you posted, last 14 days."), barChart(days, [delivered, postedBy]),
+      h("div", { class: "legend" }, h("span", {}, h("i", { style: "background:var(--line-2)" }), "delivered"), h("span", {}, h("i", { style: "background:var(--accent)" }), "posted"))),
+    h("div", { class: "panel" }, h("h3", {}, "Pipeline funnel"), h("p", { class: "desc" }, "How far comments get. % = share of posted comments. Move cards on the Pipeline tab to keep this honest."), funnel),
+    h("div", { class: "panel" }, h("h3", {}, "Your LinkedIn"), h("p", { class: "desc" }, "Engagement on the comments you post, read from your public activity."), liStats),
+    h("div", { class: "panel" }, h("h3", {}, "Numbers only you can see"), h("p", { class: "desc" }, "LinkedIn shows impressions and profile views only when you're logged in, so type them here once a week (LinkedIn app → your profile → Analytics)."),
+      h("div", { class: "form" }, h("div", { class: "field" }, h("label", {}, "Date"), dateIn), M.map(([k, l]) => h("div", { class: "field" }, h("label", {}, l), inputs[k])), h("button", { class: "btn primary", onclick: saveManual }, "Save")),
+      h("table", { style: "margin-top:14px" }, h("thead", {}, h("tr", {}, h("th", {}, "Metric"), h("th", { class: "num" }, "Latest"), h("th", { class: "num" }, "Change"), h("th", {}, "Date"))), h("tbody", {}, metricRows))),
+    h("div", { class: "panel" }, h("h3", {}, "Which searches work"), h("p", { class: "desc" }, "Per search lane. High skip rate = drafts or posts you don't like there."),
+      h("table", {}, h("thead", {}, h("tr", {}, h("th", {}, "Lane"), h("th", { class: "num" }, "Cards"), h("th", { class: "num" }, "Posted"), h("th", { class: "num" }, "Skipped"), h("th", { class: "num" }, "Convos"), h("th", { class: "num" }, "Avg score"))), h("tbody", {}, laneRows))),
+    h("div", { class: "panel" }, h("h3", {}, "Engine"), h("p", { class: "desc" }, `Learned from ${snap.learned ?? 0} of your comments. Snapshot from ${snap.generated_at ? fmtTime(snap.generated_at) : "–"}.`),
+      h("table", {}, h("thead", {}, h("tr", {}, h("th", {}, "Day"), h("th", { class: "num" }, "Posts scanned"), h("th", { class: "num" }, "Cards"), h("th", { class: "num" }, "Apify $"))),
+        h("tbody", {}, usage.slice(0, 10).map((u) => h("tr", {}, h("td", {}, u.day), h("td", { class: "num" }, u.posts_scraped), h("td", { class: "num" }, u.cards_sent), h("td", { class: "num" }, (u.posts_scraped * 0.002).toFixed(2))))))),
+  );
+}
+
+// ---- render ----------------------------------------------------------------------------------
+function render() {
+  if (!state.data) return;
+  renderHeader();
+  renderKpis();
+  document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === state.tab)));
+  const v = $("#view");
+  v.replaceChildren(state.tab === "focus" ? renderFocus() : state.tab === "board" ? renderBoard() : renderStats());
+  if (state.drawerId) renderDrawer();
+}
+
+document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => { state.tab = t.dataset.tab; render(); }));
+$("#scrim").addEventListener("click", closeDrawer);
+$("#btn-refresh").addEventListener("click", () => load(false));
+$("#btn-run").addEventListener("click", async () => {
+  const b = $("#btn-run"); b.disabled = true;
+  try {
+    const { repo } = cfg();
+    await gh(`/repos/${repo}/actions/workflows/${WORKFLOW}/dispatches`, { method: "POST", body: JSON.stringify({ ref: "main" }) });
+    toast("Engine started. It applies your clicks and looks for new posts (5–15 min).");
+    setTimeout(() => load(true), 8000);
+  } catch (e) { toast("Couldn't start: " + e.message + (e.status === 403 ? " (the key needs Actions: read and write)" : ""), true); }
+  finally { setTimeout(() => (b.disabled = false), 20000); }
+});
+$("#btn-settings").addEventListener("click", () => showSetup());
+
+// ---- first-time setup on each device ----------------------------------------------------------
+function showSetup(err) {
+  const { token, repo } = cfg();
+  const tokenIn = h("input", { id: "set-token", type: "password", autocomplete: "off", placeholder: "github_pat_…", spellcheck: "false" });
+  tokenIn.value = token;
+  const repoIn = h("input", { id: "set-repo", type: "text", autocomplete: "off", spellcheck: "false" });
+  repoIn.value = repo;
+  const create = "https://github.com/settings/personal-access-tokens/new?name=Comment+CRM+dashboard&description=Lets+the+Comment+CRM+dashboard+read+cards+and+save+clicks&expires_in=none&contents=write&actions=write";
+  const save = async () => {
+    store.set("token", tokenIn.value.trim()); store.set("repo", repoIn.value.trim() === DEFAULT_REPO ? "" : repoIn.value.trim());
+    $("#kpis").replaceChildren(); $("#view").replaceChildren(h("div", { class: "loading" }, "Checking your key…"));
+    await load(false);
+  };
+  $("#kpis").replaceChildren();
+  $("#view").replaceChildren(h("div", { class: "setup panel" },
+    h("h2", {}, "Connect this device"),
+    h("p", { class: "desc" }, "The dashboard reads your cards from your private GitHub repo and saves your clicks there. It needs a GitHub key that can only touch that one repo. You do this once per device (laptop, phone)."),
+    err ? h("div", { class: "banner", style: "display:block" }, err) : null,
+    h("ol", {},
+      h("li", {}, h("a", { href: create, target: "_blank", rel: "noopener" }, "Open GitHub's new-key page ↗"), " (the name and permissions are filled in for you)."),
+      h("li", {}, "Under ", h("b", {}, "Repository access"), " pick ", h("b", {}, "Only select repositories"), " → ", h("code", {}, (repo || DEFAULT_REPO).split("/")[1]), "."),
+      h("li", {}, "Check that ", h("b", {}, "Contents"), " and ", h("b", {}, "Actions"), " say ", h("b", {}, "Read and write"), ", then press ", h("b", {}, "Generate token"), " and copy it."),
+      h("li", {}, "Paste it below. It stays in this browser only.")),
+    h("div", { class: "form", style: "grid-template-columns:1fr" },
+      h("div", { class: "field" }, h("label", { for: "set-token" }, "GitHub key"), tokenIn),
+      h("div", { class: "field" }, h("label", { for: "set-repo" }, "Repo"), repoIn),
+      h("div", { style: "display:flex;gap:8px;flex-wrap:wrap" },
+        h("button", { class: "btn primary big", onclick: save }, "Connect"),
+        token ? h("button", { class: "btn big", onclick: () => { store.set("token", ""); showSetup(); } }, "Forget key on this device") : null,
+        state.data ? h("button", { class: "btn ghost big", onclick: () => render() }, "Cancel") : null))));
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.target.closest("textarea, input")) return;
+  if (e.key === "Escape") return closeDrawer();
+  if (state.tab !== "focus" || state.drawerId) return;
+  if (e.key === "j") step(1);
+  else if (e.key === "k") step(-1);
+  else if (["1", "2", "3"].includes(e.key)) { const ta = document.querySelectorAll(".detail .opt textarea")[Number(e.key) - 1]; if (ta) copy(ta.value, `Option ${e.key}`); }
+  else if (e.key === "o") { const a = document.querySelector(".detail a.btn.big"); if (a) a.click(); }
+});
+// stay fresh: every 5 minutes, or every minute while a run is in progress
+setInterval(() => { if (!document.hidden) load(true); }, 60000 * 5);
+setInterval(() => { if (!document.hidden && state.data?.run && state.data.run.status !== "completed") load(true); }, 60000);
+load(true);
+</script>
+</body>
+</html>

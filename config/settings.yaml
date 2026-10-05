@@ -50,3 +50,13 @@ comment:
 
 telegram:
   enabled: true
+
+# Your own LinkedIn numbers on the dashboard: likes + replies on the comments you post, and followers.
+# Read from your PUBLIC activity via Apify (no login). Also auto-marks a card "posted" when your comment
+# shows up on its post. Costs ~$0.002 per comment read, taken from the same daily Apify cap as post
+# scraping (so the month never goes over $5; it just means a few fewer posts scanned that day).
+my_stats:
+  enabled: false
+  profile_url: https://www.linkedin.com/in/mohammed-rayan-835118389/
+  every_days: 2          # how often to check
+  max_comments: 30       # newest comments read per check (~$0.06 + $0.004 for followers)

@@ -6,9 +6,10 @@ import logging
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 
-from . import filters
+from . import filters, inbox, mystats
 from .config import Config, Lane
 from .drafting import draft_comments
+from .export import write_snapshot
 from .llm import LLM, LLMRefusal, LLMUnavailable
 from .models import Post
 from .scoring import score_posts
@@ -144,7 +145,9 @@ class Engine:
         return ""
 
     def sync(self, timeout: int = 0) -> int:
-        return process_updates(self.tg, self.store, self.handle_action, self.handle_command,
+        """Apply dashboard clicks first, then Telegram taps."""
+        applied = inbox.apply_actions(self)
+        return applied + process_updates(self.tg, self.store, self.handle_action, self.handle_command,
                                self.handle_reply, timeout)
 
     # ---- main run ------------------------------------------------------------
@@ -154,6 +157,12 @@ class Engine:
         cfg, store = self.cfg, self.store
         report = RunReport()
         report.taps = self.sync()
+        if not skip_fetch:
+            try:
+                if note := mystats.check(self):
+                    report.notes.append(note)
+            except Exception as e:  # your stats are a nice-to-have; never block finding posts
+                report.notes.append(f"your stats check failed: {e}")
 
         lanes = [l for l in cfg.enabled_lanes if not lane_ids or l.id in lane_ids]
         if skip_fetch:
@@ -211,6 +220,10 @@ class Engine:
         return report
 
     def update_board(self) -> None:
+        try:
+            write_snapshot(self.cfg, self.store)
+        except Exception as e:
+            log.warning("dashboard snapshot failed: %s", e)
         try:
             self.tg.pin_status(self.store, status_text(self.store))
         except Exception as e:  # the board is a nice-to-have; never fail a run over it

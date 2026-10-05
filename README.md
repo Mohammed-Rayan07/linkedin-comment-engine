@@ -60,6 +60,33 @@ python -m engine run --mock
 
 **Start here: [HOW_TO_POST.md](HOW_TO_POST.md)** has the step-by-step for turning a card into a posted comment.
 
+### Dashboard (laptop and phone)
+
+**https://mohammed-rayan07.github.io/comment-crm/** (or `python -m engine dashboard`)
+
+- **▶ Post now**: one card at a time, best first. Open the post, copy a comment (edit it in place
+  first if you like), tap **I posted this**. The next card opens.
+- **Pipeline**: a CRM board. To post → Commented → Connection sent → They replied → In DMs → Call
+  booked → Client. Drag cards between columns or click one to move it and add notes.
+- **Stats**: comments per day, the funnel from card to call, which search lanes convert, your
+  follower count, and a box for the numbers only you can see (impressions, profile views).
+
+How it works: the page is public code with no data in it. On each device you paste a GitHub key
+that can only reach this repo (the page walks you through it). It reads `state/dashboard.json`,
+which every run rewrites, and saves your clicks as lines in `state/actions.jsonl`, which every run
+applies through the same code as the Telegram buttons. The database itself is only ever written by
+the scheduled run. Clicks show up straight away on the dashboard and reach the database and Telegram at the
+next run, or right away if you press **Run now**.
+
+Page source: `dashboard/index.html`. To update the live page, copy it to the
+`Mohammed-Rayan07/comment-crm` repo (`index.html`) and push.
+
+**Your own LinkedIn stats** (`my_stats` in `config/settings.yaml`, off by default): every 2 days
+it reads your public comments (likes and replies on each) and your follower count. It also
+marks a card posted when your comment appears on its post, and learns your exact final wording. It costs about
+$1 a month, taken from the same daily Apify cap as post scraping. Impressions and profile views
+need your login, so the engine never reads them; type them into the Stats tab instead.
+
 ```bash
 python -m engine run      # one pass: fetch, score, draft, send cards
 python -m engine bot      # local mode only: stay online so button taps apply instantly

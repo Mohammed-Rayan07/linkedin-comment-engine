@@ -1,8 +1,26 @@
 # How to post your comments (about 2 minutes per comment)
 
-Everything happens in Telegram (@Client_Hunter7_bot) and the LinkedIn app. Nothing posts automatically.
+Nothing posts automatically. You post every comment yourself, from the dashboard or from Telegram.
 
-## The loop for each card
+## Easiest: the dashboard (laptop or phone)
+
+Open **https://mohammed-rayan07.github.io/comment-crm/** and go to **▶ Post now**. The best card is already open.
+
+1. **Open post on LinkedIn ↗**, then read the post.
+2. Pick an option. Change anything you want right in the box (at least the first line, so it sounds like you).
+3. **⧉ Copy**, paste it under the post on LinkedIn, and post it.
+4. Back on the dashboard, tap **✓ I posted this** under the option you used. If you edited it, your version
+   is what the engine learns from. The next card opens.
+5. If the card has a connection note: **Open profile ↗**, Connect, Add a note, **⧉ Copy note**, paste, send,
+   then tap **🤝 I sent it**.
+
+When someone replies or you start talking in DMs, open **Pipeline**, then drag the card (or click it) to
+*They replied*, *In DMs*, *Call booked* or *Client*, and add a note. The **Stats** tab shows how many
+comments turn into conversations and calls.
+
+First time on a device, the dashboard asks for a GitHub key. Follow the 4 steps on screen (about 1 minute).
+
+## Or from Telegram
 
 1. **Pick a card.** The pinned message at the top shows how many are waiting. Send `/queue` to see them all,
    best first, with the card number (#18 etc.). Scroll up to that card.

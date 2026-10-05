@@ -2,6 +2,8 @@
 # The state database (data/engine.db) lives in this PRIVATE repo and is committed back after every run,
 # so there is exactly one copy of your cards and your Telegram taps always land on the right one.
 # Don't run the engine locally while this schedule is on: two copies of the database would drift apart.
+# The dashboard never touches the database: it appends your clicks to state/actions.jsonl, which each run applies,
+# and reads state/dashboard.json, which each run rewrites.
 name: comment-engine
 
 on:
@@ -45,7 +47,7 @@ jobs:
         run: |
           git config user.name "comment-engine"
           git config user.email "comment-engine@users.noreply.github.com"
-          git add -f data/engine.db
+          git add -f data/engine.db state/dashboard.json
           if git diff --cached --quiet; then echo "no state change"; exit 0; fi
           git commit -m "state: run ${{ github.run_id }}"
           git pull --rebase

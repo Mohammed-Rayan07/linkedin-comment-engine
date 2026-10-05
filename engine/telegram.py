@@ -102,6 +102,16 @@ class Telegram:
         except RuntimeError as e:
             log.debug("could not update buttons: %s", e)
 
+    def restore(self, message_id: int, card_id: int, n_options: int) -> None:
+        """Put the buttons back on a card that was reopened from the dashboard."""
+        if not self.enabled or not message_id:
+            return
+        try:
+            self._call("editMessageReplyMarkup", chat_id=self.cfg.telegram_chat_id, message_id=message_id,
+                       reply_markup=keyboard(card_id, n_options))
+        except RuntimeError as e:
+            log.debug("could not restore buttons: %s", e)
+
     def pin_status(self, store, text: str) -> None:
         """Keep one pinned message at the top of the chat that every run edits in place."""
         if not self.enabled:

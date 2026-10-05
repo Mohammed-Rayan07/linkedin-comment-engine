@@ -109,9 +109,10 @@ def _mock(posts: list[tuple[str, Post, Lane]]) -> dict[str, Any]:
 def priority(p: Post, lane: Lane, score: dict[str, Any]) -> float:
     if score["sensitive"]:
         return 0.0
-    if lane.intent == "buyer" and score["author_type"] == "peer_vendor":
-        return 0.0
     icp = max(0, min(10, score["icp_fit"]))
+    if score["author_type"] == "peer_vendor":
+        # a vendor post can still be read by buyers (icp_fit judges the audience), but discount it
+        icp *= 0.8
     room = max(0, min(10, score["value_room"]))
     base = 0.5 * icp + 0.5 * room
     fresh = max(0.0, 1.5 - p.age_hours / 8)          # first hours matter most

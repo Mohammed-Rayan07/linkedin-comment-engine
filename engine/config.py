@@ -29,6 +29,9 @@ class Lane:
     profiles: list[str] = field(default_factory=list)
     buyer_headline_hints: list[str] = field(default_factory=list)
     author_keywords: str | None = None
+    sort_by: str = "relevance"  # relevance | date
+    max_age_hours: float | None = None  # overrides filters.max_age_hours for this lane
+    min_likes: int = 0
 
 
 @dataclass

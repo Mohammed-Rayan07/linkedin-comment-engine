@@ -94,7 +94,7 @@ def fetch_lane(cfg: Config, store: Store, lane: Lane, budget: int | None = None,
                 "searchQueries": queries,
                 "maxPosts": per_query,
                 "postedLimitDate": since,
-                "sortBy": "date",   # newest first: early comments get the reach
+                "sortBy": lane.sort_by,  # the watermark already limits results to fresh posts
             }
             if lane.author_keywords:
                 payload["authorKeywords"] = lane.author_keywords

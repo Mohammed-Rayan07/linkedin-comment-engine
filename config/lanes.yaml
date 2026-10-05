@@ -36,63 +36,92 @@ vendor_headline_patterns:
   - "crm consultant"
 
 lanes:
+  # Tested live on 2026-10-05. Searching for pain words ("missed calls clinic") returned ~90% vendors
+  # selling AI receptionists. Filtering on the AUTHOR's job title (author_keywords, LinkedIn OR syntax)
+  # returns real owners and operators. Their posts get fewer likes, but your comment reaches a buyer directly.
   - id: clinics
-    name: Clinic & med-spa owners (GCC)
+    name: Clinic & dental owners (GCC)
     kind: search
     intent: buyer
     enabled: true
     weight: 1.0
-    posted_limit: 24h
+    posted_limit: week   # owners post rarely; the watermark still only fetches what's new
+    max_age_hours: 120   # a buyer reads every comment on their post, even days later
     max_posts_per_query: 10
+    sort_by: relevance
+    author_keywords: 'dentist OR "dental clinic" OR "clinic owner" OR "medical director" OR "clinic manager" OR dermatologist OR "aesthetic clinic" OR "medical center" OR polyclinic'
     queries:
-      - '"missed calls" clinic'
-      - 'clinic receptionist patients bookings'
-      - '"no-show" patients clinic'
-      - 'dental clinic WhatsApp appointments'
-      - 'med spa bookings patients'
-    buyer_headline_hints: [clinic, dental, dentist, "med spa", aesthetic, dermatolog, physio, "medical director", "practice owner", "clinic manager", "healthcare"]
+      - Dubai clinic
+      - Riyadh clinic
+      - Saudi clinic patients
+      - UAE dental clinic
+      - Jeddah clinic
+      - med spa Dubai
+    buyer_headline_hints: [clinic, dental, dentist, "med spa", aesthetic, dermatolog, physio, "medical director", "practice owner", "clinic manager", "medical center", polyclinic, physician]
 
   - id: realestate
-    name: Real-estate brokers & brokerage owners (UAE/KSA)
+    name: Brokerage founders & sales leaders (UAE/KSA)
     kind: search
     intent: buyer
     enabled: true
     weight: 1.0
-    posted_limit: 24h
+    posted_limit: week   # owners post rarely; the watermark still only fetches what's new
+    max_age_hours: 120   # a buyer reads every comment on their post, even days later
     max_posts_per_query: 10
+    sort_by: relevance
+    author_keywords: '"brokerage" OR "real estate CEO" OR "managing director" OR "head of sales" OR "sales director" OR "founder & CEO"'
     queries:
-      - 'real estate leads follow up Dubai'
-      - '"speed to lead" real estate'
-      - 'brokerage leads WhatsApp Dubai'
-      - 'Riyadh real estate leads'
-    buyer_headline_hints: [broker, brokerage, "real estate", realtor, property, "sales director", "managing director", ceo, founder]
+      - Dubai real estate brokerage
+      - Dubai real estate agents team
+      - Riyadh real estate
+      - Dubai property leads
+    buyer_headline_hints: [broker, brokerage, "real estate", realtor, property, "sales director", "head of sales", "managing director", ceo, founder]
+
+  - id: gcc_audience
+    name: Popular GCC business posts (your buyers' feed)
+    kind: search
+    intent: audience
+    enabled: true
+    weight: 0.85
+    posted_limit: 24h
+    max_age_hours: 48    # popular posts move fast: comment early
+    min_likes: 30        # only posts with real reach
+    max_posts_per_query: 10
+    sort_by: relevance
+    queries:
+      - Dubai real estate market
+      - Saudi business growth
+      - Dubai business owners
+      - UAE healthcare
+      - Riyadh entrepreneurs
+      - customer experience Saudi
+    buyer_headline_hints: [founder, ceo, owner, "managing director", clinic, brokerage, "general manager"]
 
   - id: agencies
     name: Marketing-agency owners (white-label partners)
     kind: search
     intent: buyer
-    enabled: true
+    enabled: false   # live test 2026-10-05: almost no results with an owner-title filter
     weight: 0.9
     posted_limit: 24h
     max_posts_per_query: 10
+    author_keywords: '"marketing agency" OR "digital agency" OR "performance marketing" OR "media buying"'
     queries:
-      - 'marketing agency clients leads "follow up"'
-      - 'agency owner clients missed leads'
-      - 'performance marketing clinic leads quality'
-    buyer_headline_hints: [agency, "marketing director", "founder", "ceo", "managing partner", "performance marketing", "media buyer"]
+      - clinic marketing leads
+      - healthcare marketing agency
+    buyer_headline_hints: [agency, "marketing director", "performance marketing", "media buyer"]
 
   - id: ops
     name: Ops leaders drowning in calls, WhatsApp & Excel
     kind: search
     intent: buyer
-    enabled: false   # turn on after the yield test; this is the MedLog angle
+    enabled: false   # pain-word search was mostly vendors; needs an author-title filter before enabling
     weight: 0.8
     posted_limit: 24h
     max_posts_per_query: 10
     queries:
-      - 'dispatch drivers calls WhatsApp operations'
-      - 'manual invoice matching purchase orders'
-      - 'operations Excel WhatsApp chaos'
+      - dispatch drivers calls WhatsApp operations
+      - manual invoice matching purchase orders
     buyer_headline_hints: [operations, logistics, "supply chain", "coo", "general manager", procurement, fleet, warehouse]
 
   - id: creators

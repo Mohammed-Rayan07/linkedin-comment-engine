@@ -9,7 +9,7 @@ from datetime import datetime
 from . import filters
 from .config import Config, Lane
 from .drafting import draft_comments
-from .llm import LLM, LLMRefusal
+from .llm import LLM, LLMRefusal, LLMUnavailable
 from .models import Post
 from .scoring import score_posts
 from .sources import PRICE_PER_POST_USD, BudgetExhausted, fetch_lane, remaining_today
@@ -178,15 +178,24 @@ class Engine:
                     store.add_post(p, "new")
                     candidates.append((p, lane))
 
+        # posts left unscored by an earlier run (e.g. the model was overloaded) get another chance
+        seen = {p.id for p, _ in candidates}
+        for row in store.db.execute("SELECT * FROM posts WHERE status='new'").fetchall():
+            lane = cfg.lane(row["lane_id"])
+            if lane and lane.enabled and row["id"] not in seen:
+                candidates.append((_post_from_row(row), lane))
+
         # freshest first, capped to the per-run scoring budget
         candidates.sort(key=lambda pl: (-pl[1].weight, pl[0].age_hours))
         candidates = candidates[: int(cfg.s("budgets", "max_llm_scored_per_run", default=40))]
-        if candidates:
-            for p, lane, s, prio in score_posts(cfg, self.llm, candidates):
-                store.set_score(p.id, s, prio)
-                report.scored += 1
-
-        self._deliver_best(report)
+        try:
+            if candidates:
+                for p, lane, s, prio in score_posts(cfg, self.llm, candidates):
+                    store.set_score(p.id, s, prio)
+                    report.scored += 1
+            self._deliver_best(report)
+        except LLMUnavailable as e:
+            report.notes.append(f"{e}; unscored/undrafted posts will be retried next run")
         return report
 
     def _deliver_best(self, report: RunReport) -> None:
@@ -200,13 +209,12 @@ class Engine:
             "SELECT * FROM posts WHERE status='scored' AND priority >= ? ORDER BY priority DESC",
             (float(cfg.s("budgets", "min_priority", default=6.0)),),
         ).fetchall()
-        max_age = cfg.s("filters", "max_age_hours", default=36)
         for row in rows:
             if report.carded >= quota:
                 break
             p = _post_from_row(row)
             lane = cfg.lane(row["lane_id"])
-            if not lane or p.age_hours > max_age:
+            if not lane or p.age_hours > (lane.max_age_hours or cfg.s("filters", "max_age_hours", default=36)):
                 store.set_post_status(p.id, "skipped", "expired")
                 continue
             try:

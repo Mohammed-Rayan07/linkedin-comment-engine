@@ -31,6 +31,10 @@ class LLMRefusal(Exception):
     pass
 
 
+class LLMUnavailable(Exception):
+    """Every configured model is overloaded or out of quota. The run stops; unscored posts carry over."""
+
+
 def _placeholder(var: str) -> bool:
     value = os.getenv(var, "")
     return not value.strip() or "REPLACE_ME" in value
@@ -50,7 +54,12 @@ class LLM:
             if _placeholder("GEMINI_API_KEY"):
                 raise RuntimeError("GEMINI_API_KEY is missing in .env (get one free at aistudio.google.com)")
             from google import genai
-            self.client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+            from google.genai import types
+            # fail fast (no SDK-internal retry loops) so our own fallback chain kicks in
+            self.client = genai.Client(
+                api_key=os.environ["GEMINI_API_KEY"],
+                http_options=types.HttpOptions(timeout=180_000, retry_options=types.HttpRetryOptions(attempts=1)),
+            )
         elif self.provider == "claude":
             if _placeholder("ANTHROPIC_API_KEY"):
                 raise RuntimeError("ANTHROPIC_API_KEY is missing in .env")
@@ -83,7 +92,8 @@ class LLM:
         from google.genai import errors, types
 
         g = self.cfg.s("models", "gemini", default={}) or {}
-        candidates = [g.get(task, "gemini-3.8-flash"), g.get("fallback", "gemini-3.7-flash")]
+        fallbacks = g.get("fallbacks") or [g.get("fallback", "gemini-3.7-flash")]
+        candidates = [g.get(task, "gemini-3.8-flash"), *fallbacks]
         level = str(g.get(f"{task}_thinking", "high")).upper()
         gap = float(g.get("min_seconds_between_calls", 7))
 
@@ -94,8 +104,9 @@ class LLM:
                 response_json_schema=schema,
                 max_output_tokens=max_tokens,
                 thinking_config=types.ThinkingConfig(thinking_level=level),
+                automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=True),
             )
-            for attempt in range(4):
+            for attempt in range(3):
                 wait = self._last_call + gap - time.monotonic()
                 if wait > 0:
                     time.sleep(wait)  # free tier has a per-minute cap; pace ourselves
@@ -119,7 +130,11 @@ class LLM:
                     raise
                 except errors.ServerError as e:
                     log.info("%s server error (%s), retrying", model, e.code)
-                    time.sleep(10 * (attempt + 1))
+                    time.sleep(5 * 2 ** attempt)
+                    continue
+                except Exception as e:  # timeouts / connection drops
+                    log.info("%s request failed (%s), retrying", model, type(e).__name__)
+                    time.sleep(5 * 2 ** attempt)
                     continue
 
                 um = resp.usage_metadata
@@ -134,7 +149,7 @@ class LLM:
                     raise RuntimeError("Gemini output hit max_output_tokens; raise max_tokens")
                 text = resp.text or ""
                 return json.loads(text)
-        raise RuntimeError("all Gemini models are rate-limited or out of free quota for today")
+        raise LLMUnavailable("all Gemini models are overloaded or out of free quota right now")
 
     # ---- Claude ---------------------------------------------------------------
     def _claude(self, task: str, system: str, user: str, schema: dict[str, Any], max_tokens: int) -> dict[str, Any]:

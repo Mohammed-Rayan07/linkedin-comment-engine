@@ -10,7 +10,8 @@ models:
     scoring_thinking: low        # minimal | low | medium | high
     drafting: gemini-3.8-flash   # best model on the free tier (Pro models are paid-only)
     drafting_thinking: high
-    fallback: gemini-3.7-flash   # used if the main model's free daily quota runs out
+    # tried in order when the main model is overloaded (503) or out of free quota
+    fallbacks: [gemini-3.7-flash, gemini-3.5-flash, gemini-3.5-flash-lite]
     min_seconds_between_calls: 7 # stays under free-tier requests-per-minute limits
   claude:
     scoring: claude-opus-5-5

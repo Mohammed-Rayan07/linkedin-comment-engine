@@ -10,7 +10,12 @@ from engine.pipeline import Engine
 @pytest.fixture()
 def cfg(tmp_path: Path, monkeypatch):
     monkeypatch.setenv("ENGINE_DB", str(tmp_path / "test.db"))
-    return load_config(mock=True)
+    cfg = load_config(mock=True)
+    # tests run against the three fixture lanes with global limits, whatever the live lanes.yaml says
+    for lane in cfg.lanes:
+        lane.enabled = lane.id in ("clinics", "realestate", "agencies")
+        lane.max_age_hours, lane.min_likes = None, 0
+    return cfg
 
 
 def check(cfg, text, post=""):

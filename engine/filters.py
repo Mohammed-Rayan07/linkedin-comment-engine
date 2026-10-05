@@ -27,8 +27,10 @@ def reject_reason(post: Post, lane: Lane, cfg: Config) -> str | None:
     f = cfg.settings.get("filters", {})
     if len(post.text) < f.get("min_post_chars", 180):
         return "too_short"
-    if post.age_hours > f.get("max_age_hours", 36):
+    if post.age_hours > (lane.max_age_hours or f.get("max_age_hours", 36)):
         return "too_old"
+    if post.likes < lane.min_likes:
+        return "low_engagement"
     if post.comments > f.get("max_comments", 150):
         return "comments_saturated"
     if f.get("skip_non_english", True) and is_mostly_non_english(post.text):

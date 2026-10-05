@@ -138,3 +138,10 @@ def test_learning_from_posted_and_edited_comments(cfg):
     assert engine.store.get_card(2)["status"] == "posted"
     from engine.drafting import _system
     assert "My own rewritten comment" in _system(cfg, ex)
+
+
+def test_spelled_out_numbers_are_checked(cfg):
+    assert any("40%" in x for x in check(cfg, "That cuts missed bookings by forty percent in a month."))
+    assert any("'8'" in x for x in check(cfg, "It saved eight hours a week of admin."))
+    # spelled-out numbers that ARE in the proof bank still pass
+    assert check(cfg, "Three missed calls a day at a thirty percent booking rate adds up fast.") == []

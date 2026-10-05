@@ -116,11 +116,14 @@ class LLM:
                 except errors.ClientError as e:
                     if e.code == 429:
                         msg = str(e)
-                        if "PerDay" in msg or "per day" in msg.lower():
+                        hinted = _retry_delay(msg, default=0)
+                        # a short retry hint means a per-minute limit: wait it out on the same model.
+                        # no hint (or a long one) plus a per-day quota name means today's quota is gone.
+                        if (not hinted or hinted > 120) and ("PerDay" in msg or "per day" in msg.lower()):
                             log.warning("%s: free daily quota used up, switching model", model)
                             self._exhausted.add(model)
                             break
-                        delay = _retry_delay(msg, default=30 * (attempt + 1))
+                        delay = hinted or 30 * (attempt + 1)
                         log.info("%s rate-limited, retrying in %ss", model, delay)
                         time.sleep(delay)
                         continue

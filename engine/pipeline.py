@@ -144,12 +144,15 @@ class Engine:
 
     # ---- main run ------------------------------------------------------------
     def run(self, lane_ids: list[str] | None = None, since_days: float | None = None,
-            run_budget: int | None = None, card_quota: int | None = None) -> RunReport:
+            run_budget: int | None = None, card_quota: int | None = None,
+            skip_fetch: bool = False) -> RunReport:
         cfg, store = self.cfg, self.store
         report = RunReport()
         report.taps = self.sync()
 
         lanes = [l for l in cfg.enabled_lanes if not lane_ids or l.id in lane_ids]
+        if skip_fetch:
+            lanes = []  # only score/draft posts already saved by earlier runs
         candidates: list[tuple[Post, Lane]] = []
         # split this run's scrape budget fairly so the first lane can't eat the whole day
         run_budget = min(remaining_today(cfg, store),

@@ -35,6 +35,7 @@ def main() -> int:
     ap.add_argument("--target", type=int, default=20, help="fill: cards you want waiting in Telegram")
     ap.add_argument("--days", type=float, default=5, help="fill: how far back to look")
     ap.add_argument("--max-posts", type=int, default=200, help="fill: Apify post budget (~$0.002 each)")
+    ap.add_argument("--no-fetch", action="store_true", help="fill: don't scrape, just score/draft saved posts")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args()
 
@@ -122,7 +123,8 @@ def fill(cfg, engine: Engine, args) -> int:
     b["max_llm_scored_per_run"] = args.max_posts
     b.setdefault("floor_priority", 5.0)
     report = engine.run(args.lanes.split(",") if args.lanes else None,
-                        since_days=args.days, run_budget=args.max_posts, card_quota=need)
+                        since_days=args.days, run_budget=args.max_posts, card_quota=need,
+                        skip_fetch=args.no_fetch)
     print(report.summary())
     print(f"shared seen-ids file now has {engine.store.export_seen()} posts")
     return 0

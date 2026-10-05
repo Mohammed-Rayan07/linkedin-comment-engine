@@ -49,7 +49,8 @@ lanes:
     max_age_hours: 120   # a buyer reads every comment on their post, even days later
     max_posts_per_query: 10
     sort_by: relevance
-    author_keywords: 'dentist OR "dental clinic" OR "clinic owner" OR "medical director" OR "clinic manager" OR dermatologist OR "aesthetic clinic" OR "medical center" OR polyclinic'
+    # keep this list short: a 9-term version returned 0 posts on LinkedIn (live test 2026-10-05)
+    author_keywords: 'dentist OR "clinic owner" OR "medical director" OR "clinic manager" OR dermatologist OR "aesthetic clinic"'
     queries:
       - Dubai clinic
       - Riyadh clinic

@@ -51,6 +51,25 @@ MULTIPLIER = re.compile(r"(?<![\w.])\d+(?:\.\d+)?x\b", re.I)
 OUTCOME_WORDS = re.compile(r"\b(doubled|tripled|quadrupled|halved|in half)\b", re.I)
 
 
+_UNITS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+          "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
+_TENS = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90}
+_WORD_NUM = re.compile(
+    r"\b(?:(" + "|".join(_TENS) + r")(?:[- ](" + "|".join(_UNITS[1:10]) + r"))?|(" + "|".join(_UNITS) + r"))"
+    r"(?:\s+(hundred|thousand))?\b(\s*percent)?", re.I)
+
+
+def digitize(text: str) -> str:
+    """'thirty percent' -> '30%', 'ten seconds' -> '10 seconds', so spelled-out numbers can't dodge the gate."""
+    def repl(m: re.Match) -> str:
+        tens, unit, single, scale, pct = m.groups()
+        n = (_TENS[tens.lower()] + (_UNITS.index(unit.lower()) if unit else 0)) if tens else _UNITS.index(single.lower())
+        if scale:
+            n *= 100 if scale.lower() == "hundred" else 1000
+        return f"{n}%" if pct else str(n)
+    return _WORD_NUM.sub(repl, text)
+
+
 def _norm(tok: str) -> str:
     """'3,000' -> '3000', '$1.30' -> '1.3'. A trailing % is kept: 40% must match a percentage, not '40 items'."""
     pct = tok.endswith("%")
@@ -126,7 +145,8 @@ def check(comment: str, profile: dict[str, Any], post_text: str, min_chars: int,
             v.append("claims a client result; none are verified in expert_profile.yaml")
             break
 
-    allowed = allowed_numbers(profile, post_text)
+    text = digitize(text)  # spelled-out numbers are checked like digits
+    allowed = allowed_numbers(profile, digitize(post_text))
     bank_text = (post_text + " " + " ".join(
         " ".join([pr.get("summary", "")] + pr.get("facts", [])) for pr in profile.get("proofs", []))).lower()
     scrubbed = TIME_OR_247.sub(" ", text)

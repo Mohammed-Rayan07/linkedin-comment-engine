@@ -34,6 +34,8 @@ budgets:
   max_cards_per_run: 10
   # Minimum final priority (0-10) for a post to become a card.
   min_priority: 6.0
+  # If strong posts can't fill the quota, posts down to this score fill the gap (the card shows the score).
+  floor_priority: 5.0
 
 filters:
   min_post_chars: 180

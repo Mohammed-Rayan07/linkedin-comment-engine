@@ -58,7 +58,7 @@ class LLM:
             # fail fast (no SDK-internal retry loops) so our own fallback chain kicks in
             self.client = genai.Client(
                 api_key=os.environ["GEMINI_API_KEY"],
-                http_options=types.HttpOptions(timeout=180_000, retry_options=types.HttpRetryOptions(attempts=1)),
+                http_options=types.HttpOptions(timeout=75_000, retry_options=types.HttpRetryOptions(attempts=1)),
             )
         elif self.provider == "claude":
             if _placeholder("ANTHROPIC_API_KEY"):

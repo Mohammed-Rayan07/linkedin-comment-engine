@@ -9,6 +9,10 @@ from typing import Any
 
 from .models import Post
 
+# Post ids already handled elsewhere (e.g. a local backfill), committed to git so the scheduled
+# GitHub runs, which keep their own database, never send the same post twice.
+SEEN_FILE = Path(__file__).resolve().parent.parent / "state" / "seen_post_ids.txt"
+
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS posts (
     id TEXT PRIMARY KEY,
@@ -78,7 +82,18 @@ class Store:
         if not ids:
             return set()
         q = f"SELECT id FROM posts WHERE id IN ({','.join('?' * len(ids))})"
-        return {r["id"] for r in self.db.execute(q, ids)}
+        known = {r["id"] for r in self.db.execute(q, ids)}
+        if SEEN_FILE.exists():
+            shared = set(SEEN_FILE.read_text(encoding="utf-8").split())
+            known |= {i for i in ids if i in shared}
+        return known
+
+    def export_seen(self) -> int:
+        SEEN_FILE.parent.mkdir(parents=True, exist_ok=True)
+        old = set(SEEN_FILE.read_text(encoding="utf-8").split()) if SEEN_FILE.exists() else set()
+        ids = old | {r["id"] for r in self.db.execute("SELECT id FROM posts")}
+        SEEN_FILE.write_text("\n".join(sorted(ids)) + "\n", encoding="utf-8")
+        return len(ids)
 
     def add_post(self, p: Post, status: str = "new", reason: str | None = None) -> None:
         self.db.execute(

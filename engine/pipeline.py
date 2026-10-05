@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 import logging
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 from . import filters
 from .config import Config, Lane
@@ -143,7 +143,8 @@ class Engine:
                                self.handle_reply, timeout)
 
     # ---- main run ------------------------------------------------------------
-    def run(self, lane_ids: list[str] | None = None) -> RunReport:
+    def run(self, lane_ids: list[str] | None = None, since_days: float | None = None,
+            run_budget: int | None = None, card_quota: int | None = None) -> RunReport:
         cfg, store = self.cfg, self.store
         report = RunReport()
         report.taps = self.sync()
@@ -151,11 +152,13 @@ class Engine:
         lanes = [l for l in cfg.enabled_lanes if not lane_ids or l.id in lane_ids]
         candidates: list[tuple[Post, Lane]] = []
         # split this run's scrape budget fairly so the first lane can't eat the whole day
-        run_budget = min(remaining_today(cfg, store), int(cfg.s("budgets", "max_posts_per_run", default=8)))
+        run_budget = min(remaining_today(cfg, store),
+                         run_budget or int(cfg.s("budgets", "max_posts_per_run", default=8)))
+        since = datetime.now(timezone.utc) - timedelta(days=since_days) if since_days else None
         for i, lane in enumerate(lanes):
             share = max(1, run_budget // len(lanes) + (1 if i < run_budget % len(lanes) else 0))
             try:
-                posts = fetch_lane(cfg, store, lane, budget=share)
+                posts = fetch_lane(cfg, store, lane, budget=share, since_override=since)
             except BudgetExhausted as e:
                 report.notes.append(str(e))
                 break
@@ -193,21 +196,26 @@ class Engine:
                 for p, lane, s, prio in score_posts(cfg, self.llm, candidates):
                     store.set_score(p.id, s, prio)
                     report.scored += 1
-            self._deliver_best(report)
+            self._deliver_best(report, card_quota)
         except LLMUnavailable as e:
             report.notes.append(f"{e}; unscored/undrafted posts will be retried next run")
         return report
 
-    def _deliver_best(self, report: RunReport) -> None:
+    def _deliver_best(self, report: RunReport, card_quota: int | None = None) -> None:
         cfg, store = self.cfg, self.store
-        left_today = int(cfg.s("budgets", "max_cards_per_day", default=20)) - store.today()["cards_sent"]
-        quota = min(int(cfg.s("budgets", "max_cards_per_run", default=8)), left_today)
+        if card_quota is not None:
+            quota = card_quota
+        else:
+            left_today = int(cfg.s("budgets", "max_cards_per_day", default=20)) - store.today()["cards_sent"]
+            quota = min(int(cfg.s("budgets", "max_cards_per_run", default=8)), left_today)
         if quota <= 0:
             report.notes.append("daily card limit reached")
             return
+        # best first; posts between floor_priority and min_priority only fill a quota the strong ones can't
+        floor = float(cfg.s("budgets", "floor_priority", default=cfg.s("budgets", "min_priority", default=6.0)))
         rows = store.db.execute(
             "SELECT * FROM posts WHERE status='scored' AND priority >= ? ORDER BY priority DESC",
-            (float(cfg.s("budgets", "min_priority", default=6.0)),),
+            (floor,),
         ).fetchall()
         for row in rows:
             if report.carded >= quota:

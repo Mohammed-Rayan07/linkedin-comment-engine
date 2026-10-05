@@ -26,12 +26,15 @@ from .sources import PRICE_PER_POST_USD, fetch_lane
 def main() -> int:
     ap = argparse.ArgumentParser(prog="engine", description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("command", choices=["run", "bot", "yield-test", "suggest-creators", "stats",
+    ap.add_argument("command", choices=["run", "fill", "bot", "yield-test", "suggest-creators", "stats",
                                         "telegram-setup", "check"])
     ap.add_argument("text", nargs="?", help="comment text for `check`")
     ap.add_argument("--mock", action="store_true", help="use fixtures + fake LLM, no API keys needed")
     ap.add_argument("--lanes", help="comma-separated lane ids to run (default: all enabled)")
     ap.add_argument("--yes", action="store_true", help="skip the cost confirmation for yield-test")
+    ap.add_argument("--target", type=int, default=20, help="fill: cards you want waiting in Telegram")
+    ap.add_argument("--days", type=float, default=5, help="fill: how far back to look")
+    ap.add_argument("--max-posts", type=int, default=200, help="fill: Apify post budget (~$0.002 each)")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args()
 
@@ -72,6 +75,9 @@ def main() -> int:
         print(report.summary())
         return 0
 
+    if args.command == "fill":
+        return fill(cfg, engine, args)
+
     if args.command == "bot":
         if not engine.tg.enabled:
             print("Telegram isn't configured (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID), nothing to listen to.")
@@ -100,6 +106,25 @@ def main() -> int:
 
     if args.command == "yield-test":
         return yield_test(cfg, engine, args)
+    return 0
+
+
+def fill(cfg, engine: Engine, args) -> int:
+    """One-off backfill: look back N days and keep going until `target` cards are waiting in Telegram."""
+    pending = engine.store.db.execute("SELECT COUNT(*) FROM cards WHERE status='sent'").fetchone()[0]
+    need = args.target - pending
+    print(f"{pending} cards already waiting; need {max(need, 0)} more. "
+          f"Budget: up to {args.max_posts} posts ≈ ${args.max_posts * PRICE_PER_POST_USD:.2f} of Apify credit.")
+    if need <= 0:
+        return 0
+    b = cfg.settings.setdefault("budgets", {})
+    b["max_posts_scraped_per_day"] = engine.store.today()["posts_scraped"] + args.max_posts
+    b["max_llm_scored_per_run"] = args.max_posts
+    b.setdefault("floor_priority", 5.0)
+    report = engine.run(args.lanes.split(",") if args.lanes else None,
+                        since_days=args.days, run_budget=args.max_posts, card_quota=need)
+    print(report.summary())
+    print(f"shared seen-ids file now has {engine.store.export_seen()} posts")
     return 0
 
 

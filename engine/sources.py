@@ -66,7 +66,8 @@ def _rotate(store: Store, lane: Lane, items: list[str], n: int) -> list[str]:
     return picked
 
 
-def fetch_lane(cfg: Config, store: Store, lane: Lane, budget: int | None = None, probe: bool = False) -> list[Post]:
+def fetch_lane(cfg: Config, store: Store, lane: Lane, budget: int | None = None, probe: bool = False,
+               since_override: datetime | None = None) -> list[Post]:
     """Fetch new posts for a lane, spending at most `budget` posts of Apify credit.
 
     probe=True (yield-test) looks back a week with the lane's own limits and leaves the daily budget
@@ -81,7 +82,10 @@ def fetch_lane(cfg: Config, store: Store, lane: Lane, budget: int | None = None,
     else:
         if not cfg.apify_token:
             raise RuntimeError("APIFY_TOKEN missing (set it in .env, or run with --mock)")
-        since = (datetime.now(timezone.utc) - timedelta(days=7) if probe else _since(lane, store)).isoformat()
+        if probe:
+            since = (datetime.now(timezone.utc) - timedelta(days=7)).isoformat()
+        else:
+            since = (since_override or _since(lane, store)).isoformat()
         if lane.kind == "search":
             if not lane.queries:
                 return []

@@ -57,6 +57,10 @@ lanes:
       - UAE dental clinic
       - Jeddah clinic
       - med spa Dubai
+      - Abu Dhabi clinic
+      - Dammam clinic
+      - dental practice UAE
+      - patients Saudi Arabia clinic
     buyer_headline_hints: [clinic, dental, dentist, "med spa", aesthetic, dermatolog, physio, "medical director", "practice owner", "clinic manager", "medical center", polyclinic, physician]
 
   - id: realestate
@@ -75,6 +79,10 @@ lanes:
       - Dubai real estate agents team
       - Riyadh real estate
       - Dubai property leads
+      - Abu Dhabi real estate
+      - Saudi real estate market
+      - Dubai off-plan sales
+      - real estate sales team Dubai
     buyer_headline_hints: [broker, brokerage, "real estate", realtor, property, "sales director", "head of sales", "managing director", ceo, founder]
 
   - id: gcc_audience
@@ -95,7 +103,31 @@ lanes:
       - UAE healthcare
       - Riyadh entrepreneurs
       - customer experience Saudi
+      - Dubai entrepreneurs
+      - Saudi SMEs
+      - UAE startups growth
+      - Vision 2030 business
     buyer_headline_hints: [founder, ceo, owner, "managing director", clinic, brokerage, "general manager"]
+
+  - id: smb_owners
+    name: GCC SMB founders & GMs (service businesses)
+    kind: search
+    intent: buyer
+    enabled: true
+    weight: 0.9
+    posted_limit: week
+    max_age_hours: 120
+    max_posts_per_query: 10
+    sort_by: relevance
+    author_keywords: '"business owner" OR founder OR "co-founder" OR CEO OR "managing director" OR "general manager"'
+    queries:
+      - Dubai customers WhatsApp
+      - Riyadh small business
+      - UAE SME growth
+      - Saudi customer service
+      - Dubai service business
+      - Riyadh restaurant owner
+    buyer_headline_hints: [owner, founder, ceo, "managing director", "general manager", restaurant, salon, clinic, rental, "car rental", spa]
 
   - id: agencies
     name: Marketing-agency owners (white-label partners)

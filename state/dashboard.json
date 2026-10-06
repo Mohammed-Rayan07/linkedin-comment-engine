@@ -1,7 +1,124 @@
 {
-"generated_at": "2026-10-06T12:18:59.214519+00:00",
-"actions_applied": 0,
+"generated_at": "2026-10-06T16:56:56.013399+00:00",
+"actions_applied": 3,
 "cards": [
+{
+"id": 34,
+"created_at": "2026-10-06T16:56:55.502577+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 5.0,
+"author_name": "Rafaella Correa-Pinto",
+"author_headline": "Dentist at Frost Dental Center",
+"author_url": "https://www.linkedin.com/in/rafaella-correa-pinto-44054497?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABSMDXABurPTsf-YxTdnzaLcU90EbgHV22E",
+"post_url": "https://www.linkedin.com/posts/rafaella-correa-pinto-44054497_dentaltips-dosanddonts-oralhealth-activity-7513219165655158784-laX8",
+"post_text": "Some habits build your smile. Others quietly break it down.Save this list, your future self will thank you. 🦷✨#DentalTips #DosAndDonts #OralHealth #HealthySmile #AventuraDentist #MiamiDentist",
+"posted_at": "2026-10-06T12:50:37.954000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "General dental tips. No opening for speed-to-lead or AI systems.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "Good patient education builds trust before they even walk in. When I needed a clinic late at night for severe tooth pain, most numbers went straight to voicemail or went unanswered. The clinic that answered the phone got the patient and the loyalty."
+},
+{
+"angle": "make_concrete",
+"text": "Educational content drives inbound traffic, but capturing it requires speed. If three prospective patients call after seeing a post like this and hit voicemail, that is lost revenue that never shows up in reports."
+},
+{
+"angle": "missing_step",
+"text": "Publishing helpful tips is great for engagement, but the drop-off happens when patients try to act on it outside business hours. Calling your own front desk at 7 PM is the fastest way to see if your intake is matching your marketing effort."
+}
+],
+"connection_note": "Hi Rafaella, great to see dentists sharing practical oral health tips here. Would love to connect and follow your insights on patient care.",
+"my_comment": null
+},
+{
+"id": 33,
+"created_at": "2026-10-06T16:54:50.079077+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.4,
+"author_name": "Thomas Sebastian",
+"author_headline": "Real estate consultant | real estate investment advisor",
+"author_url": "https://www.linkedin.com/in/thomas-sebastian929a79131?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACBfQPEBJDRTkm3e1pfvl0qvK8JmiApCe_c",
+"post_url": "https://www.linkedin.com/posts/thomas-sebastian929a79131_dubairealestate-dubaijobs-realestatejobs-activity-7513207532887351296-OlgP",
+"post_text": "I’m not looking for 50 agents. I’m looking for the RIGHT 5.\n\nDubai real estate is competitive.And if you’re serious about building a long-term career in this industry, where you work matters\n\n.At Sterling Heights Real Estate, we’re expanding our sales team and looking for:\n🔹 Experienced Property Consultants ( READY  &  OFF-PLAN )\n🔹 People who are hungry to learn, consistent with their work, and serious about building their own business through real estate\n\n.What we offer:\n• Resale amp; Off-Plan opportunities\n• Training amp; guidance\n• Marketing support\n• Professional working environment\n• Career growth opportunities\n• A management team that is focused on building people — not just numbers \nI’m personally involved in building and shaping the sales team, so if youre looking for just another brokerage, this may not be for you.\n\nBut if youre looking for an environment where you can learn, perform, grow and build a serious career in Dubai real estate, lets talk.\n\n📍  office 533, TAMANI  ARTS Business Bay, Dubai \n📩 DM me directly with “CAREER” and I’ll get back to you.\nYour next opportunity might not be another job.It might be the beginning of your real estate career.\n\n#DubaiRealEstate #DubaiJobs #RealEstateJobs #PropertyConsultant #DubaiCareers #UAEJobs #RealEstateCareer #Hiring #PropertyConsultantJobs #Dubai",
+"posted_at": "2026-10-06T12:04:24.486000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "Dubai real estate brokerage hiring agents. Sales leadership audience, but focused on recruiting.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Focusing on 5 quality hires over mass recruitment saves huge management bandwidth in Dubai real estate. When you screen applicants responding to this, what is the single biggest operational trait that separates the right 5 from the rest?"
+},
+{
+"angle": "missing_step",
+"text": "Recruiting 5 serious agents instead of 50 is the right move for a boutique setup. The step most brokerages miss is having the lead infrastructure ready before they start. If top performers join and end up managing leads out of group chats, momentum stalls in week one."
+},
+{
+"angle": "make_concrete",
+"text": "Filtering for 5 high-performing agents changes the growth math completely. Five agents backed by structured lead routing and clear workflow rules will consistently beat twenty agents left to handle follow-ups manually. Environment matters, but so does the operational stack."
+}
+],
+"connection_note": "Hi Thomas, saw your post on building a focused 5-agent sales team in Business Bay. I build workflow automation and CRM systems for sales teams across UAE and KSA. Would be great to connect here.",
+"my_comment": null
+},
+{
+"id": 32,
+"created_at": "2026-10-06T16:54:30.601102+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.2,
+"author_name": "Mr. Noor Al Balushi",
+"author_headline": "Founder & CEO, SACB Group | UAE Business Setup, Legal & Business Consulting, Corporate Dispute Resolution | Dubai • USA • India",
+"author_url": "https://www.linkedin.com/in/mr-noor-al-balushi-593b29158?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACXl5f8BsmDgfYR9YrQ3UQM8AmyAbaxoRGM",
+"post_url": "https://www.linkedin.com/posts/mr-noor-al-balushi-593b29158_sacb-group-activity-7513219818289041410--I9s",
+"post_text": "Building a business ecosystem is not about offering more services. It is about creating better coordination, accountability and execution.\n\nAt SACB Group, our vision has been to bring specialist capabilities under one coordinated ecosystem — supporting businesses from market entry and finance to trade, compliance, digital transformation, investment and workforce solutions.\n\nWith seven specialist companies, Dubai at the centre of our operations, and an expanding international network, our focus remains clear:\n\nUnderstand the objective.\nBring the right expertise together.\nExecute with accountability.\nBuild for long-term growth.\n\nAs markets across the UAE, GCC and internationally become increasingly interconnected, I believe the organisations that create the greatest value will be those capable of connecting strategy, capital, technology, people and execution.\n\nThis profile represents not only where SACB Group stands today, but the platform we are continuing to build for the future.\n\nDubai-rooted. GCC-ready. Globally connected.\n\n#SACBGroup #BusinessLeadership #DubaiBusiness #UAEbusiness #GCCBusiness #BusinessGrowth #InternationalBusiness",
+"posted_at": "2026-10-06T12:53:13.554000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "CEO talking about coordination, accountability, and execution across GCC businesses. Good fit for operations and coordination discussion.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Bringing seven specialist companies under one umbrella solves the capability side, but it creates a serious handoff problem. When coordination between separate units relies on phone calls and WhatsApp, details quietly slip through the gaps. Shared vision doesn't prevent dropped handovers; clear operational rules and automated tripwires do."
+},
+{
+"angle": "missing_step",
+"text": "Aligning strategy across seven specialist companies is straightforward compared to managing the handovers between them. When a client moves from legal setup to compliance or digital transformation, context usually gets lost in transit. The step most groups skip is setting rigid escalation rules for stalled handoffs, so leadership only steps in when a handover breaches a defined timeline."
+},
+{
+"angle": "sharp_question",
+"text": "Cross-entity operations sound smooth in theory, but tracking a client moving through legal, finance, and digital setup simultaneously is where execution usually stutters. How do you maintain real-time visibility across all seven units without creating an endless schedule of internal status meetings?"
+}
+],
+"connection_note": "Hi Mr. Noor, read your post on coordinating execution across SACB Group's seven units. Managing cross-entity handovers is a fascinating operational challenge in the GCC. Would love to connect and follow SACB's work in Dubai.",
+"my_comment": null
+},
 {
 "id": 31,
 "created_at": "2026-10-06T12:18:58.475080+00:00",
@@ -200,10 +317,10 @@
 {
 "id": 26,
 "created_at": "2026-10-06T12:01:30.072531+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-06T16:51:58.521740+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -239,10 +356,10 @@
 {
 "id": 25,
 "created_at": "2026-10-06T11:55:42.901855+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-06T16:51:57.066791+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -512,10 +629,10 @@
 {
 "id": 18,
 "created_at": "2026-10-05T15:47:08.757738+00:00",
-"acted_at": null,
-"status": "sent",
-"stage": null,
-"chosen_option": null,
+"acted_at": "2026-10-06T16:51:57.852751+00:00",
+"status": "posted",
+"stage": "connected",
+"chosen_option": 0,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -1215,10 +1332,10 @@
 "usage": [
 {
 "day": "2026-10-06",
-"posts_scraped": 27,
-"cards_sent": 7,
-"llm_input_tokens": 44446,
-"llm_output_tokens": 19055,
+"posts_scraped": 49,
+"cards_sent": 10,
+"llm_input_tokens": 67496,
+"llm_output_tokens": 28487,
 "llm_cost_usd": 0.0
 },
 {
@@ -1230,9 +1347,9 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 0.64,
+"apify_month_usd": 0.68,
 "apify_month_cap_usd": 5.0,
-"learned": 0,
+"learned": 2,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

@@ -1,7 +1,46 @@
 {
-"generated_at": "2026-10-06T16:56:56.013399+00:00",
-"actions_applied": 3,
+"generated_at": "2026-10-06T20:03:36.791649+00:00",
+"actions_applied": 10,
 "cards": [
+{
+"id": 35,
+"created_at": "2026-10-06T20:03:36.208155+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 7.0,
+"author_name": "Dhaval Popat",
+"author_headline": "Founder & CEO | Commercial Real Estate Investor & Advisor | Acquisitions • Disposals • Leasing | UK & UAE",
+"author_url": "https://www.linkedin.com/in/dhaval-popat-1707458b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABMnKqQBd8uwDYdGAUc-mnlYipK1akgG6zo",
+"post_url": "https://www.linkedin.com/posts/dhaval-popat-1707458b_hiring-dubai-realestate-activity-7513314300485079040-6kZD",
+"post_text": "After 10 months of building the foundations, Kaarna Real Estate is ready for its next stage of growth.\n\nI’m now looking for a select number of experienced brokers to join me in building what comes next.\n\nWith 15+ years in property and the experience of building a UK brokerage that remains active today, I’ve spent the last 10 months establishing Kaarna in Dubai.\n\nWe’ve built the infrastructure, secured stock across Dubai, developed direct relationships with landlords, sellers and investors, and selectively partnered with some of the UAE’s leading developers.\n\nWe’ve also created a growing bridge between the UK and UAE, connecting investors, businesses and property owners across both markets.\n\nI’m looking for experienced, disciplined brokers who are ready to operate at a high level. In return, Kaarna provides transparency, strong administrative support and direct access to me. I bring 15+ years of experience, relationships and lessons learned from navigating deals, negotiations and the realities of the property market.\n\nThe ambition isn’t to become the biggest brokerage in Dubai. It’s to build the right one, with the right people.\n\nIf you’re already an experienced broker in Dubai, or an established property professional considering Dubai as your next move, I’d like to hear from you.\n\nAnd if someone in your network comes to mind, please share this with them.\n\nDM me directly or email: dhav@kaarna.ae\n\n#hiring #dubai #realestate #careers #property",
+"posted_at": "2026-10-06T19:08:39.865000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Real estate founder scaling in Dubai, but post is purely a hiring call.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Building the infrastructure before chasing headcount is the right sequence. With your background in both markets, you've seen where most brokerage systems break under pressure. What was the biggest administrative friction point you focused on solving during those first 10 months to keep your brokers focused purely on deals?"
+},
+{
+"angle": "pushback",
+"text": "Experienced brokers are great at closing, but they are often the worst at tracking their own pipeline. They live on WhatsApp, and critical details end up buried in group chats. Giving them administrative support helps, but how do you keep their data clean without turning your admins into pipeline police?"
+},
+{
+"angle": "missing_step",
+"text": "Connecting investors across the UK and UAE sounds straightforward, but the step most boutique brokerages skip is handoff speed across timezones. An investor inquiring from London at 8 PM Gulf time expects a fast response, not a callback the next day. If the coordination isn't systemized, that cross-border bridge leaks leads while the team sleeps."
+}
+],
+"connection_note": "Hi Dhaval, saw your post about scaling Kaarna in Dubai and building the UK-UAE investor bridge. Taking 10 months to build the operational infrastructure before hiring is a rare and smart move. Would love to connect and follow your growth. Cheers, Rayan",
+"my_comment": null
+},
 {
 "id": 34,
 "created_at": "2026-10-06T16:56:55.502577+00:00",
@@ -83,10 +122,10 @@
 {
 "id": 32,
 "created_at": "2026-10-06T16:54:30.601102+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-06T19:59:35.576830+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -278,10 +317,10 @@
 {
 "id": 27,
 "created_at": "2026-10-06T12:05:59.690040+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-06T19:59:34.867032+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -512,10 +551,10 @@
 {
 "id": 21,
 "created_at": "2026-10-05T18:07:38.566673+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-06T19:59:32.714251+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -590,10 +629,10 @@
 {
 "id": 19,
 "created_at": "2026-10-05T15:48:13.081858+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-06T19:59:34.148443+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 3,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -1136,10 +1175,10 @@
 {
 "id": 5,
 "created_at": "2026-10-05T15:39:38.928107+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-06T19:59:36.287859+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -1214,10 +1253,10 @@
 {
 "id": 3,
 "created_at": "2026-10-05T15:37:14.162645+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-06T19:59:33.430252+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -1253,10 +1292,10 @@
 {
 "id": 2,
 "created_at": "2026-10-05T15:36:41.559837+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-06T19:59:31.933727+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -1332,10 +1371,10 @@
 "usage": [
 {
 "day": "2026-10-06",
-"posts_scraped": 49,
-"cards_sent": 10,
-"llm_input_tokens": 67496,
-"llm_output_tokens": 28487,
+"posts_scraped": 69,
+"cards_sent": 11,
+"llm_input_tokens": 75607,
+"llm_output_tokens": 30695,
 "llm_cost_usd": 0.0
 },
 {
@@ -1347,9 +1386,9 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 0.68,
+"apify_month_usd": 0.72,
 "apify_month_cap_usd": 5.0,
-"learned": 2,
+"learned": 9,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

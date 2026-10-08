@@ -1,7 +1,202 @@
 {
-"generated_at": "2026-10-08T12:05:46.366545+00:00",
+"generated_at": "2026-10-08T20:39:49.879087+00:00",
 "actions_applied": 37,
 "cards": [
+{
+"id": 55,
+"created_at": "2026-10-08T20:39:49.159334+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 5.8,
+"author_name": "Eric Block DMD, CAGS, FICOI, FICD, FAADS, FIADFE",
+"author_headline": "Dentist, Author, Investor, Advisor, Podcaster, KOL, Husband, and Father of Two Wonderful Kids.",
+"author_url": "https://www.linkedin.com/in/ericblockdmd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAMHdl4BFNiZ3yZ4KyNWx3ChWnpgOUQUkYg",
+"post_url": "https://www.linkedin.com/posts/ericblockdmd_here-is-the-recording-from-10726-iadlc-activity-7514036558501441536-99Q8",
+"post_text": "Here is the recording from 10/7/26.  IADLC Lifestyle Study Club features Dr. Megan Clarke.   She shows us how our inner \"Saboteurs\" get in the way of how we lead our teams and live our lives, and how to address them in real time. \nEnjoy!\nhttps://lnkd.in/ehyXCd4B",
+"posted_at": "2026-10-08T18:58:39.595000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Dental practice owner in GCC, but post is about inner saboteurs. No room for automation or proof points.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "When a clinical team's performance slips, a lot of practice owners immediately look for new software or a staff training program. How often do you find that the actual bottleneck is the owner's own reluctance to delegate the daily decision-making?"
+},
+{
+"angle": "missing_step",
+"text": "We often try to fix team friction by patching the workflow with new tools or stricter rules. The step we usually skip is looking at the leader's own behavior. Some operational problems are just a management problem wearing a software costume. If the owner is the bottleneck, no new tool will clean up the flow."
+},
+{
+"angle": "pushback",
+"text": "Many practice owners think they have a staff problem when daily operations get chaotic. But if your team has to check with you for every minor scheduling or patient coordination deviation, you haven't built a system. You've just built a stressful job where you are the single point of failure."
+}
+],
+"connection_note": "Hi Eric, saw your post about the IADLC session on inner saboteurs. As someone auditing workflows and building systems for businesses, I see how often personal leadership roadblocks translate directly into operational bottlenecks. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 54,
+"created_at": "2026-10-08T20:39:39.108685+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 7.3,
+"author_name": "Abdelrahman Shalaby, MBA",
+"author_headline": "Guiding Investors to Generational Wealth in Doha & Dubai | CEO at Piaci & Shalaby Real Estate | Creator: The Smart Investor’s Guide (Real Estate Masterclass Series)",
+"author_url": "https://www.linkedin.com/in/abdelrahmanshalaby?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAc3bPABHFD9zsqvcHvH8iQRn1XwVnItW1E",
+"post_url": "https://www.linkedin.com/posts/abdelrahmanshalaby_smartinvestornotes-realestateadvisory-brokerageintelligence-activity-7514033314668720129-vaOK",
+"post_text": "Smart Investor Notes | ملاحظات المستثمر الذكي\n\nAn asking price is a seller’s expectation. Not proof of market value.\n\nOne of the most important distinctions in real estate advisory is understanding the difference between what sellers ask and what buyers actually pay.\n\nWhen evaluating a property, comparing advertised prices alone is not enough.\n\nA proper assessment should consider:\n\n• Comparable completed transactions\n• Differences in location, size, condition and specifications\n• Incentives that affect the effective purchase price\n• Realistic rental income and operating costs\n• Resale liquidity and exit potential\n\nThis is particularly relevant when advising investors across Doha and Dubai.\n\nTwo properties may have identical asking prices but very different investment fundamentals.\n\nA broker can tell you what the market is offering.\n\nAn advisor should help determine what the opportunity is actually worth.\n\nThat distinction is where brokerage intelligence creates value.\n\n⸻\n\nالسعر المطلوب يعكس توقعات البائع، وليس بالضرورة القيمة السوقية للعقار.\n\nمن أهم الفروقات في الاستشارة العقارية التمييز بين الأسعار التي يطلبها البائعون والأسعار التي ينفذ بها المشترون صفقاتهم فعلياً.\n\nفعند تقييم عقار، لا تكفي مقارنة الأسعار المعلنة وحدها.\n\nبل يجب النظر إلى:\n\n• الصفقات الفعلية لعقارات مماثلة\n• اختلافات الموقع والمساحة والحالة والمواصفات\n• الحوافز التي تؤثر في تكلفة الشراء الفعلية\n• الدخل الإيجاري الواقعي والتكاليف التشغيلية\n• سيولة إعادة البيع وإمكانية التخارج\n\nوتزداد أهمية هذا التحليل عند تقد",
+"posted_at": "2026-10-08T18:45:46.205000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "Real estate CEO discussing valuation vs asking price. Good ICP fit, but little direct connection to lead handling or AI.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "True advisory sounds great, but it is incredibly hard to enforce across a team when actual transaction data is siloed. If your historical transaction records and regional pricing metrics live in scattered spreadsheets or PDFs, busy agents will always default to sending standard developer brochures because it is faster. How do you keep the actual transaction data accessible enough that an agent uses it on every single call?"
+},
+{
+"angle": "sharp_question",
+"text": "Moving an agent from pitching the asking price to evaluating true opportunity value is a hard operational shift. When market volume is high, the temptation to just broadcast active listings is massive. What specific training or tool limits do you put in place to ensure your team actually runs these comparable analyses instead of just chasing the fastest commission?"
+},
+{
+"angle": "make_concrete",
+"text": "In a predictive model I built for financial data, geography and hard historical baselines carried over half the predictive power. Relying on expectations or unverified inputs completely broke the accuracy. Real estate valuation runs on the same truth: unless you have a clean, structured database of actual historical transaction records, your advisors are just guessing based on the loudest seller's asking price."
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 53,
+"created_at": "2026-10-08T20:39:28.578100+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 8.0,
+"author_name": "Ahmad Alwani",
+"author_headline": "Sales Director at Above & Beyond Properties",
+"author_url": "https://www.linkedin.com/in/ahmad-alwani-5403a3a9?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcENUABu1rYo9dbjxvpyeuZGfIKX7BucUc",
+"post_url": "https://www.linkedin.com/posts/ahmad-alwani-5403a3a9_hiring-dubairealestate-realestatejobs-activity-7513933918014926848-K2Wg",
+"post_text": "We’re hiring! \n\nAbove & Beyond Properties is expanding our team and looking for Real Estate Sales Agents to join our team in Dubai.\n\nIf you’re motivated, ambitious, and ready to grow — let’s talk.\n\n📩 Send me your CV by DM.\n\n#Hiring #DubaiRealEstate #RealEstateJobs",
+"posted_at": "2026-10-08T12:10:48.196000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "Sales director hiring agents in Dubai. Prime target for speed-to-lead and inbound lead routing solutions.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "Hiring ambitious agents is only half the battle. The step that keeps them motivated is setting up the routing infrastructure so they get high-intent leads in seconds. If a new agent has to wait hours for a manual admin handoff or dig through a shared spreadsheet, the momentum is gone before they even place the call."
+},
+{
+"angle": "sharp_question",
+"text": "When you bring on new agents in Dubai's market, how do you handle the lead distribution? Speed-to-lead is a massive competitive advantage, but manually routing incoming enquiries by agent availability and language usually breaks down the moment you scale the headcount."
+},
+{
+"angle": "make_concrete",
+"text": "More agents only solve your volume problem if your CRM infrastructure can keep up. Most brokerages don't actually have a lead generation problem, they have a lead-waste problem. If new hires are left to manage their follow-ups out of WhatsApp group chats, high-value opportunities will inevitably slip through the cracks."
+}
+],
+"connection_note": "Hi Ahmad, saw you're expanding the sales team at Above & Beyond. I map workflows and build inbound automation systems. Would love to connect and follow your team's growth in Dubai.",
+"my_comment": null
+},
+{
+"id": 52,
+"created_at": "2026-10-08T20:39:13.063560+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 8.1,
+"author_name": "Sam King",
+"author_headline": "Founder @ YourDubaiPropertyGuy | 18+ Years of Real Estate Investor & Advisor | UAE & International Business Experience | Entrepreneur | Licensed Broker",
+"author_url": "https://www.linkedin.com/in/samkingm?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGySpBsB7RfDGtSGXNKsQNnP1ZqUzd8g5Wg",
+"post_url": "https://www.linkedin.com/posts/samkingm_dubai-land-department-just-closed-the-books-activity-7513951858885955584-Ubvt",
+"post_text": "Dubai Land Department just closed the books on September. Nine months into 2026, total real estate transactions sit at Dh574 billion. Dh379.4 billion of that is sales alone, across 123,416 deals — the second-highest sales figure this market has ever recorded. There are still three months left to beat it.Look past the headline number and the split tells the real story. Ready properties did Dh196 billion across 39,320 transactions. Off-plan did Dh183 billion across more than double that — 84,090 transactions. Fewer buyers are writing much bigger cheques for stock they can inspect, rent, and hold today, rather than paper on a handover date years out.Thats not a market running on hype. Thats capital thats done the maths.Ive been investing in this market since 2008 — long enough to know the difference between a cycle peak built on noise and one built on numbers like this. This ones the latter. Three months left in the year, and the market still has room to run.",
+"posted_at": "2026-10-08T13:22:05.633000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Dubai real estate broker discussing DLD transaction volumes. Good buyer profile, medium room for operational insights.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "The contrast in deal volume shows two completely different operational games. 84,090 off-plan transactions require high-velocity lead routing, while 39,320 ready deals with much higher average cheque sizes need a slow, advisory touch. When brokerages funnel both buyer types through the same workflow, one always gets neglected."
+},
+{
+"angle": "sharp_question",
+"text": "That split between 84,090 off-plan deals and 39,320 ready transactions really highlights the difference in buyer intent. Off-plan leads usually demand immediate response speed, while ready buyers want detailed yield data. How are your advisors structuring follow-ups so off-plan speed doesn't compromise the high-touch service ready buyers expect?"
+},
+{
+"angle": "missing_step",
+"text": "When market transactions hit Dh379.4 billion, the bottleneck usually isn't lead generation, it's lead processing speed. The step most brokerages miss during volume spikes is structuring lead qualification automatically before human handoffs. If high-ticket ready buyers wait hours for property data, they simply move on to another broker."
+}
+],
+"connection_note": "Hi Sam, loved your breakdown of the DLD September stats, especially the Dh196b ready vs Dh183b off-plan split across those 123,416 deals. I build workflow automation for UAE businesses and follow market insights closely. Would be great to connect here.",
+"my_comment": null
+},
+{
+"id": 51,
+"created_at": "2026-10-08T20:35:55.926130+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 9.1,
+"author_name": "SYED AHMAD ABU BAKR",
+"author_headline": "Sales Director at Viviana Properties",
+"author_url": "https://www.linkedin.com/in/syedahmadabubakr?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA131PQBjhlzGSRFfo7rHgwP44iID3Hzihw",
+"post_url": "https://www.linkedin.com/posts/syedahmadabubakr_viviana-properties-is-hiring-telesales-activity-7514011943209156609-F0Uc",
+"post_text": "Viviana Properties is hiring Telesales Executives to generate and convert leads for Dubai real estate. You will call prospective buyers and investors, present our properties, and book meetings and site visits for our sales team.\n\nKey Responsibilities\n\n- Make outbound calls to leads from portals, campaigns, databases and referrals\n\n- Handle inbound inquiries quickly and professionally\n\n- Understand each client's budget, needs and investment goals, and recommend suitable properties\n\n- Present Dubai projects, payment plans and investment opportunities clearly and honestly\n\n- Schedule appointments, property viewings and consultations\n\n- Follow up consistently to move leads through the pipeline\n\n- Update all calls, leads and follow-ups in the CRM\n\n- Meet or exceed daily call targets and monthly sales goals\n\n- Keep up to date with Dubai market trends, new launches and regulations\n\nRequirements\n\n- Previous sales or telesales experience (real estate experience is a plus)\n\n- Excellent spoken English; Hindi/Urdu or other languages are an advantage\n\n- Strong communication, persuasion and negotiation skills\n\n- Confident, target-driven and resilient with rejection\n\nBasic computer skills and comfort with CRM tools\n\nWilling to work from Dubai only\n\n- Ability to join immediately, or relocate to Dubai immediately\n\nWhat We Offer\n\n- Fixed salary (3k-4k) plus employment visa\n\n- Uncapped commission, with earnings that grow with your performance\n\n- Training on Dubai real estate and sales technique",
+"posted_at": "2026-10-08T17:20:50.852000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "Real estate sales director hiring telesales for Dubai property. Perfect fit for speed-to-lead and CRM automation.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "The step most brokerages skip when hiring telesales to handle inbound inquiries is automating the handoff. If a new rep is on a 15-minute call with an investor, any incoming lead sits waiting, or they have to manually log it later. Resolving the routing before they land ensures they actually hit those daily call targets without administrative friction."
+},
+{
+"angle": "make_concrete",
+"text": "The math on delayed or missed inbound inquiries is brutal. If a team misses just 3 calls a day, assuming a 30% booking rate and an illustrative 1,000 SAR average value, that is over 300,000 SAR a year in lost opportunities. The real leak never shows up in reports because you only see the prospects you captured, not the ones who hung up and called the next broker."
+},
+{
+"angle": "sharp_question",
+"text": "Requiring telesales to update every call and follow-up in the CRM is necessary, but manual logging is usually the first thing that slips when call volumes go up. When you scale this team, how do you plan to keep the CRM data clean without the reps spending half their day on manual admin instead of making calls?"
+}
+],
+"connection_note": "Hi Syed, saw your post about hiring telesales executives for Viviana Properties in Dubai. Keeping CRM data clean while maintaining high call volumes is a tough operational balance. Would love to connect and follow your team's growth.",
+"my_comment": null
+},
 {
 "id": 50,
 "created_at": "2026-10-08T12:05:45.811342+00:00",
@@ -1956,10 +2151,10 @@
 "usage": [
 {
 "day": "2026-10-08",
-"posts_scraped": 26,
-"cards_sent": 4,
-"llm_input_tokens": 35315,
-"llm_output_tokens": 13451,
+"posts_scraped": 50,
+"cards_sent": 9,
+"llm_input_tokens": 77362,
+"llm_output_tokens": 27920,
 "llm_cost_usd": 0.0
 },
 {
@@ -1987,7 +2182,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 0.88,
+"apify_month_usd": 0.93,
 "apify_month_cap_usd": 5.0,
 "learned": 34,
 "metrics": {},

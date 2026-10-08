@@ -68,6 +68,7 @@ def snapshot(cfg: Config, store: Store) -> dict[str, Any]:
         "metrics": metrics,
         "my_comments": my_comments,
         "stats_last_checked": store.get("mystats_checked_at"),
+        "paused": store.get("paused") == "1",
         "settings": {
             "cards_per_day": cfg.s("budgets", "max_cards_per_day", default=20),
             "stats_enabled": bool(cfg.s("my_stats", "enabled", default=False)),

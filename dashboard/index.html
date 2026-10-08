@@ -186,6 +186,12 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .banner { margin-top: 14px; padding: 10px 14px; border-radius: 12px; background: var(--bad-soft); color: var(--bad); font-weight: 600; display: none; }
 .loading { padding: 80px 0; text-align: center; color: var(--muted); }
 .hidden { display: none !important; }
+.switch { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line-2); background: var(--panel); border-radius: 99px; padding: 4px 12px 4px 4px; font-weight: 700; font-size: 12.5px; }
+.switch .knob { width: 34px; height: 20px; border-radius: 99px; background: var(--line-2); position: relative; transition: background .15s; }
+.switch .knob::after { content: ""; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; border-radius: 50%; background: #fff; transition: transform .15s; }
+.switch[aria-checked="true"] .knob { background: var(--good); }
+.switch[aria-checked="true"] .knob::after { transform: translateX(14px); }
+.switch[aria-checked="false"] { color: var(--warn); border-color: var(--warn); }
 .setup { max-width: 640px; margin: 24px auto; }
 .setup h2 { margin: 0 0 6px; }
 .setup ol { padding-left: 20px; display: grid; gap: 6px; margin: 14px 0 18px; }
@@ -228,6 +234,7 @@ kbd { font: 11px ui-monospace, monospace; border: 1px solid var(--line-2); borde
       <button class="tab" role="tab" data-tab="stats" aria-selected="false">Stats</button>
     </nav>
     <div class="spacer"></div>
+    <button class="switch" id="autopilot" role="switch" aria-checked="true" title="Turn automatic post-finding and drafting on or off"><span class="knob"></span><span class="lbl2">Auto: ON</span></button>
     <span class="pill" id="runpill"><span class="dot"></span><span>Loading…</span></span>
     <button class="btn" id="btn-refresh" title="Reload from GitHub">↻ <span class="lbl">Refresh</span></button>
     <button class="btn" id="btn-run" title="Apply your clicks now and look for new posts">▶ <span class="lbl">Run now</span></button>
@@ -414,6 +421,8 @@ function applyOverlay() {
     else if (a.kind === "stage") { if (c.status !== "posted") { c.status = "posted"; c.acted_at = c.acted_at || a.ts; } c.stage = a.stage === "commented" ? null : a.stage; }
     else if (a.kind === "note") { c.note = a.note; }
   }
+  state.paused = !!snap.paused; state.pausePending = false;
+  for (const a of state.data.pending || []) if (a.kind === "autopilot") { state.paused = !a.on; state.pausePending = true; }
   state.cards = [...cards.values()];
   state.metrics = metrics;
 }
@@ -457,6 +466,10 @@ function renderHeader() {
   pill.append(h("span", { class: "dot " + cls }), h("span", {}, txt));
   pill.title = "Runs at 08:00, 13:00 and 18:00 Riyadh. Your clicks are applied at the next run.";
   $("#tc-focus").textContent = waiting().length;
+  const sw = $("#autopilot"), on = !state.paused;
+  sw.setAttribute("aria-checked", String(on));
+  sw.querySelector(".lbl2").textContent = (on ? "Auto: ON" : "Auto: PAUSED") + (state.pausePending ? " ⏳" : "");
+  sw.title = on ? "Finding posts and drafting 3 times a day. Click to pause." : "Paused: no new posts or drafts. Your clicks still sync. Click to turn back on.";
 }
 
 function kpi(label, value, sub, pct) {
@@ -787,6 +800,11 @@ $("#btn-run").addEventListener("click", async () => {
   finally { setTimeout(() => (b.disabled = false), 20000); }
 });
 $("#btn-settings").addEventListener("click", () => showSetup());
+$("#autopilot").addEventListener("click", () => {
+  if (!state.data) return;
+  const on = !!state.paused;
+  act({ kind: "autopilot", on }, on ? "Turned on. New cards come with the next run." : "Paused. Takes effect at the next run (or press Run now). Your clicks still sync.");
+});
 
 // ---- first-time setup on each device ----------------------------------------------------------
 function showSetup(err) {

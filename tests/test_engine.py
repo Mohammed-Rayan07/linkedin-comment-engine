@@ -214,3 +214,15 @@ def test_my_comment_matches_card_by_ugc_or_activity_id(cfg):
     assert mystats.match_card(engine.store, item)["id"] == 1
     assert mystats.match_card(engine.store, {"id": "c3", "postId": card["post_id"]})["id"] == 1
     assert mystats.match_card(engine.store, {"id": "c2", "postId": "123", "post": {"id": "123"}}) is None
+
+
+def test_pause_switch_stops_drafting_but_keeps_syncing(cfg):
+    from engine import inbox
+    engine = Engine(cfg)
+    _write_actions(cfg, [{"kind": "autopilot", "on": False}])
+    report = engine.run()
+    assert report.carded == 0 and engine.store.get("paused") == "1"
+    _write_actions(cfg, [{"kind": "autopilot", "on": True}])
+    assert engine.run().carded > 0                       # back to normal
+    assert "Paused" in engine.handle_command("/pause") and engine.store.get("paused") == "1"
+    assert "Resumed" in engine.handle_command("/resume") and engine.store.get("paused") == "0"

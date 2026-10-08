@@ -18,7 +18,7 @@ if TYPE_CHECKING:
 log = logging.getLogger(__name__)
 
 ACTIONS_NAME = "actions.jsonl"
-KINDS = {"posted", "skip", "regen", "reopen", "stage", "note", "metric"}
+KINDS = {"posted", "skip", "regen", "reopen", "stage", "note", "metric", "autopilot"}
 # CRM stages after a comment is posted. None = just commented.
 STAGES = {"commented": None, "connected": "connected", "replied": "replied", "dm": "dm", "call": "call",
           "client": "client"}
@@ -31,6 +31,8 @@ def validate(a: dict[str, Any]) -> str | None:
     kind = a.get("kind")
     if kind not in KINDS:
         return f"unknown action {kind!r}"
+    if kind == "autopilot":
+        return None if isinstance(a.get("on"), bool) else "autopilot needs on: true/false"
     if kind == "metric":
         if a.get("key") not in METRICS:
             return "unknown metric"
@@ -84,6 +86,9 @@ def apply_actions(engine: "Engine") -> int:
 def _apply(engine: "Engine", a: dict[str, Any]) -> None:
     store, tg = engine.store, engine.tg
     kind = a["kind"]
+    if kind == "autopilot":
+        store.put("paused", "0" if a["on"] else "1")
+        return
     if kind == "metric":
         store.put_metric(a["day"], a["key"], float(a["value"]))
         return

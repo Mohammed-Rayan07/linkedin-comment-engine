@@ -133,6 +133,12 @@ class Engine:
     def handle_command(self, text: str) -> str:
         if text.startswith("/stats"):
             return stats_text(self.store)
+        if text.startswith("/pause"):
+            self.store.put("paused", "1")
+            return "⏸ Paused. No new posts or drafts until you send /resume (your taps still sync)."
+        if text.startswith("/resume"):
+            self.store.put("paused", "0")
+            return "▶️ Resumed. New cards come with the next run (08:00, 13:00, 18:00 Riyadh)."
         if text.startswith("/queue"):
             return queue_text(self.store)
         if text.startswith("/help") or text.startswith("/start"):
@@ -157,6 +163,11 @@ class Engine:
         cfg, store = self.cfg, self.store
         report = RunReport()
         report.taps = self.sync()
+        if self.store.get("paused") == "1":
+            # switched off from the dashboard or /pause: keep syncing clicks, find and draft nothing
+            report.notes.append("paused: skipped finding posts and drafting")
+            self.update_board()
+            return report
         if not skip_fetch:
             try:
                 if note := mystats.check(self):
@@ -284,7 +295,7 @@ def status_text(store: Store) -> str:
     learned = store.db.execute("SELECT COUNT(*) FROM examples").fetchone()[0]
     scraped = store.db.execute(
         "SELECT COALESCE(SUM(posts_scraped),0) FROM usage WHERE day >= date('now','start of month')").fetchone()[0]
-    lines = ["📊 <b>Comment engine</b>",
+    lines = ["📊 <b>Comment engine</b>" + ("  ⏸ <b>PAUSED</b> (send /resume)" if store.get("paused") == "1" else ""),
              f"📥 Waiting: <b>{waiting}</b>   ✅ Posted: <b>{posted}</b> ({week} this week)",
              ""]
     for lane in lanes:

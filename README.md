@@ -68,6 +68,7 @@ python -m engine run --mock
   first if you like), tap **I posted this**. The next card opens.
 - **Pipeline**: a CRM board. To post → Commented → Connection sent → They replied → In DMs → Call
   booked → Client. Drag cards between columns or click one to move it and add notes.
+- **Auto switch** (top bar): pause or resume the automatic finding and drafting. While it is paused, runs still apply your clicks. Telegram: `/pause` and `/resume`.
 - **Stats**: comments per day, the funnel from card to call, which search lanes convert, your
   follower count, and a box for the numbers only you can see (impressions, profile views).
 

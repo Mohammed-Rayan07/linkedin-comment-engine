@@ -146,6 +146,7 @@ class Engine:
                     "Tap ✅ Posted N after you post (edit freely first), ⏭ Skip, or 🔁 New angles.\n"
                     "/queue lists every card still waiting, with links.\n"
                     "/stats shows the last 7 days.\n"
+                    "/pause stops new posts and drafts; /resume turns them back on.\n"
                     "Taps are applied at the next scheduled run (08:00, 13:00, 18:00 Riyadh), "
                     "so a spinning button is normal.")
         return ""

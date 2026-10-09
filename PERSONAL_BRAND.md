@@ -178,3 +178,38 @@ Recommended: #1. It's the only one in your Saudi niche that leads with diagnosis
 | Conversations started | 3 | 25+ |
 | In-person meetings | 0 | 3–5 |
 | Paid pilots | 0 | 1 |
+
+---
+
+## 9. UPDATE (v2): niche and geography decision. This overrides the GCC-only framing above
+
+### How the niches were scored (for first clients found through LinkedIn)
+| Niche | Owner on LinkedIn? | Pain (missed leads) | Ticket per lead | Sales cycle | Trust barrier | Your proof fits? | Verdict |
+|---|---|---|---|---|---|---|---|
+| **Real estate brokerages/teams** (UAE, UK, US, AU) | Very active | Speed-to-lead is everything; 78% buy from the first responder | Very high (commission per deal) | Fast: owner decides | Low-medium | Yes (speed-to-lead) | **#1 lead niche** |
+| **Marketing agencies serving local businesses** (white-label partner) | LinkedIn-native | They lose clients when leads go cold | Recurring, and they bring many clients | Fastest: they already understand AI | Lowest | Yes | **#1 channel**: one partner = many clients |
+| **Private clinics: dental / aesthetic / derma** (GCC first) | Doctors active in GCC; US med spa owners prefer Instagram | High: after-hours calls, no-shows | High | Medium | Medium | Yes (11 PM story, bilingual) | **#2: keep, GCC priority** |
+| **Law firms: personal injury / immigration** (US, UK, CA, UAE) | Active (90%+ of small firms use LinkedIn) | ~35% of calls missed, $5k+ per case | Very high | Medium | Medium-high (compliance) | Partly | **#3: test** |
+| Home services (HVAC, plumbing) | Rarely on LinkedIn | Huge (27–62% missed) | Medium | Fast | Low | Yes | **Skip on LinkedIn** (wrong channel) |
+| Recruitment agencies | LinkedIn-native | Speed to candidate | Medium | Fast | Low | Weak | Maybe later |
+
+**Conclusion:** clinics and brokerages stay, but they aren't the whole answer. The easiest *first* client through LinkedIn is most likely
+**(a) a real estate team in UAE/UK/US/Australia** or **(b) a marketing agency that resells your build to its clients.**
+Clinics stay as the GCC priority. Law firms are a test lane.
+
+### Geography mix
+- **GCC = priority** (you're in Riyadh, can meet in person, and Arabic/English is an advantage). Expect slower closes.
+- **Easier international markets, English-speaking and wealthy:** UAE (English-first), UK, US, Australia, Canada. Owners buy faster, pay in USD, and are used to buying from remote builders.
+- Rule of thumb for outreach: about 50% GCC, 50% international, then shift toward whichever replies.
+
+### Positioning v2 (one line)
+**"AI receptionists & speed-to-lead systems for high-ticket service businesses: real estate, clinics and law firms. I find where enquiries leak, then build the fix."**
+
+### Headline v2 (use this instead of section 4)
+**I find where your enquiries leak, then build the AI that fixes it | AI receptionists & speed-to-lead for real estate, clinics & law firms | GCC + international | Founder, Raynix AI**
+
+### Engine changes this implies (to do next)
+- New lanes: `agencies` (re-enable: white-label partners), `realestate_intl` (UK/US/AU brokers and team leads), `law_firms` (PI/immigration managing partners).
+- Keep `clinics` and `realestate` as GCC lanes; split the daily Apify budget roughly 50/50 between GCC and international.
+
+Sources: Invoca/CallRail missed-call benchmarks, 411 Locals study (37.8% of calls answered live), legal-industry missed-call estimates, Zenoti med spa data. See the research notes in chat.

@@ -113,7 +113,7 @@
 - **Never tag** the MedLog interviewee or his employer (anonymity rule).
 
 ### The truth gate for content (same rule as the comment engine)
-**You may use these:** NITK B.Tech AI (2025–); JEE Advanced 2025, top ~2% of ~1.5M; L&T Finance challenge 2nd of 135 teams, 60 final submissions, top 8 presented, lowest MAPE of all teams at 18.47%, 47,970 rows, 43% of farmers with no bureau record; Advocall (built in 24h at Build for Billions 2026, first hackathon; Next.js, TypeScript, Vapi, Deepgram, GPT-4o, SSE, Render; English, Hindi, Kannada); MedLog (8 agents, bilingual AR/EN, synthetic data, open code; facts from the 4-hour interview exactly as in the published post); Linear regression from scratch (3 methods, induced divergence, loss tracking); Ayah Archive (Qur'an-memorisation digital product: 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases, ₹100K+ Meta ad spend, automated payment and delivery via Cosmofeed); the comment engine (GitHub Actions 3x/day, Telegram, truth gate, dashboard, never posts for you); LinkedIn stats (851 impressions Oct 2–8, mostly from the L&T Finance post).
+**You may use these:** NITK B.Tech AI (2025–); JEE Advanced 2025, top ~2% of ~1.5M; L&T Finance challenge 2nd of 135 teams, 60 final submissions, top 8 presented, lowest MAPE of all teams at 18.47%, 47,970 rows, 43% of farmers with no bureau record; Advocall (built in 24h at Build for Billions 2026, first hackathon; Next.js, TypeScript, Vapi, Deepgram, GPT-4o, SSE, Render; English, Hindi, Kannada); MedLog (8 agents, bilingual AR/EN, synthetic data, open code; facts from the 4-hour interview exactly as in the published post); Linear regression from scratch (3 methods, induced divergence, loss tracking); Ayah Archive (a faceless digital brand around Qur'an memorisation, never call it a "product": 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases, ₹100K+ Meta ad spend, automated payment and delivery via Cosmofeed); the comment engine (GitHub Actions 3x/day, Telegram, truth gate, dashboard, never posts for you); LinkedIn stats (851 impressions Oct 2–8, mostly from the L&T Finance post).
 
 **Never:** client results you don't have; "deployed for" a company; that you speak Arabic fluently (the *agents* are bilingual); the MedLog interviewee's name, employer or any new identifying detail; anyone's name from a DM without their OK; invented "what broke" stories. Where a post needs a detail only you know, it says **[fill in]**.
 
@@ -215,7 +215,7 @@ I'm Rayan. I'm based in Riyadh and study AI at NITK Surathkal.
 
 What I've built:
 
-→ Ayah Archive: a Qur'an-memorisation product. 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases. Payment and delivery fully automated.
+→ Ayah Archive: a faceless digital brand around Qur'an memorisation. 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases. Payment and delivery fully automated.
 → Advocall: an AI that waits on hold with customer care and argues your refund case using the actual RBI rule. Built in 24 hours with my team at my first hackathon.
 → 2nd of 135 teams at the L&T Finance income-prediction challenge. Lowest error of any team (18.47% MAPE).
 → MedLog: 8 bilingual AI agents, one for each gap a logistics veteran walked me through in a 4-hour interview. Synthetic data, open code.
@@ -306,10 +306,10 @@ Which ML lesson did you only learn by getting it wrong?
 ### Post 4: Wed 14 Oct, 9:00. Ayah Archive
 
 ```
-[check: only keep "Before I built my first AI agent" if Ayah Archive really came first. Otherwise use "Long before clients, a product I built hit 1.1M views in 30 days."]
-Before I built my first AI agent, a product I made hit 1.1M views in 30 days.
+[check: only keep "Before I built my first AI agent" if Ayah Archive really came first. Otherwise use "Long before clients, a faceless brand I built hit 1.1M views in 30 days."]
+Before I built my first AI agent, a faceless brand I built hit 1.1M views in 30 days.
 
-It's a Qur'an-memorisation product. [fill in: one line on why you built it]
+It's a faceless digital brand around Qur'an memorisation. No face, no name, just the content. [fill in: one line on why you built it]
 
 The numbers:
 → 1.1M+ views in 30 days from organic Instagram content
@@ -335,7 +335,7 @@ What's the biggest number you've hit with something you built on your own?
 ```
 **Visual:** a **real screenshot** of your Instagram insights (the 1.1M views / 30 days) or the Cosmofeed sales dashboard. Circle the number in red, as Lara does. Blur buyer names.
 **AI fallback prompt (concept only):** "Cinematic photo-style image, portrait 4:5, a smartphone on a dark bedside table at night lighting up with a delivery notification, warm lamp glow, shallow depth of field, no readable text on the screen, calm and quiet mood."
-**First comment:** "The product: ayaharchive.shop"
+**First comment:** "The brand: ayaharchive.shop"
 
 ---
 

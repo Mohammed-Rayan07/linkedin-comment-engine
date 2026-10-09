@@ -1,5 +1,7 @@
 # Personal brand playbook: Mohammed Rayan / Raynix AI
 
+> **Content, posting cadence and CTAs now live in [CONTENT_PLAYBOOK.md](CONTENT_PLAYBOOK.md) (v3, 10 Oct 2026), which overrides the headline options and the "Comment 7PM" approach below.**
+
 Research done on 10 Oct 2026, reading the profiles and recent posts directly on LinkedIn:
 - **Bootstrapped-founder benchmark:** Guillaume Moubeche (lemlist, 54.8k followers), Justin Welsh (884k)
 - **AI-agency benchmark:** Liam Ottley (AI Makeover / Morningside, 45.8k), Nick Saraev (Maker School + LeftClick, 60.3k)

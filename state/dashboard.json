@@ -1,7 +1,280 @@
 {
-"generated_at": "2026-10-09T11:53:21.828337+00:00",
+"generated_at": "2026-10-09T20:23:23.847264+00:00",
 "actions_applied": 39,
 "cards": [
+{
+"id": 66,
+"created_at": "2026-10-09T20:23:23.217199+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 5.8,
+"author_name": "BASH OLAKUNLE ABIOLA OLOWOSELU",
+"author_headline": "CEO | International Real Estate Consultant & Developer | Helping Global Investors Build Wealth Through Strategic Real Estate Partnerships | Founder of REDOC HOMES — Making Life Beautiful Through Profitable Developments",
+"author_url": "https://www.linkedin.com/in/bash-olakunle-abiola-olowoselu-a33992247?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD0xCEcB54Arc-ah2ixyQ8qD18UQpmXkvVQ",
+"post_url": "https://www.linkedin.com/posts/bash-olakunle-abiola-olowoselu-a33992247_redochomes-redocdiagnosis-realestate-activity-7514321220473896960--S5a",
+"post_text": "Nigeria may need millions of homes. But that doesn't mean every property is a good investment.\n\nYou're not investing in the entire housing market. You're investing in one property, at one price, in one location, for one specific customer segment.\n\nSo before investing from abroad, ask:\n\nWho can afford this property?\nWho will rent it, and at what price?\nHow much competing supply exists?\nAnd how easily can you sell when you're ready to exit?\n\nA national housing shortage doesn't guarantee demand for your specific property.\n\nDon't invest in the headline. Diagnose the opportunity.\n\nREDOC HOMES \nDiagnosis Before Prescription™.\nClarity Before Commitment.\n\n#redochomes #redocdiagnosis #realestate #nigeria #investment",
+"posted_at": "2026-10-09T13:49:48.298000+00:00",
+"likes": 1,
+"comments": 1,
+"why": "Real estate CEO discussing investment diagnosis. Good mindset match but lacks specific operational entry point.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "When diagnosing these international opportunities, the biggest roadblock is usually the quality of the underlying data. How do you verify the neighborhood-level demand and rental yields from abroad without relying on subjective broker estimates? Is there a specific data metric you prioritize above the rest?"
+},
+{
+"angle": "pushback",
+"text": "Diagnosis before prescription is the right framework, but doing this thoroughly for every international lead usually creates a massive bottleneck. If an advisor spends two hours pulling local supply data for every casual inquiry, they run out of hours for the serious buyers. How do you filter who gets the deep diagnosis without letting lead response times slip?"
+},
+{
+"angle": "make_concrete",
+"text": "In my work auditing business operations, I see a parallel: some problems are just management issues wearing a technology costume. Similarly, a bad real estate investment is often a weak market thesis wearing a shiny architectural rendering. The hardest part of the diagnosis isn't gathering the data, it's deciding which red flags are dealbreakers before you fall in love with the asset."
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 65,
+"created_at": "2026-10-09T20:17:59.934030+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.2,
+"author_name": "Ahmed Harby",
+"author_headline": "Managing Director at Coldwell Banker Al Jiwar, Jeddah",
+"author_url": "https://www.linkedin.com/in/ahmed-harby-b23b0410a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABuShUsBf0bi271UYs-GQ6IALLqqigLcWEo",
+"post_url": "https://www.linkedin.com/posts/ahmed-harby-b23b0410a_makkah-masarmakkah-saudirealestate-activity-7514320737558556672-oNST",
+"post_text": "A milestone for Makkah real estate 🕋\n\nWe're proud to share that Coldwell Banker are among the first companies worldwide to complete property transactions in Masar Makkah for individuals foreign buyers.\n\nThis is now possible because of Saudi Arabia's new Law of Real Estate Ownership by Non-Saudis, which took effect in January 2026. For the first time, Muslims from around the world can own property in designated areas of Makkah and Madinah. Before this, foreign buyers could usually only lease there.\n\nWhy we believe Makkah is one of the most compelling real estate opportunities in the world:\n\n🔹 Constant demand. Millions of pilgrims visit for Hajj and Umrah every year, so demand doesn't depend on the usual market cycles.\n🔹 A newly opened market. International buyers can now access a market that was closed to them for decades.\n🔹 Vision 2030. Major investment in infrastructure, transport and hospitality is reshaping the city.\n🔹 More than an investment. Owning a home near the Haram has a spiritual value that no other market offers.\n\nOur team has guided international clients through the full journey, from reservation to the steps that follow it. We know the process firsthand.\n\nIf you've ever dreamed of owning a home in Makkah, now is the time to talk.\n\n📩 Message us to learn more.\n\n#Makkah #MasarMakkah #SaudiRealEstate #Vision2030 #RealEstateInvestment #Madinah",
+"posted_at": "2026-10-09T13:47:53.162000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Coldwell Banker KSA MD announcing Makkah property transactions. Great buyer profile, but promotional milestone.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Opening Masar Makkah to overseas buyers brings an immediate influx of inquiries across multiple time zones. The step most brokerages overlook is structuring early qualification before leads reach senior advisors. If brokers spend their mornings manually answering baseline ownership rules over WhatsApp, response times stretch out and qualified buyers get stuck waiting."
+},
+{
+"angle": "sharp_question",
+"text": "Guiding international buyers through Masar Makkah means handling serious inquiries across completely different time zones. When someone reaches out from London or Jakarta outside Saudi business hours, how does your desk handle initial eligibility qualification without your senior brokers having to stay glued to WhatsApp around the clock?"
+},
+{
+"angle": "pushback",
+"text": "Constant spiritual demand brings high inbound volume, but international interest often creates a serious operational drag. Foreign buyers are dealing with brand new ownership regulations. If eligibility screening isn't filtered strictly by rule upfront, brokers spend most of their day answering repetitive legal questions instead of moving verified buyers to reservation."
+}
+],
+"connection_note": "Ahmed, saw your post on completing the first Masar Makkah deals for foreign buyers under the new ownership law. Cross-border buyer intake across different time zones is a fascinating operational challenge. Would love to connect and follow Coldwell Banker's progress here in KSA.",
+"my_comment": null
+},
+{
+"id": 64,
+"created_at": "2026-10-09T20:14:08.296316+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 6.9,
+"author_name": "Daniel Kaufman",
+"author_headline": "Medical Director at Miami Life Cosmetic Center, Sunset",
+"author_url": "https://www.linkedin.com/in/daniel-kaufman-20534841?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAjFbyUBmMDWpOIZ54P9t6INqbLq08lo9Bw",
+"post_url": "https://www.linkedin.com/posts/daniel-kaufman-20534841_plasticsurgery-plasticsurgeon-tummytuck-activity-7514342087111278593-JPyB",
+"post_text": "If you're researching a tummy tuck, don't start with the price or the date. \nStart with these 3 questions. 👇\n1️⃣ Is your surgeon a board-certified plastic surgeon? (Not \"cosmetic.\" Not a weekend course.)\n2️⃣ Can they show you hundreds — even thousands — of before & afters?\n3️⃣ Can they give you a comprehensive strategy to maximize your result?\nIf the answer to all three isn't a resounding yes, the real question is: are you actually ready for surgery?\nBecause the best results come from the right surgeon and the right preparation — which is exactly what our Plastics Prep Protocol is built for. \nWant to find out if you're ready? \nVisit the link in my contact info to book your free consultation. 🔗\n \n#PlasticSurgery #PlasticSurgeon #TummyTuck #WeightLoss",
+"posted_at": "2026-10-09T15:12:43.292000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Cosmetic medical director discussing tummy tuck questions. Clinic owner buyer, but post is consumer-facing marketing.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "Patients spend weeks researching board certification, but the drop-off happens right at the booking link. The leak sits between the enquiry and the confirmed booking. A prospective patient who submits a consult form after hours and waits half a day for a callback usually keeps searching for another clinic."
+},
+{
+"angle": "field_detail",
+"text": "Board certification builds trust, but patient acquisition still hinges on the first response. When I called five clinics at 11 PM with severe tooth pain, three did not answer, one played a robotic voicemail about opening hours, and one was in a language I did not speak. The sixth clinic answered and got my business. A clinic can have the best surgical prep protocol in the city, but it only matters if the intake workflow captures patients while intent is high."
+},
+{
+"angle": "sharp_question",
+"text": "A clear prep protocol protects clinical outcomes, but linking directly to a free consultation can easily flood staff with unqualified leads. How does your front desk screen patients against those readiness criteria before giving away a surgeon's calendar slot? Do you automate that intake qualification, or does a coordinator handle every form manually?"
+}
+],
+"connection_note": "Hi Daniel, saw your post on vetting plastic surgeons and your Plastics Prep Protocol. Appreciated the focus on qualifying patient readiness upfront. I build ops and intake workflows for medical clinics, would be great to connect here.",
+"my_comment": null
+},
+{
+"id": 63,
+"created_at": "2026-10-09T20:13:08.928498+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 7.2,
+"author_name": "Nour Kishk",
+"author_headline": "Founder & CEO | Driving Excellence in Real Estate: Transforming Visions into Properties, Delivering Unparalleled Services for Investors and Homeowners. 🎯",
+"author_url": "https://www.linkedin.com/in/nourekishk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABR2KXoBA_oq67dxuya9ZgcyeJuisstMRb8",
+"post_url": "https://www.linkedin.com/posts/nourekishk_hiring-dubaijobs-dubairealestate-activity-7514381657567711233-zIAi",
+"post_text": "Join Masha Real Estate as a Real Estate Administrator\n\nSalary + performance-based bonuses\n\nBehind every well-managed property listing and smooth transaction is an administrator who brings accuracy, organization and consistent follow-up to the process.\nAt Masha Real Estate, we’re looking for an experienced Real Estate Administrator to support our sales and leasing team and keep daily operations running efficiently from our Business Bay office.\n\nTHE EXPERIENCE WE NEED\nThis position requires at least one year of Dubai real estate administration experience. You should be comfortable managing property listings, handling developer registrations, processing Trakheesi permits and supporting DLD CBF requirements.\n\nWHAT YOUR WORK WILL INVOLVE\nYou will create and update property listings on real estate portals, organize supporting documents and maintain accurate property files and CRM records. You will also coordinate developer registrations and permits, assist our sales and leasing agents, and follow up on outstanding administrative tasks.\nAccuracy matters throughout the role: complete records, current listing information and reliable follow-up help the team stay organized and meet deadlines.\n\nWHAT MAKES A STRONG CANDIDATE\nWe’re looking for someone who communicates professionally, pays attention to detail and can manage several priorities with confidence. Proficiency in Microsoft Office and CRM systems, strong time management and a dependable approach to daily responsibilities are esse",
+"posted_at": "2026-10-09T17:49:57.624000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Real estate brokerage hiring admin; good target buyer, but posting a job ad leaves little room for a technical comment.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "missing_step",
+"text": "The bottleneck in listing operations is rarely how fast an admin works inside portal dashboards. It is almost always the handoff from sales agents. If property files land on the admin desk through chat messages with missing title deeds or IDs, the admin spends most of their time chasing documents instead of getting Trakheesi permits approved. Locking down a required checklist before the admin ever touches a listing is the step that keeps the queue moving."
+},
+{
+"angle": "sharp_question",
+"text": "Handling DLD requirements, developer registrations, and portal updates across both sales and leasing gets heavy fast. How do your agents currently hand over property files to admin? Do they log completed records directly into the CRM, or does the admin have to track down missing documents across WhatsApp threads?"
+},
+{
+"angle": "pushback",
+"text": "Hiring an administrator to manage Trakheesi permits and portal uploads keeps listings moving, but it can also hide a broken handoff. When agents pass property details across group chats with missing documents, the admin ends up acting as a full-time chaser instead of running operations. The fix is setting up the workflow so an admin only receives files once every DLD requirement is already attached."
+}
+],
+"connection_note": "Hi Nour, saw your post hiring a real estate admin for Masha in Business Bay. Managing Trakheesi permits and portal updates gets messy fast when agent handoffs live in chat. I build CRM and ops workflows here in the region, would love to connect.",
+"my_comment": null
+},
+{
+"id": 62,
+"created_at": "2026-10-09T20:12:26.213349+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 8.1,
+"author_name": "Ahmed Salah",
+"author_headline": "Performance Marketing Operator for Dubai Real Estate",
+"author_url": "https://www.linkedin.com/in/ahmed-salah00?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB2dYioBJ6zM-ySJhARmUxWpJuXUH92RtOA",
+"post_url": "https://www.linkedin.com/posts/ahmed-salah00_dubairealestate-activity-7514365220782268417-2hwN",
+"post_text": "When you do a Lead Gen Campaign for Dubai Real Estate You have to be a FOX\n\nYou have to force the client to sign up and How to do that? \n\nSimply don't add the whole project information in your ad \n\nBecause when you do that thinking you are being direct with the client who sees the ad \nthe client end up writing down the information then scroll up \n\nWant to make sure of that? Check your campaign CTR ( All ) And CTR ( Link Click)\n\nIf your CTR ( All ) is High and link click is low and your CPL is high or number of lead is low \n\nYou're adding TOO much Unnecessary information \n\nand the only one who end up losing money is you because you simply lost a lead by doing that \n\n\n\nOnly add the necessary info that you need to FILTER certain clients \nThese info could be : \nBudget \nDown Payment \nLocation \n\nAnd of course the property type \n\nDON'T add the Developer name because you will compete with the developer \nDon't add EXACT Location like Cluster or building No Just general location EX Downtown, Dubailand ETC\n\nKeep in mind that the main goal of doing Lead gen is to CAPTURE Interested lead Not Sell the property through it \n\nAnd Please STOP using AI for writing your ads because it doesn't look good anymore \n\n#dubairealestate",
+"posted_at": "2026-10-09T16:44:38.789000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Dubai real estate performance marketer discussing lead gen filtering and CPL. Good fit for lead-waste math.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Withholding the developer name drops your CPL, but it often shifts the cost directly to the sales floor. When agents spend their day explaining basic location details to unqualified contacts, closing rates tank. Most brokerages struggle with a lead-waste problem between the enquiry and the booking rather than getting clicks on an ad. Forcing a form fill without context just means the sales team burns time qualifying people who drop off the minute they hear the building."
+},
+{
+"angle": "missing_step",
+"text": "Lowering CPL by withholding project details works to capture contacts, but the missing step is structuring what happens in the first two minutes after the click. If a lead submits a vague form with only general location, they forget they filled it out almost immediately. Unless you have an automated qualification sequence confirming intent before handing them off, agents end up dialing cold numbers who feel misled by the ad."
+},
+{
+"angle": "sharp_question",
+"text": "Stripping out the developer and cluster protects ad spend and keeps CPL low on paper. The friction usually surfaces immediately after the click: how do your agents handle the first call when a lead realizes the project is not the developer they had in mind? Do you filter that mismatch in your CRM before the handoff, or does the broker have to absorb all the friction manually?"
+}
+],
+"connection_note": "Ahmed, saw your post on withholding developer details to protect CPL on Dubai real estate campaigns. Curious how you see that impact the handoff to the sales desk when agents make the first call. Would be great to connect.",
+"my_comment": null
+},
+{
+"id": 61,
+"created_at": "2026-10-09T20:02:29.455261+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 8.4,
+"author_name": "Paul Grassi",
+"author_headline": "Founder, ISH Partners | Author of Working-ish | Helping small business owners fix the problems costing them time, money, and their evenings",
+"author_url": "https://www.linkedin.com/in/paul-grassi-313aa112?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAKnCn8B6oq76kOOkNSWHYwCU_I3Kml4HRo",
+"post_url": "https://www.linkedin.com/posts/paul-grassi-313aa112_have-you-ever-kept-a-customer-because-you-activity-7514399736951382017-8A4c",
+"post_text": "Have you ever kept a customer because you needed the revenue, while quietly dreading every new message?\n\nThat is a real tradeoff. “Just fire the client” can be expensive advice.\n\nBefore deciding, look at the whole relationship: what you collect, the cost of the work, the extra time, and the effect on other customers.\n\nCan a clearer scope, different response window, or revised agreement fix the pattern? If you consider ending it, check the commitments you've made and the impact on cash flow.\n\nWhat boundary improved a difficult customer relationship—or showed you it couldn't continue?",
+"posted_at": "2026-10-09T19:01:48.085000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Consultant talking about difficult clients and operational trade-offs for SMBs. Perfect fit for coordination pain.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "A test worth running before rewriting an agreement is checking where the communication lives. If updates and requests are scattered across personal messaging chats and phone calls, coordination overhead eats your margin. Moving all requests into a single structured channel quickly shows whether the client is difficult, or if the lack of guardrails created the behavior."
+},
+{
+"angle": "pushback",
+"text": "Looking only at direct cash flow can be misleading. High-maintenance clients rarely just consume extra hours on their own project. They pull your best people away from quiet accounts that end up neglected. If a boundary fails to stop the constant firefighting, keeping that top-line revenue costs you the clients you actually wanted to keep."
+},
+{
+"angle": "sharp_question",
+"text": "Dreading every incoming notification happens when intake has no structure. When client requests live in direct chat threads and phone calls, every small thought becomes an urgent interruption. When you help owners reset these relationships, how often is the fix simply moving the client off instant messaging and into an asynchronous queue?"
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 60,
+"created_at": "2026-10-09T20:01:58.316852+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 8.4,
+"author_name": "Ahmed Zinab",
+"author_headline": "Founder & CEO — Ramzin Group | Marine, Real Estate, Hospitality & Investment | Dubai",
+"author_url": "https://www.linkedin.com/in/ahmed-zinab-1b6160393?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGCqIxoBUaGzr0PRxy4udd_0SZtdY3vSdog",
+"post_url": "https://www.linkedin.com/posts/ahmed-zinab-1b6160393_offplansai-private-ai-broker-for-dubai-activity-7514346522302541824-obYV",
+"post_text": "I didn't start my career in technology.\n\nI started by building and running businesses.\n\nYachts. Real estate. Hospitality.\n\nAnd after years of working in these industries, I kept asking myself the same question.\n\nWhy are we still doing so many things the difficult way?\n\nWhy is finding reliable information so complicated?\n\nWhy do customers and businesses waste so much time on things that technology should make easier?\n\nThat's what brought me into AI.\n\nToday, I build platforms like DevMaps , offplans  and BoatFinder+.\n\nBoatFinder+ is a good example of why I started.\n\nAfter years in the marine business, building boats ourselves, I saw the need for a better way to discover boats, compare options, connect with operators and access reliable information.\n\nThat's why we built BoatFinder+, with the ambition to become the UAE's #1 boat marketplace.\n\nIt's a big ambition, and there's still work to do.\n\nBut I'm not building technology simply because AI is the future.\n\nI'm building it because I understand the problems.\n\nRamzin Group still runs 12 licensed companies in the industries I'm trying to improve. I believe that gives me a different perspective.\n\nSometimes the best technology ideas don't come from sitting inside a technology company.\n\nThey come from years of doing the work yourself.\n\nIf you work in an industry tech has ignored, what's the first thing you'd fix?\n\n#Entrepreneurship #AI #BoatFinderPlus #Dubai",
+"posted_at": "2026-10-09T15:30:20.724000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Founder building vertical tech (boat marketplace) from industry experience. Strong peer overlap on building real ops software.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "Pure software engineers usually miss how much coordination bleeds into phone calls. In an ops audit I ran on a medical-logistics operation, 23 trucks were generating 50 to 60 supervisor calls a day just asking 'where are you?' None of that showed up on paper. It just looked like a team that needed more headcount. When you operate physical assets yourself, you know that coordination living in calls and WhatsApp is what actually drains the business."
+},
+{
+"angle": "missing_step",
+"text": "Operator-built platforms solve the search problem well because you know what buyers actually care about. The step that usually trips up vertical marketplaces is keeping inventory status real-time on the back end. If boat operators run their bookings on WhatsApp, asking them to log into a partner portal to update charter slots fails quickly. The intake workflow has to meet operators where they already work, or the listings go stale."
+},
+{
+"angle": "sharp_question",
+"text": "Operator intuition catches the daily friction that outside tech teams miss. The hard part with vertical marketplaces like BoatFinder+ is keeping availability accurate on the back end. When operators are out on the water, how do you capture schedule changes? Do they update calendars inside your system, or does your team still have to confirm bookings manually over WhatsApp?"
+}
+],
+"connection_note": "Ahmed, saw your post on building BoatFinder+ from your time in marine operations. Agree that the best workflow platforms come from people who ran the physical businesses first. Building workflow systems out of Riyadh, would like to connect and follow your build.",
+"my_comment": null
+},
 {
 "id": 59,
 "created_at": "2026-10-09T11:53:21.139886+00:00",
@@ -2307,10 +2580,10 @@
 "usage": [
 {
 "day": "2026-10-09",
-"posts_scraped": 21,
-"cards_sent": 4,
-"llm_input_tokens": 28670,
-"llm_output_tokens": 10304,
+"posts_scraped": 48,
+"cards_sent": 11,
+"llm_input_tokens": 83858,
+"llm_output_tokens": 49359,
 "llm_cost_usd": 0.0
 },
 {
@@ -2346,7 +2619,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 0.97,
+"apify_month_usd": 1.02,
 "apify_month_cap_usd": 5.0,
 "learned": 34,
 "metrics": {},

@@ -187,7 +187,7 @@ Post / comment on a big post
 | **Tue 13** | 9:00 | "5 ML lessons no lecture taught me" (L&T Finance + gradient descent) | ML | **PDF carousel, 7 slides** | Canva slides + your real loss plot |
 | **Wed 14** | 9:00 | Ayah Archive: "1.1M views in 30 days, before my first AI agent" | Journey → buyer bridge | Text + screenshot | Real Instagram insights |
 | **Thu 15** | 9:00 | "3 of my 8 AI agents don't use AI." | Build / opinion | Text + screenshot | Cockpit P5 days-of-cover |
-| **Fri 16** | 9:00 | The comment engine: "I built an AI that finds the posts I should comment on. It's not allowed to post a word." | Build (meta) | Text + 2 screenshots | Telegram card + dashboard (blur others' names) |
+| **Fri 16** | 9:00 | The truth gate: "I gave my AI writing assistant one rule: it's not allowed to say anything I haven't actually done." | Build (meta) | Text + 1 screenshot | Blocked vs passed draft (blur others' names) |
 | **Sat 17** | 9:00 | MedLog agent: "3,000 invoices a month. 10–15 minutes each." | Build | Text + screenshot | `docs/images/cockpit-p2-three-way-match.jpg` |
 
 **The MedLog promise:** yesterday's post promised every agent "over the next two weeks". This week covers driver check-in (P4), the no-LLM trio (P5/P7/P8) and invoices (P2). Next week: the desk (P1), live status (P6) and reports (P3).
@@ -204,12 +204,12 @@ Here's everything I've shipped so far, and what broke.
 
 A lot of you are new here, so a quick re-intro.
 
-I'm Rayan. I grew up in Riyadh and study AI at NITK Surathkal.
+I'm Rayan. I'm based in Riyadh and study AI at NITK Surathkal.
 
 What I've built:
 
 → Ayah Archive: a Qur'an-memorisation product. 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases. Payment and delivery fully automated.
-→ Advocall: an AI that waits on hold with customer care and argues your refund case using the actual RBI rule. Built in 24 hours at my first hackathon.
+→ Advocall: an AI that waits on hold with customer care and argues your refund case using the actual RBI rule. Built in 24 hours with my team at my first hackathon.
 → 2nd of 135 teams at the L&T Finance income-prediction challenge. Lowest error of any team (18.47% MAPE).
 → MedLog: 8 bilingual AI agents, one for each gap a logistics veteran walked me through in a 4-hour interview. Synthetic data, open code.
 
@@ -274,7 +274,7 @@ Builders: how do you handle ambiguous replies in your agents?
 **Caption:**
 ```
 I came 2nd of 135 teams in an ML challenge.
-Then I broke gradient descent on purpose.
+And I broke gradient descent on purpose.
 
 These are the 5 lessons from both that no lecture gave me.
 
@@ -297,9 +297,10 @@ Which ML lesson did you only learn by getting it wrong?
 ### Post 4: Wed 14 Oct, 9:00. Ayah Archive
 
 ```
+[check: only keep "Before I built my first AI agent" if Ayah Archive really came first. Otherwise use "Long before clients, a product I built hit 1.1M views in 30 days."]
 Before I built my first AI agent, a product I made hit 1.1M views in 30 days.
 
-It's a Qur'an-memorisation product. A side project that got out of hand.
+It's a Qur'an-memorisation product. [fill in: one line on why you built it]
 
 The numbers:
 → 1.1M+ views in 30 days from organic Instagram content
@@ -336,7 +337,7 @@ What's the biggest number you've hit with something you built on your own?
 
 That was on purpose.
 
-I built 8 agents for a medical-supply operation. Here are the three that never call a model:
+I built 8 agents modelled on a medical-supply operation (synthetic data). Here are the three that never call a model:
 
 1. Stock-out warning
 Days of cover = stock on hand ÷ average daily use.
@@ -348,7 +349,7 @@ For every required document, it picks the newest one that's still valid on the a
 That's date comparison, not reasoning.
 
 3. Recall tracker
-Regulatory recall messages are never written by a model. The wording comes from approved templates, and the code enforces the deadline.
+Regulatory recall messages are never written by a model. The wording comes from fixed templates, and the code enforces the deadline.
 
 So where does the AI go?
 Reading messy driver replies. Pulling fields from supplier invoices. Classifying what a customer wants. Drafting replies from facts that code has already checked.
@@ -367,35 +368,37 @@ Where have you seen AI used where a formula would've done better?
 
 ### Post 6: Fri 16 Oct, 9:00. The comment engine
 
+> **Why this post doesn't describe how posts are collected:** describing a tool that pulls LinkedIn content would advertise automation on the platform it runs on and put your account at risk. Keep the post on the truth gate and the human-only rule. Never mention scraping, Apify or "pulls posts".
+
 ```
-I built an AI that finds the LinkedIn posts I should comment on.
-It's not allowed to post a single word for me.
+I gave my AI writing assistant one rule:
+It's not allowed to say anything I haven't actually done.
 
-The problem: at 70 followers, my posts reach almost no one. Comments on bigger posts are where new people find you. But finding the right posts eats an hour a day.
+I use it to help me draft comments on other people's posts. At 70 followers, comments are how new people find me.
 
-So, three times a day:
-→ It pulls fresh posts from the people I want to learn from and work with
-→ Drafts a comment for each one
-→ Runs every draft through a "truth gate": any claim or number has to match a list of things I've actually done. If it doesn't, the draft is blocked.
-→ Sends me the survivors as cards on Telegram and a small dashboard
+The problem with AI drafts:
+They're confident. They invent experience. "In my 10 years of…" I don't have 10 years of anything.
 
-Then I read the post, rewrite the comment in my own words, and post it by hand.
+So every draft goes through a "truth gate" before I ever see it:
+→ I keep a list of things I've actually built and actually measured
+→ Any claim or number in a draft has to match something on that list
+→ If it doesn't, the draft is blocked. Not softened. Blocked.
 
-Why it never posts by itself:
-LinkedIn's terms don't allow automated activity. And a comment written by something that never read the post is just spam with better grammar.
+The drafts that survive land on my phone as cards.
+I read the original post, rewrite the comment in my own words, and post it myself. Every single one.
 
 Honest results so far:
 35+ comments. 31 profile views last week.
 My impressions jumped, but mostly from one post (my L&T Finance result), not from the comments. I'd rather know that than fool myself.
 
-Automate the finding and the first draft.
-Keep the judgement and the send button.
+AI can draft.
+It doesn't get to claim experience I don't have.
 
-Would you let a tool comment for you, or only draft?
+Would you let a tool draft for you if it could only use your real track record?
 ```
-**Visual:** 2 real screenshots: (1) one Telegram card, (2) the dashboard "Post now" view. **Blur other people's names and photos.**
-**AI fallback prompt:** "Minimal flat illustration, portrait 4:5, a robot arm holding a pen that stops just above a big 'Post' button, a human hand reaching for the button instead, off-white background, blue accent #2563EB, no text."
-**First comment:** "Stack: Python, GitHub Actions on a schedule, Claude for drafts, Telegram bot, a static dashboard over GitHub's API. Happy to share how the truth gate works."
+**Visual:** 1 real screenshot of a blocked vs passed draft (or the truth-gate list in the code), with **everyone else's names and photos blurred**. Don't show anything that reveals how posts are found.
+**AI fallback prompt:** "Minimal flat illustration, portrait 4:5, a document passing through a gate with a checkmark while a second document with a red cross is stopped, off-white background #F7F7F5, blue accent #2563EB, no text."
+**First comment:** none needed. (The engine repo is private; keep it that way.)
 **[check before posting]:** update "35+ comments" and "31 profile views" with the real numbers that day.
 
 ---

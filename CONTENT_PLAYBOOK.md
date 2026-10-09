@@ -62,7 +62,7 @@
 | MedLog launch (yesterday) | Operations audit story | 39 so far | 1 |
 
 **What this means:**
-1. **Your network rewards *you*: real results, real technical decisions, NITK.** The one post that worked was personal, specific and technical.
+1. **The 716 came mostly from amplification, not your own network.** You tagged Dr. Kamlesh Kumar (L&T Finance, the judge). He reposted it to his large network, and NITK clubs shared it too. The content was good enough to repost (personal, specific, technical), but the reach came from **people with bigger networks who were genuinely part of the story**. That's the most repeatable lever you have at 71 followers (see "Amplification" in section 5).
 2. **Clinic pitch posts are dead on arrival** at 71 followers. Nobody in your network is a clinic owner yet, and the keyword-CTA pattern is suppressed. Stop writing "Comment X".
 3. Builder posts (Advocall, MedLog) are right, but they need a **sharper first line** and **one idea per post** instead of the whole project at once.
 4. Buyers will come *through* builder content (people who follow builders include operators and agency owners), and through the comment engine putting you in front of them directly.
@@ -104,6 +104,13 @@
 - **0–3 hashtags**, at the end. Links **only in the first comment**.
 - 900–1,400 characters for text posts. Carousels: 6–8 slides with a short caption.
 - Don't edit a post in the first hour.
+
+### Amplification: your biggest lever (proven by the L&T Finance post)
+- **Tag only people who were genuinely part of the story:** judges, organisers, teammates, mentors, clubs, a tool's maker when you used it seriously. 2–5 tags at most, placed naturally in the text (a "thank you" line). Never tag strangers for reach; LinkedIn treats tag-spam like engagement bait, and people untag or mute you.
+- **Give them a reason to repost:** the post should make *them* look good (their event, their mentorship, their club's member winning).
+- **Send a short DM after posting:** "Thank you again for {X}. I wrote about it here, in case it's useful for the {club/event} page." Don't ask "please repost"; make it easy and let them choose.
+- **NITK is a distribution channel:** clubs (IET NITK, Incub8 NITK, your hackathon/AI clubs), batchmates and seniors. Share wins in the relevant group chats with the link.
+- **Never tag** the MedLog interviewee or his employer (anonymity rule).
 
 ### The truth gate for content (same rule as the comment engine)
 **You may use these:** NITK B.Tech AI (2025–); JEE Advanced 2025, top ~2% of ~1.5M; L&T Finance challenge 2nd of 135 teams, 60 final submissions, top 8 presented, lowest MAPE of all teams at 18.47%, 47,970 rows, 43% of farmers with no bureau record; Advocall (built in 24h at Build for Billions 2026, first hackathon; Next.js, TypeScript, Vapi, Deepgram, GPT-4o, SSE, Render; English, Hindi, Kannada); MedLog (8 agents, bilingual AR/EN, synthetic data, open code; facts from the 4-hour interview exactly as in the published post); Linear regression from scratch (3 methods, induced divergence, loss tracking); Ayah Archive (Qur'an-memorisation digital product: 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases, ₹100K+ Meta ad spend, automated payment and delivery via Cosmofeed); the comment engine (GitHub Actions 3x/day, Telegram, truth gate, dashboard, never posts for you); LinkedIn stats (851 impressions Oct 2–8, mostly from the L&T Finance post).
@@ -229,6 +236,7 @@ If you're building with AI too: what broke that you didn't see coming?
 **Visual:** 3 real images: (1) a photo of you (desk, laptop, campus, or the hackathon), (2) the Advocall dashboard screenshot, (3) a photo or leaderboard from the L&T Finance challenge. No AI image here; the whole point is that it's *you*.
 **First comment:** "Links: Advocall demo + repo → {link} · MedLog code → {link} · GitHub → github.com/Mohammed-Rayan07"
 **After posting:** add it to Featured (top), and reply to every comment for the first hour.
+**Tag:** your Advocall teammates and the Build for Billions organisers (in a thank-you line in the Advocall bullet). DM teammates the link so they can share it.
 
 ---
 
@@ -291,6 +299,7 @@ Which ML lesson did you only learn by getting it wrong?
 **How to make it:** Canva → "LinkedIn carousel" → 1080×1350 → build 7 pages → download as **PDF** → LinkedIn "Add a document" → title "5 ML lessons no lecture taught me".
 **AI prompt for the cover background (optional):** "Abstract minimal background, portrait 4:5, a single smooth blue #2563EB curve descending into a valley on off-white #F7F7F5, faint grid lines, lots of empty space at the top for a headline, no text."
 **First comment:** "Repo for the gradient descent experiments: github.com/Mohammed-Rayan07/linear-regression-from-scratch"
+**Tag:** IET NITK and Incub8 NITK (organisers) in the caption. Tag Dr. Kamlesh Kumar again only if you add a genuine new line for him (e.g. "the panel's question about X is what led to lesson 2"); a second tag with nothing new for him will feel like asking for another repost.
 
 ---
 
@@ -389,7 +398,7 @@ I read the original post, rewrite the comment in my own words, and post it mysel
 
 Honest results so far:
 35+ comments. 31 profile views last week.
-My impressions jumped, but mostly from one post (my L&T Finance result), not from the comments. I'd rather know that than fool myself.
+My impressions jumped, but mostly from one post (my L&T Finance result, which the judge reposted), not from the comments. I'd rather know that than fool myself.
 
 AI can draft.
 It doesn't get to claim experience I don't have.
@@ -458,7 +467,7 @@ MedLog P1 desk ("when the severity check is down, every complaint is critical"),
 ---
 
 ## Week log
-- **Week 0 (to 10 Oct):** 851 impressions/week (+1,926%), 71 followers, 31 profile viewers. Winner: L&T Finance post (716). Losers: every "Comment X" clinic post (20–100).
+- **Week 0 (to 10 Oct):** 851 impressions/week (+1,926%), 71 followers, 31 profile viewers. Winner: L&T Finance post (716), driven by the judge's repost and NITK clubs sharing it. Losers: every "Comment X" clinic post (20–100).
 
 ---
 

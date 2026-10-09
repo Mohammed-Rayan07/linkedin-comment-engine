@@ -57,6 +57,6 @@ telegram:
 # scraping (so the month never goes over $5; it just means a few fewer posts scanned that day).
 my_stats:
   enabled: false
-  profile_url: https://www.linkedin.com/in/mohammed-rayan-835118389/
+  profile_url: https://www.linkedin.com/in/mohammed-rayan-ai/
   every_days: 2          # how often to check
   max_comments: 30       # newest comments read per check (~$0.06 + $0.004 for followers)

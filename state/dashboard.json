@@ -1,7 +1,124 @@
 {
-"generated_at": "2026-10-09T20:23:23.847264+00:00",
+"generated_at": "2026-10-10T11:04:08.519389+00:00",
 "actions_applied": 39,
 "cards": [
+{
+"id": 69,
+"created_at": "2026-10-10T11:04:07.890399+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 5.8,
+"author_name": "Mohammad Alghamdi",
+"author_headline": "Founder | Seasoned Real estate professional | Real estate Investment and development adviser | Expertise in KSA & UAE Residential, commercial real estate المؤسس والرئيس التنفيذي - دور العقارية",
+"author_url": "https://www.linkedin.com/in/mohammad-alghamdi-898abb317?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFBucjQBToxz1R8V8w5Br-UueD-VXNVrwRo",
+"post_url": "https://www.linkedin.com/posts/mohammad-alghamdi-898abb317_dubairealestate-sharjahrealestate-abudhabirealestate-activity-7514494732614553600-7PeW",
+"post_text": "Real estate in the UAE isn't just about bricks and square meters—it’s about reading the direction of a market racing to the top.\n\n​Here is how the dynamic breaks down:\n\n​Dubai | Liquidity & Global Reach\n​High speed, high liquidity, and absolute luxury.\n​Built for rapid growth and strong capital appreciation.\n​Higher cost of entry, but unmatched cross-border opportunities.\n\n\n​Sharjah | Stability & Smart Yields\n​Competitive entry points with steady rental yields (6%–8%).\n​High focus on family-centric, sustainable communities.\n​Solid cash flow with larger spaces and less volatility.\n\n\n​Abu Dhabi | Institutional Growth & Long-Term Value\n​Massive capital backing with government-driven mega-projects.\n​Premium quality of life with steady, low-risk appreciation.\n\n\n​The strength of the UAE real estate market lies in this balance—each emirate serving a distinct investor profile.\n\n\n​Where do you see the most compelling opportunities over the next 5 years? Share your thoughts below. 👇\n\nOr share which city 👌 \n\n\n​#DubaiRealEstate #SharjahRealEstate #AbuDhabiRealEstate #UAEEconomy #RealEstateInvestment #PropertyDevelopment",
+"posted_at": "2026-10-10T01:19:16.816000+00:00",
+"likes": 3,
+"comments": 0,
+"why": "Real estate founder breaking down UAE market dynamics. Decent ICP fit but broad macro topic.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "In the outbound system I run for my own agency, follow-ups thread into the original email so they read like a manual, thoughtful reply rather than a broadcast. Managing these three investor profiles requires that same discipline. If an advisor follows up on a Sharjah cash-flow inquiry with the urgency cadence meant for a Dubai off-plan launch, the investor tunes out immediately."
+},
+{
+"angle": "pushback",
+"text": "That balance works on an investor presentation, but it creates real operational friction inside a brokerage. A Sharjah buyer looking for 6% to 8% yield needs steady rental math and weeks of nurturing, while a Dubai buyer moves on speed. When advisors run both profiles through the same pipeline, the patient yield conversations almost always get dropped for the fast transaction."
+},
+{
+"angle": "sharp_question",
+"text": "Each profile moves at a completely different operational tempo. Dubai demands immediate allocation speed before inventory moves, while Abu Dhabi and Sharjah buyers require detailed yield modeling and patience. Mohammad, how do your teams route these inquiries so agents do not default to chasing quick Dubai deals while slower advisory leads go cold?"
+}
+],
+"connection_note": "Hi Mohammad, enjoyed your breakdown of how Dubai liquidity balances with Sharjah yields and Abu Dhabi stability. Clear view on regional investor profiles. I run Raynix AI here in Riyadh focusing on CRM and automation workflows, would be great to connect.",
+"my_comment": null
+},
+{
+"id": 68,
+"created_at": "2026-10-10T11:02:56.555831+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 7.4,
+"author_name": "Michèle El Badawi",
+"author_headline": "🇩🇪 Founder & CEO | Coming Home Real Estate Dubai | Dubai Waterfront Specialist | 20+ Years in the UAE | Advising Family Offices & International Investors on Strategic Real Estate Investments",
+"author_url": "https://www.linkedin.com/in/michelebadawi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATeJqgB0mlYd19Ut5_826b3oBUYoeb4rL4",
+"post_url": "https://www.linkedin.com/posts/michelebadawi_dubairealestate-propertyinvestment-secondarymarket-activity-7514565421744844800-D3ee",
+"post_text": "What if the property you were so excited to buy… is the one nobody wants to buy from you? Picture this. A glossy launch. Beautiful renders, an attractive payment plan, the feeling you’re getting in early.\n\nYou buy.\n\nThree years later, you want to sell. Now there’s no sales gallery and no campaign. Just your property, competing for a buyer with plenty of choice.\n\nIn Dubai, buying is often the easy part. Selling is where the real test begins. That’s why Emaar’s September numbers caught my attention.\n\nOf roughly AED 4.1 billion in transactions, almost AED 3 billion came from the secondary market. And buyers paid around 25% more per square foot than the Dubai average.\n(Source: DLD)\n\nTo me, this isn’t a brand story. It’s a liquidity story. The secondary market shows what buyers still want after the marketing is over. \n\nSo before a client buys, we ask one question:\n👉 Who will buy this from you in five years and why?\n→ Is there real resale demand, or only launch demand?\n→ How many similar units will compete with yours?\n→ Would you still buy it without the attractive payment plan?\n\nDon’t just buy what’s exciting today. Buy what someone will want tomorrow.\n\nHave you ever struggled to sell a property in Dubai?\n\nhttps://lnkd.in/eeGnQy5i\n\nDubai Registered Real Estate Advisory · DLD Permit No. 0167284469\n\n#DubaiRealEstate #PropertyInvestment #SecondaryMarket #RealEstateStrategy",
+"posted_at": "2026-10-10T06:00:10.418000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "Real estate brokerage CEO discussing secondary market liquidity. Good ICP fit for property tech and ops automation.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Filtering for 5-year resale liquidity is a sharp strategy, but the step most brokerages miss is maintaining investor intent data over that full horizon. If a client's secondary exit criteria aren't tracked systematically in the CRM, agents fall back on blasting whatever new launch pays the highest commission today."
+},
+{
+"angle": "make_concrete",
+"text": "Secondary market buyers require a completely different workflow than off-plan launch chasers. Off-plan relies on instant brochure drops, while secondary liquidity takes months of targeted pricing comparisons and inventory updates. If an agency tries to run both through the same basic pipeline without segmenting buyer profiles, secondary deals get buried by short-term launch noise."
+},
+{
+"angle": "sharp_question",
+"text": "Evaluating secondary market liquidity upfront separates true advisory from transaction pushing. When your team builds long-term exit strategies for investors across a 3 to 5 year horizon, how do you keep track of their changing yield targets without those high-value buyer profiles getting lost in standard CRM follow-up lists?"
+}
+],
+"connection_note": "Hi Michèle, read your post on Emaar's September secondary market numbers vs off-plan hype. Loved the point on evaluating 5-year resale liquidity before buying. Would welcome connecting with another operator focused on Dubai real estate.",
+"my_comment": null
+},
+{
+"id": 67,
+"created_at": "2026-10-10T10:58:59.880011+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 9.1,
+"author_name": "Nagi Mubarez",
+"author_headline": "Multi-Sector Entrepreneur | Fleet & Logistics | Facility Services | Real Estate | 🇸🇦 Saudi Arabia & 🇺🇸 USA",
+"author_url": "https://www.linkedin.com/in/nagi-mubarez-162367141?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACJnChoByjxYX7eLcuzYVUWNDYh4TFMu1Bw",
+"post_url": "https://www.linkedin.com/posts/nagi-mubarez-162367141_the-customer-placed-the-order-the-driver-activity-7514588467545374720-PKIU",
+"post_text": "The customer placed the order. The driver drove across the city. Knocked on the door.\n\"Sorry, I don't want it anymore.\"\n\nThis is one of the biggest silent losses in last-mile delivery in Saudi Arabia right now — and almost nobody talks about it openly.\n\nCash on delivery returns are bleeding the industry from two sides:\n\nThe driver gets paid per completed delivery. A return means he drove, waited, and went back — for nothing. No pay. No recourse. Just a wasted hour of his day.\n\nThe company loses twice. First on the outbound trip. Then again on the reverse logistics to bring the product back. And the customer? Zero consequences. Zero friction. They ordered on impulse and cancelled at the door.\n\nThis isn't a customer service issue. It's a structural problem.\n\nSome markets have started addressing it — small prepayment deposits, cancellation penalties after dispatch, or loyalty-based COD eligibility. None of it is perfect. But doing nothing is no longer an option.\n\nWe're managing last-mile fleets in KSA and I see this daily. The driver absorbs the cost. The operator absorbs the cost. The platform moves on.\n\nAt some point, the system has to be redesigned — not to punish customers, but to create accountability on both sides.\n\nWhat are you seeing in your operations? Is anyone actually solving this?",
+"posted_at": "2026-10-10T07:31:44.965000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Fleet/logistics entrepreneur discussing last-mile delivery and COD cancellation losses. Perfect fit for logistics operations and audit experience.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "The missing operational step is putting the confirmation friction before dispatch rather than at the front door. If an automated ping does not get an explicit address confirmation or time-slot lock before loading, the parcel stays at the hub. It is far cheaper to hold inventory for 24 hours than to absorb outbound and reverse logistics on an unconfirmed run."
+},
+{
+"angle": "field_detail",
+"text": "In a multi-agent prototype I built from a logistics audit, we set up automated check-ins and intake rules so drivers were not the ones carrying coordination friction. Gating route dispatch behind automated pre-delivery customer verification stops the leak early. If the buyer ghosts the morning confirmation ping, the parcel never loads onto the van."
+},
+{
+"angle": "sharp_question",
+"text": "Prepayment deposits usually crush front-end checkout conversion, so e-commerce platforms actively push back on them. Across your fleets right now, how much of that cancellation risk gets caught at the hub before loading, or are drivers only finding out once they arrive at the pin?"
+}
+],
+"connection_note": "Hi Nagi, saw your post on last-mile COD cancellations in KSA. The margin hit from impulse checkouts turning into doorstep refusals is a serious operational leak for fleets here. Would be great to connect.",
+"my_comment": null
+},
 {
 "id": 66,
 "created_at": "2026-10-09T20:23:23.217199+00:00",
@@ -2579,6 +2696,14 @@
 ],
 "usage": [
 {
+"day": "2026-10-10",
+"posts_scraped": 21,
+"cards_sent": 3,
+"llm_input_tokens": 22487,
+"llm_output_tokens": 10247,
+"llm_cost_usd": 0.0
+},
+{
 "day": "2026-10-09",
 "posts_scraped": 48,
 "cards_sent": 11,
@@ -2619,7 +2744,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.02,
+"apify_month_usd": 1.06,
 "apify_month_cap_usd": 5.0,
 "learned": 34,
 "metrics": {},

@@ -226,3 +226,24 @@ def test_pause_switch_stops_drafting_but_keeps_syncing(cfg):
     assert engine.run().carded > 0                       # back to normal
     assert "Paused" in engine.handle_command("/pause") and engine.store.get("paused") == "1"
     assert "Resumed" in engine.handle_command("/resume") and engine.store.get("paused") == "0"
+
+
+def test_manual_action_logs_hand_done_work(cfg):
+    from engine import inbox
+    from engine.export import snapshot
+    engine = Engine(cfg)
+    engine.run()
+    commented = {"kind": "manual", "post_url": "https://www.linkedin.com/in/x-y/recent-activity/all/",
+                 "author_name": "Pat Example", "author_headline": "Founder", "text": "A real comment I posted by hand.",
+                 "stage": "connected", "note": "request sent"}
+    connect_only = {"kind": "manual", "post_url": "https://www.linkedin.com/in/z-w/", "author_name": "Sam Example",
+                    "stage": "connected", "note": "connect only"}
+    _write_actions(cfg, [commented, connect_only, commented, {"kind": "manual", "author_name": "no url"}])
+    assert inbox.apply_actions(engine) == 3                                        # the malformed one is ignored
+    rows = engine.store.db.execute(
+        "SELECT c.status, c.stage, c.note, p.lane_id FROM cards c JOIN posts p ON p.id=c.post_id "
+        "WHERE p.lane_id='manual' ORDER BY c.id").fetchall()
+    assert [(r["status"], r["stage"]) for r in rows] == [("posted", "connected"), ("skipped", "connected")]
+    assert len(rows) == 2                                                          # the replayed duplicate made no 3rd card
+    snap = snapshot(cfg, engine.store)
+    assert any(c["lane"] == "manual" and c["stage"] == "connected" for c in snap["cards"])

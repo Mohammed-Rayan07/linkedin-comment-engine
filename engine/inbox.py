@@ -6,11 +6,14 @@ yet, through the same code paths as a Telegram tap, so the learning loop and sta
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import logging
+from datetime import datetime, timezone
 from typing import TYPE_CHECKING, Any
 
 from .config import Config
+from .models import Post
 
 if TYPE_CHECKING:
     from .pipeline import Engine
@@ -18,7 +21,7 @@ if TYPE_CHECKING:
 log = logging.getLogger(__name__)
 
 ACTIONS_NAME = "actions.jsonl"
-KINDS = {"posted", "skip", "regen", "reopen", "stage", "note", "metric", "autopilot"}
+KINDS = {"posted", "skip", "regen", "reopen", "stage", "note", "metric", "autopilot", "manual"}
 # CRM stages after a comment is posted. None = just commented.
 STAGES = {"commented": None, "connected": "connected", "replied": "replied", "dm": "dm", "call": "call",
           "client": "client"}
@@ -42,6 +45,17 @@ def validate(a: dict[str, Any]) -> str | None:
             return "metric value must be a number"
         if not isinstance(a.get("day"), str) or len(a["day"]) != 10:
             return "metric day must be YYYY-MM-DD"
+        return None
+    if kind == "manual":
+        # Work done by hand in the browser (no engine card): the CRM gets a card for it.
+        for f in ("post_url", "author_name"):
+            if not isinstance(a.get(f), str) or not a[f].strip():
+                return f"manual needs {f}"
+        for f in ("author_headline", "author_url", "text", "note"):
+            if a.get(f) is not None and (not isinstance(a[f], str) or len(a[f]) > MAX_TEXT):
+                return f"{f} must be text under {MAX_TEXT} chars"
+        if a.get("stage") not in STAGES:
+            return "unknown stage"
         return None
     if not isinstance(a.get("card"), int):
         return "card must be a number"
@@ -83,6 +97,33 @@ def apply_actions(engine: "Engine") -> int:
     return applied
 
 
+def _apply_manual(engine: "Engine", a: dict[str, Any]) -> None:
+    """Log work done by hand in the browser. A comment gives a 'posted' card; no comment gives a
+    'skipped' card (connection request only) so the Pipeline shows the person without inflating stats."""
+    store = engine.store
+    url = a["post_url"].strip()
+    post_id = "manual-" + hashlib.sha1(url.encode("utf-8")).hexdigest()[:12]
+    if not store.get_post_row(post_id):
+        store.add_post(Post(
+            id=post_id, url=url, text=(a.get("post_text") or "").strip(), author_name=a["author_name"].strip(),
+            author_headline=(a.get("author_headline") or "").strip(), author_url=(a.get("author_url") or "").strip(),
+            author_type="profile", posted_at=datetime.now(timezone.utc), likes=0, comments=0, shares=0,
+            lane_id="manual"), status="scored")
+    row = store.db.execute("SELECT id FROM cards WHERE post_id=?", (post_id,)).fetchone()
+    text = (a.get("text") or "").strip()
+    if row:
+        card_id = int(row["id"])
+    else:
+        card_id = store.add_card(post_id, [{"angle": "manual", "text": text}] if text else [], None)
+        if text:
+            store.resolve_card(card_id, "posted", 1)
+        else:
+            store.resolve_card(card_id, "skipped", None)
+    store.set_stage(card_id, STAGES[a["stage"]])
+    if a.get("note"):
+        store.set_note(card_id, a["note"].strip())
+
+
 def _apply(engine: "Engine", a: dict[str, Any]) -> None:
     store, tg = engine.store, engine.tg
     kind = a["kind"]
@@ -91,6 +132,9 @@ def _apply(engine: "Engine", a: dict[str, Any]) -> None:
         return
     if kind == "metric":
         store.put_metric(a["day"], a["key"], float(a["value"]))
+        return
+    if kind == "manual":
+        _apply_manual(engine, a)
         return
     card_id = a["card"]
     card = store.get_card(card_id)

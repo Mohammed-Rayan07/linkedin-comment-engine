@@ -1,7 +1,85 @@
 {
-"generated_at": "2026-10-12T12:57:36.603633+00:00",
+"generated_at": "2026-10-12T22:27:57.426816+00:00",
 "actions_applied": 87,
 "cards": [
+{
+"id": 90,
+"created_at": "2026-10-12T22:27:56.676854+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 5.5,
+"author_name": "Mohammad Alghamdi",
+"author_headline": "Founder | Seasoned Real estate professional | Real estate Investment and development adviser | Expertise in KSA & UAE Residential, commercial real estate المؤسس والرئيس التنفيذي - دور العقارية",
+"author_url": "https://www.linkedin.com/in/mohammad-alghamdi-898abb317?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFBucjQBToxz1R8V8w5Br-UueD-VXNVrwRo",
+"post_url": "https://www.linkedin.com/posts/mohammad-alghamdi-898abb317_dubaiproperty-realestatecareers-seniorconsultant-activity-7515417392219447297-4Hbz",
+"post_text": "​What if your real estate brokerage actually worked for you?\n​Most agents spend half their time fighting admin tasks, sitting in mandatory office hours, and taking home a fraction of their worth.\n​At DŪR Real Estate, we do things differently. We build our culture around empowering top talent with maximum independence and top-tier support.\n  \n​Why top agents choose DŪR Real Estate:\n​Up to 75% Commission: Keep more of what you earn.\n​Pro Operations Team: High-end media production, marketing support, and listing management behind every single listing.\n​Autonomy First: Minimal required office hours. Work smart, not just long.\n​An Environment Built for Success: Creative, collaborative, and growth-focused culture.\n\n​Who we're looking for:\n​- Senior Property Consultants with 2+ years of Dubai market experience\n- Active UAE driver’s license\n  \n​Self-driven professionals who aim for excellence\n​📩 Apply today by sending your resume to info@dur-realestate.com\n  \n​#DubaiProperty #RealEstateCareers #SeniorConsultant #DubaiBrokerage #JoinOurTeam #DurRealEstate #hiring #HiringNow",
+"posted_at": "2026-10-12T14:25:36.008000+00:00",
+"likes": 4,
+"comments": 0,
+"why": "Real estate brokerage founder discussing operations team support and agent efficiency.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Offering high commissions and media support solves the agent retention side, but the operational bottleneck usually shifts straight to lead routing. When inbound volume spikes, getting that first response out quickly matters more to the split if the lead has already called the next agency."
+},
+{
+"angle": "missing_step",
+"text": "Pro operations and listing management handle the marketing side, but the missing step is keeping inventory synced when prices change daily. If an agent has to check multiple group chats for availability before replying, the speed advantage disappears."
+},
+{
+"angle": "sharp_question",
+"text": "Giving senior agents autonomy and minimal office hours is great for retention, but how do you handle lead distribution when agents are working remotely? When enquiries land outside standard hours, what stops them from sitting in a queue?"
+}
+],
+"connection_note": "Hi Mohammad. Enjoyed your post on structuring brokerage support and autonomy for senior agents in Dubai. Always interested in how regional brokerages scale ops. Let us connect.",
+"my_comment": null
+},
+{
+"id": 89,
+"created_at": "2026-10-12T22:27:25.118670+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 7.2,
+"author_name": "Maryam Ali",
+"author_headline": "Clinic Manager | Elaira Polyclinic | Dubai",
+"author_url": "https://www.linkedin.com/in/maryam-ali-31bab7429?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGyNNAcBvK2psxiyL4TnuO46DxZGywjga-4",
+"post_url": "https://www.linkedin.com/posts/maryam-ali-31bab7429_were-hiring-medical-sales-executive-activity-7515495676852592640-CzP5",
+"post_text": "We’re Hiring | Medical Sales Executive\n\n📍 Business Bay, Dubai | Elaira Polyclinic\n\nRequirements:\n\n* Mandatory experience in a medical or aesthetic clinic in Dubai.\n* Strong sales, lead conversion, and follow-up skills.\n* Experience handling WhatsApp inquiries and outbound calls.\n* Excellent communication and closing skills.\n* Fluent English; Arabic is a plus.\n\n📩 Send your CV via LinkedIn message.",
+"posted_at": "2026-10-12T19:36:40.519000+00:00",
+"likes": 0,
+"comments": 1,
+"why": "Clinic manager hiring for WhatsApp inquiries and lead conversion; strong fit for speed-to-lead.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "missing_step",
+"text": "Hiring a dedicated sales executive fixes daytime follow-ups. The step most clinics skip is setting up immediate routing for evening WhatsApp enquiries. When someone messages after hours with an aesthetic or medical query, waiting until 9 AM the next day usually means they have already booked with another clinic."
+},
+{
+"angle": "field_detail",
+"text": "Off-peak enquiries are where most clinic WhatsApp pipelines quietly leak. When I needed a clinic at 11 PM for severe tooth pain, five clinics missed the call or played automated messages, while the sixth responded and won the appointment. Direct WhatsApp management works best when there is a clear fallback during hours the front desk is closed."
+},
+{
+"angle": "sharp_question",
+"text": "Handling inbound WhatsApp chats manually usually runs smoothly until three enquiries land at the exact same minute. How are you structuring the handoff between incoming chat triage and outbound follow-up calls so the new sales executive does not get overwhelmed during peak clinic hours?"
+}
+],
+"connection_note": "Hi Maryam, saw your post hiring a Medical Sales Executive for Elaira Polyclinic. I focus on clinic operations and lead automation in the GCC, so I follow how Dubai polyclinics structure WhatsApp conversion and follow-ups. Would be great to connect.",
+"my_comment": null
+},
 {
 "id": 88,
 "created_at": "2026-10-12T12:57:36.088994+00:00",
@@ -3319,10 +3397,10 @@
 "usage": [
 {
 "day": "2026-10-12",
-"posts_scraped": 25,
-"cards_sent": 6,
-"llm_input_tokens": 41953,
-"llm_output_tokens": 35219,
+"posts_scraped": 48,
+"cards_sent": 8,
+"llm_input_tokens": 57058,
+"llm_output_tokens": 40600,
 "llm_cost_usd": 0.0
 },
 {
@@ -3374,7 +3452,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.11,
+"apify_month_usd": 1.16,
 "apify_month_cap_usd": 5.0,
 "learned": 67,
 "metrics": {},

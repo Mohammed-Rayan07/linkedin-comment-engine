@@ -1,7 +1,163 @@
 {
-"generated_at": "2026-10-12T22:27:57.426816+00:00",
+"generated_at": "2026-10-13T12:45:20.996014+00:00",
 "actions_applied": 87,
 "cards": [
+{
+"id": 94,
+"created_at": "2026-10-13T12:45:20.486674+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.4,
+"author_name": "Yara Buhliqah 🇸🇦",
+"author_headline": "Digital Marketing & Media | Digital Growth & AI Innovation | E-commerce Strategist | Founder @YB",
+"author_url": "https://www.linkedin.com/in/yara-buhliqah-%F0%9F%87%B8%F0%9F%87%A6-116a02188?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACxJhiIB7-jF20QRupiqgDH6YbStWjSDpJ8",
+"post_url": "https://www.linkedin.com/feed/update/urn:li:groupPost:9355127-7515744592692948993",
+"post_text": "🛒🔍 Before customers buy from your online store, they can now verify its registration through Tawakkalna.\n\nSaudi Arabia has introduced another convenient way to build transparency in e-commerce.\n\nOn October 12, 2026, the Saudi Business Center announced that the “Verified Online Store Inquiry” service is now available through the Tawakkalna app.\n\nConsumers can search using a store name, website URL, verification certificate number, establishment identifier, or freelance document number.\n\n💡 Why does this matter for digital marketing?\n\nTrust is becoming easier for consumers to verify independently.\n\nFor online businesses, this creates an opportunity to reduce uncertainty before purchase.\n\n🎯 Three practical actions:\n\n1️⃣ Check your store’s verification status and business information.\n\n2️⃣ Make contact details, shipping terms, and return policies easy to find.\n\n3️⃣ If your store is verified, help customers access its official verification details.\n\nVerification is an important trust signal, but it is not a guarantee of product quality or customer satisfaction.\n\nThe marketing takeaway:\n\nBefore increasing your advertising budget, reduce the reasons customers hesitate to buy.\n\nMarketing brings traffic. Trust helps turn that traffic into customers.\n\nSource: Saudi Business Center announcement, October 12, 2026.\n\n#YB #SaudiEcommerce #DigitalMarketing #Tawakkalna #CustomerTrust",
+"posted_at": "2026-10-13T12:05:46.850000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "E-commerce consultant discussing trust signals; room to add that speed-to-lead/instant response is the ultimate trust signal.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "Official verification clears the baseline skepticism, but the missing step is what happens when a buyer messages with a question before checking out. If a verified store takes hours to answer a simple WhatsApp inquiry, that trust drops immediately. Operational responsiveness is what actually turns verified traffic into completed sales."
+},
+{
+"angle": "make_concrete",
+"text": "Verification solves the 'is this store real' question, but operational leaks can still destroy that trust. In an inventory system I built, the AI can read and propose stock updates but code commits them so customers never buy out-of-stock items. When store traffic grows post-verification, keeping inventory numbers accurate in real time is what protects customer trust."
+},
+{
+"angle": "sharp_question",
+"text": "Tawakkalna verification removes a massive trust barrier for Saudi buyers before they click pay. Once a store gets verified and ad efficiency improves, where do you usually see them hit their next operational limit? Is it pre-purchase chat support or handling shipping and return inquiries?"
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 93,
+"created_at": "2026-10-13T12:41:08.300257+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.6,
+"author_name": "Ali Salameh",
+"author_headline": "General Manager at Flamingo Beach Hotel",
+"author_url": "https://www.linkedin.com/in/ali-salameh-3414a215?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAMY-WEBRLhO2KrVV-m6T5MVRl9Cc4X4bzE",
+"post_url": "https://www.linkedin.com/posts/ali-salameh-3414a215_a-busy-restaurant-is-not-always-a-strong-activity-7515652558108008448-VbUu",
+"post_text": "A busy restaurant is not always a strong investment.\n\nBefore discussing the asking price of an operating restaurant, a buyer should understand what will actually transfer—and what it will cost to keep the business running.\n\nStart with five questions:\n\n• Do the sales records support the stated profit?\n• How much time remains on the lease, and can it be transferred?\n• Which licences and food permits need approval or renewal?\n• What equipment needs repair or replacement?\n• What staff and supplier commitments will the buyer inherit?\n\nThe practical takeaway: assess the business, premises and obligations together before deciding what the opportunity is worth.\n\nWhich of these would you investigate first?",
+"posted_at": "2026-10-13T06:00:03.925000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Hotel GM offering restaurant M&A advice; good SMB operational fit, but post is generic audit checklist.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Supplier commitments would be my first check, specifically how purchasing terms actually work. Vendor pricing and payment windows often depend on personal relationships with the current owner rather than formal agreements. When evaluating a hospitality venue, how do you confirm that existing supplier credit terms will survive the change in ownership?"
+},
+{
+"angle": "field_detail",
+"text": "When I mapped a distributor's workflow, matching invoices against purchase orders was handled entirely by hand, taking 10 to 15 minutes per invoice. In a busy food operation, that operational friction stays hidden until handover. Auditing supplier commitments has to include how purchasing actually flows, or the buyer inherits hours of daily admin overhead."
+},
+{
+"angle": "missing_step",
+"text": "The missing step is checking how the daily operations are coordinated. When supplier orders, stock issues, and shift handovers live in WhatsApp group chats and manual phone calls, that overhead never shows up as a line item on the profit sheet. The buyer assumes the current headcount is sufficient, only to find they need more staff just to handle communication."
+}
+],
+"connection_note": "Hi Ali, enjoyed your breakdown on evaluating restaurant acquisitions, particularly looking past stated profits to inherited supplier obligations. I focus on operational workflows and systems for service businesses here in the GCC. Would be glad to connect.",
+"my_comment": null
+},
+{
+"id": 92,
+"created_at": "2026-10-13T12:38:11.048329+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.1,
+"author_name": "RONY HECKER",
+"author_headline": "Sales Director at La Foret Real Estate",
+"author_url": "https://www.linkedin.com/in/rony-hecker-48ba87221?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADfdwesB_R_NWPO7yUOyYZO094Q2nVjUQEU",
+"post_url": "https://www.linkedin.com/posts/rony-hecker-48ba87221_dubai-abudhabi-realestate-activity-7515692082959855617-eR2u",
+"post_text": "The world's richest families still keep a serious slice of their wealth in property. The question is where...\n\nUBS surveyed 307 family offices for its 2026 report. Average family net worth, $2.7 billion.\nWhat they're doing:\n- Spreading money across asset classes, currencies, and countries\n- Keeping real estate as a core slice, around 8% of the portfolio\n- 65% expect confidence in the US dollar to weaken\n\nSome trimmed property this year after other assets outperformed. But UBS says the real estate allocation remains sizeable. They're not leaving. They're getting pickier.\n\nThat's the real lesson, never let one asset or one country decide your future. When one market falls, the others soften the HIT...\n\nSo if property is your slice, where should it sit?\nAbu Dhabi: for lower risk\n- Tighter supply, steady demand\n- Prices up about 28% in the year to April 2026 (REIDIN)\n- Smaller market, so resale takes longer\n\nDubai: for more liquidity and choice\n- Deeper resale market, more short let options\n- Gross yields around 6.6% vs 6.1% in Abu Dhabi (REIDIN, April 2026)\n- Around 120,000 new homes forecast for 2026, so area selection matters\n\nOne point most agents skip: the dirham is pegged to the US dollar. UAE property spreads your country risk, not your currency risk.\n\nPick the emirate that matches your risk, not the one with the loudest ad.\n\nHow much of your portfolio sits in one market right now?\n\n#Dubai #AbuDhabi #RealEstate #FamilyOffice #Investment",
+"posted_at": "2026-10-13T08:37:07.384000+00:00",
+"likes": 0,
+"comments": 2,
+"why": "Real estate sales director talking macro asset allocation; good buyer audience but post lacks operational angle.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "The distinction on the currency peg is the sharpest part of this breakdown. If 65% of family offices expect the US dollar to weaken, UAE property cannot hedge that specific risk. When you advise these buyers, do you see them accept the dollar peg because of Dubai's 6.6% yields, or does that currency constraint push them toward non-dollar markets instead?"
+},
+{
+"angle": "missing_step",
+"text": "Highlighting the USD peg gives buyers realistic guidance instead of a standard sales pitch. The missing step is factoring in micro-market delivery schedules against that 120,000 new homes forecast for 2026. Secondary market liquidity will vary drastically between master communities. Without mapping handover clusters directly against exit horizons, comparing liquidity between Dubai and Abu Dhabi stays incomplete."
+},
+{
+"angle": "pushback",
+"text": "Comparing gross yields of 6.6% in Dubai against 6.1% in Abu Dhabi is where paper returns usually mislead investors. Service charges, management fees, and vacancy risk differ significantly between the two emirates, especially with 120,000 new units entering Dubai in 2026. That slight gross yield advantage often disappears once net operating costs are calculated. Net yield after holding costs tells a much clearer story."
+}
+],
+"connection_note": "Hi Rony, caught your post on family office allocations and the USD peg nuance between Dubai and Abu Dhabi. Rare to see an agency leader highlight the currency reality so directly. Would be glad to connect.",
+"my_comment": null
+},
+{
+"id": 91,
+"created_at": "2026-10-13T12:37:24.505479+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 7.4,
+"author_name": "Faisal Khwaja",
+"author_headline": "Managing Director | Real Estate Investment Specialist | Helping Investors Unlock Profitable Opportunities in Dubai Market.",
+"author_url": "https://www.linkedin.com/in/faisal-khwaja-0b943434?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAcuvo0BKSN82iLougIZMSlXQE4pz0_oAbg",
+"post_url": "https://www.linkedin.com/posts/faisal-khwaja-0b943434_dubairealestate-dubaiproperty-offplan-activity-7515681474533179392-nMVJ",
+"post_text": "More than 525,000 homes are scheduled for delivery in Dubai between 2027 and 2030.\n\nThat number matters—but it doesn’t mean every area will face the same level of competition.\n\nFor investors, the useful questions are:\n\nHow many similar units are expected in this specific area?\nWhen are those projects due to be handed over?\nWho is likely to rent or buy your property when they arrive?\nDoes the purchase price still make sense if rents or resale prices are more competitive?\n\nCitywide supply figures are a starting point. The decision needs to be made project by project and area by area.\n\nConsidering an off-plan property in Dubai? \nMessage me “SUPPLY” with the project or area you’re looking at, and I’ll help you identify what to compare.\n\nSource: Savills, Dubai Residential Market Report Q3 2026.\n\n#DubaiRealEstate #DubaiProperty #OffPlan #PropertyInvestment",
+"posted_at": "2026-10-13T07:54:58.138000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Real estate MD handling high lead volume; room to highlight how fast lead follow-up converts off-plan interest.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "Asking investors to DM a keyword is a solid intent signal, but the leak usually happens right after they hit send. In the speed-to-lead systems I build, getting from inbound enquiry to first qualified response in under 10 seconds is what keeps the lead engaged. If pulling area comparison data takes a few hours, the investor has usually messaged another broker in the meantime."
+},
+{
+"angle": "sharp_question",
+"text": "Looking at supply on a micro-market level is the only way to evaluate real yields, but handling those project checks in DMs gets chaotic fast. When investors message you with different areas, how are you structuring the baseline comparison lookup so your team isn't manually assembling custom reports for every single request?"
+},
+{
+"angle": "make_concrete",
+"text": "Citywide delivery numbers hide local concentration, especially when handovers between 2027 and 2030 cluster in specific zones. Comparing an off-plan project comes down to three immediate figures: total pipeline units in that area, delivery overlap, and historical rental absorption. Without those three data points upfront, investors fall back on generic macro noise."
+}
+],
+"connection_note": "Hi Faisal, saw your post on breaking down Dubai's 2027-2030 supply pipeline by micro-market rather than citywide figures. Spot-on approach to evaluating off-plan yield. Would love to connect here on LinkedIn.",
+"my_comment": null
+},
 {
 "id": 90,
 "created_at": "2026-10-12T22:27:56.676854+00:00",
@@ -3396,6 +3552,14 @@
 ],
 "usage": [
 {
+"day": "2026-10-13",
+"posts_scraped": 23,
+"cards_sent": 4,
+"llm_input_tokens": 29702,
+"llm_output_tokens": 14725,
+"llm_cost_usd": 0.0
+},
+{
 "day": "2026-10-12",
 "posts_scraped": 48,
 "cards_sent": 8,
@@ -3452,7 +3616,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.16,
+"apify_month_usd": 1.21,
 "apify_month_cap_usd": 5.0,
 "learned": 67,
 "metrics": {},

@@ -1,7 +1,163 @@
 {
-"generated_at": "2026-10-13T12:45:20.996014+00:00",
-"actions_applied": 87,
+"generated_at": "2026-10-13T18:29:44.558146+00:00",
+"actions_applied": 94,
 "cards": [
+{
+"id": 98,
+"created_at": "2026-10-13T18:29:43.888280+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 5.6,
+"author_name": "Nicholas Jones, MD, FACS",
+"author_headline": "Owner at Nip & Tuck Plastic Surgery ⚜️Clinical Preceptor ⚜️Writer ⚜️Student Mentor ⚜️Healthcare Key Opinion Leader (KOL) ⚜️ AI Trainer",
+"author_url": "https://www.linkedin.com/in/nicholasjonesmd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABJQhhoBiuDeKhf-fTba5msMDHBEb2W0DMU",
+"post_url": "https://www.linkedin.com/posts/nicholasjonesmd_breastaugmentation-breastlift-mastopexy-activity-7515788790519545856-4Qyn",
+"post_text": "BREAST IMPLANTS, BREAST LIFT, OR BOTH? \n\nNot sure which breast procedure is right for you? \n\nHere's the difference!\n💗 Breast Augmentation: Adds volume and fullness.\n💗 Breast Lift (Mastopexy): Lifts sagging breasts and repositions the nipples.\n💗 Augmentation Mastopexy: Combines added volume with a lift for improved shape and fullness.\n\nThe best option depends on your anatomy, goals, and desired results.\n\n👉 Follow for more transformations: @drnipandtuck 💉\n\n\n#BreastAugmentation #BreastLift #Mastopexy #BreastImplants #BreastSurgery #BreastEnhancement #SurgeryEducation #PatientsEducation #BreastSurgeryOptions #NipAndTuck #DrNipAndTuck #PlasticSurgeon #Atlanta #Atl",
+"posted_at": "2026-10-13T15:01:24.263000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Plastic surgeon posting patient education. Low room for operational or AI commentary.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Clear patient education like this removes early confusion, but the missing step is what happens when a reader messages with a specific question after hours. If the reply takes until morning, that initial momentum often cools off."
+},
+{
+"angle": "make_concrete",
+"text": "Detailed breakdowns like this help patients self-qualify before they ever step into the office. When prospective patients understand the anatomical difference beforehand, the in-clinic consultation shifts straight from basic definitions to actual surgical planning."
+},
+{
+"angle": "sharp_question",
+"text": "When educational posts bring in high volumes of detailed questions through DMs, how does your coordinator handle initial triage without losing prospective patients in the backlog?"
+}
+],
+"connection_note": "Hi Nicholas. Enjoyed your breakdown on choosing between implants and a lift. I follow your clinical education content and would love to stay connected as you share more insights.",
+"my_comment": null
+},
+{
+"id": 97,
+"created_at": "2026-10-13T18:24:52.147391+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.5,
+"author_name": "Ahad Siddiq",
+"author_headline": "Investor | Developer | Mentor Helping Investors Build Long-Term Wealth Teaching Professionals to Master Luxury Sales Founder @nextlevelrealestate.ae",
+"author_url": "https://www.linkedin.com/in/ahad-siddiq-b27a749a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABUosE8BzyjaTbQuI30dDjUYYPfsJ2WxdHU",
+"post_url": "https://www.linkedin.com/posts/ahad-siddiq-b27a749a_luxuryrealestate-wellnessrealestate-smarthomes-activity-7515774147038363648-Gx3x",
+"post_text": "The Future of Luxury Is Biological Intelligence.\n\nThe world’s top 1% want more than smart homes.\n\nThey want homes that adapt to their bodies, moods, and needs—automatically.\n\n$876B wellness real estate market\n$1.8T projected by 2030\nUAE & Saudi Arabia leading the shift.\n\nBut true luxury isn’t just smart technology.\n\nIt’s technology that works, adapts, and lasts.\n\n#LuxuryRealEstate #WellnessRealEstate #SmartHomes #DubaiRealEstate #FutureOfLuxury #AIHomes",
+"posted_at": "2026-10-13T14:03:12.985000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Real estate developer discussing luxury wellness tech. High level, limited room for specific ops tooling.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "Scaling toward those kinds of portfolio valuations shifts the bottleneck from the hardware to the backend. When buyer inquiries for high-end developments scale rapidly, managing the brief across scattered chats causes leads to stall. The technology inside the home matters, but the system handling the buyer before they ever tour is what secures the deal."
+},
+{
+"angle": "missing_step",
+"text": "The projections for wellness real estate are massive, but the missing operational step is how the initial briefing gets managed. When private buyers send custom requirements across multiple channels, routing them into a structured CRM rather than personal messaging apps prevents critical details from getting lost."
+},
+{
+"angle": "sharp_question",
+"text": "When ultra-high-net-worth buyers request bespoke wellness configurations across multiple properties, how do your advisors capture and cross-reference those requirements without relying on manual notes and scattered chat threads?"
+}
+],
+"connection_note": "Hi Ahad, enjoyed your post on wellness real estate and biological intelligence. Managing the operational side of those high-end portfolios caught my attention. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 96,
+"created_at": "2026-10-13T18:19:08.061933+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.4,
+"author_name": "Sebastian Rutkowski",
+"author_headline": "Founder, Evonyte Ltd | Building a software ecosystem for personal trainers",
+"author_url": "https://www.linkedin.com/in/sebastian-rutkowski-563862259?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD-qJpsBfCv6dSlqTNmV8veiBR72kZJvM-Q",
+"post_url": "https://www.linkedin.com/posts/sebastian-rutkowski-563862259_where-did-your-client-text-you-this-time-activity-7515831398293741568-GBT0",
+"post_text": "We put the chat next to the plan for a simple reason. When a client writes \"can we move Friday?\", the trainer should be looking at that client's week, not hunting for the message in four apps.\n\nThe client app is free for clients. The trainer is the one we build for.\n\nClosed tests with personal trainers are running now.",
+"posted_at": "2026-10-13T17:50:42.748000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Software founder talking about unifying chat and scheduling to prevent app switching. Great fit.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "Coordination leaks almost always happen when conversations live outside the schedule. In an ops audit I ran on a medical-logistics operation, supervisors were making 50 to 60 calls a day just asking 'where are you?' because chat and tracking were disconnected. Solo operators face the exact same friction when client messages are separated from the calendar."
+},
+{
+"angle": "pushback",
+"text": "Building primarily for the trainer makes sense, but keeping the client side as open chat can leave a bottleneck. If a client sends 'can we move Friday?' as raw text, the trainer still inherits the negotiation work. Structuring the request on the client side so they pick from open availability is often what actually protects the trainer's time."
+},
+{
+"angle": "sharp_question",
+"text": "Pinning the schedule right beside the chat removes the friction of hunting through multiple apps. When that client asks to move Friday, how does the interface handle the actual shift? Does the trainer still have to manually adjust the calendar entry, or can they approve and lock the new slot directly from the thread?"
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 95,
+"created_at": "2026-10-13T18:18:14.790145+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 8.3,
+"author_name": "Soufiane Natide",
+"author_headline": "Sales Director | Luxury Real Estate | Investor Relations | Dubai Property Expert | Strategic Sales Growth.",
+"author_url": "https://www.linkedin.com/in/soufiane-natide-445498338?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFTKAXUBNnKRDCrvDwgeTmAbHYYerMcbuGU",
+"post_url": "https://www.linkedin.com/posts/soufiane-natide-445498338_dubaijobs-realestatecare-activity-7515806372563668993-2o_h",
+"post_text": "📢 We’re Hiring in Dubai | Property Network\n\nWe’re looking for experienced Property Consultants and a Sales Manager to join our team.\n\nJoin a real estate company with over 20 years in the business and take the next step in your sales career.\n\nWhat we offer:\n✅ Attractive commission structure\n✅ Premium leads\n✅ CRM and lead management system\n\nRequirements:\n• Previous sales experience\n• Valid driving licence\n• Strong communication and negotiation skills\n• A proactive, results-driven approach\n\nInterested? Send your CV and mention the position you’re applying for:\n\n📧 soufiane@propertynetwork.ae\n📱 +971 50 346 5550\n\nKnow someone who would be a great fit? Tag them or share this post.\n\n#DubaiJobs #RealEstateCare",
+"posted_at": "2026-10-13T16:11:16.149000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Real estate sales leader advertising CRM usage. Good fit for speed-to-lead automation discussion.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "Promising premium leads attracts consultants, but the operational test is response latency. In the speed-to-lead systems I build, the benchmark is under 10 seconds to deliver that first qualified response. For high-intent Dubai property inquiries, whoever qualifies the buyer's criteria first usually locks in the viewing."
+},
+{
+"angle": "missing_step",
+"text": "Providing a CRM and premium leads gives consultants a solid foundation. The step most brokerages skip is automating the instant qualification before an agent picks up the phone. If a buyer reaches out in the evening, waiting for a consultant to manually check the CRM the next morning usually means the lead has already moved on."
+},
+{
+"angle": "sharp_question",
+"text": "Backing consultants with a CRM and qualified leads is a strong hiring pull. When international buyer inquiries land across different time zones, how does your system route them by language and availability so high-intent leads never sit idle in the database?"
+}
+],
+"connection_note": "Hi Soufiane, saw your post on hiring consultants and backing them with CRM and premium leads at Property Network. Always respect sales leaders focused on building real systems around their agents. Would be glad to connect.",
+"my_comment": null
+},
 {
 "id": 94,
 "created_at": "2026-10-13T12:45:20.486674+00:00",
@@ -122,10 +278,10 @@
 {
 "id": 91,
 "created_at": "2026-10-13T12:37:24.505479+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T18:15:06.432998+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -200,10 +356,10 @@
 {
 "id": 89,
 "created_at": "2026-10-12T22:27:25.118670+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T18:15:07.245673+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -278,10 +434,10 @@
 {
 "id": 87,
 "created_at": "2026-10-12T12:52:07.262672+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T18:15:08.835773+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -317,10 +473,10 @@
 {
 "id": 86,
 "created_at": "2026-10-12T12:51:21.742929+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T18:15:08.037117+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -356,10 +512,10 @@
 {
 "id": 85,
 "created_at": "2026-10-12T12:50:34.195713+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T18:15:05.650337+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -395,10 +551,10 @@
 {
 "id": 84,
 "created_at": "2026-10-12T12:49:20.013904+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T18:15:04.863925+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -434,10 +590,10 @@
 {
 "id": 83,
 "created_at": "2026-10-12T12:48:45.708184+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T18:15:03.856085+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -3553,10 +3709,10 @@
 "usage": [
 {
 "day": "2026-10-13",
-"posts_scraped": 23,
-"cards_sent": 4,
-"llm_input_tokens": 29702,
-"llm_output_tokens": 14725,
+"posts_scraped": 49,
+"cards_sent": 8,
+"llm_input_tokens": 60019,
+"llm_output_tokens": 30952,
 "llm_cost_usd": 0.0
 },
 {
@@ -3616,9 +3772,9 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.21,
+"apify_month_usd": 1.26,
 "apify_month_cap_usd": 5.0,
-"learned": 67,
+"learned": 74,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

@@ -1,7 +1,163 @@
 {
-"generated_at": "2026-10-13T18:29:44.558146+00:00",
-"actions_applied": 94,
+"generated_at": "2026-10-13T20:35:26.108843+00:00",
+"actions_applied": 100,
 "cards": [
+{
+"id": 102,
+"created_at": "2026-10-13T20:35:25.520381+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 5.6,
+"author_name": "Schelton Assoumou",
+"author_headline": "CEO Ask Capital | CEO Brownstone NYC | Structured Finance, Distressed Debt Real Estate | Capital Formation Strategic Advisory | Ex-JPMorgan Investment Banker | Building Scalable Social Impact Platforms",
+"author_url": "https://www.linkedin.com/in/schelton-assoumou-815204?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAAHt5EBg6NIiN99rMPH6emiqCfazfPBAp4",
+"post_url": "https://www.linkedin.com/posts/schelton-assoumou-815204_flippingthehood-realestatedevelopment-homeequity-activity-7515848962227191808-oaxO",
+"post_text": "From $450K to $1.8M: A Homeowner Partnership Case Study\nFlipping the Hood | Malik Yoba | Co-Sponsored by Brownstone NYC\n\nRahim didn't want to leave Brooklyn.\n\nHe wanted to stay in the neighborhood where he had spent his life.\n\nSo the question became: How can the real estate create enough value to give him that option?\n\nOur team discussed a structure involving significant investment into the property, redevelopment and a shared-upside model designed to create substantially more equity.\nThat's the larger idea behind the work.\n\nSometimes the best real estate solution isn't simply buying someone's property.\n\nSometimes it's creating a structure where everybody can participate in the value creation.\nFigures discussed in the video reflect the deal team's projections at the time.\n\n#FlippingTheHood #RealEstateDevelopment #HomeEquity #JointVenture #BrooklynRealEstate #GenerationalWealth #CommunityInvestment #ValueAddRealEstate",
+"posted_at": "2026-10-13T19:00:30.316000+00:00",
+"likes": 8,
+"comments": 0,
+"why": "Real estate finance case study. Relevant lane, but focused on structured finance rather than lead flow or ops.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Structuring shared upside solves the capital side, but multi-party coordination during the actual redevelopment can get messy fast. When managing shared-equity projects like this, how do you track contractor milestones and progress updates so the deal team isn't caught in constant manual follow-ups?"
+},
+{
+"angle": "missing_step",
+"text": "Aligning incentives with a shared-upside structure is the hardest part of creative real estate financing. The operational step most teams miss once the capital is locked is setting up clear tracking for renovation milestones, which prevents minor delays from blowing up the project timeline."
+},
+{
+"angle": "field_detail",
+"text": "In complex multi-party operations, coordination overhead never shows up as a line item until it stalls execution. When communication lives across scattered updates rather than a unified system, project tracking quickly becomes a heavy drag on the deal team."
+}
+],
+"connection_note": "Enjoyed your breakdown of the shared-upside structure for Rahim's property in Brooklyn. Following your insights on creative real estate finance and capital formation. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 101,
+"created_at": "2026-10-13T20:35:18.379916+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.0,
+"author_name": "Peter Ivantsov",
+"author_headline": "Managing Partner of GCG Structuring | Corporate & Private Wealth Structuring | DIFC & ADGM Foundations | Family Office | Digital Asset Licensing | UAE Banking & Tax",
+"author_url": "https://www.linkedin.com/in/peter-ivantsov?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAcNf8MBK8jkkoCtWETt_jRgW4uScfDuB6Q",
+"post_url": "https://www.linkedin.com/posts/peter-ivantsov_uaebusiness-businessfinance-dubaibusiness-activity-7515852159503056896-yFgC",
+"post_text": "“How do I pay myself from my UAE company?” sounds like a simple question, you own the company, the money is in the company bank account and because you need the money personally, you transfer it.\n\nBut that is where the real question begins, that payment needs to be something, a salary, profit distribution, reimbursement or a loan, or it becomes a problem nobody named properly at the time.\n\nThe transfer itself is not usually the issue, the issue comes six months, one year or three years later, when someone asks: what was this payment?\n\n#UAEBusiness #BusinessFinance #DubaiBusiness",
+"posted_at": "2026-10-13T19:13:12.606000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "UAE corporate structuring and finance. Good SMB founder audience, but topic is legal/accounting rather than operational AI.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Labeling owner withdrawals correctly matters for compliance, but the root issue is usually treating accounting as an annual cleanup instead of a real-time workflow. When transfers happen without immediate categorization, founders end up spending days reconstructing history for audits."
+},
+{
+"angle": "missing_step",
+"text": "Getting the classification right on day one prevents the audit scramble later, but the missing step is setting up an immediate categorization rule inside your banking workflow. If every transfer requires a manual email chain with your accountant months later, the paper trail always breaks down."
+},
+{
+"angle": "sharp_question",
+"text": "When founders are moving fast and pulling funds for unexpected cash flow needs, retroactive categorization becomes a massive bottleneck during tax or bank reviews. When you advise fast-growing UAE companies, do you see founders adopt strict internal controls early, or does the cleanup usually wait until an external audit forces the issue?"
+}
+],
+"connection_note": "Hi Peter, caught your post on classifying owner withdrawals in UAE companies. As someone building operational tracking workflows, I see founders hit this exact paper-trail wall during reviews. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 100,
+"created_at": "2026-10-13T20:35:08.758586+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 8.9,
+"author_name": "Neil Henry MInstR",
+"author_headline": "Business Consultant at Option3 Logic Ltd",
+"author_url": "https://www.linkedin.com/in/neil-henry-minstr-a7b57333?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAcGPT8BP2RwkzoAEVRDFVFZVxodk1XQw2s",
+"post_url": "https://www.linkedin.com/posts/neil-henry-minstr-a7b57333_this-weekend-ive-had-the-worst-customer-activity-7515835697367412736-XcWu",
+"post_text": "This weekend I’ve had the worst customer service experience I can recall . \nDespite being promised delivery during 8 telephone calls (to a call centre abroad with poor English )over 3 days Littlewoods and Very failed to deliver our washing machine. The reason ….\nThe sales department didn’t tell the web site people it wasn’t in stock who then failed to tell the delivery people it wasn’t in stock and wouldn’t be for a month ! Amazingly it took a girl in dispatch to find this out during call 8 and only because I went rogue and found dispatches number ! \nOrder cancelled, hopefully coming from elsewhere tomorrow!!\nHours wasted 21, \nMatch’s missed 1 \nLikely hood of using again 0%\nSo Littlewood/Very this is for you !",
+"posted_at": "2026-10-13T18:07:47.727000+00:00",
+"likes": 3,
+"comments": 3,
+"why": "Terrible customer service and broken backend inventory/dispatch communication. Perfect match for operational chaos and disconnected systems.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "That loop breaks because sales, web inventory, and dispatch live on separate islands with no real-time sync. When I built a multi-agent system where each department owns a specific leak, automated rules keep stock data aligned before it reaches a customer. If dispatch hadn't caught it on call eight, that order would have floated in limbo."
+},
+{
+"angle": "field_detail",
+"text": "Eight calls to an overseas call center to find out what dispatch already knew is the classic symptom of a disconnected backend. When sales and web inventory do not talk to each other, the customer becomes the integration layer. Dispatch is usually where reality finally hits because they have to load the physical truck."
+},
+{
+"angle": "sharp_question",
+"text": "When an enterprise backend lets sales sell inventory that web systems and dispatch know does not exist, where does the failure usually get caught internally before a customer has to go rogue and call dispatch directly?"
+}
+],
+"connection_note": "Hi Neil. Read your breakdown of the Littlewoods and Very fulfillment loop. That exact disconnect between sales, web inventory, and dispatch is a fascinating operational failure mode. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 99,
+"created_at": "2026-10-13T20:34:40.193206+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 9.8,
+"author_name": "Baiju Kothari",
+"author_headline": "Transforming smiles with clear aligners and veneers using advanced digital scanning.",
+"author_url": "https://www.linkedin.com/in/baiju-kothari-88a285182?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACscZqoBqROX-gmfOgvkKsNdDG4aiOO4-X8",
+"post_url": "https://www.linkedin.com/posts/baiju-kothari-88a285182_just-take-all-my-teeth-out-and-can-i-get-activity-7515847832155897857-UtLa",
+"post_text": "Just take all my teeth out and can I get implants. \n\nOoft. What a start to a new patient consult. Especially seeing as this guy was my about my age (mid 30s).\n\n‘I’ve neglected them for years, they look awful and it’s affecting my confidence and my work.’ \n\nWhat’s the golden rule in dentistry? Your own teeth are better than any replacement - keep them for as long as possible. \n\nThe pictures show why we should follow that rule.\n\nThat’s just invisalign and veneers! And this guy wanted ALL his teeth out?! \n\nThe dentists out there know how this is achieved but for the general public - here’s how I did it:\n\n1) COMMUNICATION!!! Talk them down from the ledge and explain that all is not lost.\n\n2) plan it properly. Check what you can move and what the risks are. EXPLAIN. Show the patient and back it up with visual aids.\n\n3) execute like it’s the only case you got going on. Let the patient know you truly care. \n\n4) hammer home the maintenance. This isn’t a cheap solution and if the patient doesn’t change habits, it can quickly start to unravel. \n\nIf you do these, I promise the patient will love you, trust you and recommend you. \n\nThat’s a win for everyone! \n\nI have more of these cases if you’re interested! Comment below or message me. ✌️",
+"posted_at": "2026-10-13T18:56:00.886000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Dental clinic owner discussing patient consultation and conversion. Excellent fit for appointment booking and lead-waste pain.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Talking patients down from unnecessary extractions builds massive trust in the chair, but the leak usually happens before they ever arrive. When I called multiple clinics late at night for a severe dental issue, most didn't answer or gave a robotic voicemail. A brilliant treatment plan only matters if the front desk actually captures the initial enquiry."
+},
+{
+"angle": "field_detail",
+"text": "Guiding a patient away from unnecessary extractions takes real chairside patience. When I experienced severe tooth pain late at night, I called five clinics and most offered dead air or automated opening hours, while only one answered and secured the patient. Capturing that initial moment of intent is everything."
+},
+{
+"angle": "sharp_question",
+"text": "Detailed visual aids and clear communication change the whole trajectory for a patient ready to give up on their teeth. When prospective patients message your practice late in the evening with complex cosmetic questions, how do you make sure those high-intent enquiries get handled before office hours open?"
+}
+],
+"connection_note": "Hi Baiju, enjoyed your breakdown of saving natural teeth over extractions. Your point on chairside communication applies well to how clinics handle inbound patient trust. Would be great to connect.",
+"my_comment": null
+},
 {
 "id": 98,
 "created_at": "2026-10-13T18:29:43.888280+00:00",
@@ -122,10 +278,10 @@
 {
 "id": 95,
 "created_at": "2026-10-13T18:18:14.790145+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T20:31:40.827999+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -161,10 +317,10 @@
 {
 "id": 94,
 "created_at": "2026-10-13T12:45:20.486674+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T20:31:39.321366+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -200,10 +356,10 @@
 {
 "id": 93,
 "created_at": "2026-10-13T12:41:08.300257+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T20:31:37.794504+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -239,10 +395,10 @@
 {
 "id": 92,
 "created_at": "2026-10-13T12:38:11.048329+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T20:31:36.948644+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -317,10 +473,10 @@
 {
 "id": 90,
 "created_at": "2026-10-12T22:27:56.676854+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T20:31:38.567058+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -395,10 +551,10 @@
 {
 "id": 88,
 "created_at": "2026-10-12T12:57:36.088994+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-13T20:31:40.080881+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -3709,10 +3865,10 @@
 "usage": [
 {
 "day": "2026-10-13",
-"posts_scraped": 49,
-"cards_sent": 8,
-"llm_input_tokens": 60019,
-"llm_output_tokens": 30952,
+"posts_scraped": 69,
+"cards_sent": 12,
+"llm_input_tokens": 86456,
+"llm_output_tokens": 40470,
 "llm_cost_usd": 0.0
 },
 {
@@ -3772,9 +3928,9 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.26,
+"apify_month_usd": 1.3,
 "apify_month_cap_usd": 5.0,
-"learned": 74,
+"learned": 80,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

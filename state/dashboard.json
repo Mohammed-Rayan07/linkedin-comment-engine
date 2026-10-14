@@ -1,7 +1,163 @@
 {
-"generated_at": "2026-10-13T20:35:26.108843+00:00",
+"generated_at": "2026-10-14T10:09:29.408386+00:00",
 "actions_applied": 100,
 "cards": [
+{
+"id": 106,
+"created_at": "2026-10-14T10:09:28.445805+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 5.1,
+"author_name": "Dr Kinnar Shah",
+"author_headline": "Scaled My Dental Practice To Over 4mil Annually | Helping Practice Owners Add An Extra $50k - $100k P/M In Production | Message Me For A Free Copy Of My Book",
+"author_url": "https://www.linkedin.com/in/drkinnarshah?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAnZb48B4PMft3HkYw7yDs9eZAmTc2LvcYY",
+"post_url": "https://www.linkedin.com/posts/drkinnarshah_there-is-a-specific-moment-in-every-consultation-activity-7516031820908589057-a9XL",
+"post_text": "There is a specific moment in every consultation that decides whether a patient goes ahead, and most dentists let it pass in silence. It is the moment right before they make up their mind.\n\nInstead of finishing and waiting, use four words: “Before you make your mind up...” Then layer your patterns. “I have been doing this for over 20 years. We use digital guided technology. And what most patients find is that they have no pain.” In one breath you pre-empt the hesitation, establish authority, add credibility, and bring in social proof. You are not relying on a single technique, you are mixing them, stacked at the exact point the decision is made. The techniques are simple. The skill is weaving them together naturally.\n\nWhat do you say in the moment just before a patient decides?",
+"posted_at": "2026-10-14T07:07:07.223000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Dental coach post. Good audience, but about consultation phrasing not systems or AI.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "missing_step",
+"text": "Nailing the chairside close only works if the patient actually makes it into the room. The operational leak I keep seeing is when a patient leaves to think about it and the follow-up sits in a manual queue for days. Automating that next step the same afternoon keeps the momentum alive."
+},
+{
+"angle": "make_concrete",
+"text": "Refining the consultation script fixes the room, but the follow-up gap is where treatment plans quietly die. When a patient leaves without booking, waiting days to follow up often means they have already called another clinic. A structured follow-up sequence handles that transition automatically."
+},
+{
+"angle": "sharp_question",
+"text": "Crafting the exact phrase for the chairside close solves the live consultation, but tracking how many patients walk out without booking is where most clinics fly blind. When a patient says they need to think about it, how do your coaching clients track that unclosed pipeline so it does not get lost?"
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 105,
+"created_at": "2026-10-14T10:01:23.750747+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.0,
+"author_name": "Tomer Michel Ederi",
+"author_headline": "Founder & CEO @ OLYOS.ai | The AI Workspace for Real Estate | Turning Every Project into a Smart Sales System for Developers in Dubai & the UAE",
+"author_url": "https://www.linkedin.com/in/tomer-michel-ederi-3b272171?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA88DvYBVMsFdHWfHhzeSzElgQyvMLmGE8o",
+"post_url": "https://www.linkedin.com/posts/tomer-michel-ederi-3b272171_realestate-proptech-offplan-activity-7516056288338911233-g_0K",
+"post_text": "I've produced marketing for hundreds of real estate projects over 15 years. Renderings, 3D tours, cinematic films, launch websites.\n\nHere's the uncomfortable truth: the most beautiful site rarely sold the most units.\n\nThe developers who closed fastest were the ones who knew what buyers did on their site, and acted on it the same day.\n\nIn Dubai's off-plan market, where many buyers decide from abroad, that gap is even bigger. Your website is often the only \"showroom\" they ever visit.\n\nWe wrote about what a website that actually sells needs. Link in the first comment.\n\nDevelopers: what does your sales team see today when a buyer revisits your project page?\n\n#RealEstate #PropTech #OffPlan #Dubai",
+"posted_at": "2026-10-14T08:44:20.713000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Real estate AI vendor. Good ICP overlap, but author is pitching his own tool.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Tracking site behavior solves visibility, but the missing operational step is bridging time zones. Overseas buyers often review off-plan floor plans late at night Gulf time. If that intent data just sits in a rep's queue until 9 AM the next morning, the momentum is gone. The system has to qualify their budget and timeline while they are still actively engaged on the page."
+},
+{
+"angle": "pushback",
+"text": "Acting on intent data the same day sounds proactive, but for international off-plan investors, same-day is often too slow. Someone looking at Dubai developments from London or Singapore usually compares multiple projects in a single evening. If outreach takes four hours because a broker is reviewing logs manually, that buyer has already moved on to the next development."
+},
+{
+"angle": "sharp_question",
+"text": "Surfacing buyer behavior only works if reps trust the signal. If a sales agent gets pinged every time an overseas prospect clicks a render or reopens a brochure, alert fatigue sets in within days. When you map this out for developers, what specific threshold triggers a live sales alert versus just updating the lead record in the background?"
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 104,
+"created_at": "2026-10-14T10:00:34.325925+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 6.4,
+"author_name": "Shafiq-CPA Certified Auditor from MOE UAE",
+"author_headline": "Dr. Shafiq ur Rehman, CPA, MBA, PhD | Managing Partner – Expert Plus Group | Alsudais Chartered Accountants/ Tax, Audit & Advisory Leader | 25+ Years in UAE & GCC | Corporate Tax, VAT & Financial Governance Specialist",
+"author_url": "https://www.linkedin.com/in/shafiq-cpa-certified-auditor-from-moe-uae-6845281a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAP-N8QBxSmYLEFhc-YhvL7KkLcrzpImSbA",
+"post_url": "https://www.linkedin.com/posts/shafiq-cpa-certified-auditor-from-moe-uae-6845281a_phdjourney-artificialintelligence-aicapability-activity-7515897000450789376-0qcG",
+"post_text": "🎓 PhD Fellows Together | Sharing Ideas, Shaping the Future!\n\nHeartfelt thanks to Dr. Rasheed Khalid and family for the warm dinner invitation in Girne, Northern Cyprus. Grateful to spend a wonderful evening with Dr. Abdul Khaliq and Dr. Aakif Aslam, exchanging ideas on PhD research, future visions, and academic collaboration.\n\n💡 Key takeaway: Great conversations inspire great ideas! Our discussion reinforced the importance of research, collaboration, and AI-driven innovation for sustainable business growth.\n\nMy PhD research focuses on AI Capability, AI Adoption, and Sustainable Business Performance in the UAE SME Real Estate Sector. 🚀\n\n💬 What role do you think AI will play in making SMEs more sustainable and competitive? Share your thoughts below!\n\n#PhDJourney #ArtificialIntelligence #AICapability #AIAdoption #UAESMEs #SustainableBusiness #RealEstate #ResearchAndInnovation #AcademicNetworking",
+"posted_at": "2026-10-13T22:11:23.521000+00:00",
+"likes": 6,
+"comments": 1,
+"why": "Auditor researching AI in UAE real estate SMEs. Perfect fit for Raynix opinions.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Most discussions around AI in SME real estate focus on generating more leads, but the operational leak is usually lead waste. Missed enquiries never show up on financial reports. If an agency loses track of buyers between WhatsApp chats and phone calls, adding generative tools just accelerates the disorder. Sustainable performance comes from plugging the gap between enquiry and booking first."
+},
+{
+"angle": "missing_step",
+"text": "The step most SMEs skip when adopting AI is defining deterministic boundaries. The hard part of agentic AI is not making a model talk, it is deciding what it is never allowed to decide. For real estate firms handling contracts and high-value bookings, allowing an LLM to commit changes or promise terms creates immense risk. The architecture that works is keeping the AI strictly read-and-propose, while tested code and human verification handle the actual state changes."
+},
+{
+"angle": "sharp_question",
+"text": "In your research framework for UAE real estate SMEs, how are you measuring AI adoption in operational coordination versus front-end sales? In small brokerages, coordination that lives in WhatsApp and phone calls never shows up as an explicit line item, it just appears as a need to hire more admin staff. Curious if your study looks at whether AI actually reduces internal coordination drag, or if adoption is mostly concentrated in client-facing marketing."
+}
+],
+"connection_note": "Dr. Shafiq, saw your post on your PhD research into AI adoption in UAE real estate SMEs. I build operational automation and multi-agent systems in the GCC, and track how SMEs handle workflow automation. Would welcome following your research findings here.",
+"my_comment": null
+},
+{
+"id": 103,
+"created_at": "2026-10-14T09:59:19.581798+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 7.1,
+"author_name": "Faisal Khwaja",
+"author_headline": "Managing Director | Real Estate Investment Specialist | Helping Investors Unlock Profitable Opportunities in Dubai Market.",
+"author_url": "https://www.linkedin.com/in/faisal-khwaja-0b943434?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAcuvo0BKSN82iLougIZMSlXQE4pz0_oAbg",
+"post_url": "https://www.linkedin.com/posts/faisal-khwaja-0b943434_dubairealestate-uaeproperty-dubaiproperty-activity-7516022031528820736-yhbF",
+"post_text": "Dubai recorded 34,000 home sales in Q3. So why did sales value fall 47%?\n\nBecause the market is changing pace—and the details matter.\n\nIn Q3 2026, Dubai residential sales reached Dh72.6 billion across roughly 34,000 transactions. Compared with a year earlier, sales value fell 47% and transaction volume fell 38%, according to The National.\n\nYet one segment still accounted for 72% of purchases: off-plan.\n\nAt the same time, Khaleej Times describes a market moving into a steadier phase, supported by end-user demand, population growth and international buyers.\n\nWhat should buyers and investors take from these numbers?\n\nNot every area or property type will move the same way. In a more selective market, fundamentals matter: location, pricing, quality and the reason you’re buying.\n\nDubai real estate hasn’t stopped moving. The way it moves is changing.\n\nAre you seeing more cautious buyers—or more serious ones?\n\n#DubaiRealEstate #UAEProperty #DubaiProperty #RealEstateMarket",
+"posted_at": "2026-10-14T06:28:13.253000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Dubai real estate market stats. Buyers are active, good spot to comment on lead speed.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "When off-plan dominates at 72% of purchases, inbound desks get buried under generic launch inquiries. The operational fix is qualifying intent and timeline right at intake. If an agent spends two days manually sorting serious end-users from passive brochure collectors, the serious buyers have already moved on to the next agency."
+},
+{
+"angle": "sharp_question",
+"text": "A 47% drop in total value while off-plan holds 72% points to buyers hunting structured payment plans over large upfront secondary capital. As end-users take over from quick flippers, are you seeing investors demand deeper proof on developer delivery track records, or are post-handover terms still the main deciding factor?"
+},
+{
+"angle": "pushback",
+"text": "The shift is less about buyers being cautious and more about the sales cycle doubling. Speculators buy off-plan launches directly from marketing decks. End-users evaluate service charges, handover penalties, and district infrastructure. Teams built for high-speed launch hype struggle when every closed deal requires five times more consultative handling."
+}
+],
+"connection_note": "Faisal, your Q3 breakdown on the 47% value drop alongside 72% off-plan volume caught my attention. Following your analysis on how Dubai buyer dynamics are shifting toward end-users.",
+"my_comment": null
+},
 {
 "id": 102,
 "created_at": "2026-10-13T20:35:25.520381+00:00",
@@ -3864,6 +4020,14 @@
 ],
 "usage": [
 {
+"day": "2026-10-14",
+"posts_scraped": 26,
+"cards_sent": 4,
+"llm_input_tokens": 27695,
+"llm_output_tokens": 17053,
+"llm_cost_usd": 0.0
+},
+{
 "day": "2026-10-13",
 "posts_scraped": 69,
 "cards_sent": 12,
@@ -3928,7 +4092,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.3,
+"apify_month_usd": 1.35,
 "apify_month_cap_usd": 5.0,
 "learned": 80,
 "metrics": {},

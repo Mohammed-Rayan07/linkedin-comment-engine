@@ -1,7 +1,237 @@
 {
-"generated_at": "2026-10-14T10:09:29.408386+00:00",
+"generated_at": "2026-10-14T15:08:55.693046+00:00",
 "actions_applied": 100,
 "cards": [
+{
+"id": 112,
+"created_at": "2026-10-14T15:08:55.117470+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.1,
+"author_name": "Sally Hargraves.",
+"author_headline": "Social media audits | LinkedIn, Instagram, TikTok | 30 years in business, 5 of my own | I show small business owners why their posts aren’t working Full review £97",
+"author_url": "https://www.linkedin.com/in/sallyhargravesinternational?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA0WgoMB-aa8EOwyXXlAEqbkytCw-GkKuzo",
+"post_url": "https://www.linkedin.com/posts/sallyhargravesinternational_smallbusiness-linkedintips-activity-7516113175834980352-130t",
+"post_text": "Small business owners, giving up your evenings to post on LinkedIn & getting nothing back?\nTell me which bit is wearing you down!\n\nI've been marketing my own businesses for 30 years & I hear the same few answers from small business owners every week.\n\nVote below & tell me in the comments what you've already tried. I'll reply to every one with the first thing I'd change.\n\nWhich one is it for you?\n\n#SmallBusiness #LinkedInTips",
+"posted_at": "2026-10-14T12:30:23.749000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Small business social media tips. Broad SMB audience but about content creation, not ops.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Focusing on evening content creation misses where service businesses actually bleed revenue. If a post brings in an inquiry but the response takes hours, the content effort does not matter. Speed-to-lead decides whether attention turns into booked work."
+},
+{
+"angle": "missing_step",
+"text": "The missing step after driving traffic with a post is what happens when a lead arrives after hours. If an inquiry lands at 7 PM and sits until morning, the visibility gain is canceled out by the silence."
+},
+{
+"angle": "make_concrete",
+"text": "Most small businesses do not have a lead generation problem, they have a lead-waste problem. Missing three inquiries a day because the team is tied up elsewhere quietly costs hundreds of thousands in lost revenue over a year."
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 111,
+"created_at": "2026-10-14T15:08:43.147167+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.6,
+"author_name": "Omid Ali",
+"author_headline": "Managing Director | TOP ONE Businessmen Administrative Services LLC | UAE Business Setup & Corporate Services",
+"author_url": "https://www.linkedin.com/in/omid-ali-846580428?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGxLiLYBqGV6Hcqh1a4S09RGIZzwx-tkyLY",
+"post_url": "https://www.linkedin.com/posts/omid-ali-846580428_%F0%9D%90%82%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%A9%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%B2-%F0%9D%90%83%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%9C%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%A9%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%A7-about-activity-7516115420483997696-c9O2",
+"post_text": "𝐂𝐨𝐦𝐩𝐚𝐧𝐲 𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\nAbout Top One UAE Top One Businessmen Administrative Services provides comprehensive UAE business setup solutions, including Mainland, Free Zone, and Offshore licensing, office solutions, PRO services, visa processing, Emirates ID typing, legal translation, and document attestation. Role Description – Sales and Marketing Specialist A full-time, on-site role in Dubai focused on generating leads, meeting clients, promoting company services, preparing proposals, managing sales follow-ups, building client relationships, and coordinating marketing campaigns to drive business growth.\n𝐐𝐮𝐚𝐥𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 :\nStrong Communication and Customer Service skills to engage clients professionally and build long-term relationships.\nProven Sales and Sales Management capabilities to generate leads, manage pipelines, and achieve revenue targets.\nExperience in Training to explain services clearly and support clients in understanding processes and requirements.\nKnowledge of business setup processes in the UAE, including licensing and visa services, is highly advantageous.\nAbility to work on-site in Dubai, manage multiple tasks, and meet deadlines in a fast-paced environment.\nProficiency in MS Office and basic CRM tools to document interactions and track sales activities effectively.\nPrevious experience in sales, marketing, or business services, preferably within the UAE market.\nRelevant diploma or degree in Business, Marketing, or a related field is preferred.",
+"posted_at": "2026-10-14T12:39:18.915000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Business setup services hiring sales staff. Good SMB audience but purely a job posting.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "Bringing in sales talent solves outbound prospecting, but the missing step is response latency on inbound inquiries. When a founder asks about a mainland license at 8 PM, the firm that sends requirements first usually locks in the client meeting."
+},
+{
+"angle": "make_concrete",
+"text": "In setup services, proposal speed dictates conversion. If an entrepreneur requests a free zone cost comparison and waits two days for a manual email, they have already spoken to three other administrative offices in Dubai."
+},
+{
+"angle": "sharp_question",
+"text": "Finding reps who know UAE licensing requirements is half the battle. When inbound volume spikes across mainland and free zone queries, how do you keep manual proposal generation from slowing down your response time?"
+}
+],
+"connection_note": "Hi Omid, saw your opening for a sales specialist at Top One UAE. Managing inbound lead routing for business setup firms is an interesting ops puzzle. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 110,
+"created_at": "2026-10-14T15:08:26.089497+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 5.8,
+"author_name": "Faisal Khwaja",
+"author_headline": "Managing Director | Real Estate Investment Specialist | Helping Investors Unlock Profitable Opportunities in Dubai Market.",
+"author_url": "https://www.linkedin.com/in/faisal-khwaja-0b943434?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAcuvo0BKSN82iLougIZMSlXQE4pz0_oAbg",
+"post_url": "https://www.linkedin.com/posts/faisal-khwaja-0b943434_dubais-q3-property-market-didnt-tell-one-activity-7516129028240683008-vHXc",
+"post_text": "Dubai’s Q3 property market didn’t tell one story. It told two.\n\nResidential sales value fell 47% year on year, and transaction volume declined 38%. Buyers are moving more cautiously.\n\nYet off-plan still accounted for 72% of purchases—while completed-home sales reached AED 25.1 billion.\n\nThat’s a market where buyers are weighing different timelines: \nfuture potential on one side, immediate occupancy and rental income on the other.\n\nFor anyone considering Dubai property, broad headlines matter less than the details: location, pricing, delivery timeline and your investment horizon.\n\nThe market may be entering a more measured phase. \nThe opportunity is to make a more considered choice.",
+"posted_at": "2026-10-14T13:33:23.257000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Dubai real estate market overview. Good buyer audience, but lacks operational pain points.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "When buyers split their focus between off-plan timelines and completed units, sales teams drown in manual comparison requests. If agents spend hours pulling custom payment plans for every inquiry instead of qualifying the investment horizon upfront, response times slip."
+},
+{
+"angle": "missing_step",
+"text": "Comparing off-plan payment structures against completed rental yields is the core analytical hurdle. The missing step is how quickly your CRM surfaces those matching options when an investor asks about a specific delivery year, before they move on to another agency."
+}
+],
+"connection_note": "Enjoyed your breakdown of the two distinct stories in the Q3 Dubai market, especially the contrast between off-plan timelines and completed assets. Would be good to connect.",
+"my_comment": null
+},
+{
+"id": 109,
+"created_at": "2026-10-14T15:05:35.625958+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 6.2,
+"author_name": "Jonathan Paton",
+"author_headline": "Founder and Director at The Trademark Helpline, Fractional Commercial Director in Legal and Financial services, Co-Founder at Tristone Group",
+"author_url": "https://www.linkedin.com/in/jonathan-paton-jp?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPCjOMBN39wipSXpXaGAh3Z2jfxj9Kmd2E",
+"post_url": "https://www.linkedin.com/posts/jonathan-paton-jp_i-know-its-old-fashioned-but-i-still-like-activity-7516113894768226304-7uvf",
+"post_text": "I know it’s old fashioned but I still like an FAQ page to scroll. Sometimes I learn more in searching than simply asking AI and taking its word for it… and to that end…\n\nI in the process of updating our FAQs, I’m at number 27 of about 200.\n\nI’ve made the job worse for myself because now, if you can’t find a question, ask it, it comes straight to me and I’ll either answer it directly and it’s one I think others need to hear about, I will publish it too.\n\nIve re-designed the page using my favourite Owl 🦉- Saad Ashraf absolutely despises the Owl, so please do ma a favor, take a look at the page and let me know your opinion, we long as you agree with me of course 😊",
+"posted_at": "2026-10-14T12:33:15.156000+00:00",
+"likes": 0,
+"comments": 5,
+"why": "FAQ page updates and handling inbound customer questions. Touches on customer routing.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Routing unanswered questions straight to your inbox works when you are building out the initial list, but what happens when volume scales and half of those messages turn out to be repetitive edge cases? How do you plan to filter them before they hit your desk?"
+},
+{
+"angle": "missing_step",
+"text": "Manually answering unlisted questions is a reliable way to find the real gaps in your knowledge base, but the step most skip is turning those raw queries into structured data. If three people ask the same thing in different words, your search index needs to map them to the same answer automatically."
+},
+{
+"angle": "make_concrete",
+"text": "Scrolling through 200 FAQs gives you a comprehensive reference guide, but most users will only read the top three items before dropping off. Tracking what people actually type into the search bar tells you which answers deserve to sit at the very top of the page."
+}
+],
+"connection_note": "Hi Jonathan, enjoyed your post on building out an extensive FAQ page and routing missing questions directly to your inbox. Would love to connect and follow your work in legal and financial services.",
+"my_comment": null
+},
+{
+"id": 108,
+"created_at": "2026-10-14T15:03:11.177911+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.2,
+"author_name": "Anna Ghukasyan",
+"author_headline": "Head of Sales at Elite Class Real Estate L.L.C",
+"author_url": "https://www.linkedin.com/in/anna-ghukasyan-1a6623144?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACL5v04BVhKuVb5lKbEez-KDJYMCO6A5Rq0",
+"post_url": "https://www.linkedin.com/posts/anna-ghukasyan-1a6623144_job-opportunities-in-a-brokerage-company-activity-7516107277179961344-7ThF",
+"post_text": "Job Opportunities 🔔in a BROKERAGE  company \nWe are looking for Property Consultants , Agents and Telesales  to join our Team immediately.\n\nMinimum 2 year Experience in Dubai Real Estate - Turkish, Russian, Arabic  , English speakers \n\nAttractive Basic Salary +Attractive Commission\n Kindly DM with your CV or email :",
+"posted_at": "2026-10-14T12:06:57.400000+00:00",
+"likes": 0,
+"comments": 2,
+"why": "Job posting for telesales agents. Real estate sales hiring, but no direct angle for AI automation.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "When scaling a multilingual telesales team across Russian, Turkish, and Arabic speakers, how do you route inbound inquiries so agents only receive leads matching their exact language fluency without manual dispatch?"
+},
+{
+"angle": "missing_step",
+"text": "Filtering for two years of Dubai experience brings in capable agents, but the operational bottleneck usually shifts to how fast those inquiries hit the desk. When inbound volume spikes across multiple languages, automated routing ensures the lead reaches the right speaker in seconds instead of sitting in a queue."
+},
+{
+"angle": "field_detail",
+"text": "Handling four languages across a telesales floor requires strict routing rules so agents do not waste time sorting misrouted chats. In the bilingual routing setups I build, qualifying the language preference upfront ensures inquiries land directly with the right speaker."
+}
+],
+"connection_note": "Hi Anna, saw your post looking for multilingual sales agents at Elite Class. Managing lead routing across Russian, Turkish, and Arabic inquiries is a fascinating operational puzzle. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 107,
+"created_at": "2026-10-14T15:00:02.171569+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.8,
+"author_name": "Vineet Mathur",
+"author_headline": "Sales Director @ Cloudberry Properties | Leading a 15-Member Sales Team | AED 297M+ in Property Sales | Dubai, Abu Dhabi & Sharjah Off-Plan | Civil Engineer Turned Investment Advisor",
+"author_url": "https://www.linkedin.com/in/vineetmathur-dubai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-YpGcBZ_s-gWs0yKq-4Cmo4qPNmyJEEqY",
+"post_url": "https://www.linkedin.com/posts/vineetmathur-dubai_offplan-dubairealestate-uaeproperty-activity-7516120670561476608-UI30",
+"post_text": "\"Should I buy off-plan in Dubai right now?\"\n\nI hear this question almost every day from investors, especially in Q4.\n\nMy honest answer: off-plan can be one of the smartest entries into UAE real estate, if you buy it the right way.\n\nHere's the checklist I walk every client through 👇\n\n1️⃣ Developer first, project second. Look at their delivery track record. Did past projects hand over on time, and at the quality promised?\n\n2️⃣ Read the payment plan like a contract, because it is one. 60/40, 20/80, post-handover: each one suits a different cash-flow strategy. Choose the plan that fits you, not the one that sounds best.\n\n3️⃣ Escrow protection matters. In the UAE, your payments go into a regulated escrow account. Always verify the project is RERA-registered.\n\n4️⃣ Know your exit before you enter. Will you flip before handover, rent it out, or move in? Your answer changes which unit, floor and community you should pick.\n\n5️⃣ Location will outlast the launch hype. Infrastructure, connectivity and future supply in the area matter more than the brochure.\n\nOff-plan done right means a lower entry price, flexible payments and capital growth by the time you get the keys.\n\nOff-plan done wrong is an expensive lesson.\n\nIf you're considering an off-plan purchase in Dubai, Abu Dhabi or Sharjah, drop your question below or DM me. Happy to guide you.\n\n#OffPlan #DubaiRealEstate #UAEProperty #RealEstateInvestment #AbuDhabi #Sharjah #PropertyInvestment",
+"posted_at": "2026-10-14T13:00:10.631000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Real estate sales checklist. Relevant buyers, but focused on property investment advice rather than lead conversion.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "Evaluating developer track records and payment plans covers the financial filter, but the operational leak happens right after an investor drops a question. If a team takes hours to pull unit availability matching those criteria, that high intent lead cools off. Capturing the brief instantly is what keeps deals moving."
+},
+{
+"angle": "sharp_question",
+"text": "Running through developer track records and payment plans is essential for serious buyers, but custom queries pile up fast during launch cycles. When multiple investors ask for detailed cash flow comparisons at the same time, how does your team structure that baseline lookup so advisors avoid manual spreadsheets?"
+},
+{
+"angle": "make_concrete",
+"text": "Checking escrow and exit strategies protects the capital, but response latency dictates who gets the deal. If an investor reviews these criteria and messages an agency on a Friday evening, waiting until Monday morning usually means another broker already locked in the booking."
+}
+],
+"connection_note": "Hi Vineet, enjoyed your off-plan checklist, especially the focus on matching payment plans to cash flow strategies rather than launch hype. Would be great to connect.",
+"my_comment": null
+},
 {
 "id": 106,
 "created_at": "2026-10-14T10:09:28.445805+00:00",
@@ -4021,10 +4251,10 @@
 "usage": [
 {
 "day": "2026-10-14",
-"posts_scraped": 26,
-"cards_sent": 4,
-"llm_input_tokens": 27695,
-"llm_output_tokens": 17053,
+"posts_scraped": 50,
+"cards_sent": 10,
+"llm_input_tokens": 72405,
+"llm_output_tokens": 32846,
 "llm_cost_usd": 0.0
 },
 {
@@ -4092,7 +4322,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.35,
+"apify_month_usd": 1.4,
 "apify_month_cap_usd": 5.0,
 "learned": 80,
 "metrics": {},

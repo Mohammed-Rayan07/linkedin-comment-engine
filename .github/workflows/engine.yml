@@ -50,5 +50,13 @@ jobs:
           git add -f data/engine.db state/dashboard.json
           if git diff --cached --quiet; then echo "no state change"; exit 0; fi
           git commit -m "state: run ${{ github.run_id }}"
-          git pull --rebase
-          git push
+          # Dashboard taps are commits to main too, so a push can lose the race. Retry instead of failing the run
+          # (a failed push would drop this run's state and the next run would redo its work).
+          for attempt in 1 2 3 4 5 6; do
+            if git pull --rebase && git push; then exit 0; fi
+            echo "push attempt $attempt lost the race, retrying"
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 3))
+          done
+          echo "could not push state after 6 attempts"
+          exit 1

@@ -1,7 +1,124 @@
 {
-"generated_at": "2026-10-14T15:08:55.693046+00:00",
+"generated_at": "2026-10-14T19:18:05.675691+00:00",
 "actions_applied": 100,
 "cards": [
+{
+"id": 115,
+"created_at": "2026-10-14T19:18:05.112007+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.3,
+"author_name": "Simon Richard Kallu",
+"author_headline": "CEO & Founder @ GrowFactor & GrowBeyond | Supporting 7-figure business owners to achieve financial mastery & pay less tax | Tony Robbins Partner",
+"author_url": "https://www.linkedin.com/in/simonkallu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAX99WsB1MqsBxZtvQE7JYHvlUzE_Hgo68U",
+"post_url": "https://www.linkedin.com/posts/simonkallu_businessexpansion-ukuae-growfactor-activity-7516197892622065666-oUlh",
+"post_text": "Could Dubai expansion fit around your life in the UK?\n\nFor founders with UK family ties, that raises practical questions about who runs the business, how operations work and how advisers in both countries coordinate.\n\nIn “Can You Run a Dubai Business While Living in the UK?”, I draw on my experience building a UAE business while maintaining ties to the UK.\n\nWatch the full conversation to explore the planning questions behind this approach, including considering personal and company tax positions separately.\n\n▶ Watch on YouTube: https://lnkd.in/eqHs7Bnd\n\nWhat would you want to understand before running a business across two countries?\n\n#BusinessExpansion #UKUAE #GrowFactor",
+"posted_at": "2026-10-14T18:07:01.805000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Advisory/tax content for UK-Dubai founders. SMB owner but topic is cross-border tax rather than operations or lead generation.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "missing_step",
+"text": "Tax structuring and company setup get all the attention, but the missing step is operational synchronization. When founders split time between the UK and Dubai, daily execution often stalls if local communication relies on informal chats instead of a clean system."
+},
+{
+"angle": "sharp_question",
+"text": "Managing compliance and tax across two jurisdictions is complex, but day-to-day operational drift is usually what catches founders off guard. When you advise founders scaling between the UK and UAE, how do you see them handle the handoff between UK-based strategy and local execution on the ground?"
+},
+{
+"angle": "field_detail",
+"text": "Coordination across two countries quickly breaks down when it relies on WhatsApp groups and scattered emails. Without a clear system connecting UK oversight to Dubai operations, every minor decision turns into a cross-border meeting."
+}
+],
+"connection_note": "Enjoyed your breakdown on running a business between the UK and Dubai. The operational coordination piece caught my eye. Would be great to connect.",
+"my_comment": null
+},
+{
+"id": 114,
+"created_at": "2026-10-14T19:17:57.676616+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.4,
+"author_name": "Elena Herre",
+"author_headline": "Founder, PrimeVision Automation Studio | PV HUB",
+"author_url": "https://www.linkedin.com/in/elena-herre-4117208?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGHuE0BcCn-WXw84t4mzl2j8nTN1Uvn2cE",
+"post_url": "https://www.linkedin.com/posts/elena-herre-4117208_lead-leak-4-the-contacts-nobody-calls-activity-7516167718014865408-bQUC",
+"post_text": "If you run or work in a Dubai real estate agency, you have these chats 👇\n\nEvery agent's WhatsApp has them: hundreds of chats that end with \"maybe later\".\n\n\"Let's talk next year 🙂\" — March.\n\"Maybe after the summer\" — June.\n\"Keep me posted!\" — January.\n\nLead Leak #4 of 5 — the contacts nobody calls. Swipe through 👉\n\nThen one day: \"Just so you know — we bought through another agent. They reached out at the right time.\"\n\nYour old contacts are your next deals. In NAR's 2025 Profile of Home Buyers and Sellers (US data), 66% of sellers chose an agent they'd worked with before, or one who was referred to them.\n\nThe fix is boring but effective — and saves hours: timely check-ins (a market update, a new launch, a \"how's the apartment?\") sent automatically, and stopping the moment someone replies. That's what PV HUB does.\n\nWhen did you last message a \"maybe later\" contact? 👇\n\n👉 Answer a 5-minute check and I'll send you your personal Lead Leak Report. Link in the first comment.\n\nNext (Friday): the happy clients nobody asks.\n\n#DubaiRealEstate #RealEstateUAE #PropTech",
+"posted_at": "2026-10-14T16:07:07.618000+00:00",
+"likes": 0,
+"comments": 1,
+"why": "Real estate automation vendor discussing WhatsApp lead leaks. Competitor/peer space but directly matches speed-to-lead themes.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Automated check-ins work if the trigger logic is clean, but the safety tripwire has to be bulletproof. In the outbound system I run, checking the inbox right before every send is what stops the sequence the moment someone replies. If that check lags, an automated follow-up goes out to someone who just bought."
+},
+{
+"angle": "missing_step",
+"text": "Automated follow-ups pull those dormant chats back to life, but the missing step is context handoff. If a lead replies after six months saying they are ready, an agent needs to instantly see the property they looked at in March. Sending them back to square one kills the momentum."
+},
+{
+"angle": "sharp_question",
+"text": "When an automated check-in wakes up a six-month-old chat and the lead replies instantly during peak hours, how does your system prioritize that response against fresh inbound leads landing at the exact same time?"
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 113,
+"created_at": "2026-10-14T19:17:23.215537+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 8.8,
+"author_name": "Bob Jing",
+"author_headline": "Dentist",
+"author_url": "https://www.linkedin.com/in/bob-jing-67aa2a244?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADyqIT4B982RE0HGhO4MK7tGkvTeJdokc4o",
+"post_url": "https://www.linkedin.com/posts/bob-jing-67aa2a244_ben-wolfe-2nd-dmd-at-wolfe-family-dental-activity-7516182256294625280-XdMN",
+"post_text": "Ben Wolfe • 2nd\nDMD at Wolfe Family Dental\nA patient's experience is often a huge factor in whether they will have another checkup. If it goes poorly, then they may go months or years without the cleaning they need. However, if we strive to make sure everyone who walks through our door is welcomed with open arms, maybe fewer people will fear the dentist.\n\nMy experience \nWe are in the process of training a 2026 new grad and our patient asked if I training my replacement then leave. He would have to drive to Dallas if that was the case. \n\nHe feels like a friend. A friend trust a friend with their dental care. This is how to grow your business regardless how many patients the previous dentist had. This is exactly why the past performance of the previous dentist is irrelevant to one's own future performance. \n\nDental is a people business. Customer experience was not taught in dental school but directly related to our success while many dentists hate patients. Unfortunate.",
+"posted_at": "2026-10-14T17:04:53.814000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Dental practice owner talking about patient experience and customer care. Good fit for dentist story and phone reliability.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Building that trust in the chair is half the battle, but the first impression usually happens on the phone before they ever walk in. If a patient calls with tooth pain at night and hits a dead end or a generic voicemail, they just call the next clinic down the street. Fixing that front-door response matters just as much as chairside manner."
+},
+{
+"angle": "field_detail",
+"text": "When patients call in with urgent questions, speech-to-text on phone lines frequently mangles names and terms. In the voice agents I build, matching those rough transcripts against a real database takes about 20ms while the agent keeps talking, and failing that, drops straight to an SMS fallback where they can type it out. Securing that first touchpoint keeps patients from slipping away."
+},
+{
+"angle": "sharp_question",
+"text": "Dental schools skip customer experience entirely, leaving young grads to figure out front-desk operations by accident. When you are training a new dentist on chairside care, how do you get them to align with the patient communication style you want for the practice?"
+}
+],
+"connection_note": "Enjoyed your post on dental being a people business and the reality of training new grads. Would be great to connect and follow your insights on practice growth.",
+"my_comment": null
+},
 {
 "id": 112,
 "created_at": "2026-10-14T15:08:55.117470+00:00",
@@ -4251,10 +4368,10 @@
 "usage": [
 {
 "day": "2026-10-14",
-"posts_scraped": 50,
-"cards_sent": 10,
-"llm_input_tokens": 72405,
-"llm_output_tokens": 32846,
+"posts_scraped": 71,
+"cards_sent": 13,
+"llm_input_tokens": 92936,
+"llm_output_tokens": 39718,
 "llm_cost_usd": 0.0
 },
 {
@@ -4322,7 +4439,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.4,
+"apify_month_usd": 1.44,
 "apify_month_cap_usd": 5.0,
 "learned": 80,
 "metrics": {},

@@ -1,7 +1,7 @@
 # LinkedIn Brain: Mohammed Rayan / Raynix AI
 
 > One file that holds everything about the LinkedIn effort: who he is, the live profile section by section, every post and its numbers, what we built, what we decided and why, the goals, the rules, and what's pending.
-> Built 12 Oct 2026 from the repo, the saved playbooks and the profile-optimisation work logged on 10 Oct. **The live profile could not be re-read today** (Chrome extension not connected, built-in browser logged out), so profile text is "as last verified 10 Oct". Re-check anything marked [verify].
+> Built 12 Oct 2026 from the repo, the saved playbooks and the profile-optimisation work logged on 10 Oct. Sections 1-9 are as of 10-12 Oct (profile text "as last verified 10 Oct"). **For the current state (15 Oct) read "STATUS UPDATE 15 OCT" directly below section 0 first**; it overrides anything older. Re-check anything marked [verify].
 > Companion files: `CONTENT_PLAYBOOK.md` (research, calendar, full post texts), `PERSONAL_BRAND.md` (competitor and niche research), `config/expert_profile.yaml` (the truth gate), `config/voice.md`, `HOW_TO_POST.md`.
 
 ---
@@ -15,6 +15,86 @@
 - **Biggest lever discovered:** the L&T post got 716 impressions because **a judge he genuinely tagged (Dr. Kamlesh Kumar, L&T Finance) reposted it and NITK clubs shared it**. Genuine tags plus reposts beat his own network. Clinic-pitch "Comment X" posts got 20-100.
 - **Current plan:** 1 post a day at 9:00 AM Riyadh, 20 comments a day (comment engine), 15 connection requests, DM every engager within 24h. Week 1 = 11-17 Oct.
 - **Hard rules:** never auto-post; never weaken the truth gate; never name the MedLog operator/interviewee/employer or mention family; never claim client results (none exist); never call Ayah Archive a "product"; never describe scraping/Apify publicly; engine repo stays private.
+
+---
+
+## STATUS UPDATE 15 OCT 2026 (read this first when starting a fresh chat, especially for outreach)
+
+### Where things stand
+- **Connections 103** (67 on 10 Oct; 40 ten days ago), **followers 107** (71 on 10 Oct). Mostly real ICP people, not students: follower audience is 34% founders, 20% CXO, 30% at 2-10 person firms, 10% Dubai.
+- **Comments:** LinkedIn counts 85 this week (9-15 Oct); the CRM has **111 posted comments** in total.
+- **Still no conversations that have become calls, and no client.** The bottleneck is now replies and DMs, not reach.
+
+### LinkedIn analytics, pulled live 15 Oct (baseline for the next check)
+| Metric | 15 Oct | Note |
+|---|---|---|
+| Impressions, 28 days | 1,571 | +2,809% vs a tiny prior 28 days; 60% out-of-network, 508 members reached |
+| Impressions, 7 days | 635 | +29% vs prior 7 days |
+| Engagement, 28 days | 28 | 25 reactions, 2 comments, 1 save, 0 reposts, 0 sends |
+| Profile viewers, 90 days | 44 | low for 111 comments; 6 from IET NITK, 4 from the NITK debating society, 2 from L&T Finance; recent viewers include a Dubai real-estate executive director, a Dubai marketing founder and a Dubai advertising founder |
+| Search appearances, 7 days | 1 | was 9 on 10 Oct; profile is almost invisible in search |
+
+### Posts live (7), impressions on 15 Oct
+| Post | Impressions | Reactions |
+|---|---|---|
+| L&T Finance 2nd of 135 | **835** | 15 (carried by the judge's repost and NITK clubs; its viewers are 25% Mumbai, 20% L&T Finance, so a different audience from the ICP) |
+| Re-introduction ("everything I've shipped, and what broke") | 151 | 2 |
+| Advocall | 128 | 5 |
+| MedLog complaint desk (agent 1) | 118 | 2 |
+| "If an AI agent has never said I don't know" | 115 | 3 |
+| MedLog launch ("four hours with a logistics leader") | 85 | 1 |
+| MedLog three-way match (about 12h old) | 20 so far | 1 |
+
+Read: the build posts sit at about 85-150 each with 1-3 reactions. The L&T post is the only breakout and it came from distribution, not content alone. The Week 1 calendar was replaced by the MedLog series; the Tue carousel, Wed Ayah insights post, Thu P5 post and Fri truth-gate post are still unposted. Post 1 (re-intro) is live.
+
+### What was done 12-15 Oct
+- **12 Oct: hand-done outreach in Chrome** (own tab group, never touching the other Claude session on x.com): 10 comments and 12 connection requests on ICP-lane people, logged in the CRM through a new `manual` action (`engine/inbox.py`, tested, commits ac35069 and ea4e4bd). 13 entries.
+- **Replied to all 4 comment replies found in notifications** (notifications only reach back about 4 hours, so older replies could not be found): Fawad Hashmi, Muhammad Bilal, Apoorv Agarwal, Albin M Jose. Each reply ends with a question.
+- **Engine run failure fixed (run 38622563671, 14 Oct 19:18 UTC):** the final "Save state" git push lost a race with the rapid dashboard "posted" commits. Fix: retry loop with rebase abort and backoff in `.github/workflows/engine.yml` (commit 9adf9a0). Verification run 38623119677 succeeded (16 taps applied). Nothing was lost.
+- **15 Oct: full analytics review** (the numbers above).
+
+### CRM state (state/dashboard.json, 15 Oct 14:50 UTC)
+129 cards: **111 posted** (99 still stage "commented", 11 "connected", 1 "replied"), 14 sent and not yet posted, 4 skipped (3 of them connection-only). Stages are badly out of date: 103 connections and at least 4 real replies exist, but only 12 are marked connected and 1 replied. Fix this before using the Pipeline to choose DM targets. Apify use is $1.54 of the $5 cap.
+
+### Warm lead list (DM priority order; all got a comment and a connection request on 12 Oct unless noted)
+| Person | Who | Lane | Status and DM angle |
+|---|---|---|---|
+| **Punya Mehra** | Founder, Aurah Real Estate, Dubai | BUYER | Highest priority once accepted. Ask: goal question first or listings first in the first WhatsApp message? |
+| **Muhammad Bilal** | Meta Ads and lead gen for Dubai real estate | Channel partner (many brokerage clients) | **Replied.** He corrected me: the 186 were WhatsApp conversations started, not all answered in minutes. I owned it and asked what share got a reply within 5 minutes and whether that matches viewings. Best partner target. |
+| **Fawad Hashmi** | Aeon & Trisl (Dubai / Abu Dhabi) | BUYER-adjacent | **Replied.** Said expansion is about relationships and developer access. I conceded and asked whether Abu Dhabi enquiries run through the same team as Dubai. |
+| **Apoorv Agarwal** | Founder, AVmedia (Dubai), patient acquisition for aesthetic clinics | Channel (clinics) | **Replied** briefly. I asked for the slowest after-hours reply he has seen from a clinic running ads, and invited results from the 11 PM test. |
+| **Albin M Jose** | Data scientist / AI automation engineer (Dubai) | Builder peer | **Replied.** I said Meta's test number lets him try WhatsApp before approval and asked whether his 35 test cases are split by intent. |
+| Anton Neugebauer | Private-practice consultant (Miami) | Channel | Commented. Angle: time from enquiry to first human reply, split by business hours. |
+| Pankaj Kumar | Founder, CoBroker (broker CRM, Dubai) | Peer / integration partner | Commented. Ask: does a new WhatsApp enquiry create the lead automatically? |
+| Athar Ammar | Agency for health and real estate (4.9k followers) | Channel | Commented. Ask: do clients assign the owner of the first 4 minutes by rota? |
+| Muhammad Faiyaz Uddin Ahmed | LocalVisi Digital, local SEO for US dentists (Doha) | Channel | Commented. Angle: how many of the 521 Google calls were answered. |
+| Elena Herre | Founder, PrimeVision Automation (Dubai real-estate follow-up) | Peer, not a buyer | Commented. Same-space builder. |
+| Shivam Luthra | Founder, Reva AI | Peer (already 1st-degree) | Commented, no request needed. |
+| Hassan Ahmed | MD, Dar Al Safwah Real Estate (Sharjah) | BUYER | Connection request only. Comment on his next post. |
+| Mohammed Faisal | Founder, AssetzVault (real estate advisory) | BUYER | Connection request only; mutual connection Raghav. |
+| Himanshu Malik | Co-founder and COO, Wytewall (NITK) | NITK network | Connection request only; possible warm intro or mentor. |
+
+### Profile health findings (15 Oct)
+- **Search visibility is the biggest gap** (1 appearance a week): headline and About lack buyer search words ("WhatsApp", "AI receptionist", "real estate", "clinics", "lead response"). Headline changes are Rayan's call.
+- **About still says "1.1M+ monthly views"** for Ayah Archive; should be "1.1M+ views in 30 days". The About now says "a digital brand" (good); **Projects #4 wording still needs checking**.
+- **"Verify in 2 minutes" is unclaimed** (only Rayan can do it).
+- **Featured has 3 posts and no MedLog repo or demo link.**
+- Open to Work is on, recruiters only (fine).
+- The banner pitches a free ops audit while the headline is internship-friendly: a deliberate dual message, keep an eye on it.
+
+### Next steps (priority order) and the plan for the outreach chat
+1. **Sweep recent connections and sync the CRM:** mark who accepted the 12 Oct requests, who replied, who is ICP.
+2. **DM the warm list**, starting with Punya Mehra, Muhammad Bilal, Fawad Hashmi, Apoorv Agarwal. A DM is a question about THEM, never a pitch, sent within 24h of acceptance. Draft each from the table above and **ask Rayan for an explicit yes before sending any DM** (sending messages for him needs approval each time).
+3. **Fix search visibility and the profile items above.**
+4. **Use comment partners as the first-hour audience** for posts; tag only people genuinely in the story; reply to every comment within the hour.
+5. **Measure conversations, not impressions.** Target by 31 Oct: 5 real two-way conversations with ICP people and 1 call. Re-pull analytics weekly and compare with the 15 Oct table.
+
+### Rules for any outreach session (carry over)
+- Use Claude in Chrome in its own tab group; never touch another session's tabs (a different Claude session works on x.com). Close tabs when done. The built-in browser may be logged out.
+- Before commenting on a post, check for an existing "Mohammed Rayan • You" comment (he also posts engine cards from the dashboard, so duplicates are a real risk).
+- Comment voice: no "Great post", no em dashes, no pitch, no "Thoughts?"; end with one specific question. Never state a prospect's claim as a fact about a bigger set than they said (this caused the Bilal correction).
+- Truth gate stays: no client results, MedLog = synthetic data and never identify the operator, Ayah Archive = faceless digital brand, no scraping or Apify talk, engine repo private, never auto-post, never use his cookie, never enter passwords or tokens.
+- Log hand-done work in the CRM with a `manual` line in `state/actions.jsonl` (needs `post_url`, `author_name`, `stage`, optional `text`, `note`, `author_headline`, `author_url`); it applies on the next engine run (08:00, 13:00, 18:00 Riyadh). Always `git pull` before editing and push after.
 
 ---
 
@@ -171,7 +251,7 @@ Full paste-ready texts, visuals, AI-image fallback prompts and first comments ar
 | Fri 16 | The truth gate: "my AI isn't allowed to say anything I haven't done" (no mention of scraping) | Text + blurred screenshot |
 | Sat 17 | MedLog P2: "3,000 invoices a month. 10-15 minutes each." | Text + three-way-match screenshot |
 
-### Post 1 status [verify]
+### Post 1 status (RESOLVED 15 Oct: the re-introduction is live, 151 impressions; the text below is the 12 Oct history)
 Drafted in the LinkedIn composer (Ayah line corrected to "faceless digital brand"). Image `post1-reintro.png` (1080x1350, brand style) is on the Desktop; the user was asked to attach it manually (the browser can't drive the native file picker). Scheduling for Sun 11 Oct 9:00 AM Riyadh was planned, but **today is Mon 12 Oct, so the Sunday slot has passed unless it was scheduled or posted**. Check LinkedIn to see whether Post 1 is live. If not, post it now (or tomorrow) and shift the calendar by a day. After posting: first comment with links (Advocall demo/repo, MedLog repo, GitHub), @-tag Advocall teammates and Build for Billions in the Advocall bullet, add to Featured, reply to every comment in the first hour.
 
 ---
@@ -249,8 +329,8 @@ Priority: real photo of him > real screenshot of the thing running > real chart 
 ## 8. Open items and risks
 
 **Do now**
-1. Check whether Post 1 is live. If not, attach `post1-reintro.png`, post, first comment, Featured, reply for an hour. Shift the week by a day if Sunday was missed.
-2. Fix "digital product" -> "faceless digital brand" in **About** and **Projects #4**, and "monthly views" -> "views in 30 days".
+1. ~~Check whether Post 1 is live~~ Done: live (see STATUS UPDATE 15 OCT).
+2. About now says "digital brand" (fixed). Still open: "monthly views" -> "views in 30 days" in About, and check **Projects #4** wording.
 3. Mon 12 post (MedLog P4 👍): screenshot the cockpit P4 tab.
 4. Tag/DM: Advocall teammates, Build for Billions, Dr. Kamlesh Kumar (only with a genuinely new line), IET NITK, Incub8 NITK.
 

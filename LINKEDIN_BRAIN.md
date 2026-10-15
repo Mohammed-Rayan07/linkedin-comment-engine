@@ -74,6 +74,9 @@ Read: the build posts sit at about 85-150 each with 1-3 reactions. The L&T post 
 | Mohammed Faisal | Founder, AssetzVault (real estate advisory) | BUYER | Connection request only; mutual connection Raghav. |
 | Himanshu Malik | Co-founder and COO, Wytewall (NITK) | NITK network | Connection request only; possible warm intro or mentor. |
 
+### Profile repositioned (15 Oct, evening): V3 is live
+Headline, About, Raynix AI Experience, Services and the Ayah Archive project were rewritten. Raynix AI is now an **AI consulting & engineering company**, and the headline lane is **real estate & clinics** (leads into booked viewings and appointments). About and Experience sell the full connected system (capture, instant reply, AI sales follow-up, booking, CRM/Drive/owner alerts, reviews and reactivation) with an audit-first method. Exact live text and the full V1/V2 history for reverting are in `PROFILE_VERSIONS.md`. The headline/About/Experience text in section 2 below is V1 (historical). Still to do: Featured section (landing page), new banner (needs Rayan's photo), confirm the ad-spend figure before using "9,000+ AED at 3x" anywhere public.
+
 ### Profile health findings (15 Oct)
 - **Search visibility is the biggest gap** (1 appearance a week): headline and About lack buyer search words ("WhatsApp", "AI receptionist", "real estate", "clinics", "lead response"). Headline changes are Rayan's call.
 - **About still says "1.1M+ monthly views"** for Ayah Archive; should be "1.1M+ views in 30 days". The About now says "a digital brand" (good); **Projects #4 wording still needs checking**.

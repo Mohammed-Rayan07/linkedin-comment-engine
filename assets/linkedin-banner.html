@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500&display=block" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1584px; height: 396px; overflow: hidden; background: #0d1014; }
+  .banner {
+    position: relative; width: 1584px; height: 396px; overflow: hidden;
+    background: #0d1014;
+    font-family: 'Manrope', sans-serif; color: #efe9df;
+  }
+  .photo {
+    position: absolute; top: 0; right: 0; width: 600px; height: 396px;
+    background-image: url('rayan.webp');
+    background-size: 640px 640px;
+    background-position: 22px -88px;
+    filter: saturate(0.78) contrast(1.05) brightness(0.88);
+  }
+  .shade {
+    position: absolute; top: 0; right: 0; width: 602px; height: 396px;
+    background:
+      radial-gradient(ellipse 230px 260px at 330px 175px, rgba(13,16,20,0) 0%, rgba(13,16,20,0) 45%, rgba(13,16,20,0.55) 100%),
+      linear-gradient(90deg, #0d1014 0%, rgba(13,16,20,0.94) 18%, rgba(13,16,20,0.62) 36%, rgba(13,16,20,0.12) 56%, rgba(13,16,20,0.0) 64%, rgba(13,16,20,0.0) 82%, rgba(13,16,20,0.45) 100%),
+      linear-gradient(0deg, rgba(13,16,20,0.5) 0%, rgba(13,16,20,0) 32%),
+      linear-gradient(180deg, rgba(13,16,20,0.35) 0%, rgba(13,16,20,0) 25%);
+  }
+  .brand {
+    position: absolute; top: 46px; left: 64px;
+    display: flex; align-items: center; gap: 18px;
+    font-weight: 300; font-size: 15px; letter-spacing: 0.34em; color: #efe9df;
+  }
+  .brand .rule { width: 28px; height: 1px; background: rgba(239,233,223,0.35); }
+  .brand .sub { letter-spacing: 0.22em; color: rgba(239,233,223,0.55); font-size: 12.5px; }
+  .copy { position: absolute; left: 432px; top: 92px; width: 640px; }
+  h1 {
+    font-family: 'Instrument Serif', serif; font-weight: 400;
+    font-size: 54px; line-height: 1.04; letter-spacing: -0.005em; color: #f4efe6;
+  }
+  h1 em { font-style: italic; color: #cdb88a; }
+  .lede {
+    margin-top: 20px; font-weight: 300; font-size: 17px; line-height: 1.55;
+    color: rgba(239,233,223,0.72); max-width: 560px;
+  }
+  .tags {
+    margin-top: 22px; display: flex; gap: 12px; align-items: center;
+    font-weight: 400; font-size: 11.5px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: rgba(239,233,223,0.5);
+  }
+  .tags i { width: 3px; height: 3px; border-radius: 50%; background: #cdb88a; display: inline-block; opacity: 0.8; }
+</style>
+</head>
+<body>
+  <div class="banner">
+    <div class="photo"></div>
+    <div class="shade"></div>
+    <div class="brand"><span>RAYNIX AI</span><span class="rule"></span><span class="sub">AI CONSULTING &amp; ENGINEERING</span></div>
+    <div class="copy">
+      <h1>AI systems that book your leads<br><em>and run your operations.</em></h1>
+      <p class="lede">For real estate teams, clinics and growing service businesses. Audited first, then engineered around how you actually work.</p>
+      <div class="tags"><span>AI sales agents</span><i></i><span>Lead follow-up</span><i></i><span>Agentic operations</span><i></i><span>Voice AI</span><i></i><span>CRM</span></div>
+    </div>
+  </div>
+</body>
+</html>

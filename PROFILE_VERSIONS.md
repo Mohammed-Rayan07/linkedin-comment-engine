@@ -164,7 +164,11 @@ ayaharchive.shop
 ```
 V1 title was `Ayah Archive: digital product and automated distribution system`; V1 description opened "A digital product focused on Qur'an memorization systems and habit frameworks..." with "1.1M+ monthly views".
 
-Not changed in V3: Featured (next step), banner (needs Rayan's photo), Education, Honors, Skills, other Projects.
+### V3.1 updates (15 Oct 2026, later)
+- **Ad spend confirmed by Rayan: ~₹2L total (~7,500+ AED).** The About Ayah line now reads "grown with 7,500+ AED of Meta ads and a fully automated sales funnel". The project bullet now reads "Managed 7,500+ AED (₹2L+) in Meta ad spend". The PDF's "9,000+ AED at 3x ROI" is NOT used; the ROI multiple is unconfirmed.
+- **New banner live**, replacing the old "RAYNIX AI / I map where your operation leaks hours" banner. Files: `assets/linkedin-banner.png` (3168x792) and its source `assets/linkedin-banner.html`, rendered with headless Chrome at 2x. Copy: brand "RAYNIX AI — AI CONSULTING & ENGINEERING" (thin, top-left); headline "AI systems that book your leads / and run your operations."; line "For real estate teams, clinics and growing service businesses. Audited first, then engineered around how you actually work."; tags "AI sales agents · Lead follow-up · Agentic operations · Voice AI · CRM". Photo on the right, faded into an ink background. The old banner was not saved locally.
+
+Not changed in V3: Featured (next step), Education, Honors, Skills, other Projects.
 
 Note for future edits: LinkedIn's text boxes sometimes drop typed characters. Set values with form_input, or verify the saved text character by character.
 

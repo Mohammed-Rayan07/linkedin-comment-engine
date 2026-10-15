@@ -1,7 +1,163 @@
 {
-"generated_at": "2026-10-15T14:50:12.379608+00:00",
+"generated_at": "2026-10-15T19:04:28.075908+00:00",
 "actions_applied": 120,
 "cards": [
+{
+"id": 133,
+"created_at": "2026-10-15T19:04:27.520823+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 5.3,
+"author_name": "Ian D'Souza",
+"author_headline": "Trusted UAE Business Advisor | Helping Entrepreneurs, Investors & International Companies Make the Right Decisions and Navigate UAE Market Entry, Structuring & Expansion with Clarity",
+"author_url": "https://www.linkedin.com/in/ian-d-souza?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAuoqQ8BknCFKb7WfBRO_OBNEONmGcHWBGI",
+"post_url": "https://www.linkedin.com/posts/ian-d-souza_dubai-marketentry-businessexpansion-activity-7516525002263871488-S_Xk",
+"post_text": "Expanding into a new country isn't one problem. It's ten problems, each owned by a different specialist who doesn't talk to the others.\n\nLawyer. Tax adviser. Bank. Free zone authority. Logistics partner. Recruiter. Real estate agent. Marketing agency.\n\nAt Alora Global we coordinate that whole network for you. Our clients get:\n✔️ The right structure, built around how they'll actually trade\n✔️ Compliance handled continuously, not just at setup\n✔️ Introductions to vetted partners across banking, logistics, hiring and go-to-market\n✔️ One team that knows their business, accountable from entry to scale\n\nWe work with founders, manufacturers, e-commerce and consumer brands, tech companies and family offices expanding into the UAE and beyond.\n\nGetting the first year right sets up everything that follows.\n\n#Dubai #MarketEntry #BusinessExpansion #IndianFounders",
+"posted_at": "2026-10-15T15:46:50.821000+00:00",
+"likes": 2,
+"comments": 1,
+"why": "Business setup advisory mentioning coordination complexity across silos. Touches ops chaos but vendor-to-vendor.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "Coordination that lives across eight different advisors in WhatsApp threads and inboxes never shows up as a clear line item. It just shows up as weeks of delayed bank approvals and founders asking where their file sits. Putting a single operational wrapper around those handoffs saves far more momentum than the licensing paperwork itself."
+},
+{
+"angle": "sharp_question",
+"text": "Managing eight separate specialists on one deal is a heavy coordination lift. Where does the handoff usually break down first? Is the biggest delay corporate banking compliance, or keeping the tax advisor and licensing authority aligned on trade activity definitions?"
+},
+{
+"angle": "missing_step",
+"text": "Vetting external partners solves trust, but the missing operational step is a shared intake system. Without one, the client gets asked for the same passport copies, business plans, and proof of address across five different advisor email chains. Unifying that data intake upfront protects the founder's time during setup."
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 132,
+"created_at": "2026-10-15T19:04:04.548036+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.1,
+"author_name": "Dr. Mohammed Hassan Al Raeesi",
+"author_headline": "Founder & CEO",
+"author_url": "https://www.linkedin.com/in/dr-mohammed-hassan-al-raeesi-459742340?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFWJ6AUBloZFMKqOezfDdRw_P7K5_UuBIPE",
+"post_url": "https://www.linkedin.com/posts/dr-mohammed-hassan-al-raeesi-459742340_buying-off-plan-property-is-a-form-of-real-activity-7516520739366408193-DIbn",
+"post_text": "For investors with numerous inquiries regarding the purchase of off-plan property, please find the most comprehensive guide available here. I hope you find the reading informative.\n\n#property\n#off_plan",
+"posted_at": "2026-10-15T15:29:54.467000+00:00",
+"likes": 3,
+"comments": 0,
+"why": "Real estate CEO sharing off-plan guide. Good buyer target, but post is just a link drop.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Comprehensive guides answer baseline questions, but buyers usually get stuck comparing developer payment plans and handover timelines. Once an investor reads through this, how do your brokers qualify whether they have capital ready right now versus someone just browsing the market?"
+},
+{
+"angle": "missing_step",
+"text": "Detailed buyer guides filter out basic confusion, but the missing step is capturing the intent right after they read it. If an overseas investor reviews this late in the evening and asks about specific payment milestones, waiting until the morning to send project sheets often lets the interest cool down."
+},
+{
+"angle": "pushback",
+"text": "Guides educate buyers, but they can also create an operational trap for brokers. When an investor reads this and asks to compare three off-plan launches at once, agents can easily spend hours manually pulling brochures and payment schedules instead of focusing on buyers ready to commit."
+}
+],
+"connection_note": "Dr. Mohammed, saw your post sharing the off-plan buyer guide. I follow how Gulf brokerages handle inbound qualification when overseas investors start comparing developer payment plans. Would be glad to connect.",
+"my_comment": null
+},
+{
+"id": 131,
+"created_at": "2026-10-15T19:02:51.611404+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 6.3,
+"author_name": "Mo Khan",
+"author_headline": "General Manager Relaince Chev GMC CDJR. Automotive retail Operations. Sales and Fixed Operations. P&L Management, team Leadership and Performance Growth.",
+"author_url": "https://www.linkedin.com/in/mo-khan-673a62438?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAG6ArzcBS9X-Yos3DTPwND-uhlojVvWyoPg",
+"post_url": "https://www.linkedin.com/posts/mo-khan-673a62438_customerexperience-leadership-automotiveindustry-activity-7516510765223428096-zS78",
+"post_text": "Customer service isn’t just about selling a vehicle. It’s about standing behind the decision long after the customer drives off the lot. \n\nWhen a customer has a concern, my philosophy is simple: listen, take ownership, follow through, and make sure the customer feels taken care of. We may not always get everything perfect the first time, but we can always control how we respond. \n\nGreat dealerships don’t just sell cars. They build trust, one customer at a time.\n\n#CustomerExperience #Leadership #AutomotiveIndustry #CustomerFirst #RelianceNissan",
+"posted_at": "2026-10-15T14:50:16.446000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Auto dealership GM talking about customer experience. Good buyer, but post is generic leadership fluff.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Standing behind the sale usually breaks down in service advisory. When a customer calls with a post-sale concern, the operational leak is when advisors have to chase the workshop for an update while the owner waits on hold. Streamlining that status check so the advisor has the answer instantly is what actually protects that trust."
+},
+{
+"angle": "sharp_question",
+"text": "Follow-through in fixed ops is usually where customer trust gets tested, especially when advisors get buried under routine status updates. When a customer calls asking if their vehicle or part is ready, do your service advisors have to call the workshop bay manually every time, or is that status update pushed automatically?"
+},
+{
+"angle": "make_concrete",
+"text": "Taking ownership sounds simple until a customer calls three times in an afternoon just to check if a backordered part came in. In auto service, coordination that lives in phone calls and manual reminders never shows up as a line item, but it wears down the service team. Turning every concern into a tracked workflow fixes the follow-through."
+}
+],
+"connection_note": "Hi Mo, saw your post on post-sale customer experience in auto retail. I map operational workflows and automation for service-driven businesses. Would be great to connect.",
+"my_comment": null
+},
+{
+"id": 130,
+"created_at": "2026-10-15T19:00:32.196033+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.7,
+"author_name": "Honora Ventures Consultancy",
+"author_headline": "CEO bij Honora Ventures Consultancy",
+"author_url": "https://www.linkedin.com/in/honora-ventures-consultancy-28546b42a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGyigcUBG24Ie_ACcgzUxvwDBSP7lzj2Yac",
+"post_url": "https://www.linkedin.com/posts/honora-ventures-consultancy-28546b42a_hiring-dubaijobs-digitalmarketing-activity-7516523154186432512-QCjp",
+"post_text": "WE’RE HIRING: Digital Marketing & Lead Generation Specialist\nHONORA Ventures Consultancy LLC | Dubai | Full-time, office-based\nWe are looking for a hands-on marketer to grow our online presence and generate qualified enquiries for UAE company formation, visa support and corporate services.\nWHAT YOU WILL DO\n• Plan, launch and optimise Meta and Google advertising campaigns.\n• Create and publish daily social content, including practical smartphone videos, reels and graphics.\n• Develop clear offers, advertising copy and landing-page content.\n• Track enquiries, cost per qualified lead, consultations and sales outcomes.\n• Coordinate enquiry handover and follow-up with our corporate services team.\n• Manage community engagement and maintain a content calendar.\n• Provide short daily updates and weekly performance reports.\n• Coordinate specialist video production when required.\nWHAT WE ARE LOOKING FOR\n• Demonstrated experience personally managing lead-generation campaigns.\n• Examples showing advertising spend, lead quality and commercial results.\n• Strong English copywriting and practical filming, editing and design skills.\n• Ability to execute independently and work daily from our Dubai office.\n• UAE service-business or company-formation experience is an advantage.\n• Immediate availability preferred.\nTO APPLY\nEmail info@honoraventuresconsultancy.ae with your CV, portfolio, expected monthly salary and earliest start date.\nInclude two campaigns you personally managed, stating your role,",
+"posted_at": "2026-10-15T15:39:30.205000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Consultancy hiring lead-gen specialist. Direct insight into lead-waste and speed-to-lead challenges.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "Generating company formation inquiries through ads is only half the battle. The missing operational step is the handoff to the corporate services team. If a prospect fills out a form and waits hours for a reply while comparing other Dubai consultants, the ad spend leaks."
+},
+{
+"angle": "sharp_question",
+"text": "When inbound inquiries for company formation and visas land throughout the day, how do you measure the exact gap between form submission and the corporate services team making contact?"
+},
+{
+"angle": "make_concrete",
+"text": "International founders often research UAE company setup late at night outside standard Gulf hours. If an inquiry sits in the queue until the morning team logs in, the momentum cools off before the first conversation even happens."
+}
+],
+"connection_note": "Scaling ad spend for Dubai company formation brings in volume, but the real test is how fast those inquiries reach the corporate services team. Would be good to connect.",
+"my_comment": null
+},
 {
 "id": 129,
 "created_at": "2026-10-15T14:50:11.752771+00:00",
@@ -4914,10 +5070,10 @@
 "usage": [
 {
 "day": "2026-10-15",
-"posts_scraped": 52,
-"cards_sent": 14,
-"llm_input_tokens": 99182,
-"llm_output_tokens": 68234,
+"posts_scraped": 77,
+"cards_sent": 18,
+"llm_input_tokens": 128403,
+"llm_output_tokens": 78735,
 "llm_cost_usd": 0.0
 },
 {
@@ -4993,7 +5149,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.54,
+"apify_month_usd": 1.59,
 "apify_month_cap_usd": 5.0,
 "learned": 100,
 "metrics": {},

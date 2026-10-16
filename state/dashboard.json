@@ -1,7 +1,202 @@
 {
-"generated_at": "2026-10-16T14:40:25.411840+00:00",
+"generated_at": "2026-10-16T18:42:42.685138+00:00",
 "actions_applied": 138,
 "cards": [
+{
+"id": 144,
+"created_at": "2026-10-16T18:42:41.980585+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 6.2,
+"author_name": "Bob Jing",
+"author_headline": "Dentist",
+"author_url": "https://www.linkedin.com/in/bob-jing-67aa2a244?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADyqIT4B982RE0HGhO4MK7tGkvTeJdokc4o",
+"post_url": "https://www.linkedin.com/posts/bob-jing-67aa2a244_dalton-eckstein-dmd-ma-1st-doctor-of-activity-7516887275947868160-OCOX",
+"post_text": "Dalton Eckstein, DMD, MA  • 1st\nDoctor of Dental Medicine\nHow are extractions one of the most productive procedures?\n\nMy response\nWhat a great question about business side of dental business. \n1. It's needed frequently so the opportunity to generate income is high. Few go to a dental practice to have fun and many go to aleviate tooth aches. \n2. It has no consultation hurdle because patients already know they need the treatment if patient was in pain. \n3. It has low price hurdle for patient if no PPO insurance. If patient has PPO many times it's paid at 80% which makes affordability even less of a problem. Affordability is the highest hurdle in front of financial success of dentists which is completely out of dentist control. \n4. It's easy to perform skill wise. \n5. It takes less time because it's easy to complete.\n6. Turning tears of agonizing pain to tears of relief also makes extraction the easiest procedure to generate repeat and referral business. \n\nConclusion, extraction is a tremendous income maker as well as business builder.",
+"posted_at": "2026-10-16T15:46:23.598000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Dental practice business side discussion. Good context on clinic operations.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "When patients are dealing with severe pain, the decision comes down to speed. If the front desk is tied up chairside and misses that inbound call, the patient rarely leaves a voicemail. They just dial the next practice on Google Maps."
+},
+{
+"angle": "sharp_question",
+"text": "High urgency procedures like extractions depend entirely on capturing the patient at the exact moment of need. When phone lines are busy or it is late in the day, how do you track how many of those immediate-need inquiries your front desk actually misses?"
+},
+{
+"angle": "missing_step",
+"text": "Recognizing that extractions have zero consultation hurdle is spot on. The missing operational step is ensuring that the moment an urgent inquiry hits, the booking is locked in instantly before the patient looks elsewhere."
+}
+],
+"connection_note": "Hi Bob, enjoyed your breakdown of the business side of dental extractions, especially the point about turning acute pain into long-term trust. Connecting with fellow operators focused on clinic operations.",
+"my_comment": null
+},
+{
+"id": 143,
+"created_at": "2026-10-16T18:42:29.920659+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.3,
+"author_name": "Faisal Khwaja",
+"author_headline": "Managing Director | Real Estate Investment Specialist | Helping Investors Unlock Profitable Opportunities in Dubai Market.",
+"author_url": "https://www.linkedin.com/in/faisal-khwaja-0b943434?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAcuvo0BKSN82iLougIZMSlXQE4pz0_oAbg",
+"post_url": "https://www.linkedin.com/posts/faisal-khwaja-0b943434_dubairealestate-propertyfinance-offplandubai-activity-7516910651269595136-3eWC",
+"post_text": "BREAKING: 50% paid could be the financing checkpoint for some Sobha off-plan buyers.\n\nHere’s the simple example:\n\nProperty value: AED 2,000,000\n50% paid: AED 1,000,000\n\nUnder the Sobha Realty–RAKBANK agreement, eligible buyers of selected off-plan properties in Dubai may apply for financing after paying at least 50% and reaching the required construction milestone.\n\nThat doesn’t mean automatic approval—or that the remaining 50% will be financed. The announcement doesn’t specify interest rates or loan-to-value terms, so buyers should confirm the details with RAKBANK.\n\nFor eligible ready Sobha homes in Dubai and Abu Dhabi, buyers can apply immediately. \n\nEligible non-residents, including Golden Visa holders, are also included for ready homes.\n\nThe useful takeaway: \n\nwhen comparing off-plan options, check when the 50% mark and construction milestone occur—and whether that timing fits your cash flow.\n\nWould this financing option change how you compare a ready home with an off-plan property?\n\n#DubaiRealEstate #PropertyFinance #OffPlanDubai",
+"posted_at": "2026-10-16T17:19:16.709000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Real estate finance post, but tangential to his core operational speed-to-lead and CRM focus.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "When a property hits an AED 1,000,000 threshold before financing kicks in, the bottleneck shifts from finding buyers to tracking construction milestones. If that status update sits in a spreadsheet instead of a CRM task queue, deals stall right when capital is ready to move."
+},
+{
+"angle": "sharp_question",
+"text": "When a financing checkpoint like this opens up for off-plan buyers, how do your brokers track which leads have actually crossed that 50% mark versus those just browsing inventory?"
+},
+{
+"angle": "missing_step",
+"text": "Knowing the milestone rules is only half the battle. The missing operational step is automated tracking that alerts the sales team the moment a construction milestone clears, so they can trigger the bank application before the buyer loses momentum."
+}
+],
+"connection_note": "Faisal, enjoyed your breakdown of the Sobha and RAKBANK financing checkpoint. Tracking construction milestones like that changes how brokerages qualify off-plan buyers. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 142,
+"created_at": "2026-10-16T18:41:44.369258+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.2,
+"author_name": "Muhammad Umer Farooq Bhagwani",
+"author_headline": "CEO, Infinitrs | General Manager, SAUA Consulting | Responsible AI, Governance & Sustainable Transformation | Saudi Arabia & GCC",
+"author_url": "https://www.linkedin.com/in/umer-bhagwani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADk6ymUBRXfZfAN3ZM4ZxpmpRQHwi277MnQ",
+"post_url": "https://www.linkedin.com/posts/umer-bhagwani_in-recent-conversations-with-businesses-in-activity-7516871164997169152-S70_",
+"post_text": "In recent conversations with businesses in Saudi Arabia, I’ve noticed a change. The question is no longer simply whether to use AI. It is where to give it access to real business data.\n\nTake customer service. An AI assistant can help a team respond faster, but it may also need to read years of customer history to do that well. At that point, the decision reaches beyond technology: how much data is necessary, who can see it, and what happens to it afterward?\n\nPDPL is part of that conversation. My view is that businesses will move faster with AI when they settle these decisions early, with the people responsible for the customer relationship in the room.",
+"posted_at": "2026-10-16T14:42:22.448000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "KSA AI and data governance conversation. Directly aligns with his stance on deterministic code and boundaries.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "The assumption that customer service AI needs years of raw customer history is usually where PDPL risks start. Giving an LLM open context across historical records invites data leaks. An agent rarely needs full history to handle a request. It needs narrow, scoped fields served through a layer that strips sensitive PII before generation. Restricting data access to strictly transactional, read-only lookups keeps compliance intact from day one."
+},
+{
+"angle": "missing_step",
+"text": "Getting commercial leaders in the room settles the policy, but the missing step is enforcing data boundaries in deterministic code rather than prompts. Relying on an LLM to respect PDPL boundaries through a system prompt is fragile. True governance requires hard access controls at the API layer: the code strips sensitive data before the model ever sees the payload."
+},
+{
+"angle": "field_detail",
+"text": "In an inventory system I built, the AI can propose but never write. That boundary is critical when dealing with customer data under PDPL. The LLM can handle phrasing, but deterministic code must govern data retrieval. When an agent only receives the exact transactional record needed for that specific inquiry, you eliminate the risk of a model exposing broader customer history."
+}
+],
+"connection_note": "Hi Muhammad, read your post on AI data access and PDPL in Saudi Arabia. Enforcing data boundaries at the API layer rather than inside prompts is a conversation I track closely while building AI systems in Riyadh. Would be great to connect.",
+"my_comment": null
+},
+{
+"id": 141,
+"created_at": "2026-10-16T18:41:11.330411+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 7.5,
+"author_name": "Andi Narti",
+"author_headline": "Managing Partner at CLIX CRM",
+"author_url": "https://www.linkedin.com/in/andinarti?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAG83TyQBy1bfeucK3jz645PzV3nJeUorq8Q",
+"post_url": "https://www.linkedin.com/posts/andinarti_clix-crm-the-real-estate-operating-system-activity-7516897708637544448-8KDQ",
+"post_text": "Every lead needs follow-up. Every listing needs accurate information. Every team needs a clear view of what comes next.\n\nIn real estate, all of this happens at once. Enquiries arrive, agents attend viewings, property availability changes, and management needs to understand how opportunities are progressing.\n\nWhen information is scattered across spreadsheets, conversations, and separate platforms, everyday tasks take longer. Teams spend time searching for client details, checking property status, and asking who is handling the next step.\n\nClix CRM brings these workflows together. 🏢\n\nBuilt for real estate businesses in the UAE, particularly Dubai, Clix CRM connects lead management, ready property listings, off-plan projects, unit inventory, agent teams, portal integrations, and reporting in one platform.\n\nWith Clix CRM, your business can:\n\n✅ Manage the client journey from the first enquiry through to a completed deal.\n\n✅ Assign leads using routing rules and monitor response times to identify enquiries that need attention.\n\n✅ Organise ready property listings and off-plan project information, including developers, starting prices, payment plans, and handover dates.\n\n✅ Track unit availability, holds, reservations, and bookings.\n\n✅ Monitor team activity and sales progress through a central operational dashboard.\n\nThe value is in what this helps people do every day.\n\nAgents can approach conversations with organised information. Managers can identify where follow-up is needed. Busine",
+"posted_at": "2026-10-16T16:27:50.945000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Competitor CRM vendor in Dubai. Good fit for a pushback on lead routing and speed-to-lead.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Monitoring response times gives management visibility, but by the time a dashboard flags an enquiry that needs attention, the buyer has usually contacted two other brokerages. In high-velocity markets like Dubai, routing rules only solve half the problem. If the system waits for an agent to manually review the ticket instead of triggering an immediate qualified response, the lead is already cold."
+},
+{
+"angle": "missing_step",
+"text": "Centralizing off-plan listings and lead intake solves internal clutter, but the missing operational step is what happens between the enquiry and the viewing booking. If an agent still has to manually cross-check unit availability or developer payment plans before messaging the client back, the response lags. Automating that initial qualification check directly upon intake is what actually stops leads from leaking."
+},
+{
+"angle": "sharp_question",
+"text": "Dubai brokers spend half their day out on site viewings, which is exactly when fresh portal leads tend to stall. When your routing rules assign an enquiry to an agent who is tied up with a client, does Clix re-route the lead dynamically based on live calendar availability, or does it rely on a manager manually stepping in after a response threshold is breached?"
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 140,
+"created_at": "2026-10-16T18:40:52.090966+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 8.8,
+"author_name": "Shaista Latif",
+"author_headline": "Founder at YS International Services",
+"author_url": "https://www.linkedin.com/in/shaista-suleman-md?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7vqiYBxTiVEY3bpdJrmoAvgO5Z2dLSR0g",
+"post_url": "https://www.linkedin.com/posts/shaista-suleman-md_hiringdubai-dubaijobs-salesjobs-activity-7516900367184502785-NqjJ",
+"post_text": "📢 WE’RE HIRING: SALES CUM CONTENT CREATOR \n\n📍 Location: Art Tower, Bur Dubai\n🕒 Type: Full-time, on-site\n💰 Salary: AED 3,000 per month + Commission\n📅 Working hours: Monday to Saturday, 9:00 a.m. to 6:00 p.m.\n\nWhat you’ll do\n• Respond to prospective clients by phone, WhatsApp and email\n• Explain our visa services and convert inquiries into confirmed bookings\n• Create social media posts, service descriptions, marketing materials and client communication templates\n• Be comfortable appearing on camera for video content\n• Keep accurate client records and coordinate with the operations team\n• Support marketing campaigns and suggest improvements based on client feedback \n\nWhat we’re looking for\n• Strong communication, sales and relationship-building skills\n• Comfortable using WhatsApp, email, Word, Excel and social media\n• Organized, detail-oriented and able to meet daily targets\n• Additional languages commonly spoken in Dubai are an advantage\n• Sales, customer service, travel or immigration experience is preferred.\n\n📩 To apply: Send your CV and examples of your content to:\n0508753800\nKhizar@ysinternationalservices.com\n\n\n#HiringDubai #DubaiJobs #SalesJobs #ContentCreator #BurDubai #YSInternationalServices",
+"posted_at": "2026-10-16T16:38:24.792000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Dubai visa service hiring for phone, WhatsApp and email support. Perfect lead-waste and ops pain.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "Combining creative content work with real-time lead response is a tough balancing act. The step that usually gets missed is setting an explicit response protocol for inbound WhatsApp messages while someone is mid-recording. If an enquiry waits two hours because the person is filming content, that lead has already texted the next visa agency."
+},
+{
+"angle": "make_concrete",
+"text": "Visa enquiries in Dubai move fast. If three WhatsApp leads arrive while this hire is filming video or editing, those prospects rarely wait. A simple calculation of missed enquiries during peak recording hours usually reveals that response delay hurts conversion far more than ad reach."
+},
+{
+"angle": "sharp_question",
+"text": "Combining live phone and WhatsApp handling with video creation puts two very different paces on one person. When inbound volume spikes while they are on camera, how do you keep initial response times under a few minutes so prospects do not reach out to competing services?"
+}
+],
+"connection_note": "Hi Shaista, saw your post hiring for a sales and content role in Bur Dubai. Combining live WhatsApp/phone conversion with content creation is a unique operational challenge. Would love to connect and follow your team's growth at YS International.",
+"my_comment": null
+},
 {
 "id": 139,
 "created_at": "2026-10-16T14:40:24.782319+00:00",
@@ -5304,10 +5499,10 @@
 "usage": [
 {
 "day": "2026-10-16",
-"posts_scraped": 48,
-"cards_sent": 6,
-"llm_input_tokens": 50436,
-"llm_output_tokens": 23615,
+"posts_scraped": 71,
+"cards_sent": 11,
+"llm_input_tokens": 84387,
+"llm_output_tokens": 36917,
 "llm_cost_usd": 0.0
 },
 {
@@ -5391,7 +5586,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.69,
+"apify_month_usd": 1.74,
 "apify_month_cap_usd": 5.0,
 "learned": 118,
 "metrics": {},

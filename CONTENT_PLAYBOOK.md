@@ -113,7 +113,7 @@
 - **Never tag** the MedLog interviewee or his employer (anonymity rule).
 
 ### The truth gate for content (same rule as the comment engine)
-**You may use these:** NITK B.Tech AI (2025–); JEE Advanced 2025, top ~2% of ~1.5M; L&T Finance challenge 2nd of 135 teams, 60 final submissions, top 8 presented, lowest MAPE of all teams at 18.47%, 47,970 rows, 43% of farmers with no bureau record; Advocall (built in 24h at Build for Billions 2026, first hackathon; Next.js, TypeScript, Vapi, Deepgram, GPT-4o, SSE, Render; English, Hindi, Kannada); MedLog (8 agents, bilingual AR/EN, synthetic data, open code; facts from the 4-hour interview exactly as in the published post); Linear regression from scratch (3 methods, induced divergence, loss tracking); Ayah Archive (a faceless digital brand around Qur'an memorisation, never call it a "product": 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases, ₹100K+ Meta ad spend, automated payment and delivery via Cosmofeed); the comment engine (GitHub Actions 3x/day, Telegram, truth gate, dashboard, never posts for you); LinkedIn stats (851 impressions Oct 2–8, mostly from the L&T Finance post).
+**You may use these:** NITK B.Tech AI (2025–); JEE Advanced 2025, top ~2% of ~1.5M; L&T Finance challenge 2nd of 135 teams, 60 final submissions, top 8 presented, lowest MAPE of all teams at 18.47%, 47,970 rows, 43% of farmers with no bureau record; Advocall (built in 24h at Build for Billions 2026, first hackathon; Next.js, TypeScript, Vapi, Deepgram, GPT-4o, SSE, Render; English, Hindi, Kannada); MedLog (8 agents, bilingual AR/EN, synthetic data, open code; facts from the 4-hour interview exactly as in the published post); Linear regression from scratch (3 methods, induced divergence, loss tracking); Ayah Archive (a faceless digital brand around Qur'an memorisation, never call it a "product": 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases, 7,500+ AED (₹2L+) Meta ad spend (confirmed 15 Oct; never "₹100K" or "9,000+ AED at 3x"), automated payment and delivery via Cosmofeed); the comment engine (GitHub Actions 3x/day, Telegram, truth gate, dashboard, never posts for you); LinkedIn stats (851 impressions Oct 2–8, mostly from the L&T Finance post).
 
 **Never:** client results you don't have; "deployed for" a company; that you speak Arabic fluently (the *agents* are bilingual); the MedLog interviewee's name, employer or any new identifying detail; anyone's name from a DM without their OK; invented "what broke" stories. Where a post needs a detail only you know, it says **[fill in]**.
 
@@ -315,7 +315,7 @@ The numbers:
 → 1.1M+ views in 30 days from organic Instagram content
 → 5,000+ followers
 → 500+ purchases
-→ ₹100K+ spent on Meta ads, learning what actually converts
+→ 7,500+ AED (₹2L+) spent on Meta ads, learning what actually converts
 
 The part nobody saw was the plumbing.
 Payment and delivery were fully automated. Someone buys at 2 AM, and the product is in their inbox seconds later. No human awake.

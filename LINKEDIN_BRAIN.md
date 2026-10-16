@@ -1,38 +1,190 @@
 # LinkedIn Brain: Mohammed Rayan / Raynix AI
 
 > One file that holds everything about the LinkedIn effort: who he is, the live profile section by section, every post and its numbers, what we built, what we decided and why, the goals, the rules, and what's pending.
-> Built 12 Oct 2026 from the repo, the saved playbooks and the profile-optimisation work logged on 10 Oct. Sections 1-9 are as of 10-12 Oct (profile text "as last verified 10 Oct"). **For the current state (15 Oct) read "STATUS UPDATE 15 OCT" directly below section 0 first**; it overrides anything older. Re-check anything marked [verify].
-> Companion files: `CONTENT_PLAYBOOK.md` (research, calendar, full post texts), `PERSONAL_BRAND.md` (competitor and niche research), `config/expert_profile.yaml` (the truth gate), `config/voice.md`, `HOW_TO_POST.md`.
+> Built 12 Oct 2026, last updated **16 Oct 2026 (evening)**. **Starting a fresh chat? Read "START HERE (16 Oct)" directly below section 0.** It overrides everything older. The 15 Oct status and sections 1-9 are kept as history, with "superseded" markers where facts changed. Re-check anything marked [verify].
+> Companion files: `FIRST_CLIENTS_PLAYBOOK.md` (the offer, current terms, scripts, sprint), `PROFILE_VERSIONS.md` (exact live profile text V3/V3.1 and older versions), `CONTENT_PLAYBOOK.md` (research, calendar, full post texts), `PERSONAL_BRAND.md` (competitor and niche research), `config/expert_profile.yaml` (the truth gate), `config/voice.md`, `HOW_TO_POST.md`. Website code: `..\raynix-website` (separate repo).
 
 ---
 
 ## 0. Read this first (the 60-second version)
 
-- **Who:** Mohammed Rayan, B.Tech AI student at NITK Surathkal (2025-2029), based in Riyadh, founder of Raynix AI. Pre-first-client. Wants **(A)** a first paying client for AI agents/automation and **(B)** AI/ML internships.
-- **Voice:** builder / engineer's build log. Says what it does, what broke, and what it's never allowed to decide. Not a marketer. Casual in chat ("bro").
-- **Positioning line:** *"The LLM talks, the code decides."*
-- **Strongest proof:** 2nd of 135 teams at the L&T Finance challenge (18.47% MAPE, lowest of all); Advocall (24h hackathon build); MedLog Suite (8 bilingual agents, open code, synthetic data); Ayah Archive (a **faceless digital brand**, 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases).
-- **Biggest lever discovered:** the L&T post got 716 impressions because **a judge he genuinely tagged (Dr. Kamlesh Kumar, L&T Finance) reposted it and NITK clubs shared it**. Genuine tags plus reposts beat his own network. Clinic-pitch "Comment X" posts got 20-100.
-- **Current plan:** 1 post a day at 9:00 AM Riyadh, 20 comments a day (comment engine), 15 connection requests, DM every engager within 24h. Week 1 = 11-17 Oct.
-- **Hard rules:** never auto-post; never weaken the truth gate; never name the MedLog operator/interviewee/employer or mention family; never claim client results (none exist); never call Ayah Archive a "product"; never describe scraping/Apify publicly; engine repo stays private.
+- **Who:** Mohammed Rayan, B.Tech AI student at NITK Surathkal (2025-2029), based in Riyadh, founder of **Raynix AI, an AI consulting & engineering company**. Pre-first-client. Wants **(A)** paying clients (first 3 through the Founding Partner Program) and **(B)** AI/ML internships (secondary).
+- **Lane (since 15 Oct):** real estate teams and clinics. Their leads become booked viewings and appointments through one connected system: capture, instant AI reply, AI sales follow-up, booking, CRM, owner alerts, reviews and reactivation. Never pitched as a basic chatbot or receptionist vendor.
+- **Voice:** builder / engineer's build log, plain owner language, "I" never "we". Says what it does, what broke, and what it's never allowed to decide. Casual in chat ("bro").
+- **Positioning line:** *"The LLM talks, the code decides."* Method: audit first, build second.
+- **Strongest proof:**
+  - 2nd of 135 teams at the L&T Finance challenge (18.47% MAPE, lowest of all)
+  - Advocall (24h hackathon build)
+  - MedLog Suite (8 bilingual agents, open code, synthetic data)
+  - Ayah Archive, a **faceless digital brand**: 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases, 7,500+ AED (₹2L+) of Meta ads
+- **Biggest lever discovered:** the L&T post (835 impressions by 15 Oct) broke out because **a judge he genuinely tagged (Dr. Kamlesh Kumar, L&T Finance) reposted it and NITK clubs shared it**. Genuine tags plus reposts beat his own network. Pitch-style "Comment X" posts went out before the 5 Oct relaunch, on a tiny account. They are **untested since the relaunch, not dead** (see `feedback-timeline-before-verdicts`).
+- **The funnel now:** post or comment → profile (headline, banner, Featured) → **raynixai.com/founding** → book a free 20-minute AI Lead Audit (Cal) or WhatsApp.
+- **Hard rules:** the consolidated list is in START HERE, item 9.
 
 ---
 
-## UPDATE 16 OCT 2026: website live, client acquisition starts
-- raynixai.com is live (Vercel, Cal.com booking, WhatsApp). Website work is paused by Rayan's call; focus is clients.
-- The offer, scripts, leak map template, pilot agreement and 14-day sprint (17-30 Oct) are in **`FIRST_CLIENTS_PLAYBOOK.md`**. Read it before any outreach session.
-- The offer in one line (current terms): the **Founding Partner Program**, 3 spots.
-  - Pay nothing until the agreed targets are hit.
-  - Once they are hit: 4,500 setup plus 1,500 a month, locked for 12 months.
-  - "Hit the targets or I keep working free."
-  - Never ask for Google reviews as payment.
-- **Featured section done, 16 Oct:**
-  - Order: the raynixai.com/founding link card, then the founding document post (urn:li:activity:7516764913470537729, posted 16 Oct about 10:30 Riyadh, link in the first comment), then L&T, MedLog and Advocall.
-  - The contact-info website is now raynixai.com/founding.
-  - The custom button and the intro website field are Premium only, so neither was used.
-- **Next:** reply to every comment on the founding post within the hour, and DM the warm list with the /founding link (only after Rayan says yes).
+## START HERE (16 Oct 2026): everything live, and the handoff for the content chat
 
-## STATUS UPDATE 15 OCT 2026 (read this first when starting a fresh chat, especially for outreach)
+### 1. Where things stand (evening, 16 Oct)
+- Profile V3/V3.1, the new banner, the website, the Founding Partner offer (page, PDF, deck), the Featured section and the founding announcement post are **all live**.
+- **No client yet, and no calls yet.**
+- Website work is paused by Rayan's call ("stop editing the website… focus on the client now"). From here the work is content, comments, conversations and DMs.
+
+### 2. What's live (assets)
+| Asset | Where | Notes |
+|---|---|---|
+| Profile V3 + V3.1 | LinkedIn | Exact text and revert history are in `PROFILE_VERSIONS.md`. Headline: "I build AI systems that turn real estate & clinic leads into booked viewings and appointments \| AI consulting & engineering \| …". |
+| Banner | LinkedIn | `assets/linkedin-banner.png` (3168x792) with its HTML source. "AI systems that book your leads / and run your operations." with his photo. |
+| Website | https://raynixai.com | Next.js on Vercel, code in `..\raynix-website`. Homepage hero has a peach link to /founding ("Founding Partner Program: pay only when it works · 3 spots"). Lighthouse desktop 100 across the board. Google Search Console domain is verified via GoDaddy TXT. |
+| Offer page | https://raynixai.com/founding | Covers the guarantee, system, what's included, pricing, timeline, safety rules, who it's for, the founder, 8 FAQs and repeated Cal + WhatsApp buttons. Has its own OG image ("Your AI lead system. Pay only when it works."). |
+| Offer PDF (public) | https://raynixai.com/raynix-ai-founding-partner-program.pdf | 15 slides, 3.7 MB. Use this or /founding in DMs, because the deck artifact below is private. |
+| Editable deck | https://claude.ai/artifact/QkxoGowcrstLCPDTU4Sqtp | Slides artifact. Re-export the PDF and replace `public/` in the website if it changes. |
+| Booking | https://cal.com/mohammed-rayan-p9qiwg/ai-audit | Free 20-minute audit. **Rayan still has to rename the event to "Free AI Lead Audit"**, so it matches the page and deck. |
+| WhatsApp | the `wa.me` link in `raynix-website/lib/site.ts` | Chat only, no calls. **Never write the number as text** in any post, comment or image. |
+| Email | rayan@raynixai.com | Microsoft 365. Never touch the MX/SPF/DMARC records. |
+| LinkedIn Featured | profile | Order: (1) link card "Founding Partner Program: pay only when it works (3 spots)" → /founding, with the custom OG thumbnail (Post Inspector refreshed); (2) the founding post; (3) L&T 2nd of 135; (4) MedLog launch; (5) Advocall. |
+| Contact info | profile | Website field set to raynixai.com/founding. Whether ayaharchive.shop is still listed was not checked [verify]. The custom profile button and the intro website link are Premium-only, so neither was used and nothing was bought. |
+
+### 3. The offer (current terms; the full version is in `FIRST_CLIENTS_PLAYBOOK.md` → "CURRENT TERMS")
+- **Founding Partner Program, 3 spots.** The AI Lead Audit and Leak Map are free.
+  - Founding setup: 4,500 AED/SAR, **paid only after the agreed targets are hit**.
+  - Then 1,500 a month, locked for 12 months.
+  - Standard after the founding spots: 9,500 (50% upfront) + 2,500 a month.
+- **Guarantee:** "Hit the targets, or I keep working for free until we do." Targets are agreed in writing on day 2: reply speed, follow-up coverage and booked appointments against their own baseline.
+- **Delivery promise:** the system is live within 14 days of getting access.
+- **Ownership:** everything is built on the client's own accounts, and the client pays software costs directly.
+- **In return, only after results:** a case study, a testimonial and 2 referral intros. **Never a Google review.**
+- **Prices are not yet confirmed by Rayan.** Claude picked them and they are live on the page and deck. In content, never quote any number beyond what's on /founding, and never invent "was X, now Y" anchor prices.
+- **Scarcity has to stay true.** "3 spots" only drops when a spot is actually signed.
+- The free-build wording in the playbook's older sections (including its draft "build your AI lead system free" post) is **superseded. Don't reuse it.**
+
+### 4. Posts live (8)
+| # | Post | Impressions (last pull 15 Oct) | Notes |
+|---|---|---|---|
+| 1 | L&T Finance 2nd of 135 | 835 | Breakout, driven by the judge's repost and NITK clubs. Its audience is Mumbai / L&T, not the ICP. |
+| 2 | Re-introduction ("everything I've shipped, and what broke") | 151 | |
+| 3 | Advocall | 128 | |
+| 4 | MedLog complaint desk (agent P1) | 118 | |
+| 5 | "If an AI agent has never said I don't know" | 115 | |
+| 6 | MedLog launch ("four hours with a logistics leader") | 85 | Publicly promised a post on every agent. |
+| 7 | MedLog three-way match (agent P2) | 20 at about 12h | |
+| 8 | **Founding Partner Program announcement** (16 Oct, about 10:30 AM Riyadh, Friday) | not pulled yet | Document post with the 15-page deck as a carousel. https://www.linkedin.com/feed/update/urn:li:activity:7516764913470537729/ |
+
+**The founding post's first comment:** "Full offer, pricing and the free 20-minute AI Lead Audit booking: https://raynixai.com/founding"
+
+**Founding post text (as published, verified exact):**
+```
+I'm opening 3 Founding Partner spots at Raynix AI.
+
+The offer, plainly:
+
+I build your AI lead system. Every enquiry from your ads, portals, website or WhatsApp gets a reply in seconds, in Arabic or English. It qualifies the lead, follows up for days, and books the viewing or appointment straight into your calendar. You get an alert the moment a serious lead shows up.
+
+On day one we agree your targets in writing: reply speed, follow-up coverage and booked appointments, measured against your current numbers.
+
+You pay nothing until the system hits them.
+If it doesn't, I keep working for free until it does.
+
+It runs on your own accounts, so it stays yours either way.
+
+Why this deal? I'm choosing three businesses to build my flagship case studies with. I'd rather earn proof than fake it.
+
+Who it's for: real estate brokerages and teams, and clinics, in the UAE, KSA or the UK that already pay for leads and get 50+ enquiries a month.
+
+The full offer is in the 15 pages below: the system, the guarantee, pricing and the timeline.
+
+The link to book a free 20-minute AI Lead Audit is in the first comment.
+```
+The 15 Oct analytics baseline is in the STATUS UPDATE 15 OCT section below: 1,571 impressions over 28 days, 103 connections, 107 followers, 1 search appearance a week. Pull fresh numbers before judging anything, and only compare posts from after the 5 Oct relaunch.
+
+### 5. Content queue (unposted; full paste-ready texts in `CONTENT_PLAYBOOK.md` section 11)
+- **MedLog series: an open public promise** (the launch said every agent would get a post). Done: P1 complaint desk and P2 three-way match. Still owed: P3 reports, P4 driver check-in ("a driver replied 👍, my agent refused to guess"; text is CONTENT_PLAYBOOK Post 2), P5 days-of-cover / stock-out, P6 live status, P7 and P8. Check exact agent names and screenshots in `..\raynix-medlog-suite` (`docs/images/`).
+- **"3 of my 8 AI agents don't use AI"** (CONTENT_PLAYBOOK Post 5; P5/P7/P8 use no LLM).
+- **Carousel: "5 ML lessons no lecture taught me"** (Post 3). Needs his real loss-divergence plot and the `[fill in]` learning rate.
+- **Ayah Archive: faceless brand, 1.1M views in 30 days** (Post 4). Needs a real Instagram insights screenshot with buyer names blurred. Ad spend is **7,500+ AED (₹2L+)**. Never "9,000+ AED at 3x", and never "₹100K".
+- **The truth-gate / comment-engine post** (Post 6). Never mention scraping, Apify or the private repo.
+- **Advocall "4 things that broke in 24 hours"** carousel, and a "timely take" within 48h of the next big AI release.
+- **Buyer-facing lead-leak posts** for the real estate / clinic lane (reply speed, after-hours enquiries, follow-up gaps). These are **untested since the relaunch**, so test them. They are the posts that most naturally lead to /founding.
+
+### 6. How content should feed the offer
+- **Featured does the selling.** Most posts (build logs, lessons) need no link and no pitch. Profile visitors land on the /founding card first.
+- Put **/founding in the first comment only on offer- or lead-leak-related posts**, never in the post body.
+- A soft offer reminder about once a week at most, and only with something true and new (for example a spot taken, or what the audit found, with permission). Never fake urgency.
+- Every post is still 1 idea, a hook under about 12 words, 900-1,300 characters, a real screenshot or photo over AI art, 0-3 hashtags, and a specific closing question (no "Thoughts?", no "Comment X" bait).
+- Tag only people genuinely in the story (2-5). **Never tag the MedLog interviewee or his employer.**
+- DMs send **raynixai.com/founding** (not the PDF, and not the private artifact).
+
+### 7. Cadence
+- **1 post a day, never 2.** The founding post went out Fri 16 Oct at about 10:30, so nothing else posts on 16 Oct.
+- Give the founding post runway. The earliest next slot is Sat 17 Oct at 9:00 AM Riyadh. **Sun 18 Oct at 9:00, the first day of the GCC work week, is the stronger slot.** The content chat decides with Rayan.
+- Default slot 9:00 AM Riyadh (11:30 IST). Still to test: a 5 PM Riyadh slot.
+- Reply to every comment within the first hour. Comment partners are the first-hour audience.
+
+### 8. How Claude publishes a post (only after Rayan's explicit go for THAT post)
+**Approval:** the 16 Oct green light covered the Featured section and the founding post only. **Every new post, comment or DM needs Rayan's explicit yes in chat.** Draft first, show it, then publish.
+
+**Browser setup**
+- Use Claude in Chrome in **its own tab group**, logged in as him.
+- Never touch another session's tabs (one Claude session works on x.com). Close your own tabs when done.
+- If screenshots time out or the viewport is 0x0 (the window is minimized), close the group's tabs and recreate the group with `tabs_context_mcp` createIfEmpty.
+
+**Writing the text**
+- LinkedIn text boxes **drop typed characters**. Set text with `form_input` and nudge it (End, space, Backspace).
+- Then **verify the saved text character by character** before posting.
+
+**Attaching an image or PDF**
+- "Choose file" has no static input. Patch `HTMLInputElement.prototype.click` to capture the dynamic input, append it visibly, find its ref, then use `file_upload`.
+- **Document posts:** upload the PDF and give it a title.
+
+**Links**
+- Put the link in the **first comment**, straight after publishing.
+- Before adding any link card (Featured), run https://www.linkedin.com/post-inspector/inspect/<url> so the preview image is fresh.
+
+**Safety**
+- Decline Premium / boost upsells.
+- If LinkedIn asks for a password or re-login, **stop and tell Rayan**. Never enter credentials.
+
+**After posting**
+- Log the post here (section 4 table).
+- Add a `manual` line to the CRM if useful.
+- Commit and push (`git pull` first, because CI commits constantly).
+
+### 9. Hard rules (consolidated, all still in force)
+**Posting and accounts**
+- Never auto-post with the engine, and never use his LinkedIn cookie for automation.
+- Never enter passwords or tokens. Never print .env secrets.
+- The engine repo stays private.
+- Don't sign into Cal.com or Lovable for him. Don't buy anything.
+
+**Truth gate**
+- No client results, testimonials or revenue (none exist).
+- "Built", never "deployed for".
+- MedLog is always "open code, synthetic data". Never name, tag or identify the operator, the interviewee, his employer or his family.
+- Ayah Archive is a **faceless digital brand**, never a "product".
+- Arabic: the *agents* are bilingual. He is not fluent.
+- No scraping or Apify talk in public.
+
+**Voice and wording**
+- Use "I" or "Raynix AI", never "we".
+- No review-gating language, and never ask for Google reviews as payment.
+- Label illustrative visuals "Example".
+- No em dashes in comments.
+- Calls are in English only.
+
+**Outreach**
+- DMs are drafts until Rayan says yes, every time.
+
+### 10. Open items for Rayan (he does these himself)
+1. Reply to every comment on the founding post (it's Friday, the GCC weekend, so growth may be slower).
+2. Rename the Cal event to "Free AI Lead Audit" and add booking questions.
+3. Confirm or change the prices. If they change, update the page, the deck and the PDF together.
+4. Say yes to the warm-list DMs with the /founding link (Bilal and Apoorv first; drafts in `FIRST_CLIENTS_PLAYBOOK.md` section 7, swapping in the current terms).
+5. Search Console: finish the remaining steps in the property (status unconfirmed) [verify].
+6. Get ID-verified ("Verify in 2 minutes") and ask for 2-3 recommendations.
+7. Fix the CRM stages (sweep connections and replies) before choosing DM targets.
+8. The 14-day client sprint runs 17-30 Oct (`FIRST_CLIENTS_PLAYBOOK.md` section 9). The target by 31 Oct is 5 real ICP conversations and 1 audit call.
+
+## STATUS UPDATE 15 OCT 2026 (history: the analytics baseline, CRM state and warm list are still valid; anything that conflicts with START HERE is superseded)
 
 ### Where things stand
 - **Connections 103** (67 on 10 Oct; 40 ten days ago), **followers 107** (71 on 10 Oct). Mostly real ICP people, not students: follower audience is 34% founders, 20% CXO, 30% at 2-10 person firms, 10% Dubai.
@@ -89,13 +241,13 @@ Read: the build posts sit at about 85-150 each with 1-3 reactions. The L&T post 
 | Himanshu Malik | Co-founder and COO, Wytewall (NITK) | NITK network | Connection request only; possible warm intro or mentor. |
 
 ### Profile repositioned (15 Oct, evening): V3 is live
-Headline, About, Raynix AI Experience, Services and the Ayah Archive project were rewritten. Raynix AI is now an **AI consulting & engineering company**, and the headline lane is **real estate & clinics** (leads into booked viewings and appointments). About and Experience sell the full connected system (capture, instant reply, AI sales follow-up, booking, CRM/Drive/owner alerts, reviews and reactivation) with an audit-first method. Exact live text and the full V1/V2 history for reverting are in `PROFILE_VERSIONS.md`. The headline/About/Experience text in section 2 below is V1 (historical). Still to do: Featured section (landing page), new banner (needs Rayan's photo), confirm the ad-spend figure before using "9,000+ AED at 3x" anywhere public.
+Headline, About, Raynix AI Experience, Services and the Ayah Archive project were rewritten. Raynix AI is now an **AI consulting & engineering company**, and the headline lane is **real estate & clinics** (leads into booked viewings and appointments). About and Experience sell the full connected system (capture, instant reply, AI sales follow-up, booking, CRM/Drive/owner alerts, reviews and reactivation) with an audit-first method. Exact live text and the full V1/V2 history for reverting are in `PROFILE_VERSIONS.md`. The headline/About/Experience text in section 2 below is V1 (historical). **All three follow-ups are done:** the V3.1 banner went live 15 Oct; ad spend was confirmed at 7,500+ AED (₹2L+), so "9,000+ AED at 3x" is never used; the Featured section was done 16 Oct.
 
 ### Profile health findings (15 Oct)
 - **Search visibility is the biggest gap** (1 appearance a week): headline and About lack buyer search words ("WhatsApp", "AI receptionist", "real estate", "clinics", "lead response"). Headline changes are Rayan's call.
-- **About still says "1.1M+ monthly views"** for Ayah Archive; should be "1.1M+ views in 30 days". The About now says "a digital brand" (good); **Projects #4 wording still needs checking**.
+- ~~About "1.1M+ monthly views", Projects #4 "digital product"~~ Fixed in V3: About and the project now say "faceless digital brand" and "1.1M+ views in 30 days".
 - **"Verify in 2 minutes" is unclaimed** (only Rayan can do it).
-- **Featured has 3 posts and no MedLog repo or demo link.**
+- ~~Featured has 3 posts~~ Done 16 Oct: /founding link card, founding post, L&T, MedLog, Advocall.
 - Open to Work is on, recruiters only (fine).
 - The banner pitches a free ops audit while the headline is internship-friendly: a deliberate dual message, keep an eye on it.
 
@@ -146,7 +298,8 @@ Headline, About, Raynix AI Experience, Services and the Ayah Archive project wer
 
 ---
 
-## 2. The live profile, section by section (as last verified 10 Oct 2026)
+## 2. The profile, section by section (V1, as verified 10 Oct 2026; HISTORY)
+> **Superseded.** Headline, About, Experience, Services, the Ayah Archive project, banner, Featured and contact info changed on 15-16 Oct. The live text is V3/V3.1 in `PROFILE_VERSIONS.md`; Featured and contact info are in START HERE section 2. Education, Honors, Skills and the other Projects are unchanged.
 
 ### Headline
 `Building AI agents, ML models & software | Multi-agent workflows, voice AI receptionists, CRM automation | NITK | Founder, Raynix AI | Documenting every build`
@@ -251,7 +404,7 @@ Content ~9.5/10. Remaining gaps are not wording: **get ID-verified, collect reco
 | Instagram funnel automation, "OMG... $2,000+ funnel", "Comment AUTOMATION" (3 mo) | Hype + keyword CTA | 82 | 4 | Hype openers don't work |
 | Clinic missed-call calculator, "Comment CALC" | Pitch | 101 | 2 | |
 | 11 PM dentist story, "Comment DEMO" | Story + pitch | 69 | 2 | |
-| "7PM test", "Comment 7PM/FLOW/LOSS" | Pitch + keyword CTA | 20-50 | 0-1 | Pitch posts are dead at this size; keyword CTAs suppressed since Mar 2026 |
+| "7PM test", "Comment 7PM/FLOW/LOSS" | Pitch + keyword CTA | 20-50 | 0-1 | Posted months before the 5 Oct relaunch on a ~30-40 connection account, so **untested since the relaunch, not dead**. Keyword-bait CTAs ("Comment X") are suppressed since Mar 2026, so test buyer posts without them. |
 
 **Account stats, 10 Oct:** 71 followers, 67 connections, 851 impressions Oct 2-8 (+1,926% on the prior week), 31 profile views, 9 search appearances. Most of the impressions came from the L&T post.
 
@@ -284,6 +437,11 @@ Drafted in the LinkedIn composer (Ayah line corrected to "faceless digital brand
 | 10 Oct | **Full profile optimisation** from the CV: headline, About, Featured, Education, Experience, Projects, Honors, Skills, Services, contact info, Open to Work, custom URL. Fixed mistakes (headline overwrite, duplicate entries). |
 | 10 Oct | **Content playbook v3**: 2026 algorithm research, creator teardown (Lara Acosta, Charlie Hills, Ruben Hassid, Shubham Saboo), own-post analysis, 7-day calendar, funnel + DM templates. User correction: L&T reach = judge repost -> Amplification section added. |
 | 11-12 Oct | Designed Post 1 image + text in the composer. User correction: Ayah Archive = **faceless digital brand**, not a product (fixed in playbook, memory, image, draft). Wrote this brain file. |
+| 12 Oct | Hand-done outreach in Chrome: 10 comments and 12 connection requests on ICP people, logged via the new CRM `manual` action. Replied to Bilal, Fawad, Apoorv and Albin. |
+| 12-15 Oct | Posts: re-introduction, "never said I don't know", MedLog P1 complaint desk, MedLog P2 three-way match. The engine kept running (111 comments posted by 15 Oct). CI state-push race fixed (commit 9adf9a0). |
+| 15 Oct | Full analytics review (baseline table above). **Profile V3**: repositioned as an AI consulting & engineering company with a real estate & clinics lane (V2 "answer every enquiry" rejected as too basic). **V3.1**: new banner, ad spend confirmed at 7,500+ AED. `PROFILE_VERSIONS.md` created. |
+| 15-16 Oct | **Website raynixai.com built and launched** (Next.js on Vercel, separate repo `..\raynix-website`): globe hero, leaks, services, ROI calculator, process, FAQ, Cal + WhatsApp + email. Domain moved from Lovable to Vercel (GoDaddy DNS, email records untouched). New logo (notched-ring "R", peach #F2B896). Search Console domain verified. |
+| 16 Oct | **Client focus.** `FIRST_CLIENTS_PLAYBOOK.md` written (offer, scripts, leak map, 20-minute audit call, pilot agreement, 14-day sprint 17-30 Oct). Offer changed from a free build to the **Founding Partner Program** (pay after targets are hit). Built the 15-slide deck (Slides artifact + public PDF) and the **/founding page** with OG image and a homepage link. LinkedIn: contact-info website, **Featured section**, and the **founding announcement document post** (about 10:30 AM Riyadh, link in the first comment). |
 
 ### The comment engine (what it is, state on 9 Oct)
 - Private repo `Mohammed-Rayan07/linkedin-comment-engine`; runs 08:00 / 13:00 / 18:00 Riyadh; Telegram bot @Client_Hunter7_bot; dashboard `https://mohammed-rayan07.github.io/comment-crm/`.
@@ -306,13 +464,14 @@ Drafted in the LinkedIn composer (Ayah line corrected to "faceless digital brand
 Hook under ~12 words with a number/contradiction/confession; one idea per post; short lines; real numbers; story -> lesson -> specifics -> specific question (SLAY: Story, Lesson, Actionable, You); vulnerable personal story + real photo wins (Lara: 6.7k reactions); timely tool news with a number + free resource (Charlie: 3.1k). Size alone doesn't buy engagement (Ruben: 943k followers, ~1k reactions).
 
 ### Positioning
+- **Since 15 Oct:** Raynix AI is an **AI consulting & engineering company**. The lane is real estate & clinics (leads into booked viewings and appointments). It sells one full connected system (capture, instant AI reply, AI sales follow-up, booking, CRM/Drive, owner alerts, reviews and reactivation), audit first. Plain owner language beats jargon (Rayan rejected "map operations leaks" as too complex). Dubai/GCC buyers have seen many "automation kids", so copy must signal depth.
 - Not "another WhatsApp-bot vendor": the Saudi niche is crowded and everyone sounds the same (closest twin Nuvxor: "8 weeks, ~200 conversations, zero clients").
 - Distinct angle: **operator's audit first, then build**, plus **engineering judgement** ("the LLM talks, the code decides"; honest about synthetic data).
 - The first client comes from a person, a referral or showing up, and from making "yes" cheap (free leak map, then paid pilot), not from cold DMs. Riyadh in-person meetings are an edge.
 - Niche scoring: easiest first clients via LinkedIn = real estate teams (UAE/UK/US/AU) or marketing agencies that resell; clinics = GCC priority; law firms = test; home services = wrong channel.
 
 ### The funnel
-Post / comment -> profile (headline + Featured sell) -> follow/connect -> **DM within 24h, a question about THEM, never a pitch** -> conversation (log in dashboard Pipeline) -> "want me to look at how it works today? 20 min, no pitch" -> call / in-person -> free one-page leak map -> paid pilot. DM templates (builder, owner, agency, recruiter) are in `CONTENT_PLAYBOOK.md` section 8.
+Post / comment -> profile (headline + Featured sell) -> follow/connect -> **DM within 24h, a question about THEM, never a pitch** -> conversation (log in dashboard Pipeline) -> "want me to look at how it works today? 20 min, no pitch" -> call / in-person -> free one-page leak map -> paid pilot. **Since 16 Oct** the profile step routes to raynixai.com/founding (Featured card, first) → the Cal audit booking or WhatsApp, and the paid pilot is the Founding Partner Program. DM templates (builder, owner, agency, recruiter) are in `CONTENT_PLAYBOOK.md` section 8.
 
 ### Amplification (biggest lever)
 Tag only people genuinely part of the story (judges, organisers, teammates, mentors, clubs), 2-5 max, in a natural thank-you line; make the post make *them* look good; DM after posting without asking for a repost; share wins in NITK club chats. Never tag strangers for reach. **Never tag the MedLog interviewee or his employer.**
@@ -330,22 +489,34 @@ Keep any format that beats median impressions 2x (sequel within 7 days); kill an
 
 ## 6. The truth gate (what he may and may not say)
 
-**Allowed facts:** NITK B.Tech AI (2025-); JEE Advanced 2025 top ~2%; L&T Finance 2nd of 135 (60 final submissions, top 8 presented, 18.47% MAPE, 47,970 rows, 43% no bureau record, loss-from-metric worth ~4 points, accounting identity, geography >50% of signal); Advocall (24h, Build for Billions 2026, first hackathon, Next.js/TypeScript/Vapi/Deepgram/GPT-4o/SSE/Render, English/Hindi/Kannada, Twilio->WebRTC switch, Vercel->Render move); MedLog (8 agents, bilingual, synthetic data, open code; audit facts: 23 trucks / 50-60 supervisor calls a day, 3,000 invoices a month at 10-15 min, 16 days PR->PO, 30-40 stock-outs a day triggering 20-30 calls, a week of document gathering before audits; P4 👍 not guessed + 15-minute grace; P5 days-of-cover = on hand / daily use, red <=3 (<=5 critical), amber <=7 (<=10); P5/P7/P8 use no LLM; P2 three-way match, test batch 6 docs -> 1 cleared, 5 to humans, 6,880 SAR at risk, run aborts when the ERP is down); linear regression from scratch; Ayah Archive (faceless digital brand: 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases, ₹100K+ Meta ads, automated payment/delivery via Cosmofeed); voice reliability layer (transcript-to-record match, confirm, phonetic retry, spell, SMS fallback; ~20 ms lookups; ~$1-1.30 per 5-minute call); StockPilot (AI read/propose only); speed-to-lead under 10 seconds; the comment engine (human posts everything); the account numbers above.
+**Allowed facts:** NITK B.Tech AI (2025-); JEE Advanced 2025 top ~2%; L&T Finance 2nd of 135 (60 final submissions, top 8 presented, 18.47% MAPE, 47,970 rows, 43% no bureau record, loss-from-metric worth ~4 points, accounting identity, geography >50% of signal); Advocall (24h, Build for Billions 2026, first hackathon, Next.js/TypeScript/Vapi/Deepgram/GPT-4o/SSE/Render, English/Hindi/Kannada, Twilio->WebRTC switch, Vercel->Render move); MedLog (8 agents, bilingual, synthetic data, open code; audit facts: 23 trucks / 50-60 supervisor calls a day, 3,000 invoices a month at 10-15 min, 16 days PR->PO, 30-40 stock-outs a day triggering 20-30 calls, a week of document gathering before audits; P4 👍 not guessed + 15-minute grace; P5 days-of-cover = on hand / daily use, red <=3 (<=5 critical), amber <=7 (<=10); P5/P7/P8 use no LLM; P2 three-way match, test batch 6 docs -> 1 cleared, 5 to humans, 6,880 SAR at risk, run aborts when the ERP is down); linear regression from scratch; Ayah Archive (faceless digital brand: 1.1M+ views in 30 days, 5,000+ followers, 500+ purchases, **7,500+ AED (₹2L+) of Meta ads** (confirmed by Rayan 15 Oct; the old "₹100K+" figure and the "9,000+ AED at 3x ROI" line are NOT to be used), automated payment/delivery via Cosmofeed); the Founding Partner Program terms exactly as on raynixai.com/founding; voice reliability layer (transcript-to-record match, confirm, phonetic retry, spell, SMS fallback; ~20 ms lookups; ~$1-1.30 per 5-minute call); StockPilot (AI read/propose only); speed-to-lead under 10 seconds; the comment engine (human posts everything); the account numbers above.
 
-**Never:** client results or revenue (none verified); "deployed for X businesses"; Arabic fluency; the MedLog operator/interviewee/employer or any identifying detail or family; prospect names; invented "what broke" stories; scraping/Apify talk; years of experience not listed. Where a post needs a private detail, write `[fill in]`.
+**Never:** client results or revenue (none verified); testimonials; review-gating wording or asking for Google reviews as payment; "we" for a solo company; the WhatsApp number as visible text; fake scarcity or invented anchor prices; "deployed for X businesses"; Arabic fluency; the MedLog operator/interviewee/employer or any identifying detail or family; prospect names; invented "what broke" stories; scraping/Apify talk; years of experience not listed. Where a post needs a private detail, write `[fill in]`.
 
 **Voice bans (comments):** "Great post", "Love this", "Thanks for sharing"; game-changer, unlock, leverage, delve, landscape, seamless, robust; "It's not X, it's Y"; em dashes; hashtags/links/emojis in comments; any pitch ("DM me", "book a call"); "Thoughts?".
 
 ---
 
 ## 7. Image system
-Priority: real photo of him > real screenshot of the thing running > real chart from his code > text-on-colour slide > AI image (concept only, never fake dashboards/metrics/people). Size 1080x1350 (4:5). Signature: background `#F7F7F5`, ink `#111827`, accent `#2563EB`, Segoe UI/Inter/Poppins Bold, "Mohammed Rayan · building in public" footer. The Post 1 image was generated by `post1.py` (session scratchpad) and saved to `Desktop\post1-reintro.png`.
+Priority: real photo of him > real screenshot of the thing running > real chart from his code > text-on-colour slide > AI image (concept only, never fake dashboards/metrics/people). Size 1080x1350 (4:5) for posts, 1200x630 for link previews. Any illustrative visual is labelled "Example".
+
+**Brand system (since 15-16 Oct; use it for new post images, carousels and PDFs).** It matches the banner, website and deck.
+- **Fonts:** Instrument Serif (headlines, often italic for the emphasis phrase) + Manrope (body).
+- **Dark colours:** background `#231b16`, surfaces `#2d231d`/`#322720`, border `#4a3a2f`.
+- **Accent:** brand peach `#F2B896`.
+- **Text:** `#f6ece3` (muted `#c9b8a8`).
+- **Light variant:** cream `#f4ebe1`/`#fbf6f0` with copper `#9a5631` and body `#5e4a3d`.
+- **Logo:** the notched-ring "R". The kit is in `..\raynix-website\public\brand\` (SVG peach/light/dark, PNG 512/1024).
+- **Rendering:** write the image as HTML, then screenshot it with headless Chrome (`chrome.exe --headless=new --window-size=W,H --screenshot`) at 2x. The banner source is `assets/linkedin-banner.html`, a good template.
+
+**History:** the old Post 1 style (light `#F7F7F5`, ink `#111827`, blue `#2563EB`, "building in public" footer, generated by `post1.py` and saved to `Desktop\post1-reintro.png`) is retired for new posts.
 
 ---
 
 ## 8. Open items and risks
+> **Current open items are in START HERE sections 5 (content queue) and 10 (Rayan's items).** The list below is the 12 Oct version, kept for history; items 1-2 and the Featured update are done.
 
-**Do now**
+**Do now (12 Oct)**
 1. ~~Check whether Post 1 is live~~ Done: live (see STATUS UPDATE 15 OCT).
 2. About now says "digital brand" (fixed). Still open: "monthly views" -> "views in 30 days" in About, and check **Projects #4** wording.
 3. Mon 12 post (MedLog P4 👍): screenshot the cockpit P4 tab.
@@ -371,8 +542,14 @@ Priority: real photo of him > real screenshot of the thing running > real chart 
 
 ## 9. Quick reference: links and handles
 - LinkedIn: linkedin.com/in/mohammed-rayan-ai
+- Founding post: https://www.linkedin.com/feed/update/urn:li:activity:7516764913470537729/
+- Website: https://raynixai.com · offer page https://raynixai.com/founding · public PDF https://raynixai.com/raynix-ai-founding-partner-program.pdf
+- Deck (editable, private): https://claude.ai/artifact/QkxoGowcrstLCPDTU4Sqtp
+- Booking (Cal): https://cal.com/mohammed-rayan-p9qiwg/ai-audit · email rayan@raynixai.com · WhatsApp: wa.me link in `raynix-website/lib/site.ts` (never show the number as text)
+- Website deploy: Vercel team `raynix1`, project `raynix-ai`, `vercel deploy --prod --yes` from `..\raynix-website`
+- Post Inspector (refresh link previews): https://www.linkedin.com/post-inspector/
 - GitHub: github.com/Mohammed-Rayan07 (MedLog: `raynix-medlog-suite`; also `linear-regression-from-scratch`; the engine repo is private)
 - Dashboard: https://mohammed-rayan07.github.io/comment-crm/
 - Ayah Archive: ayaharchive.shop
 - Telegram bot: @Client_Hunter7_bot
-- Local paths: repo `C:\Users\Lenovo\Desktop\Claude Code\Linkedin - AI Agent`, MedLog `...\Claude Code\raynix-medlog-suite`, memory `...\.claude\projects\...\memory\`
+- Local paths: repo `C:\Users\Lenovo\Desktop\Claude Code\Linkedin - AI Agent`, MedLog `...\Claude Code\raynix-medlog-suite`, website `...\Claude Code\raynix-website`, banner `assets\linkedin-banner.png` (+ `.html` source), memory `...\.claude\projects\...\memory\`

@@ -1,7 +1,85 @@
 {
-"generated_at": "2026-10-16T09:44:22.468198+00:00",
+"generated_at": "2026-10-16T14:40:25.411840+00:00",
 "actions_applied": 138,
 "cards": [
+{
+"id": 139,
+"created_at": "2026-10-16T14:40:24.782319+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.8,
+"author_name": "Divvey Settia",
+"author_headline": "Business Growth & Management Consultant for Owner-led SME’s | India, Dubai | Former Business Coach - Quantum Leap (Rajiv Talreja) | Chartered Accountant (Ex-KPMG) | Certified Coach (ICF-ACC) | ⬆️ 5% NP in 90 days",
+"author_url": "https://www.linkedin.com/in/divvey-settia-77791bb8?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABkNi4sBqh-OX8U1xauMvOFapz0sA9jD3Lo",
+"post_url": "https://www.linkedin.com/posts/activity-7516863489525649410-Lz-M",
+"post_text": "Every business owner wants a team that takes responsibility.\n\nBut here’s the irony.\n\nWe want our people to make decisions, yet sometimes we don’t let them decide even the smallest things.\n\nAnd then we wonder why everything still comes back to us.\n\nStarting a little series called Lala vs Salary Singh - everyday conversations between a business owner and an employee.\n\nSometimes Lala has a point. Sometimes Salary Singh does. And sometimes, both need a reality check. 😄\n\nBusiness owners, does this sound familiar?\n\n#BusinessGrowth #Leadership #SMEs",
+"posted_at": "2026-10-16T14:11:52.473000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "SMB growth consultant talking about delegation and team decision making. Connects well with coordination friction.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "missing_step",
+"text": "The missing step between wanting ownership and getting it is setting explicit escalation rules. When the boundaries on spend, client exceptions, or operational fixes live in the owner's head, employees will always pass decisions upward. Asking the boss every single time is simply the safest career move for the employee."
+},
+{
+"angle": "make_concrete",
+"text": "Delegation breaks down when decision boundaries stay vague. A practical rule is setting hard limits: any concession, purchase, or issue resolution under a specific amount is fully theirs to resolve without sign-off. If a team lacks an explicit threshold for when to act versus when to escalate, every minor question defaults straight to the owner's desk."
+},
+{
+"angle": "sharp_question",
+"text": "Divvey, when you coach owner-led businesses through this friction, where does the real breakdown usually happen? Is it the owner struggling to write down clear approval boundaries, or the team routing small decisions upward because they expect to be second-guessed if something goes wrong?"
+}
+],
+"connection_note": "Hi Divvey, saw your post on Lala vs Salary Singh and the delegation trap in owner-led SMEs. Setting clear decision boundaries and escalation paths is a huge part of workflow design. Would be great to connect.",
+"my_comment": null
+},
+{
+"id": 138,
+"created_at": "2026-10-16T14:39:54.668313+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 8.1,
+"author_name": "Ieva B.",
+"author_headline": "Independent Property Buyer Advisor · Off-Market Access · Marbella & Mallorca | Every agent wants you to buy. I want you to buy right. | I filter properties and local experts across Spain, Mexico, Bali, Dubai & Cyprus",
+"author_url": "https://www.linkedin.com/in/ieva-b-2203a9129?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB-PW_gBBhYncRpMcXtKGmjhr0ICK-p2R1w",
+"post_url": "https://www.linkedin.com/posts/ieva-b-2203a9129_dubaiproperty-dubaioffplan-soulbergestates-activity-7516823356273451008-j1fI",
+"post_text": "Buying off-plan in Dubai in 2026?\n\nBefore asking what your property could be worth at handover, ask what else buyers will be able to choose.In its 14 October update, Dubai Land Department reported 104 real estate projects completed in the first half of 2026, valued at more than AED 111 billion.\n\nThat tells us about completed development. It does not tell us how much remains unsold, or where prices will go next.For a buyer, I would take the research closer to home. \n\n- Which comparable properties are available nearby today?\n\n- What have similar completed homes actually sold for?\n\n- Which competing projects are scheduled to finish around your handover and how far has construction progressed?\n\n- If you plan to rent or resell, why would someone choose your property over those alternatives?\n\nA view, a floor plan, privacy, build quality. Be specific about what makes the home worth choosing.Then ask whether the price you are paying leaves room for a less favourable outcome than the sales presentation suggests. \n\nI think an attractive payment plan is only one part of the decision. I would want to understand the properties competition before reserving. \n\nConsidering Dubai? What would matter most to you: owning something ready today, or waiting for a particular home to be completed?\n\nSoulberg Estates,  independent property matchmaking and buyer coordination.\n\n#DubaiProperty #DubaiOffPlan #SoulbergEstates #DubaiRealEstate",
+"posted_at": "2026-10-16T11:32:23.960000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Good real estate advisory post. Relevant audience, but focused on property research rather than ops/speed-to-lead.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Payment plans and handover timelines matter, but in a fast-moving market, deep research often loses out to responsiveness. If an investor asks about competing projects at 8 PM and waits two days for a spreadsheet, they have already moved on. Speed of analysis matters just as much as the data itself."
+},
+{
+"angle": "make_concrete",
+"text": "Comparing completed projects against unsold inventory requires tracking data across multiple sources before a buyer commits. When investors look at yields, the gap between projected rental income and actual handover reality usually comes down to whether the advisor has real-time comparable data or relies on last quarter brochure numbers."
+},
+{
+"angle": "sharp_question",
+"text": "Analyzing competing inventory nearby is essential before signing an off-plan agreement. When inbound inquiries spike after major market data updates, how do you keep buyers focused on these comparative metrics instead of getting swept up by the next aggressive developer payment plan?"
+}
+],
+"connection_note": "Hi Ieva. Enjoyed your breakdown on evaluating Dubai off-plan competition before looking at payment plans. Working on data flows here in Riyadh and thought it would be good to connect.",
+"my_comment": null
+},
 {
 "id": 137,
 "created_at": "2026-10-16T09:43:04.407936+00:00",
@@ -5226,10 +5304,10 @@
 "usage": [
 {
 "day": "2026-10-16",
-"posts_scraped": 26,
-"cards_sent": 4,
-"llm_input_tokens": 34955,
-"llm_output_tokens": 17361,
+"posts_scraped": 48,
+"cards_sent": 6,
+"llm_input_tokens": 50436,
+"llm_output_tokens": 23615,
 "llm_cost_usd": 0.0
 },
 {
@@ -5313,7 +5391,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.65,
+"apify_month_usd": 1.69,
 "apify_month_cap_usd": 5.0,
 "learned": 118,
 "metrics": {},

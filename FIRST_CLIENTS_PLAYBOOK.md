@@ -6,6 +6,48 @@
 
 ---
 
+## ⚠ CURRENT TERMS (16 Oct, later the same day). These override the pricing and guarantee further down.
+
+Rayan wants paid work, not free builds. Use these terms everywhere: in DMs, on calls and in the agreement.
+
+| | Founding Partner (3 spots) | Standard (after the founding spots) |
+|---|---|---|
+| AI Lead Audit + Leak Map | Free | Free |
+| Setup and build | **4,500 AED/SAR, paid only after the agreed targets are hit** | 9,500 AED/SAR, 50% upfront |
+| Care plan | **1,500 AED/SAR a month, locked for 12 months, starting only after the targets are hit** | 2,500 AED/SAR a month |
+
+- **The guarantee: "Hit the targets, or I keep working for free until we do."** The targets are agreed in writing on day 2, using the Leak Map. They cover:
+  - reply speed
+  - follow-up coverage
+  - booked appointments, measured against the client's current numbers
+
+  Set booked-appointment targets realistically, because the free-work promise is real. Reply speed and follow-up coverage are fully in Rayan's control.
+- **It stays theirs.** Everything is built on the client's own accounts. The client pays software costs directly (about USD 50–200 a month).
+- **Delivery promise:** live within 14 days of access, or keep building at no cost until it is.
+- **What we ask in return**, only after results:
+  - a case study
+  - a testimonial
+  - 2 referral intros
+  - a 15-minute weekly check-in during the pilot
+  - never a Google review
+- **Where the offer lives:**
+  - Page: https://raynixai.com/founding
+  - PDF deck: https://raynixai.com/raynix-ai-founding-partner-program.pdf (15 slides). The editable deck is the Slides artifact https://claude.ai/artifact/QkxoGowcrstLCPDTU4Sqtp.
+  - LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7516764913470537729/ (document post, link in the first comment)
+- **LinkedIn Featured order:**
+  1. /founding link card
+  2. the founding post
+  3. L&T 2nd of 135
+  4. MedLog launch
+  5. Advocall
+
+  The contact-info website is set to raynixai.com/founding.
+- **In DMs**, send raynixai.com/founding. LinkedIn's document viewer does not make links inside a PDF clickable.
+
+The free-build wording in sections 0, 1, 6, 7 and 8 below is the earlier draft. Swap in these terms when you use those scripts.
+
+---
+
 ## 0. The strategy in 8 lines
 
 1. **One offer, not five services.** The free part is the lead system only: instant reply, follow-up, booking and owner alerts. It's the easiest to measure (reply time and booked appointments before vs after), and you can ship it solo in about 2 weeks.

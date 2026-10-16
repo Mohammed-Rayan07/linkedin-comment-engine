@@ -21,7 +21,16 @@
 ## UPDATE 16 OCT 2026: website live, client acquisition starts
 - raynixai.com is live (Vercel, Cal.com booking, WhatsApp). Website work is paused by Rayan's call; focus is clients.
 - The offer, scripts, leak map template, pilot agreement and 14-day sprint (17-30 Oct) are in **`FIRST_CLIENTS_PLAYBOOK.md`**. Read it before any outreach session.
-- Offer in one line: Founding Client Pilot, 3 spots: AI lead system built free on the client's own accounts (client pays software), 30-day pilot with one written metric; hit = locked founding rate, miss = keep everything. Never ask for Google reviews as payment.
+- The offer in one line (current terms): the **Founding Partner Program**, 3 spots.
+  - Pay nothing until the agreed targets are hit.
+  - Once they are hit: 4,500 setup plus 1,500 a month, locked for 12 months.
+  - "Hit the targets or I keep working free."
+  - Never ask for Google reviews as payment.
+- **Featured section done, 16 Oct:**
+  - Order: the raynixai.com/founding link card, then the founding document post (urn:li:activity:7516764913470537729, posted 16 Oct about 10:30 Riyadh, link in the first comment), then L&T, MedLog and Advocall.
+  - The contact-info website is now raynixai.com/founding.
+  - The custom button and the intro website field are Premium only, so neither was used.
+- **Next:** reply to every comment on the founding post within the hour, and DM the warm list with the /founding link (only after Rayan says yes).
 
 ## STATUS UPDATE 15 OCT 2026 (read this first when starting a fresh chat, especially for outreach)
 

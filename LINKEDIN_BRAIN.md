@@ -18,6 +18,11 @@
 
 ---
 
+## UPDATE 16 OCT 2026: website live, client acquisition starts
+- raynixai.com is live (Vercel, Cal.com booking, WhatsApp). Website work is paused by Rayan's call; focus is clients.
+- The offer, scripts, leak map template, pilot agreement and 14-day sprint (17-30 Oct) are in **`FIRST_CLIENTS_PLAYBOOK.md`**. Read it before any outreach session.
+- Offer in one line: Founding Client Pilot, 3 spots: AI lead system built free on the client's own accounts (client pays software), 30-day pilot with one written metric; hit = locked founding rate, miss = keep everything. Never ask for Google reviews as payment.
+
 ## STATUS UPDATE 15 OCT 2026 (read this first when starting a fresh chat, especially for outreach)
 
 ### Where things stand

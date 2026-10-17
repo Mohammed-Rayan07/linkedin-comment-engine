@@ -1,14 +1,209 @@
 {
-"generated_at": "2026-10-17T13:37:52.103735+00:00",
-"actions_applied": 138,
+"generated_at": "2026-10-17T18:05:30.762524+00:00",
+"actions_applied": 161,
 "cards": [
 {
-"id": 156,
-"created_at": "2026-10-17T13:37:02.228018+00:00",
+"id": 161,
+"created_at": "2026-10-17T18:05:30.101963+00:00",
 "acted_at": null,
 "status": "sent",
 "stage": null,
 "chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.0,
+"author_name": "Peter Dayot",
+"author_headline": "Managing Director || Real Living Productions",
+"author_url": "https://www.linkedin.com/in/peterdawyot?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACD1B8B8ZJyh7KMAPy2MYoCMqNjvkW7wB8",
+"post_url": "https://www.linkedin.com/posts/peterdawyot_exclusive-the-luxury-beverly-hills-condo-activity-7517215876585148416-1KVz",
+"post_text": "Ultra-luxury buyers are helping finance their future residences. \nPurchasers at the $10 billion Aman-operated development have contributed approximately $350 million through subordinated “Founder Bonds” paying 5%. Residences begin at $15 million, with more than $1 billion already contracted or reserved.     This Indicates that, UHNW buyers will consider sophisticated ownership propositions, but risk disclosure is essential.  Developers can use structured incentives and early-buyer participation while clearly explaining capital priority, completion protections and comparative returns.\n\nRead More: \nhttps://lnkd.in/eJz6vFmi?",
+"posted_at": "2026-10-17T13:32:08.095000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "Ultra-luxury real estate financing news. Too macro for tactical AI ops.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Structured models like Founder Bonds solve early developer liquidity, but the missing operational step is handling due diligence intake at scale. At a $15 million entry point, family offices do not just buy the lifestyle; their legal teams interrogate capital priority and completion milestones immediately. If those disclosures and covenant terms are not structured into a clean, instant intake package, the deal stalls in legal review before the first deposit moves."
+},
+{
+"angle": "pushback",
+"text": "Early buyer participation sounds attractive, but subordinated debt at 5% faces a tough comparison against standard private credit yields. At a $15 million baseline, UHNW buyers and their family offices act as co-underwriters. If the debt is subordinated, their legal teams will scrutinize capital priority and completion protections above all else. Unless developers back the offering with watertight escrow transparency, the risk-adjusted math can scare off the very buyers it aims to attract."
+},
+{
+"angle": "sharp_question",
+"text": "Securing $350 million in subordinated bonds from residential buyers shows how sophisticated the top of the market has become. But pitching a 5% yield inside a $15 million home purchase blurs the line between real estate brokerage and private credit. How are advisory desks presenting those subordination terms without getting bogged down in weeks of custom legal back-and-forth with the buyer's counsel?"
+}
+],
+"connection_note": "Hi Peter, saw your post on the Aman development raising $350M through Founder Bonds. Fascinating look at how ultra-luxury developers are blending private credit structures into residential sales. Would be great to connect.",
+"my_comment": null
+},
+{
+"id": 160,
+"created_at": "2026-10-17T18:05:08.208633+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 6.9,
+"author_name": "Manuel Gutierrez",
+"author_headline": "Founder of CaseRescue.ai.",
+"author_url": "https://www.linkedin.com/in/manuelgutierrez11?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACXMgUgBJp5et2e8MSt9QvVxo2cRWQer5eQ",
+"post_url": "https://www.linkedin.com/posts/manuelgutierrez11_an-ohio-attorney-is-under-investigation-for-activity-7517258814145003520-IYf1",
+"post_text": "An Ohio attorney is under investigation for revealing confidential client information in Google review responses. The Bar complaint is public. The clients are named.\n\nThe thread is moving fast because lawyers recognize the temptation. A 1-star review lands. It feels unfair. You know the other side of the story. And the response box is right there.\n\nWhat nobody is talking about is the upstream problem. By the time that review posts, the firm had multiple earlier chances to catch that client's frustration. It was on the calls. The confusion, the unmet expectations, the slow communication. All of it was audible weeks before the client went to Google.\n\nI have heard this pattern across 100,000+ intake and client calls. The warning signs are almost always there before the 1-star. Firms just have no system for reading them.\n\nWe analyze every client call over time, track satisfaction trends, and flag frustration and refund talk before it becomes a complaint. The average firm using CaseRescue rescues about $123,000 a month in signed-case value. Catching a client before they go sideways is a different kind of rescue, and it matters just as much.\n\nThe free audit link is below.\n\ncaserescue.ai/l/71mm9f",
+"posted_at": "2026-10-17T16:22:45.207000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Founder of CaseRescue discussing call analytics and review warnings. Perfect overlap with call tracking and intake analysis.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Detecting friction on client calls only works if the handoff is rigid. If sentiment alerts just land in a general Slack channel or an email notification, busy lawyers ignore them until the public review hits. The fix is setting hard escalation rules. When a client expresses repeated dissatisfaction across two calls, that file should automatically bypass the handling attorney and route straight to a managing partner."
+},
+{
+"angle": "sharp_question",
+"text": "Tracking audible friction across client calls catches the warning signs early. The operational hurdle is who receives the alert. When client frustration stems from an associate being unresponsive, sending the flag back to that same lawyer rarely fixes the relationship. In your workflow, how do you route those early risk triggers so senior management sees the pattern before the client gives up and posts publicly?"
+},
+{
+"angle": "pushback",
+"text": "Catching friction on calls matters, but listening alone does not prevent what happened in Ohio. An attorney breaching client confidentiality on Google is an impulse control failure under stress. Early sentiment detection gives the firm time to fix the relationship, but stopping a public Bar complaint requires an approval gate on public review replies so nobody can post defensively without partner review."
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 159,
+"created_at": "2026-10-17T18:04:36.041379+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 7.2,
+"author_name": "M Taimoor Aamer Chughtai",
+"author_headline": "Founding CEO @Flitkick Innovations | Head of Brand Management at Willow & White (Leading in Hotel Construction and Hospitality Solutions) | Fractional CMO Real Estate",
+"author_url": "https://www.linkedin.com/in/muhammadchughtai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAv3lrMBrwp3wPwS3qXFJHj5DK1dnp2phFI",
+"post_url": "https://www.linkedin.com/posts/muhammadchughtai_dubairealestate-offplanproperty-realestatemarketing-activity-7517274241659076608-HyCh",
+"post_text": "You can buy a Tesla Roadster for the thrill. Or buy Dubai off-plan property for the opportunity. But what happens AFTER you make the decision? 👇\n\nBoth require research. Both involve risk. And both demand that you look beyond the marketing.\n\n🚘 Buying a Tesla Roadster\nYou evaluate the technology, performance, design, price, and long-term value.\n\n🏙️ Buying an off-plan property in Dubai\nYou evaluate the developer, location, payment plan, project fundamentals, handover timeline, and potential investment returns.\n\nBut here’s the interesting part.\n\nWhat if you’re a Dubai real estate company spending thousands on marketing, generating leads every day, yet struggling to convert them into actual property sales?\n\nYour problem might not be the number of leads.\n\nIt could be what happens after the lead arrives.\n\n❌ Slow response times\n❌ Inconsistent follow-ups\n❌ Poor lead qualification\n❌ No visibility into agent performance\n❌ Marketing spend disconnected from actual bookings\n\nAt Flitkick Innovations, we help real estate companies build a connected system from lead generation to sales management — so fewer opportunities slip through the cracks.\n\n🎯 Want more qualified real estate leads?\n\n📊 Want to know where your marketing budget is leaking?\n\n📈 Want your sales team to convert more of the opportunities you’re already paying for?\n\nLet’s audit your marketing-to-sales process.\n\nDM “SALES AUDIT” to Flitkick Innovations, and let’s arrange a one-to-one Zoom meeting to identify gaps and opportunities",
+"posted_at": "2026-10-17T17:24:03.413000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Vendor selling real-estate sales audits. Good ICP overlap, but he is pitching his own service.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "The missing step between paid ad clicks and sales calls is rule-based qualification before an agent gets involved. Most brokerages pass raw portal enquiries straight to their sales team, who then waste hours calling contacts who cannot meet basic payment terms. A broker should only see a lead once readiness criteria are confirmed."
+},
+{
+"angle": "field_detail",
+"text": "In the outbound system I run for my own agency, the safety tripwire is checking the inbox before every single follow-up fires and stopping the sequence the moment someone answers. In real estate, nothing burns credibility faster than an automated follow-up landing in a buyer's inbox minutes after they already replied."
+},
+{
+"angle": "sharp_question",
+"text": "Agent visibility usually breaks because client communication lives in personal WhatsApp chats rather than a tracked system. When you audit a sales desk, how do you verify whether a broker actually followed up without forcing them into manual CRM data entry that they inevitably abandon?"
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 158,
+"created_at": "2026-10-17T18:01:52.713762+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 7.5,
+"author_name": "Ahmed Salah",
+"author_headline": "Performance Marketing Operator for Dubai Real Estate",
+"author_url": "https://www.linkedin.com/in/ahmed-salah00?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB2dYioBJ6zM-ySJhARmUxWpJuXUH92RtOA",
+"post_url": "https://www.linkedin.com/posts/ahmed-salah00_tip-for-dubai-real-estate-lead-gen-campaigns-activity-7517220774357860352-6L0D",
+"post_text": "TIP for Dubai Real-estate Lead Gen Campaigns \n\nChoose a project that has either close handover phase or already delivered units to do a lead gen campaign for \n\nIf a client wants ready unit then your sales team will have no problem because there are already delivered units in the project and in that case the client  has cash \nif he wants to pay on payments? then still no problem since there will be close handover units ( 1-2 years handover ) your team still get the off plan commission \n\nif the client cant afford cash payment cant afford the tightened payment plan for close handover \n\nthen its easy for your sales team to direct the client for the new launch or late handover phase because the client has no other way literally all other ways are technically blocked for him \n\nAnd please don't tell me why would i do a campaign for close handover project \n\nBecause there's a damn high demand for either ready or close handover units \nBecause UAE is 99% expats who need to either upgrade their living or choose their lifetime home \n\nSo Question is why leave 99% of population and focus only on 1% ? \n\nBecause this method will cut your costs increase your sales within the first month \n\nThat's the difference between strategy and just following orders",
+"posted_at": "2026-10-17T13:51:35.815000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Real estate marketing operator discussing campaign strategy. Good fit for lead leakage discussion.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "Shifting campaigns toward ready or close-handover units solves the targeting problem, but the bottleneck usually moves straight to the sales desk. When high-intent buyers enquire about ready units, they expect answers in seconds. If that first response sits in a queue, ad spend leaks before brokers even pick up the phone."
+},
+{
+"angle": "make_concrete",
+"text": "Targeting ready units brings in buyers with capital ready to deploy, which changes the economics entirely. Missing just a few inbound inquiries a day on high-intent ready-property listings can burn a massive hole in monthly ad spend. Capturing that initial interest in under ten seconds is what actually protects the cost per acquisition."
+},
+{
+"angle": "sharp_question",
+"text": "Aligning campaigns with ready and close-handover inventory cuts out the noise of pure speculators. When those high-intent inquiries flood in, how does your sales team currently filter out buyers who want a ready unit but lack immediate financing approval?"
+}
+],
+"connection_note": "Hi Ahmed, your post on shifting Dubai real estate campaigns toward ready and close-handover units hit close to home. Would love to connect and follow your insights on sales ops.",
+"my_comment": null
+},
+{
+"id": 157,
+"created_at": "2026-10-17T17:54:28.753353+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.4,
+"author_name": "Alan J.",
+"author_headline": "Business owner - Waste Wizard Group",
+"author_url": "https://www.linkedin.com/in/j24nsy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACcIp8YBeKMXhoJehBi07GcI2wuXTc9ny2w",
+"post_url": "https://www.linkedin.com/posts/j24nsy_small-business-owners-advice-needed-you-activity-7516992435093340160-O2Pl",
+"post_text": "Small business owners advice needed!\n\nYou know that time to risk the business you've been working in, building, nurturing!!! And need to  \"come off the tools\" so to speak to grow! \n\nWe're nearly 3 years old at Waste Wizard Group and im still doing everything with the lads & more🙃\n driver,operator, payroll, Marketing, Sales! \n\nGenuine question... as a business owner.. when did you know you needed to hire to grow?",
+"posted_at": "2026-10-16T22:44:15.492000+00:00",
+"likes": 0,
+"comments": 1,
+"why": "Waste management business owner asking when to step out of operations and hire. Perfect fit for systems discussion.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "The missing step before handing over the tools is locking down decision rules. If dispatch, quoting, and customer updates only live in your head, hiring a new person just means they call you twenty times a day to ask what to do. Systematizing how a job moves from quote to invoice lets a new hire take real ownership instead of keeping you on speed dial."
+},
+{
+"angle": "pushback",
+"text": "Hiring to get off the tools often backfires if you do it before setting clear operational boundaries. If you bring in someone while the workflow is still unwritten, you end up managing their daily decisions on top of running sales and payroll. The right time to hire isn't when you are at full capacity, but when you can hand over a defined process that runs without you."
+},
+{
+"angle": "make_concrete",
+"text": "When daily coordination lives in phone calls and WhatsApp, that friction never shows up as a line item on the books. It just feels like you need more hands. A simple diagnostic is tracking how many daily calls are just people asking for information stored in your head. If that number is high, fixing the workflow comes before adding payroll."
+}
+],
+"connection_note": "Hi Alan, saw your post about stepping off the tools at Waste Wizard Group. Balancing driver runs, sales, and payroll at year three is a massive lift. Would love to connect and follow your growth journey.",
+"my_comment": null
+},
+{
+"id": 156,
+"created_at": "2026-10-17T13:37:02.228018+00:00",
+"acted_at": "2026-10-17T17:54:38.277343+00:00",
+"status": "posted",
+"stage": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -44,10 +239,10 @@
 {
 "id": 155,
 "created_at": "2026-10-17T13:36:12.267802+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:54:36.478228+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -83,10 +278,10 @@
 {
 "id": 154,
 "created_at": "2026-10-17T13:35:35.118182+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:54:35.497851+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -122,10 +317,10 @@
 {
 "id": 153,
 "created_at": "2026-10-17T13:33:45.411189+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:54:32.099603+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -161,10 +356,10 @@
 {
 "id": 152,
 "created_at": "2026-10-17T13:33:21.003907+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:52.486890+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -200,10 +395,10 @@
 {
 "id": 151,
 "created_at": "2026-10-17T13:32:51.517863+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:49.145792+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -239,10 +434,10 @@
 {
 "id": 150,
 "created_at": "2026-10-17T13:31:52.757901+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:47.507639+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -278,10 +473,10 @@
 {
 "id": 149,
 "created_at": "2026-10-17T13:30:43.342481+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:44.995902+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -317,10 +512,10 @@
 {
 "id": 148,
 "created_at": "2026-10-17T09:06:39.517635+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:54:39.151844+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -356,10 +551,10 @@
 {
 "id": 147,
 "created_at": "2026-10-17T09:05:56.523241+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:54:37.460485+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -393,51 +588,12 @@
 "my_comment": null
 },
 {
-"id": 146,
-"created_at": "2026-10-17T09:03:29.692332+00:00",
-"acted_at": null,
-"status": "sent",
-"stage": null,
-"chosen_option": null,
-"note": null,
-"lane": "smb_owners",
-"lane_name": "GCC SMB founders & GMs (service businesses)",
-"intent": "buyer",
-"priority": 7.4,
-"author_name": "Alan J.",
-"author_headline": "Business owner - Waste Wizard Group",
-"author_url": "https://www.linkedin.com/in/j24nsy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACcIp8YBeKMXhoJehBi07GcI2wuXTc9ny2w",
-"post_url": "https://www.linkedin.com/posts/j24nsy_small-business-owners-advice-needed-you-activity-7516992435093340160-O2Pl",
-"post_text": "Small business owners advice needed!\n\nYou know that time to risk the business you've been working in, building, nurturing!!! And need to  \"come off the tools\" so to speak to grow! \n\nWe're nearly 3 years old at Waste Wizard Group and im still doing everything with the lads & more🙃\n driver,operator, payroll, Marketing, Sales! \n\nGenuine question... as a business owner.. when did you know you needed to hire to grow?",
-"posted_at": "2026-10-16T22:44:15.492000+00:00",
-"likes": 0,
-"comments": 1,
-"why": "Waste management business owner asking when to step out of operations and hire. Perfect fit for systems discussion.",
-"best_angle": "field_detail",
-"options": [
-{
-"angle": "field_detail",
-"text": "In an ops audit I ran on a logistics operation, a supervisor was making 50 to 60 calls a day across 23 trucks just to ask where they were. When coordination lives in phone calls and your own head, it never shows up as an admin cost. It just feels like you need to hire. Mapping what is just routine information chasing versus actual delivery work usually shows which seat to hand off first."
-},
-{
-"angle": "pushback",
-"text": "Hiring to come off the tools often backfires if the workflow still lives in your head. If quoting, dispatch, and invoicing require your personal touch, bringing in a hire just adds another person you have to direct all day. The time to hire is when a specific role can be run off a clear checklist without you having to intervene on every job."
-},
-{
-"angle": "sharp_question",
-"text": "Splitting time between the steering wheel and the books is usually where growth stalls. When you look at the hours keeping you on the tools right now, what is eating more of your day: fulfilling the actual jobs, or the quoting and intake that brings in new ones? That answer usually decides whether your first hire should be a driver or someone on operations."
-}
-],
-"connection_note": "Hi Alan, saw your post on stepping off the tools at Waste Wizard Group. Balancing driving and dispatch with business development is a challenge every service operator hits around year three. Would be great to connect and follow your journey.",
-"my_comment": null
-},
-{
 "id": 145,
 "created_at": "2026-10-17T09:03:05.199707+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:48.326401+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -473,10 +629,10 @@
 {
 "id": 144,
 "created_at": "2026-10-16T18:42:41.980585+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:54:33.850348+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -512,10 +668,10 @@
 {
 "id": 143,
 "created_at": "2026-10-16T18:42:29.920659+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:54:32.940350+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -551,10 +707,10 @@
 {
 "id": 142,
 "created_at": "2026-10-16T18:41:44.369258+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:54:30.400304+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -590,10 +746,10 @@
 {
 "id": 141,
 "created_at": "2026-10-16T18:41:11.330411+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:54.381480+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 3,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -629,10 +785,10 @@
 {
 "id": 140,
 "created_at": "2026-10-16T18:40:52.090966+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:46.604624+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -668,10 +824,10 @@
 {
 "id": 139,
 "created_at": "2026-10-16T14:40:24.782319+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:53.297613+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -707,10 +863,10 @@
 {
 "id": 138,
 "created_at": "2026-10-16T14:39:54.668313+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:50.837534+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -746,10 +902,10 @@
 {
 "id": 137,
 "created_at": "2026-10-16T09:43:04.407936+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:54:34.673166+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -785,10 +941,10 @@
 {
 "id": 136,
 "created_at": "2026-10-16T09:38:45.099684+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:54:31.291182+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -824,10 +980,10 @@
 {
 "id": 135,
 "created_at": "2026-10-16T09:35:56.414532+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:51.661209+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -863,10 +1019,10 @@
 {
 "id": 134,
 "created_at": "2026-10-16T09:34:15.426116+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-17T17:46:49.969922+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -5967,10 +6123,10 @@
 "usage": [
 {
 "day": "2026-10-17",
-"posts_scraped": 51,
-"cards_sent": 12,
-"llm_input_tokens": 94079,
-"llm_output_tokens": 67482,
+"posts_scraped": 73,
+"cards_sent": 17,
+"llm_input_tokens": 128337,
+"llm_output_tokens": 87940,
 "llm_cost_usd": 0.0
 },
 {
@@ -6062,9 +6218,9 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.84,
+"apify_month_usd": 1.88,
 "apify_month_cap_usd": 5.0,
-"learned": 118,
+"learned": 140,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

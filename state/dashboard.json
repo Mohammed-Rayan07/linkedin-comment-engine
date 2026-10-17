@@ -1,7 +1,163 @@
 {
-"generated_at": "2026-10-16T18:42:42.685138+00:00",
+"generated_at": "2026-10-17T09:06:40.190205+00:00",
 "actions_applied": 138,
 "cards": [
+{
+"id": 148,
+"created_at": "2026-10-17T09:06:39.517635+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.6,
+"author_name": "Riffat Ullah",
+"author_headline": "Managing Director at Wazir Crane Trading",
+"author_url": "https://www.linkedin.com/in/riffat-ullah-831093294?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEcz8eUBoFYcV9LV4N27RdZY0N7AolNXO_U",
+"post_url": "https://www.linkedin.com/posts/riffat-ullah-831093294_cranerental-craneservices-saudiarabia-activity-7517098947597955072-b19R",
+"post_text": "🚧 Reliable Crane Rental Services in Saudi Arabia 🇸🇦\n\nLooking for dependable crane rental services for your next project? We are here to support your lifting and heavy equipment handling needs across Saudi Arabia.\n\n🏗️ Our Services Include:\n✅ Mobile crane rentals for various project requirements\n✅ Skilled and experienced crane operators\n✅ Safe, efficient, and professional lifting operations\n✅ Reliable service with a focus on quality and customer satisfaction\n✅ Support for industrial, construction, and heavy lifting projects\n\nYour project deserves reliable lifting solutions. Let’s work together!\n\n📞 Contact us for crane rental inquiries:\n0503074299\n\n📍 Serving projects across Saudi Arabia.\n\n#CraneRental #CraneServices #SaudiArabia #KSA #MobileCrane #HeavyLifting #Construction #IndustrialProjects #HeavyEquipment #LiftingSolutions #OilAndGas #ProjectManagement #EquipmentRental #SaudiConstruction",
+"posted_at": "2026-10-17T05:47:30.052000+00:00",
+"likes": 7,
+"comments": 1,
+"why": "Crane rental service promotion in KSA. Heavy equipment operations could use speed-to-lead, but weak entry point.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "Heavy equipment rentals often stall between the initial inquiry and confirming machine availability. The missing operational step is qualifying site requirements in under 10 seconds: tonnage, boom reach, and operator availability. In the speed-to-lead systems I build, getting that first qualified response out instantly is what locks in the client before they call another supplier."
+},
+{
+"angle": "sharp_question",
+"text": "When contractors reach out for urgent crane rentals across Saudi sites, speed of dispatch usually decides who gets the work. From what you see at Wazir Crane, do most project engineers call with exact load charts and boom requirements ready, or does your team spend most of that first call walking them through what equipment they actually need?"
+},
+{
+"angle": "pushback",
+"text": "Publishing a direct mobile line makes reaching out simple, but relying strictly on phone calls creates an operational bottleneck during busy site hours. If two contractors call at once or someone reaches out after hours, an unanswered ring sends them straight to the next equipment provider. Having a rapid digital intake running alongside direct calls is what prevents those high-value inquiries from leaking."
+}
+],
+"connection_note": "Hi Riffat, saw your post on mobile crane rentals across Saudi Arabia. Always interested in how heavy equipment and lifting operations manage site dispatch and fast lead qualification here in KSA. Would be great to connect.",
+"my_comment": null
+},
+{
+"id": 147,
+"created_at": "2026-10-17T09:05:56.523241+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 5.8,
+"author_name": "Faisal Khwaja",
+"author_headline": "Managing Director | Real Estate Investment Specialist | Helping Investors Unlock Profitable Opportunities in Dubai Market.",
+"author_url": "https://www.linkedin.com/in/faisal-khwaja-0b943434?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAcuvo0BKSN82iLougIZMSlXQE4pz0_oAbg",
+"post_url": "https://www.linkedin.com/posts/faisal-khwaja-0b943434_a-correction-does-not-automatically-make-activity-7517121390722928640-EVph",
+"post_text": "A correction does not automatically make Dubai a bubble—and a growing city does not make every property a good investment.\n\nEvery few years, the same warnings return: “Dubai is a bubble.” “Dubai is finished.” “The recovery won’t last.”\n\nBut the wider story matters. Dubai’s population reached 4.58 million at the end of 2025, up around 332,000 from the previous year. Residents, professionals, entrepreneurs and businesses continue to choose the city, alongside investment in infrastructure, tourism and long-term urban planning.\n\nThat supports the case for looking closely at Dubai. It does not guarantee that every area or property will perform well.\n\nPrices can rise, stabilise or correct. Before you invest, look at the location, upcoming supply, developer, purchase price, realistic rental assumptions and how long you plan to hold the property.\n\nDon’t invest in a headline. Understand the numbers behind the property.\n\nConsidering Dubai real estate? Message me with the area or project you’re exploring.",
+"posted_at": "2026-10-17T07:16:40.910000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "General commentary on Dubai real estate market trends. Not about sales ops or lead waste.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Macro population growth defends the overall market, but evaluating rental assumptions in isolation can be misleading when localized handovers cluster together. An influx of 332,000 residents drives broad demand, but if several developers deliver keys in the same pocket at once, short-term rental yields compress regardless of build quality. The hold period has to absorb that delivery wave before the yield normalizes."
+},
+{
+"angle": "missing_step",
+"text": "Understanding the purchase price and developer track record is standard diligence, but the missing step is factoring in tenant absorption speed when clustered handovers hit an area. High citywide growth guarantees demand over time, but towers delivering in the same quarter create brief supply overhangs. Stress-testing carrying costs through that initial vacancy window is what keeps the investment safe."
+},
+{
+"angle": "sharp_question",
+"text": "Separating citywide expansion from project-level math is where most first-time investors stumble. Dubai reaching 4.58 million residents confirms macro demand, but individual project success still depends on localized supply and developer execution. When buyers message you about a specific development, what is the first filter you use to test whether their holding plan matches realistic handover timelines?"
+}
+],
+"connection_note": "Hi Faisal, your point on Dubai's population growth vs pocket-level supply caught my eye. Good to see an advisor focusing on realistic hold periods over generic market hype. Would be great to connect.",
+"my_comment": null
+},
+{
+"id": 146,
+"created_at": "2026-10-17T09:03:29.692332+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.4,
+"author_name": "Alan J.",
+"author_headline": "Business owner - Waste Wizard Group",
+"author_url": "https://www.linkedin.com/in/j24nsy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACcIp8YBeKMXhoJehBi07GcI2wuXTc9ny2w",
+"post_url": "https://www.linkedin.com/posts/j24nsy_small-business-owners-advice-needed-you-activity-7516992435093340160-O2Pl",
+"post_text": "Small business owners advice needed!\n\nYou know that time to risk the business you've been working in, building, nurturing!!! And need to  \"come off the tools\" so to speak to grow! \n\nWe're nearly 3 years old at Waste Wizard Group and im still doing everything with the lads & more🙃\n driver,operator, payroll, Marketing, Sales! \n\nGenuine question... as a business owner.. when did you know you needed to hire to grow?",
+"posted_at": "2026-10-16T22:44:15.492000+00:00",
+"likes": 0,
+"comments": 1,
+"why": "Waste management business owner asking when to step out of operations and hire. Perfect fit for systems discussion.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "In an ops audit I ran on a logistics operation, a supervisor was making 50 to 60 calls a day across 23 trucks just to ask where they were. When coordination lives in phone calls and your own head, it never shows up as an admin cost. It just feels like you need to hire. Mapping what is just routine information chasing versus actual delivery work usually shows which seat to hand off first."
+},
+{
+"angle": "pushback",
+"text": "Hiring to come off the tools often backfires if the workflow still lives in your head. If quoting, dispatch, and invoicing require your personal touch, bringing in a hire just adds another person you have to direct all day. The time to hire is when a specific role can be run off a clear checklist without you having to intervene on every job."
+},
+{
+"angle": "sharp_question",
+"text": "Splitting time between the steering wheel and the books is usually where growth stalls. When you look at the hours keeping you on the tools right now, what is eating more of your day: fulfilling the actual jobs, or the quoting and intake that brings in new ones? That answer usually decides whether your first hire should be a driver or someone on operations."
+}
+],
+"connection_note": "Hi Alan, saw your post on stepping off the tools at Waste Wizard Group. Balancing driving and dispatch with business development is a challenge every service operator hits around year three. Would be great to connect and follow your journey.",
+"my_comment": null
+},
+{
+"id": 145,
+"created_at": "2026-10-17T09:03:05.199707+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 8.5,
+"author_name": "Maryam Ali",
+"author_headline": "Clinic Manager | Elaira Polyclinic | Dubai",
+"author_url": "https://www.linkedin.com/in/maryam-ali-31bab7429?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGyNNAcBvK2psxiyL4TnuO46DxZGywjga-4",
+"post_url": "https://www.linkedin.com/posts/maryam-ali-31bab7429_dubaijobs-hiringdubai-receptionistjobs-activity-7516964012174143489-zh7j",
+"post_text": "We’re Hiring | Call Center & Receptionist\n\n📍 Elaira Polyclinic | Business Bay, Dubai\n\nWe’re looking for a professional and friendly team member to join our team.\n\nRequirements:\n\n* Previous experience in a medical or aesthetic clinic is a plus.\n* Excellent communication and customer service skills.\n* Fluent in English; Arabic is an advantage.\n* Currently based in the UAE.\n\n📩 Interested? Send your CV via LinkedIn DM.\n\n#DubaiJobs #HiringDubai #ReceptionistJobs #CallCenterJobs",
+"posted_at": "2026-10-16T20:51:18.940000+00:00",
+"likes": 2,
+"comments": 3,
+"why": "Clinic manager hiring a receptionist. Direct fit for AI receptionist and missed-call automation.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "At 11 PM with severe tooth pain, I called five clinics. Three didn't answer, one played a robotic voicemail with clinic hours, and one was Arabic-only. The sixth clinic answered, booked me, and got a loyal patient. Strong front-desk staff protect daytime operations, but late evenings and weekends are usually where high-intent patients quietly slip to whoever picks up first."
+},
+{
+"angle": "missing_step",
+"text": "Hiring for the front desk fixes in-person greeting, but the missing operational step is separating walk-in intake from phone handling. When an aesthetic patient is checking in at the counter while two phone lines ring, one of those patients gets a compromised experience. Defining clear intake routing so the front desk is never forced to choose between the person in front of them and the phone protects both."
+},
+{
+"angle": "make_concrete",
+"text": "A great receptionist keeps the day running, but the true benchmark is the 7 PM test. Call your own clinic line at 7 PM or on a Friday. Whatever happens on that call is what high-intent patients experience when the desk is unstaffed. In competitive areas like Business Bay, an unanswered call or a recorded voicemail about hours usually means the patient immediately calls the next clinic."
+}
+],
+"connection_note": "Hi Maryam, saw your post hiring a call center receptionist for Elaira Polyclinic in Business Bay. Managing front-desk patient flow alongside incoming phone lines is a tough balance in busy clinics. Would love to connect and follow your team's growth.",
+"my_comment": null
+},
 {
 "id": 144,
 "created_at": "2026-10-16T18:42:41.980585+00:00",
@@ -5498,6 +5654,14 @@
 ],
 "usage": [
 {
+"day": "2026-10-17",
+"posts_scraped": 26,
+"cards_sent": 4,
+"llm_input_tokens": 33580,
+"llm_output_tokens": 23200,
+"llm_cost_usd": 0.0
+},
+{
 "day": "2026-10-16",
 "posts_scraped": 71,
 "cards_sent": 11,
@@ -5586,7 +5750,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 1.74,
+"apify_month_usd": 1.79,
 "apify_month_cap_usd": 5.0,
 "learned": 118,
 "metrics": {},

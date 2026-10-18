@@ -1,14 +1,14 @@
 {
-"generated_at": "2026-10-18T16:39:54.808748+00:00",
-"actions_applied": 171,
+"generated_at": "2026-10-18T16:49:26.066918+00:00",
+"actions_applied": 175,
 "cards": [
 {
 "id": 170,
 "created_at": "2026-10-18T16:39:54.284108+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-18T16:49:04.875542+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -44,10 +44,10 @@
 {
 "id": 169,
 "created_at": "2026-10-18T16:39:22.813760+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-18T16:49:04.309598+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -83,10 +83,10 @@
 {
 "id": 168,
 "created_at": "2026-10-18T16:38:59.188717+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-18T16:49:03.713057+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -122,10 +122,10 @@
 {
 "id": 167,
 "created_at": "2026-10-18T16:37:58.256079+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-18T16:49:03.105407+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -6474,7 +6474,7 @@
 "usage": [
 {
 "day": "2026-10-18",
-"posts_scraped": 70,
+"posts_scraped": 72,
 "cards_sent": 9,
 "llm_input_tokens": 82757,
 "llm_output_tokens": 53407,
@@ -6577,9 +6577,9 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.02,
+"apify_month_usd": 2.03,
 "apify_month_cap_usd": 5.0,
-"learned": 150,
+"learned": 154,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

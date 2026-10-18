@@ -1,7 +1,46 @@
 {
-"generated_at": "2026-10-18T16:49:26.066918+00:00",
+"generated_at": "2026-10-18T17:48:20.881027+00:00",
 "actions_applied": 175,
 "cards": [
+{
+"id": 171,
+"created_at": "2026-10-18T17:48:20.374124+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 5.0,
+"author_name": "EMEKAM UGOCHUKWU",
+"author_headline": "Managing Director, Green Nest Realty Limited | Real Estate Investor | Commercial & Rental Property Investments | GTAW & SMAW Welder | Underwater Welder",
+"author_url": "https://www.linkedin.com/in/emekam-ugochukwu-8701a537a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAF2k_JQBCGOAwdPImU1stvTlwtQIqEx0yVI",
+"post_url": "https://www.linkedin.com/posts/emekam-ugochukwu-8701a537a_a-good-deal-is-not-always-a-good-deal-for-activity-7517626116216565761-iWbm",
+"post_text": "A GOOD DEAL IS NOT ALWAYS A GOOD DEAL FOR YOU!\n\nIf you don't have enough capital to see it through, walk away.\n\nIn real estate, it's not just about finding the right property. It's about having the financial capacity to execute, sustain, and complete the investment.\n\nDon't just ask, \"Is this a good deal?\" Ask yourself, \"Do I have what it takes to see this deal through?\"\n\nBecause a promising deal without adequate funding can quickly become a financial burden.\n\nIn real estate, it's better to invest within your capacity than to overcommit and struggle to survive.",
+"posted_at": "2026-10-18T16:42:16.845000+00:00",
+"likes": 3,
+"comments": 0,
+"why": "Real estate MD discussing capital discipline, not operational lead waste or automation.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Underestimating holding costs usually kills a deal faster than a bad purchase price. The missing operational layer is mapping carrying friction before signing: how much vacancy or contractor delay can the cash reserve actually absorb? When those updates drag out in unorganized phone calls and messages, carrying costs quietly eat the entire margin."
+},
+{
+"angle": "pushback",
+"text": "Walking away protects the downside, but capital requirements are often inflated by slow operational handoffs. When updates and approvals live in personal phone calls and group chats, completion dates drift. Tightening the workflow around contractor and leasing milestones often cuts the capital buffer you actually need to survive the project."
+},
+{
+"angle": "sharp_question",
+"text": "The deals that bleed investors dry rarely fail on the purchase price. They fail because holding costs compound while execution stalls. In your projects, where do you find investors underestimate the capital requirement most: the contingency reserves for physical delays, or the carrying costs of an extended vacancy?"
+}
+],
+"connection_note": "Hi Emekam, enjoyed your point on capital capacity in real estate. The carrying cost while seeing a project through is where most budgets actually break. Would be great to connect and follow your updates here.",
+"my_comment": null
+},
 {
 "id": 170,
 "created_at": "2026-10-18T16:39:54.284108+00:00",
@@ -6474,10 +6513,10 @@
 "usage": [
 {
 "day": "2026-10-18",
-"posts_scraped": 72,
-"cards_sent": 9,
-"llm_input_tokens": 82757,
-"llm_output_tokens": 53407,
+"posts_scraped": 78,
+"cards_sent": 10,
+"llm_input_tokens": 90452,
+"llm_output_tokens": 60807,
 "llm_cost_usd": 0.0
 },
 {
@@ -6577,7 +6616,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.03,
+"apify_month_usd": 2.04,
 "apify_month_cap_usd": 5.0,
 "learned": 154,
 "metrics": {},

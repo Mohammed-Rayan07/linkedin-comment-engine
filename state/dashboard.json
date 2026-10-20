@@ -1,7 +1,163 @@
 {
-"generated_at": "2026-10-20T10:05:19.706428+00:00",
+"generated_at": "2026-10-20T14:54:09.268732+00:00",
 "actions_applied": 176,
 "cards": [
+{
+"id": 198,
+"created_at": "2026-10-20T14:53:30.036316+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.8,
+"author_name": "Rohan Bharddwaj",
+"author_headline": "Founder & Director at Floatinity | ✰Web Application ✰Software Product✰ Full Stack Developer ✰MEAN Stack Developer✰MERN Stack Developer",
+"author_url": "https://www.linkedin.com/in/rohandbharddwaj?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAigQbgBXCQUvtVqmI838n8UdwWvVLk23Fs",
+"post_url": "https://www.linkedin.com/posts/rohandbharddwaj_customerexperience-consumerrights-accountabilitymatters-activity-7518266829375680513-34wB",
+"post_text": "A month without clean water, and a month of \"24 hours.\"\n\nI rented a Livpure India water purifier because it's endorsed by Sachin Tendulkar , a name millions of Indians trust. I expected a brand with that kind of face to back its customers just as strongly.\n\nHere's what happened instead:\n\n🔸 My purifier has been faulty for a month now, and the filter clearly isn't working.\n🔸 I've raised multiple complaints.\n🔸 Every time, customer care promised a technician within 24 hours. In a month, that has never happened.\n🔸 The brand's smart app still shows my filter as \"healthy,\" which makes me question how reliable its health data really is.\n\nThis isn't just about one machine. It's about what happens after the sale. A rental customer pays every month for a service, and a promise that is repeated but never kept is no service at all.\n\nSachin Tendulkar , your name carries a lot of trust with customers like me. I hope you'll look into how this brand treats its customers after the sale, and reconsider the association if it can't meet the standard your name stands for.\n\nLivpure India Livpure Smart  Rakesh Kaul  I'd like a real resolution, and an explanation for why a month of follow-ups got me nowhere.\n\nHas anyone else had a similar experience? 👇\n\n#CustomerExperience #ConsumerRights #AccountabilityMatters",
+"posted_at": "2026-10-20T11:08:14.766000+00:00",
+"likes": 6,
+"comments": 2,
+"why": "SMB founder complaining about broken customer service follow-ups and unhelpful smart apps. Excellent angle for rules-based automation.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "The app showing healthy while the hardware fails is a classic telemetry trap. When a system only tracks what it is programmed to report without a validation layer, it gives support teams a script to hide behind. The broken promise is not just human error. It is an architecture that lets a bad status sit invisible until the customer blows the whistle."
+},
+{
+"angle": "make_concrete",
+"text": "That endless twenty-four hour loop happens when ticket queues rely on manual agent triage instead of deterministic escalation rules. If a ticket sits past a threshold, the workflow has to bypass local support and route straight to operations. When accountability lives in a standard helpdesk instead of strict logic, agents just hit snooze on the same script for a month."
+},
+{
+"angle": "sharp_question",
+"text": "When customer care keeps recycling the exact same line for four weeks, the breakdown is rarely a bad agent. It is a blind dispatch queue. When you traced the follow-ups, did the support team actually see your ticket aging in real-time, or did it vanish into a black hole the moment the initial call ended?"
+}
+],
+"connection_note": "Hi Rohan, read your post on the Livpure support loop. The app showing healthy while the hardware fails is a fascinating telemetry failure. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 197,
+"created_at": "2026-10-20T14:52:51.965818+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 8.6,
+"author_name": "Joseph Wang'ondu",
+"author_headline": "Head of Sales, Green Heart Kilifi | Helping Kenyans in the Diaspora Buy Verified Coastal Land | 14+ Years in East Africa Real Estate Sales",
+"author_url": "https://www.linkedin.com/in/josephwangondu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7aDkwBkk3MAnJY6GRAy9gu0eUH2Z7GreU",
+"post_url": "https://www.linkedin.com/posts/josephwangondu_kenyandiaspora-landinkenya-kilifi-activity-7518270387269554177-j38W",
+"post_text": "Five things this week's conversations taught me about selling land to Kenyans abroad 👇\n\n1️⃣ The person who decides is often not on the call. A spouse, a sibling at home, a parent putting in money. If the offer doesn't answer their questions too, the deal goes quiet.\n\n2️⃣ When a family-managed purchase goes wrong, it's rarely dishonesty. More often, one relative was asked to be agent, site supervisor and accountant all at once.\n\n3️⃣ Most money sent home pays for school fees and a parent's medicine, as it should. The share meant for investing asks three questions: Is it real? Can I follow it? Will it hold its value?\n\n4️⃣ Even buyers moving into money market funds and REITs tend to keep one piece of land. It's the asset tied to where the family will one day gather.\n\n5️⃣ In regeneration, survival beats planting numbers. Communities are the same: what counts is what's still standing in twenty years.\n\nWhich of these matches your experience? 👇\n\n#KenyanDiaspora #LandInKenya #Kilifi #DiasporaInvestment",
+"posted_at": "2026-10-20T11:22:23.034000+00:00",
+"likes": 3,
+"comments": 0,
+"why": "Real estate sales head talking about family-managed purchases and missed calls/coordination. Great fit.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Point two hits the core operational failure in family purchases. When one relative acts as agent, supervisor, and accountant all at once, communication naturally splinters across personal calls and informal messages. The missing step is a centralized audit trail where everyone can see site progress and documentation without relying on one person to manually relay updates."
+},
+{
+"angle": "make_concrete",
+"text": "Diaspora buyers asking whether they can follow the asset expose a heavy tracking gap. When status updates and site visits live in scattered WhatsApp threads, the buyer abroad loses visibility the moment the local contact gets busy. Keeping family capital aligned requires a shared log where every milestone and payment status is visible instantly."
+},
+{
+"angle": "sharp_question",
+"text": "When the decision-maker is abroad and the relative at home is managing the groundwork, how do you handle the loop when a single question requires checking multiple people? Do your sales workflows route those multi-stakeholder queries into a shared tracking system, or does it still rely on direct phone calls?"
+}
+],
+"connection_note": "Enjoyed your breakdown on diaspora land sales, especially the operational burden placed on relatives acting as multi-role supervisors. Managing multi-stakeholder coordination is a core focus of mine. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 196,
+"created_at": "2026-10-20T14:51:05.134172+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 8.9,
+"author_name": "Danish Salim Qureshi",
+"author_headline": "Founder & CEO @ DSQ Real Estate | Advising Investors on Property Strategies",
+"author_url": "https://www.linkedin.com/in/danishsalimqureshi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFZiTX0BKHOSadPQiUStubeNrlK_68OHyhk",
+"post_url": "https://www.linkedin.com/posts/danishsalimqureshi_danishsalimqureshi-dubaipropertyinvestment-activity-7518314500748439553-bMgv",
+"post_text": "Dubai Q3 Looks Strange Until You Read It Right \n\nThe Cavendish Maxwell Q3 2026 Dubai Residential Market Report, released on Zawya this week, shows AED 72.6 billion in sales across 34,000 transactions. Off-plan accounted for 72 per cent of property purchases and 65 per cent of sales value. September alone contributed AED 23.2 billion across 10,300 sales, taking year-to-date values to AED 292 billion from 112,580 property purchases. On the surface, this looks like a market still dominated by new launches. But read the same quarter from a different angle. The Betterhomes Q3 2026 Residential Market Report, published a few days earlier, shows secondary (ready) sales rising 16 per cent quarter on quarter and their share of total residential sales growing from 24 per cent in Q2 to 29 per cent in Q3. Rental enquiries hit the highest quarterly level Betterhomes has ever recorded, up 45 per cent on Q2. Our own DSQ Property Advisory September report shows the same signal — resale gained six points of share in a single month, and finished stock is holding value better than off-plan. All three readings are correct. The explanation is lag. Registered sales data captures a mix of recent and earlier buying activity, reflecting the time between a purchase being agreed and formally registered as a sale, often weeks or months. Many of Q3’s registered off-plan sales were commitments made earlier in the year when launches dominated the conversation. What buyers want today, measured by enquiries, ",
+"posted_at": "2026-10-20T14:17:40.507000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Real estate brokerage CEO discussing market lag; good fit to mention speed-to-lead and enquiry conversion.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "When rental enquiries jump 45 percent like Betterhomes reported, spotting the trend in a quarterly report is the easy part. The missing operational step is whether your sales desk can catch that sudden shift in intent before the lead moves to a competitor. If response times lag behind the new demand, the market direction in the data never reaches your pipeline."
+},
+{
+"angle": "make_concrete",
+"text": "Tracking a shift toward secondary stock and higher rental demand requires looking at what happens when those enquiries land. If an investor calls outside normal hours and hits a voicemail or a delayed reply, the surge in market interest never converts. Running a test call on your own agency lines at 7 PM reveals exactly how many of those captured enquiries are leaking before a broker ever speaks to them."
+},
+{
+"angle": "sharp_question",
+"text": "When official registration data lags behind actual buyer behavior by months, leadership has to rely on real-time pipeline signals. How do you verify whether a broker is accurately logging whether an enquiry wants off-plan or finished stock, or does that classification get lost once conversations move into personal WhatsApp chats?"
+}
+],
+"connection_note": "Enjoyed your breakdown of the Q3 Dubai report and the real lag in registered data versus active secondary enquiries. Would be great to connect and follow your market notes.",
+"my_comment": null
+},
+{
+"id": 195,
+"created_at": "2026-10-20T14:48:33.949489+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 10.0,
+"author_name": "Rhona Eskander",
+"author_headline": "Co- Founder at PÄRLA Toothpaste Tabs CEO Chelsea Dental Clinic",
+"author_url": "https://www.linkedin.com/in/rhona-eskander-28491181?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABFmFUQBFaidNpITZ64p3HEQEWLh8FlzRck",
+"post_url": "https://www.linkedin.com/posts/rhona-eskander-28491181_dentistry-womeninbusiness-dentalleadership-activity-7518278065312145408-f3Ao",
+"post_text": "According to the General Dental Council’s latest figures, 78% of all registered dental professionals in the UK identify as female, including 54% of dentists and 92% of dental care professionals. Women are now the majority of the profession. \n\nThe next question is whether that’s reflected in who owns practices, leads teams and shapes the future of UK dentistry. Running a practice here means navigating NHS contract pressures, recruitment challenges and a fast-growing private market. Clinical training prepares us for patient care, but rarely for cash flow, hiring or building a brand. Most of us learn that on the job. The skills overlap more than we think, though. \n\nPrecision, empathy and careful planning make a good clinician, and they make a good business leader too. The more we share what we’ve learned, the easier that path becomes for the women coming up behind us.\n\nWhat’s one business lesson you wish you’d learned earlier in your dental career?\n\n#dentistry #womeninbusiness #dentalleadership #femalefounders",
+"posted_at": "2026-10-20T11:52:53.622000+00:00",
+"likes": 5,
+"comments": 1,
+"why": "Dental clinic owner discussing hiring, cash flow, and learning business on the job. Perfect ICP fit.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "Learning business on the job usually exposes invisible leaks first. When a clinic relies entirely on manual front desk handling during peak hours, missed calls and slow responses quietly drain revenue every month before a patient even steps inside. Tracking that gap between enquiry and booking changes how you evaluate practice growth."
+},
+{
+"angle": "field_detail",
+"text": "Clinical precision does not automatically translate to front-desk operations. When a practice scales, the heaviest friction happens at the edges, like handling after-hours calls or managing peak enquiries without dropping leads. Building a reliable fallback path for those interactions protects the practice long before new marketing brings in traffic."
+},
+{
+"angle": "sharp_question",
+"text": "Clinical training teaches you how to treat the patient in front of you, but operational systems have to be built live. Beyond cash flow and recruitment, what was the hardest workflow in your practice to turn into a repeatable system?"
+}
+],
+"connection_note": "Hi Rhona, enjoyed your post on practice leadership and learning the business side on the job. Operating in the clinic space, I see how much clinical precision matters, but building systems for operations is a whole separate journey. Would love to connect.",
+"my_comment": null
+},
 {
 "id": 194,
 "created_at": "2026-10-20T10:05:19.047570+00:00",
@@ -7410,10 +7566,10 @@
 "usage": [
 {
 "day": "2026-10-20",
-"posts_scraped": 22,
-"cards_sent": 4,
-"llm_input_tokens": 34309,
-"llm_output_tokens": 17027,
+"posts_scraped": 46,
+"cards_sent": 8,
+"llm_input_tokens": 64209,
+"llm_output_tokens": 27374,
 "llm_cost_usd": 0.0
 },
 {
@@ -7529,7 +7685,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.22,
+"apify_month_usd": 2.27,
 "apify_month_cap_usd": 5.0,
 "learned": 155,
 "metrics": {},

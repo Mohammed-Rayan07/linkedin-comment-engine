@@ -1,14 +1,131 @@
 {
-"generated_at": "2026-10-21T14:59:50.158246+00:00",
-"actions_applied": 213,
+"generated_at": "2026-10-21T19:11:02.253142+00:00",
+"actions_applied": 217,
 "cards": [
 {
-"id": 212,
-"created_at": "2026-10-21T14:59:49.599367+00:00",
+"id": 215,
+"created_at": "2026-10-21T19:10:57.499635+00:00",
 "acted_at": null,
 "status": "sent",
 "stage": null,
 "chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 5.7,
+"author_name": "Khaled Eldesouky",
+"author_headline": "Director Of Sales at ALMAJDIAH",
+"author_url": "https://www.linkedin.com/in/khaled-eldesouky-1a08901a9?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADC3yggBD_bMumKCXx0sr19nk0wyXLJMaAE",
+"post_url": "https://www.linkedin.com/posts/activity-7518699870229176320-HelW",
+"post_text": "Proud to see Almajdiah expanding its international presence. Global exhibitions create valuable opportunities to build partnerships, connect with new markets, and showcase Saudi real estate opportunities worldwide.",
+"posted_at": "2026-10-21T15:48:59.751000+00:00",
+"likes": 5,
+"comments": 0,
+"why": "Corporate expansion post with zero operational detail or pain points.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "When global exhibitions draw interest from international investors across different time zones, how do sales teams ensure inquiries coming in outside local business hours receive a prompt response?"
+},
+{
+"angle": "missing_step",
+"text": "Global exhibitions generate a high volume of new contacts, but the step most operations miss is ensuring those details move instantly from a collected list into active follow-up before interest cools."
+},
+{
+"angle": "make_concrete",
+"text": "When overseas buyers reach out after an international exhibition, response speed dictates whether they stay engaged. If an inquiry sits in a queue overnight, the initial momentum often drops away entirely."
+}
+],
+"connection_note": "Hi Khaled, following your post on Almajdiah's international expansion and global exhibitions. Would be great to connect and follow your work in Saudi real estate.",
+"my_comment": null
+},
+{
+"id": 214,
+"created_at": "2026-10-21T19:10:43.533418+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 7.8,
+"author_name": "Umar Khan",
+"author_headline": "Director at Palmstone Dubai Director at Vapers Paradise",
+"author_url": "https://www.linkedin.com/in/umar-khan-505349195?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3Kd5UBHsPwMctrh2ET6FLMDMwnC1ryVe0",
+"post_url": "https://www.linkedin.com/posts/umar-khan-505349195_its-been-a-while-since-ive-been-active-activity-7518696099839213568-y9cQ",
+"post_text": "It's been a while since I've been active on LinkedIn, and I thought now would be a good time to reconnect and share what I've been working on.\n\nFor those who don't know me, I'm Umar Khan, a businessman from Blackburn, UK.\n\nOver the years, I've been involved in building and operating businesses across different industries. In the past year and a half, my focus has been towards an industry I've developed a real interest in - Dubai real estate.\n\nThat journey has led me to establish Palmstone Dubai, a real estate firm focused on connecting UK and international investors with property opportunities across the UAE.\n\nFrom off-plan developments to the secondary sales, & rental market, our focus is on helping investors understand the opportunities available, make informed decisions and build long-term property portfolios.\n\nI believe that investing should never be about simply selling a property. It's about understanding the market, doing your research and ensuring the investment makes sense for the individual.\n\nAs I continue building Palmstone Dubai, I intend to become more active on LinkedIn, sharing market insights, property investment opportunities, lessons from my own journey and an honest perspective on doing business in the UAE.\n\nI'm looking forward to reconnecting with my network, building new relationships and sharing the journey as Palmstone continues to grow.\n\nIf you're interested in Dubai real estate, property investment or simply connecting, I'd be delighted to hear from y",
+"posted_at": "2026-10-21T15:34:00.820000+00:00",
+"likes": 17,
+"comments": 0,
+"why": "New Dubai real estate brokerage founder sharing entry journey. Good fit for lead gen angle.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "missing_step",
+"text": "Setting up a firm for international investors means inquiries arrive long after local business hours close. The missing piece isn't just great market research. It is making sure that a lead from the UK landing at midnight gets a qualified response before they wake up to check competitor sites."
+},
+{
+"angle": "make_concrete",
+"text": "Doing research and building portfolios is critical for international buyers, but conversion usually comes down to response speed. When cross-border inquiries sit for hours because teams are offline, a huge percentage of high-intent capital slips away to the next brokerage on Google."
+},
+{
+"angle": "sharp_question",
+"text": "When international investors reach out from different time zones, how do you structure your response workflow so inquiries coming in late at night still get immediate attention without burning out your sales team?"
+}
+],
+"connection_note": "Hi Umar. Saw your post about launching Palmstone Dubai for UK and international investors. Moving from Blackburn to set up a brokerage here is a great jump. Would be good to connect as you build out the firm.",
+"my_comment": null
+},
+{
+"id": 213,
+"created_at": "2026-10-21T19:10:35.293077+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 8.3,
+"author_name": "Eighty Three Property",
+"author_headline": "Gavin Eade and Joseph Atkinson from 83 property ltd connect investors/ developers with vendors with off market property opportunities.",
+"author_url": "https://www.linkedin.com/in/eighty-three-property-62b685152?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTDVUMBckuNlAV-Y1oPhtD3LzHt4iZV1rU",
+"post_url": "https://www.linkedin.com/posts/eighty-three-property-62b685152_propertylife-propertyinvestor-offmarketdeals-activity-7518731829567221760-K7yb",
+"post_text": "4,000 LETTERS. LET ME EXPLAIN.\n\nSo, I’ve been called out recently about our claim of sending 4,000 letters over the last 18 months.\n\nAnd yes, that’s absolutely correct.\n\n4,000 letters. Not 4,000 leads.\n\nOver the last 18 months, we’ve built a database of more than 600 potential property opportunities.\n\nEvery few months, we send letters to the owners of those properties. Some respond. Some don’t. Some hold onto our details for months before getting in touch.\n\nAnd we keep going.\n\nIt’s not 4,000 different opportunities. It’s consistent follow-up with the same targeted database.\n\nThere’s no magic trick here. Just research, handwritten envelopes, postage and consistency.\n\n#propertylife #propertyinvestor #offmarketdeals",
+"posted_at": "2026-10-21T17:55:59.451000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Real estate brokerage talking about database consistency and follow-up loops.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "Keeping track of touchpoints across an 18-month window gets messy without a clean tracking system. When I built my own outbound engine, setting up strict rules for follow-up sequencing prevented manual tracking errors and kept the cadence steady without dropping records."
+},
+{
+"angle": "missing_step",
+"text": "Consistent letters get the attention, but how quickly those replies get handled when an owner finally reaches out decides if the deal moves forward. If an interested response sits in an unmonitored inbox, the persistence of the long-term cadence loses its impact."
+},
+{
+"angle": "sharp_question",
+"text": "When owners hold onto details for months before getting in touch, how do you track engagement signals across that six-hundred-strong database to know which properties are warming up before they respond?"
+}
+],
+"connection_note": "Enjoyed your breakdown on maintaining a consistent 18-month letter cadence for off-market properties. Would be good to connect and follow your insights on database consistency here in the region.",
+"my_comment": null
+},
+{
+"id": 212,
+"created_at": "2026-10-21T14:59:49.599367+00:00",
+"acted_at": "2026-10-21T19:08:20.701382+00:00",
+"status": "posted",
+"stage": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -44,10 +161,10 @@
 {
 "id": 211,
 "created_at": "2026-10-21T14:58:55.219626+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-21T19:08:19.150663+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -83,10 +200,10 @@
 {
 "id": 210,
 "created_at": "2026-10-21T14:58:19.773252+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-21T19:08:19.977073+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -122,10 +239,10 @@
 {
 "id": 209,
 "created_at": "2026-10-21T14:55:30.409490+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-21T19:08:18.351014+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -8112,10 +8229,10 @@
 "usage": [
 {
 "day": "2026-10-21",
-"posts_scraped": 53,
-"cards_sent": 9,
-"llm_input_tokens": 94745,
-"llm_output_tokens": 36772,
+"posts_scraped": 80,
+"cards_sent": 12,
+"llm_input_tokens": 132011,
+"llm_output_tokens": 51611,
 "llm_cost_usd": 0.0
 },
 {
@@ -8239,9 +8356,9 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.43,
+"apify_month_usd": 2.48,
 "apify_month_cap_usd": 5.0,
-"learned": 192,
+"learned": 196,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

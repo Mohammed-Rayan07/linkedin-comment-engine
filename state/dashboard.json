@@ -1,7 +1,124 @@
 {
-"generated_at": "2026-10-21T19:11:02.253142+00:00",
+"generated_at": "2026-10-22T10:10:56.472336+00:00",
 "actions_applied": 217,
 "cards": [
+{
+"id": 218,
+"created_at": "2026-10-22T10:10:55.811946+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.3,
+"author_name": "Rizwan Z.",
+"author_headline": "Founder / VOICEXA.AI / APIL PROPERTIES / Real Estate Automation",
+"author_url": "https://www.linkedin.com/in/rshaikh1980?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABqi9BwBNqnDjsK6Mo1KVYNFNFMTMy-uuvk",
+"post_url": "https://www.linkedin.com/posts/activity-7518885200890626049-GqmM",
+"post_text": "Luxury homes worldwide rose 3.2% last year. Dubai's rose 25.1%. 📈\n\nQ: How fast are Dubai luxury prices rising?\nA: Very fast by global standards. Knight Frank's Prime International Residential Index, which tracks 100 luxury markets, shows Dubai prime prices rose 25.1% in 2025, second only to Tokyo at 58.5%.\n\nThe global picture in 2025:\n→ Global luxury average: +3.2%\n→ Middle East: +9.4%\n→ Asia-Pacific: +3.6%\n→ Europe: +3.3%\n→ North America: –0.9%\n→ Dubai: 500 sales above US$10 million, the most active super-prime market in the world\n\nWhat to take from it:\n→ Strong growth shows how much global wealth is choosing Dubai.\n→ But growth at this pace rarely repeats year after year. Markets usually move in cycles.\n→ The more a market has risen, the more important your holding period and entry price become.\n\nIn luxury, buy for the decade, not the headline.\n\nSave this and share it with someone tracking global luxury markets.\n\nAPIL Property Intelligence | Dubai's Luxury Price Growth\n\n#DubaiLuxury #DubaiRealEstate #LuxuryRealEstate #APILProperties",
+"posted_at": "2026-10-22T04:05:26.024000+00:00",
+"likes": 0,
+"comments": 2,
+"why": "Real estate founder and automation vendor sharing global luxury price stats. Low value room.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "A 25.1% surge in luxury prices attracts global capital, but rapid market movements usually break inventory visibility first. When super-prime listings turn over this fast, brokers often rely on group chats to confirm availability. In an inventory system I built, keeping stock changes deterministic stopped agents from pitching units that were already committed."
+},
+{
+"angle": "sharp_question",
+"text": "With 500 sales above US$10 million, super-prime buyer demand is clear. When handling high-net-worth inquiries coming in from overseas across multiple time zones, how are your teams structuring initial qualification before passing the lead to a senior broker?"
+},
+{
+"angle": "make_concrete",
+"text": "A 25.1% price jump stretches buyer decision cycles as investors evaluate entry points. In the outbound system I run for my own agency, follow-ups thread directly into the original email so long-term prospects keep full context over a multi-month nurture window. Without structured threading, six-month buyers get lost in basic CRM noise."
+}
+],
+"connection_note": "Hi Rizwan, saw your post breaking down Dubai's 25.1% prime price growth against global luxury benchmarks. Interested in how you're seeing backend operations handle that surge in high-value buyer inquiries. Would be great to connect.",
+"my_comment": null
+},
+{
+"id": 217,
+"created_at": "2026-10-22T10:09:23.509152+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.9,
+"author_name": "Eyal Ashur",
+"author_headline": "Founder & CEO @ NOOMA Prime Properties | Luxury Real Estate Advisor to HNWIs, Dubai & Abu Dhabi",
+"author_url": "https://www.linkedin.com/in/eyal-ashur-5846235b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAy6cXQBKp5psORrITBhJ0MQ6x9c_5Q7szU",
+"post_url": "https://www.linkedin.com/posts/activity-7518954168141840385-ecAw",
+"post_text": "The more I research Abu Dhabi, the more I understand that the capital growth really is located in the north of Abu Dhabi. There are currently only two areas on which I focus. There are more good projects, but this is where I believe the ultra-high-net-worth individuals would want to live, rent, buy, and invest.\n\nThose two areas are:\n1. The north of Abu Dhabi, including Saadiyat, the upcoming Saadiyat Shores, and Ramhan. I would focus only on north of the highway.\n2. Al Maryah Island. The reason for that is that it's the capital of capitals. Abu Dhabi Global Markets is where all the finances come together. There are many projects now, at the same time, which will affect the capital growth, as there is a lot of supply coming to market at the same time. However, in the long term, I do believe that ADGM has much capital potential.\n\nComparing this to ready alternative, which is the Four Seasons, trading at most around AED 8,000 to AED 9,000 per square foot, other upcoming projects are selling at the highest per square foot at around AED 6,000. This means this is approximately 33% to 50% below a ready comparable. This is what we want to see in the market.\n\nHowever, if we look in the north of Abu Dhabi and we look at the price per square foot of villas on Saadiyat, specifically in Hidd Al Saadiyat, they are selling at AED 8,000 to AED 9,000 per square foot. If we compare this to off-plan projects, for example, on Ramhan, they are selling between AED 3,000 and AED 3,700 per square fo",
+"posted_at": "2026-10-22T08:39:29.098000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Real estate brokerage founder in UAE. Good ICP fit, but post is purely market analysis.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "The price gap between ready at AED 8,000 to 9,000 per sq ft and off-plan at AED 3,000 makes the growth thesis clear on paper. The concrete test for investors is whether handover timelines erode that 33% to 50% entry discount before secondary market liquidity kicks in."
+},
+{
+"angle": "sharp_question",
+"text": "When buyers compare ready inventory at AED 8,000 per sq ft with off-plan at AED 3,000, the initial gap looks obvious. How are your advisors structuring those comparisons early on so buyers assess holding costs alongside the square foot discount?"
+},
+{
+"angle": "pushback",
+"text": "The supply incoming on Al Maryah could compress secondary rental yields short-term, even with pricing sitting 33% to 50% below ready comps. Until that new inventory gets absorbed by ADGM corporate relocations, holding costs can quietly eat into the projected capital growth."
+}
+],
+"connection_note": "Hi Eyal, saw your breakdown on Abu Dhabi capital growth and the price per sq ft spread between ready and off-plan in Saadiyat and Al Maryah. Excellent market breakdown, would be great to connect.",
+"my_comment": null
+},
+{
+"id": 216,
+"created_at": "2026-10-22T09:59:20.665547+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 8.0,
+"author_name": "Firas El Ashry",
+"author_headline": "Director of Sales | Samana Developers | Strategic Sales Leadership | Real Estate Growth Specialist.",
+"author_url": "https://www.linkedin.com/in/firaselashry?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABvCq0oBOVsEyKw7zElp3rkktZbxgG85Pac",
+"post_url": "https://www.linkedin.com/posts/firaselashry_uaerealestate-realestateleadership-customerexperience-activity-7518898849411923968-niSH",
+"post_text": "Sales Can Build a Business. Trust Builds Its Future.\n\nIn real estate, closing a deal is an achievement.\n\nBut building a reputation that brings clients back, attracts investors, and strengthens broker relationships is a different level of success.\n\nAfter more than 14 years in the UAE real estate market, I’ve come to appreciate an important distinction:\n\nSelling a property creates revenue. Delivering on a promise builds a business.\nAnd I believe three things make that difference.\n\n1. Credibility Must Go Beyond Marketing.\n\nStrong marketing can attract attention, but credibility is built through the actual customer experience, transparency, and the ability to deliver on expectations.\n\n2. Broker Relationships Are Long-Term Assets.\n\nA strong broker network is not built on commissions alone. It grows through consistent communication, reliable support, mutual respect, and confidence in the product being offered.\n\n3. Reputation Is Built After the Deal, Not Just Before It.\n\nThe real test of a real estate business begins when the customer has made the purchase. How a company communicates, handles concerns, and delivers on its commitments shapes the reputation it carries into its next launch.\n\nIn a competitive market like the UAE, sales performance matters enormously, but sustainable growth comes when strong sales are supported by strong relationships and a reputation people are willing to stand behind.\n\nBecause the best business is not simply the one that sells today. It’s the one peopl",
+"posted_at": "2026-10-22T04:59:40.085000+00:00",
+"likes": 9,
+"comments": 3,
+"why": "Sales director at a UAE developer talking about customer experience and post-deal trust.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "Point three is where the handoff usually breaks. Once the deal is signed, buyers are passed from high-touch sales reps to post-sales admin, where simple updates on paperwork or milestones take days. Structuring proactive post-deal communication rules so buyers never have to chase status updates is what keeps them referring their network."
+},
+{
+"angle": "sharp_question",
+"text": "Broker relationships often strain right after the reservation agreement is signed, especially if the broker gets stuck acting as customer support between the buyer and developer admin. How do your post-sales teams handle that transition so brokers stay focused on selling rather than chasing paperwork updates?"
+},
+{
+"angle": "field_detail",
+"text": "In post-deal workflows I have mapped, the biggest friction point between developers and brokers isn't commission rates, it's visibility. When post-sale coordination lives in WhatsApp groups and manual email threads, inquiries sit unanswered. Turning those handoffs into clear status triggers stops brokers from having to call three people just to give an investor an update."
+}
+],
+"connection_note": "Hi Firas, enjoyed your point on reputation being built after the deal. The handoff between sales and post-sales support in UAE real estate is where so many client experiences break down. Would be great to connect.",
+"my_comment": null
+},
 {
 "id": 215,
 "created_at": "2026-10-21T19:10:57.499635+00:00",
@@ -8228,6 +8345,14 @@
 ],
 "usage": [
 {
+"day": "2026-10-22",
+"posts_scraped": 26,
+"cards_sent": 3,
+"llm_input_tokens": 32962,
+"llm_output_tokens": 12869,
+"llm_cost_usd": 0.0
+},
+{
 "day": "2026-10-21",
 "posts_scraped": 80,
 "cards_sent": 12,
@@ -8356,7 +8481,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.48,
+"apify_month_usd": 2.53,
 "apify_month_cap_usd": 5.0,
 "learned": 196,
 "metrics": {},

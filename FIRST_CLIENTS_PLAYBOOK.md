@@ -6,33 +6,91 @@
 
 ---
 
-## ⚠ CURRENT TERMS (16 Oct, later the same day). These override the pricing and guarantee further down.
+## ⚠ CURRENT TERMS: v2.1 (22 Oct 2026). These override everything further down.
 
-Rayan wants paid work, not free builds. Use these terms everywhere: in DMs, on calls and in the agreement.
+**The goal of v2.1:** first payment within about 12 days of go-live, zero risk for the owner, nothing that could feel like a trick. "Live in 5 days. Proven on your real leads in 14. Pay only after the proof."
 
-| | Founding Partner (3 spots) | Standard (after the founding spots) |
+| | Founding Partner (3 spots, onboarded one at a time) | After the founding spots |
 |---|---|---|
-| AI Lead Audit + Leak Map | Free | Free |
-| Setup and build | **4,500 AED/SAR, paid only after the agreed targets are hit** | 9,500 AED/SAR, 50% upfront |
-| Care plan | **1,500 AED/SAR a month, locked for 12 months, starting only after the targets are hit** | 2,500 AED/SAR a month |
+| AI Lead Audit + Leak Map | Free, theirs to keep even if they say no | Free |
+| Build + 14-day live proof | **Free** | Paid |
+| Setup | **1,500 AED/SAR**: **750 when the system targets pass**, **750 when the booking target passes** | 6,000 AED/SAR (50% upfront) |
+| Care plan | **750 AED/SAR a month**, from payment 2, month-to-month, 7 days' notice to cancel, founding price locked while they stay | 1,500 AED/SAR a month |
 
-- **The guarantee: "Hit the targets, or I keep working for free until we do."** The targets are agreed in writing on day 2, using the Leak Map. They cover:
-  - reply speed
-  - follow-up coverage
-  - booked appointments, measured against the client's current numbers
+Outside the GCC, quote about USD 400 setup (200 + 200) + USD 200 a month.
 
-  Set booked-appointment targets realistically, because the free-work promise is real. Reply speed and follow-up coverage are fully in Rayan's control.
-- **It stays theirs.** Everything is built on the client's own accounts. The client pays software costs directly (about USD 50–200 a month).
-- **Delivery promise:** live within 14 days of access, or keep building at no cost until it is.
-- **What we ask in return**, only after results:
-  - a case study
-  - a testimonial
-  - 2 referral intros
-  - a 15-minute weekly check-in during the pilot
-  - never a Google review
+**Timeline (all dates counted from access and go-live, not from the call)**
+- **Day 0, the 20-minute audit call:**
+  - Run the 9 PM test live, or show it if done earlier, and always disclose it.
+  - Agree the 2 channels, with a backup order, and the 3 targets with their numbers.
+  - Send the one-page agreement within the hour.
+- **Day 1:** agreement signed, access given, 20-minute onboarding (prices, availability, FAQs, tone). Start Meta/WhatsApp Business verification today.
+- **Days 1-4:** build and test. The client approves the replies before anything goes live.
+- **Day 5:** go live on the agreed channels. If WhatsApp is still pending, go live on the agreed backup channel and add WhatsApp when it's approved.
+- **About day 12:** checkpoint 1 → **payment 1 (750)**.
+- **About day 19:** checkpoint 2 → **payment 2 (750) + month 1 of the care plan (750)**.
+
+**The 3 targets (numbers written in the agreement)**
+1. **T1 Speed (system):** 95% of new enquiries on the connected channels get a first reply in under 60 seconds, 24/7. Measured over the first 7 days live.
+2. **T2 Follow-up (system):**
+   - Every lead that doesn't book gets the agreed follow-up sequence (default: 3 touches over 7 days), **within WhatsApp's rules**: inside the 24-hour window, or via approved templates to leads who opted in. The first reply asks "Can I follow up with you here?".
+   - Opt-outs are respected instantly.
+   - Every lead is logged with its source and status.
+   - Measured over the 14 days.
+3. **T3 Bookings (commercial):**
+   - At least X appointments booked by the system in the 14 days. Set X on the call **no higher than their current 14-day bookings from those channels plus a small uplift**.
+   - Examples for the call only, never published: about 5 viewings for a brokerage with about 60 enquiries a month, about 8 consultations for a clinic with about 100.
+   - **Lead-volume clause:** if enquiries drop below the agreed level, X drops in proportion.
+
+**What counts as a booking:**
+- A confirmed date and time in the client's calendar, for a real lead, booked by the system.
+- Duplicates, tests, and cancellations that weren't rebooked don't count.
+- No-shows do count, because show-ups are on the client's side.
+
+**Payment triggers**
+- **Payment 1** is invoiced when T1 and T2 pass at checkpoint 1.
+- **Payment 2 and month 1** are invoiced when T3 passes at checkpoint 2.
+- Invoices are due within 3 days. The care plan is billed in advance every 30 days from payment 2.
+
+**If a target is missed**
+- **T1 or T2 missed** (Rayan's side): fixed free, re-measured over the next 7 days, and nothing is due until it passes.
+- **T3 missed** with T1 and T2 passed: **one free 14-day extension**. After that the client chooses: continue (payment 2 + care plan), or walk away keeping the system and owing nothing more.
+- **Payment 1 is not refunded**, because the system targets it paid for were delivered. Say this plainly; it's on the page.
+- **Client-caused delays pause the clock:** late access, ads paused, unanswered handoffs, the system switched off.
+
+**Scope of the free build (small enough for 4 days)**
+- The client's **2 busiest channels**, for example WhatsApp + the website form, or Instagram.
+- Instant reply in Arabic or English, with 3-5 qualifying questions.
+- Calendar booking with reminders.
+- The follow-up sequence.
+- Hot-lead alerts to the owner's WhatsApp.
+- A lead log: Google Sheet, or their CRM if it's a standard one.
+- Daily monitoring and checkpoint reports.
+
+**Care plan (750 a month) covers:**
+- daily monitoring
+- fixing anything broken
+- **up to 2 small changes a month** (wording, a question, a follow-up step)
+- a weekly report
+
+New channels, reactivation, reviews, voice agents and deep CRM work are quoted separately. That's the path to bigger deals.
+
+**Software**
+- Runs on the client's own accounts and is paid directly to the providers: AI usage, WhatsApp template messages, hosting.
+- Usually under USD 100 a month at 50-150 enquiries. This is an estimate; **confirm the exact figure with them before the build.**
+- Rayan never pays for client production services. He builds on free tiers and Meta's test number.
+
+**In return:**
+- Permission to write a case study (named or anonymous).
+- A testimonial and up to 2 intros **only if they're happy**, never required.
+- A 15-minute check-in each week of the pilot.
+- **Never a Google review.**
+
+**Before the first call:** sort out how you'll legally receive payment (bank transfer, Wise or a payment link, plus an invoice template), and check that your residency or business status allows it.
+
 - **Where the offer lives:**
   - Page: https://raynixai.com/founding
-  - PDF deck: https://raynixai.com/raynix-ai-founding-partner-program.pdf (15 slides). The editable deck is the Slides artifact https://claude.ai/artifact/QkxoGowcrstLCPDTU4Sqtp.
+  - PDF deck: https://raynixai.com/raynix-ai-founding-partner-program.pdf (15 slides). The editable deck is the Slides artifact https://claude.ai/artifact/QkxoGowcrstLCPDTU4Sqtp. **The deck still shows the v1 terms (4,500, 12-month lock, free until).** It's unlinked from the page until it's updated, so don't send it.
   - LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7516764913470537729/ (document post, link in the first comment)
 - **LinkedIn Featured order:**
   1. /founding link card
@@ -44,7 +102,7 @@ Rayan wants paid work, not free builds. Use these terms everywhere: in DMs, on c
   The contact-info website is set to raynixai.com/founding.
 - **In DMs**, send raynixai.com/founding. LinkedIn's document viewer does not make links inside a PDF clickable.
 
-The free-build wording in sections 0, 1, 6, 7 and 8 below is the earlier draft. Swap in these terms when you use those scripts.
+The free-build wording in sections 0, 1, 6 and 7 below is the earlier draft. Swap in these terms when you use those scripts. Section 8 (the agreement) is updated to v2.1.
 
 ---
 
@@ -283,15 +341,43 @@ Next step: reply "go" and I'll send the access checklist.
 
 ## 8. Pilot agreement outline (one page, sign before the build)
 
-1. **Parties and dates:** the pilot starts at go-live and runs 30 days.
-2. **Scope:** the lead system only (list the channels, languages, booking calendar, CRM or Sheet, and alert channel). Anything else is out of scope and quoted separately.
-3. **Client provides within 48h:** WhatsApp Business / Meta access, calendar, CRM, FAQs and pricing rules, one point of contact, a 15-min weekly check-in.
-4. **Costs:** build fee 0. The client pays software providers directly (listed with estimates).
-5. **Ownership and data:** everything is built on the client's accounts and belongs to the client. Raynix AI accesses data only to build and run the pilot. No medical records (clinics). Access is removed at the end if the client doesn't continue.
-6. **Success metric:** [one number, with baseline and target], measured from system logs.
-7. **Day 30:** metric hit → founding plan at [rate] a month, locked 12 months, cancel with 30 days' notice. Not hit → the client keeps everything, nothing owed.
-8. **What the client agrees to if the metric is hit:** case-study permission (named or anonymous), a testimonial, and up to 2 referral intros if they're happy.
-9. **Human override:** pricing, bookings and rules run in tested code; uncertain cases go to a person; the client's team can take over any conversation.
+(v2.1, 22 Oct. Plain English, one page. This is not legal advice; get it reviewed once deals get bigger.)
+
+1. **Parties and dates:** names, the signing date, the planned go-live date (5 working days after access) and the 14-day proof period that starts at go-live.
+2. **Scope:**
+   - The 2 channels, plus the backup channel if WhatsApp approval is pending.
+   - Languages, the 3-5 qualifying questions, the follow-up sequence, the booking calendar, the lead log or CRM, and the alert number.
+   - Anything else is out of scope and quoted separately.
+3. **Client provides within 1 working day:**
+   - access (Meta / WhatsApp, calendar, website form or Instagram)
+   - prices, availability and FAQs
+   - one point of contact who approves the replies before go-live
+   - a 15-minute weekly check-in
+4. **The 3 targets, with numbers:**
+   - T1 speed (95% of first replies under 60 seconds, first 7 days live)
+   - T2 follow-up within WhatsApp's rules (14 days)
+   - T3 bookings, X = [number], from a baseline of [number] in the last 14 days, scaled if lead volume falls below [number]
+   - Measured from system logs and the client's calendar, which the client can see.
+5. **Booking definition:** a confirmed date and time in the calendar, for a real lead, booked by the system. Duplicates, tests, and cancellations that weren't rebooked don't count. No-shows count.
+6. **Fees:**
+   - Build and proof period: 0.
+   - Setup: 1,500 = 750 when T1 + T2 pass, plus 750 when T3 passes.
+   - Care plan: 750 a month from payment 2, billed in advance every 30 days, month-to-month, 7 days' notice to cancel, price locked while the client stays.
+   - Invoices are due within 3 days, by [bank transfer / payment link].
+7. **If a target is missed:**
+   - T1 or T2: fixed free and re-measured over 7 days, nothing due until they pass.
+   - T3: one free 14-day extension. Then the client either continues or ends the pilot, keeps the system and owes nothing further.
+   - Payment 1 is not refundable once T1 + T2 have passed.
+8. **Clock pauses** for client-side delays: late access, ads paused, the system switched off, handoffs unanswered for more than [x] hours. It also pauses for third-party outages and Meta verification.
+9. **Software costs:** on the client's own accounts, paid directly to the providers. Estimate [USD x] a month, confirmed before the build. Raynix AI pays for no production services.
+10. **Ownership and data:**
+    - Everything is built on the client's accounts and belongs to the client.
+    - Raynix AI uses the data only to build and run the system.
+    - Clinics: enquiries and booking only, no medical records.
+    - Access is removed on request or at the end.
+11. **Messaging rules:** follow-ups only inside WhatsApp's 24-hour window or via approved templates to leads who opted in. Opt-outs are honoured immediately.
+12. **Human override:** prices, bookings and rules run in tested code. Uncertain cases go to a person, and the team can take over any chat.
+13. **Case study:** permission for a named or anonymous case study once results exist. A testimonial and up to 2 intros only if the client is happy, never required, never a Google review.
 
 ---
 

@@ -25,6 +25,10 @@
 
 ## START HERE (16 Oct 2026): everything live, and the handoff for the content chat
 
+> **Content strategy (17 Oct, v2 final):** `CONTENT_STRATEGY.md` is the master strategy (funnel, MedLog series P3-P8 + outro, image prompt system, IST times, 30-day calendar 18 Oct to 13 Nov). It supersedes `CONTENT_PLAN_30D.md`.
+>
+> **STANDING RULE (Rayan, 17 Oct): every LinkedIn post Claude writes runs the pipeline in `CONTENT_STRATEGY.md` section 11 automatically, without being asked:** load this brain + `config/linkedin-voice-profile.md` + `config/linkedin-story-bank.md` → `linkedin-skills:linkedin-post-writer` → `linkedin-skills:linkedin-humanizer --mode audit` → `humanizer:humanizer` → truth gate → visual (GPT Image whiteboard prompt / carousel / real screenshot) → show Rayan with the IST time → post only after his yes. Never use the plugin's Publora or Apify features. Owner posts must talk straight to the ICP ("your problem is costing you X, here's how I'd approach it"), not generic education. It overrides item 7 (cadence) below and the content parts of `CONTENT_PLAYBOOK.md`. 16 Oct numbers: 1,789 impressions/28d, 791/7d, 118 followers, 114 connections, 49 profile viewers/90d, 1 search appearance, **0 comments on own posts in 28 days**; founding post 61 impressions, 0 reactions at 9h.
+
 ### 1. Where things stand (evening, 16 Oct)
 - Profile V3/V3.1, the new banner, the website, the Founding Partner offer (page, PDF, deck), the Featured section and the founding announcement post are **all live**.
 - **No client yet, and no calls yet.**
@@ -46,15 +50,31 @@
 | Contact info | profile | Website field set to raynixai.com/founding. Whether ayaharchive.shop is still listed was not checked [verify]. The custom profile button and the intro website link are Premium-only, so neither was used and nothing was bought. |
 
 ### 3. The offer (current terms; the full version is in `FIRST_CLIENTS_PLAYBOOK.md` → "CURRENT TERMS")
-- **Founding Partner Program, 3 spots.** The AI Lead Audit and Leak Map are free.
-  - Founding setup: 4,500 AED/SAR, **paid only after the agreed targets are hit**.
-  - Then 1,500 a month, locked for 12 months.
-  - Standard after the founding spots: 9,500 (50% upfront) + 2,500 a month.
-- **Guarantee:** "Hit the targets, or I keep working for free until we do." Targets are agreed in writing on day 2: reply speed, follow-up coverage and booked appointments against their own baseline.
-- **Delivery promise:** the system is live within 14 days of getting access.
-- **Ownership:** everything is built on the client's own accounts, and the client pays software costs directly.
-- **In return, only after results:** a case study, a testimonial and 2 referral intros. **Never a Google review.**
-- **Prices are not yet confirmed by Rayan.** Claude picked them and they are live on the page and deck. In content, never quote any number beyond what's on /founding, and never invent "was X, now Y" anchor prices.
+> **v2.1, live 22 Oct 2026.** Rayan approved it ("do it all"). It replaces the 16 Oct v1 terms (4,500 + 1,500 a month, a 12-month lock, "free until").
+
+- **"Live in 5 days. Proven on your real leads in 14. Pay only after the proof."** 3 founding spots, onboarded one at a time.
+- **Free:** the audit, the Leak Map (theirs to keep), the build, and the 14-day live proof.
+- **Setup is 1,500 AED/SAR, split in two:**
+  - **750** when the speed and follow-up targets pass (around day 12)
+  - **750** when the booking target passes (around day 19)
+- **Care plan:** 750 a month from payment 2. Month-to-month, 7 days' notice to cancel, price locked while they stay.
+- **Outside the GCC:** about USD 400 + USD 200 a month.
+- **After the founding spots:** 6,000 setup (50% upfront) + 1,500 a month. Rayan must actually charge this, or it gets removed from the page.
+- **Targets:**
+  - **T1:** 95% of first replies in under 60 seconds, measured over the first 7 days.
+  - **T2:** follow-up within WhatsApp's rules, plus every lead logged.
+  - **T3:** a booking number set on the call from their own baseline.
+- **If a target is missed:**
+  - T1 or T2: fixed free, nothing due.
+  - T3: one free 14-day extension, then the client continues or walks away and keeps the system.
+  - **Payment 1 isn't refunded.** This is stated on the page.
+- **Software** is on the client's accounts, usually under USD 100 a month, confirmed before the build.
+- **In return:** case-study permission. A testimonial and intros only if they're happy. **Never a Google review.**
+- **Full mechanics and the agreement outline:** `FIRST_CLIENTS_PLAYBOOK.md` → CURRENT TERMS v2.1 and section 8.
+- **Not updated yet:**
+  - The 15-slide deck/PDF still shows v1. It's unlinked from the page, so don't send it.
+  - The founding LinkedIn post, its carousel and the Featured card description still say "keep working for free until it does". Fixing those needs Rayan's yes.
+- In content, never quote a number that isn't on /founding, and never invent "was X, now Y" anchor prices.
 - **Scarcity has to stay true.** "3 spots" only drops when a spot is actually signed.
 - The free-build wording in the playbook's older sections (including its draft "build your AI lead system free" post) is **superseded. Don't reuse it.**
 

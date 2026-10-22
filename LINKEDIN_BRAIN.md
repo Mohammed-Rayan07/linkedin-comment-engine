@@ -73,7 +73,12 @@
 - **Full mechanics and the agreement outline:** `FIRST_CLIENTS_PLAYBOOK.md` → CURRENT TERMS v2.1 and section 8.
 - **Not updated yet:**
   - The 15-slide deck/PDF still shows v1. It's unlinked from the page, so don't send it.
-  - The founding LinkedIn post, its carousel and the Featured card description still say "keep working for free until it does". Fixing those needs Rayan's yes.
+  - **Fixed 22 Oct:**
+    - The founding post text now matches v2.1 ("You pay nothing until it proves itself on your real leads…", "Miss a target, and I fix it free.") and points to /founding for the current pricing.
+    - The Featured link card is now "Founding Partner Program: live in 5 days, pay after proof (3 spots)".
+    - Post Inspector was re-run on /founding.
+  - **Still v1:** the post's 15-page carousel PDF, which can't be swapped without reposting.
+- **The "after the founding spots" prices are indicative.** Rayan's real quote depends on the client type, the services and the volume, and the page says so under the price.
 - In content, never quote a number that isn't on /founding, and never invent "was X, now Y" anchor prices.
 - **Scarcity has to stay true.** "3 spots" only drops when a spot is actually signed.
 - The free-build wording in the playbook's older sections (including its draft "build your AI lead system free" post) is **superseded. Don't reuse it.**

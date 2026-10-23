@@ -1,7 +1,163 @@
 {
-"generated_at": "2026-10-23T09:59:50.823366+00:00",
+"generated_at": "2026-10-23T14:55:39.736925+00:00",
 "actions_applied": 223,
 "cards": [
+{
+"id": 229,
+"created_at": "2026-10-23T14:55:39.162139+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.5,
+"author_name": "Gideon Sofer",
+"author_headline": "Business applications that skyrocket productivity",
+"author_url": "https://www.linkedin.com/in/gideonasofer?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAALVG2cBS8mAF3kU_jEb5wyHPKZb1CPsuxo",
+"post_url": "https://www.linkedin.com/posts/gideonasofer_building-business-applications-for-small-activity-7519363117039124481-CG3g",
+"post_text": "Building business applications for small/micro businesses is harder than doing so for businesses that run a few teams or even one team with different roles.\n\nThis doesn't mean that small business cannot benefit from business applications. On the contrary. They just need to to be dedicated enough to manage growth.\n\nOnce you can manage more customers with the same resources, you can also delegate some of your workload to someone else...",
+"posted_at": "2026-10-23T11:44:30.113000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "App builder discussing micro-business software complexity. Good opening to discuss scoping discovery before building apps.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "The hard part with micro-businesses isn't that they lack dedication to manage growth. It is that their workflow changes constantly because nobody has a fixed role. When a business runs entirely on phone calls and WhatsApp, building rigid software usually fails because the underlying process is still being invented every day."
+},
+{
+"angle": "missing_step",
+"text": "The step most software builds miss for small operations is mapping how work actually flows before writing any code. If you build an app for an idealized process instead of the real chaos of missed calls and group chats, adoption drops instantly."
+},
+{
+"angle": "sharp_question",
+"text": "How do you scope an application when a micro-business has zero process documentation and everything lives in the owner's head? When the workflow changes week to week, building custom software often forces them to figure out how they actually operate first."
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 228,
+"created_at": "2026-10-23T14:55:15.396558+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.6,
+"author_name": "Thomas Case",
+"author_headline": "Entrepreneur | Founder @ Cloud9Drones | Building the future with innovative drone technology, aerial intelligence, and real-world solutions. Passionate about startups, innovation, and scaling impactful ideas.",
+"author_url": "https://www.linkedin.com/in/thomas-case-1b78862b9?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEx7YZsBHHAidPzUJx9cWfw7Bm1XLsb9s3g",
+"post_url": "https://www.linkedin.com/posts/thomas-case-1b78862b9_saudiarabia-propertymarket-realestate-activity-7519373663016701952-x3oe",
+"post_text": "🇸🇦 Saudi Arabia’s Evolving Property Landscape\n\nSaudi Arabia’s property market continues to attract growing attention, with ambitious developments, changing demand and exciting projects helping shape the future of the Kingdom.\n\nFrom modern residential communities and luxury developments to commercial spaces and emerging destinations, the sector is evolving at an impressive pace.\n\nWith Vision 2030 driving transformation across the country, it’s an interesting time to follow the trends, opportunities and long term potential shaping the property landscape.\n\nAs the market continues to develop, it will be fascinating to see how the next chapter unfolds and what it brings for the wider industry.\n\n#SaudiArabia #PropertyMarket #RealEstate #PropertyDevelopment #Vision2030 #Investment",
+"posted_at": "2026-10-23T12:26:24.470000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "High-level fluff about Saudi Vision 2030 and real estate. Too broad for specific operational insights.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "When macro interest picks up around major developments, the hidden cost is usually lead waste. If an inbound inquiry sits for an hour while sales teams chase warmer files, the acquisition cost is wasted before the broker even picks up the phone."
+},
+{
+"angle": "missing_step",
+"text": "Ambitious property developments bring a flood of investor inquiries across multiple channels. The missing piece is rarely generating the interest; it is making sure those initial messages do not sit unassigned in a shared inbox while teams are busy on-site."
+},
+{
+"angle": "sharp_question",
+"text": "When project announcements drive a sudden surge of international and local interest, how are sales teams structuring initial qualification so hot inquiries do not go cold over the weekend?"
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 227,
+"created_at": "2026-10-23T14:52:57.335428+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.9,
+"author_name": "Eamon Johal",
+"author_headline": "Founder & Director at Falcon Logistics | Transport | Same Day Delivery | Last Mile Delivery | Supply Chain | Logistics",
+"author_url": "https://www.linkedin.com/in/eamon-johal-71092b237?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADsMTDwByZ66rqufJxh4FVUinSTshJHS-L8",
+"post_url": "https://www.linkedin.com/posts/eamon-johal-71092b237_falconlogistics-uae-dubai-activity-7519384289969463298-S-gk",
+"post_text": "One of the things I love about Dubai is how easy life can be.\n\nWhether it’s getting products delivered to your door, having a service come directly to you. Convenience is most certainly built into everyday life here.\n\nThat’s something we really value in our own business too.\n\nWe want to be just as easy to do business with! Responsive, straightforward, reliable, and focused on making the process as seamless as possible for our clients.\n\nDoing business shouldn’t feel complicated. It should feel easy.\n\n#FalconLogistics #UAE #Dubai #AbuDhabi #PremiumDelivery #WhiteGloveDelivery #Logistics #LuxuryLogistics #LastMileDelivery #UKBusiness #BusinessExpansion #UAEBusiness #SupplyChain #Growth",
+"posted_at": "2026-10-23T13:08:38.133000+00:00",
+"likes": 4,
+"comments": 0,
+"why": "Logistics founder talking about making customer experience seamless. Good fit to discuss last-mile operational coordination.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "missing_step",
+"text": "External ease for clients usually breaks down when internal coordination relies on manual status checks. When tracking lives across scattered chats and phone calls, response times drift even when the intent to be responsive is there."
+},
+{
+"angle": "sharp_question",
+"text": "When inbound delivery inquiries spike across different channels, how do your teams handle routing so customer requests do not sit waiting during peak hours?"
+},
+{
+"angle": "make_concrete",
+"text": "Every missed enquiry or delayed update forces a client to look elsewhere. Running a quick check by calling your own dispatch line during peak hours reveals exactly what your customers experience when response times slip."
+}
+],
+"connection_note": "Hi Eamon, enjoyed your post on building real operational ease into logistics in Dubai. Tracking how last-mile updates actually flow through to clients caught my eye. Would be good to connect.",
+"my_comment": null
+},
+{
+"id": 226,
+"created_at": "2026-10-23T14:49:13.906136+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 8.7,
+"author_name": "Jose Luiz Landeiro",
+"author_headline": "Doctor, Entrepreneur, Healthcare Executive",
+"author_url": "https://www.linkedin.com/in/joseluizlandeiro?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAALKKM0B99wK-iQEe_hc0bAIaJSD8grYHws",
+"post_url": "https://www.linkedin.com/posts/joseluizlandeiro_o-laudo-n%C3%A3o-corrige-uma-coleta-ruim-no-activity-7519367094434648064-zZoI",
+"post_text": "O laudo não corrige uma coleta ruim.\n\nNo exame MAPA, você reduz falhas antes de enviar os registros para análise: na escolha do manguito, na instalação e nas orientações ao paciente.\n\n\nImagine o paciente voltando à sua clínica com o manguito deslocado e várias medidas sem registro. Antes de pensar em repetir o exame, sua equipe precisa revisar o que foi coletado.\n\n\nPara diminuir esse risco, organize quatro conferências na rotina:\n\n• Manguito: escolha o tamanho adequado à circunferência do braço, conforme as instruções do fabricante.\n\n• Instalação: confira o posicionamento, as conexões e uma medida de teste antes de liberar o paciente.\n\n• Orientação: explique como manter o braço relaxado e parado durante as medidas, preservar o equipamento e registrar horários de sono, atividades e sintomas.\n\n• Retorno: revise os registros e identifique falhas antes de encaminhar o exame para laudo.\n\n\nNão basta perguntar “entendeu?”. Peça ao paciente que mostre como vai posicionar o braço durante a medição. Você consegue identificar uma dúvida enquanto ainda há tempo de corrigi-la.\n\n\nNa Fit Telemedicina, os laudos de MAPA são analisados por cardiologistas especializados, com compatibilidade com equipamentos de todas as marcas. Essa flexibilidade não substitui a conferência da coleta na sua clínica.\n\n\nObs.: uma medida perdida, isoladamente, não significa que o exame precisa ser repetido. A qualidade do conjunto deve ser avaliada pela equipe responsável.",
+"posted_at": "2026-10-23T12:00:18.398000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Clinic workflow post about pre-exam checklists and human error. Perfect match for clinical audit and rule-based workflows.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "Catching errors during the initial patient check rather than after the exam is returned prevents costly repeat visits. Asking the patient to demonstrate proper arm positioning instead of accepting a verbal confirmation turns a passive instruction into a verifiable step."
+},
+{
+"angle": "missing_step",
+"text": "The step most clinics skip is tracking whether these four checks actually happened on every single patient or just when the staff remembers. If the checklist lives only on paper or in a busy technician head, compliance drifts over time until a bad recording slips through."
+},
+{
+"angle": "sharp_question",
+"text": "When tracking how often these pre-exam steps catch an incorrect cuff size or bad positioning, how are your clinic leads logging those near-misses so you can spot which shift or staff member needs retraining before it impacts report quality?"
+}
+],
+"connection_note": "Enjoyed your breakdown on MAPA exam quality control and catching collection errors before the report stage. Always interesting to connect with clinicians focused on tightening operational workflows.",
+"my_comment": null
+},
 {
 "id": 225,
 "created_at": "2026-10-23T09:59:50.252100+00:00",
@@ -8619,10 +8775,10 @@
 "usage": [
 {
 "day": "2026-10-23",
-"posts_scraped": 25,
-"cards_sent": 3,
-"llm_input_tokens": 27607,
-"llm_output_tokens": 18938,
+"posts_scraped": 46,
+"cards_sent": 7,
+"llm_input_tokens": 59502,
+"llm_output_tokens": 32341,
 "llm_cost_usd": 0.0
 },
 {
@@ -8762,7 +8918,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.67,
+"apify_month_usd": 2.71,
 "apify_month_cap_usd": 5.0,
 "learned": 202,
 "metrics": {},

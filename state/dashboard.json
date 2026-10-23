@@ -1,7 +1,46 @@
 {
-"generated_at": "2026-10-23T14:55:39.736925+00:00",
+"generated_at": "2026-10-23T18:55:23.212421+00:00",
 "actions_applied": 223,
 "cards": [
+{
+"id": 230,
+"created_at": "2026-10-23T18:55:22.680094+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.5,
+"author_name": "Acie Grimes II",
+"author_headline": "Pampered Companion Care: Senior Concierge Servives",
+"author_url": "https://www.linkedin.com/in/acie-grimes-ii?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAK5ZeoB3L3poHzsiUUc7PpjD2Fho9Hg2KA",
+"post_url": "https://www.linkedin.com/posts/acie-grimes-ii_businessgrowth-customerexperience-marketingstrategy-activity-7519457309685649408-oG8W",
+"post_text": "Sometimes the greatest growth opportunity lies in the services you are already providing, yet your customers don't even realize exist. We often focus so heavily on our primary offering that we overlook the peripheral expertise that could solve a new problem for a client.\n\nWhether it is specialized repair work or a niche add-on service, highlighting these capabilities can bridge the gap between a one-time transaction and a long-term partnership. Are your customers missing out on everything you have to offer? #BusinessGrowth #CustomerExperience #MarketingStrategy #ServiceDesign #SmallBusiness",
+"posted_at": "2026-10-23T17:58:47.390000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Good post on overlooked services. Relates to hidden operational gaps, though generic.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "missing_step",
+"text": "Highlighting peripheral services works, but the step most service operations miss is surfacing them at the exact moment of intake. If front-line staff only process the immediate request, add-on capabilities stay invisible. Structuring intake prompts so secondary needs get checked during the initial inquiry is usually where those additional services actually get uncovered."
+},
+{
+"angle": "make_concrete",
+"text": "A practical way to test how well peripheral services are communicated is calling your own front desk at 7 PM and asking what offerings are available. Whatever response a caller gets right then is what clients experience after hours. If the call goes to a generic voicemail, those extra capabilities remain completely invisible to the client."
+},
+{
+"angle": "sharp_question",
+"text": "Uncovering existing services often comes down to the initial conversation, but front-line teams usually default to taking down just the primary request. When you identify these niche offerings, how are your teams structuring initial intake so staff bring them up naturally without making the interaction feel like a forced upsell?"
+}
+],
+"connection_note": "Hi Acie, saw your post on highlighting peripheral services that clients don't realize exist. Spot on point about intake and surfacing secondary capabilities. Would love to connect and follow your updates here on LinkedIn.",
+"my_comment": null
+},
 {
 "id": 229,
 "created_at": "2026-10-23T14:55:39.162139+00:00",
@@ -8775,10 +8814,10 @@
 "usage": [
 {
 "day": "2026-10-23",
-"posts_scraped": 46,
-"cards_sent": 7,
-"llm_input_tokens": 59502,
-"llm_output_tokens": 32341,
+"posts_scraped": 73,
+"cards_sent": 8,
+"llm_input_tokens": 68321,
+"llm_output_tokens": 35271,
 "llm_cost_usd": 0.0
 },
 {
@@ -8918,7 +8957,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.71,
+"apify_month_usd": 2.77,
 "apify_month_cap_usd": 5.0,
 "learned": 202,
 "metrics": {},

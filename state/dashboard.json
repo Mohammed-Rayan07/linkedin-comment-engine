@@ -1,14 +1,170 @@
 {
-"generated_at": "2026-10-23T18:55:23.212421+00:00",
-"actions_applied": 223,
+"generated_at": "2026-10-24T08:12:15.788811+00:00",
+"actions_applied": 235,
 "cards": [
 {
-"id": 230,
-"created_at": "2026-10-23T18:55:22.680094+00:00",
+"id": 234,
+"created_at": "2026-10-24T08:12:15.257194+00:00",
 "acted_at": null,
 "status": "sent",
 "stage": null,
 "chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 5.5,
+"author_name": "Dr. Kandace Kichler, MD, FACS",
+"author_headline": "Double Board Certified Cosmetic Surgeon | Founder, Slim, Inc. | West Palm Beach & Miami | Podcast Host, The Slimming Surgeon",
+"author_url": "https://www.linkedin.com/in/dr-kandace-kichler-md-facs-ab29346a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA67YCYBdzh12yaWgzu3tN_GLn-Nu7Mi8jo",
+"post_url": "https://www.linkedin.com/posts/dr-kandace-kichler-md-facs-ab29346a_dr-ben-taleis-advice-for-aspiring-surgeons-activity-7519543019466010624-3kLv",
+"post_text": "@Dr. Ben Talei's advice for aspiring surgeons is to learn how to teach your work. Teaching forces you to have a reason for every step!!!  Filmed at @Bringing You The Masters.  \n\n#SurgicalEducation #PlasticSurgery #Surgeons",
+"posted_at": "2026-10-23T23:39:22.194000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Surgeon talking about education and teaching steps, not operational bottlenecks or missed patient calls.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "make_concrete",
+"text": "Having to explain a procedure step by step is usually where implicit assumptions break down. When every action needs an explicit reason, you quickly separate deliberate practice from mere habit. If a step cannot be justified, it usually shouldn't be in the workflow."
+},
+{
+"angle": "field_detail",
+"text": "In an inventory system I built, the AI was restricted to read and propose only, requiring human confirmation for every change. Defining explicit rules for what each component can and cannot decide is the only way to eliminate unverified assumptions."
+},
+{
+"angle": "sharp_question",
+"text": "Breaking down a workflow to teach it usually exposes steps that were kept purely out of legacy habit. When experienced practitioners audit their own routines to teach trainees, how often do they end up eliminating steps that no longer make sense?"
+}
+],
+"connection_note": "Hi Dr. Kandace, saw your post on Dr. Talei's advice about teaching surgical work. The point on having an explicit reason for every step resonates strongly with how I approach workflow logic and process design. Would love to connect here on LinkedIn.",
+"my_comment": null
+},
+{
+"id": 233,
+"created_at": "2026-10-24T08:11:08.329692+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.6,
+"author_name": "Kevin Steckel",
+"author_headline": "Country Representative, BVMW Saudi Arabia 🇩🇪🇸🇦 | Connecting the German Mittelstand with Vision 2030 | Market Entry · Delegations · B2B Matchmaking | Founder, Meena Business Consultancy",
+"author_url": "https://www.linkedin.com/in/kevinsteckel?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAQf7sMBGf1gsBIIuDsaWUEo0afKTV6KTrk",
+"post_url": "https://www.linkedin.com/posts/kevinsteckel_fii10-saudiarabia-pif-activity-7519616284322484225-u5hM",
+"post_text": "FII opens on Tuesday for the tenth time. Ten years of announcements. Here's how a German SME should read the eleventh. 📋\n\nThe Future Investment Initiative runs 26–29 October in Riyadh under the theme \"The Power of Legacy\". The organisers confirmed this month that it goes ahead. It is where the Public Investment Fund and its companies name partners, launch ventures and announce the numbers that will be quoted for a year.\n\nThree things to watch for, and what each one means a month later.\n\nNew PIF company launches. Every one of them becomes a procurement team within two quarters. Last year's launches are this year's tenders.\n\nPartner announcements for giga-projects and industrial programmes. The foreign main contractor or operator named on stage will be writing a Saudi vendor list by December. That list is where a Mittelstand firm gets in — as the Jubail, Qiddiya and Diriyah contracts showed this autumn.\n\nLocalisation deals. Siemens Energy's transformer plant in Dammam is the template: a German company commits to manufacture in the Kingdom, and its suppliers get a Saudi customer.\n\nI will not be reading FII for the headline figures. I will be reading it for the names under the headlines — and following up in November, when the vendor lists are written.\n\nWhich FII announcement from the last three years actually turned into a contract for your company?\n\n📩 kevin.steckel@bvmw.de\n\n#FII10 #SaudiArabia #PIF #GermanMittelstand #BVMW",
+"posted_at": "2026-10-24T04:30:29.897000+00:00",
+"likes": 0,
+"comments": 1,
+"why": "Relevant to GCC enterprise and vendor lists, but not specifically about SMB ops, lead waste or AI workflows.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "missing_step",
+"text": "Getting onto a December vendor list is critical, but the step most foreign suppliers miss is internal execution speed. In an ops audit I ran on a distributor's workflow, internal approvals took 16 days just moving through sign-off loops. When a main contractor opens a brief window, taking weeks to submit compliance docs means the spot goes to someone faster."
+},
+{
+"angle": "pushback",
+"text": "Following up in November when vendor lists are formalized makes sense, but waiting for the stage announcement is often already a step behind. Main contractors usually shortlist key suppliers during the proposal phase before the deal gets signed on stage. How early are you seeing German Mittelstand companies start those matchmaking talks before FII even opens?"
+},
+{
+"angle": "sharp_question",
+"text": "Focusing on procurement teams instead of headline numbers is the right call. Once those new PIF entities and main contractors publish vendor requirements in Q4, what is the biggest operational hurdle German SMEs face in meeting Saudi pre-qualification criteria on short notice?"
+}
+],
+"connection_note": "Hi Kevin, saw your breakdown on how German Mittelstand firms should read FII announcements and track procurement teams post-event. I am based in Riyadh building AI workflows and follow local market entry dynamics closely. Would be great to connect here.",
+"my_comment": null
+},
+{
+"id": 232,
+"created_at": "2026-10-24T08:06:48.229478+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.2,
+"author_name": "Clinton Davis",
+"author_headline": "Founder, TermDelta | Commercial Value Intelligence for Distributors & Multi-Entity Businesses",
+"author_url": "https://www.linkedin.com/in/clinton-davis-cleancontractdesk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGxPf-gB4rKFMq3sCAvJy4uM9xF4e2gbP9s",
+"post_url": "https://www.linkedin.com/posts/clinton-davis-cleancontractdesk_commercialcleaning-officecleaning-njbusiness-activity-7519603848005468160-hq7T",
+"post_text": "Devin makes an important point here. Commercial cleaning has to fit the way a business actually operates. Service windows, building access, security procedures and areas that must remain available all need to be clear before the work begins.",
+"posted_at": "2026-10-24T03:41:04.848000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Distributor operations and service windows align well with Rayan's supply chain audit and ops background.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "When I mapped a distributor's workflow in an ops audit, operational bottlenecks rarely came from execution on site. They came from rigid access constraints and clearance steps that nobody documented upfront, forcing ground staff to pause work while waiting on phone calls."
+},
+{
+"angle": "missing_step",
+"text": "The step most B2B service teams skip isn't documenting access rules during onboarding, but turning those rules into a clear intake checklist before dispatching ground staff. When security procedures live in email threads instead of structured workflows, field teams end up stuck at the gate."
+},
+{
+"angle": "sharp_question",
+"text": "Getting security clearances and service windows right upfront saves massive operational friction on day one. When access rules or site restrictions change mid-contract, how do your teams update field instructions without relying on manual group chat messages?"
+}
+],
+"connection_note": "Hi Clinton, saw your post on matching commercial service delivery to real site constraints and access rules. Appreciate your insights on commercial intelligence and operational alignment. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 231,
+"created_at": "2026-10-24T08:01:38.450465+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 7.3,
+"author_name": "Jonathan Stegall, MD",
+"author_headline": "Integrative oncologist, bestselling author, relentless pursuer of excellence.",
+"author_url": "https://www.linkedin.com/in/drstegall?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAE87akBtFTkYBDKcHD6r0xj93DdhDUSpn0",
+"post_url": "https://www.linkedin.com/posts/drstegall_patientexperience-patientcare-healthcareinnovation-activity-7519519939829874690-uTKS",
+"post_text": "What patient reviews teach us about care 💬\n\nWhen I read our reviews, the ones that stand out rarely mention a test or a protocol. They mention being remembered, being listened to, and staff who treat people like family.\n\nOne patient wrote that I don't need a chart to remember their name. Another credited the doctors, nurses and staff together, and that is the accurate version. Patients spend far more time with our clinical staff than with me.\n\nPatient experience is built by the whole team, every day, in small moments.\nWhat do your own patient reviews tell you that your metrics don't?\n\n#patientexperience #patientcare #healthcareinnovation",
+"posted_at": "2026-10-23T22:07:39.580000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Patient reviews and staff touchpoints match clinic pain points, though missing direct mention of speed-to-lead.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "field_detail",
+"text": "Patient experience usually starts long before someone reaches the waiting room. When I called 5 clinics at 11 PM with severe tooth pain, 3 didn't answer, 1 played a robotic voicemail reading opening hours, and 1 had a language barrier voicemail. The 6th answered, took the booking, and got a loyal patient. Great clinical care never even gets a chance if that initial touchpoint drops the ball."
+},
+{
+"angle": "make_concrete",
+"text": "Reviews reveal the gaps that traditional internal metrics miss, especially at off-hours intake. A quick way to test what patients actually experience before meeting the clinical team is calling your own front desk at 7 PM or on a weekend. Whatever response or delay happens right then is the real baseline for how remembered and valued a patient feels from day one."
+},
+{
+"angle": "sharp_question",
+"text": "The front desk and nursing staff set the tone before a patient ever hears a diagnosis or treatment plan. When patient reviews highlight those personal touchpoints, how are you capturing those front-desk insights during daily handoffs so the physician knows what mattered to the patient before walking into the room?"
+}
+],
+"connection_note": "Hi Dr. Stegall, caught your post on how small staff touchpoints shape patient experience far more than raw metrics. Really appreciated your focus on the whole team's role in care. Would love to connect.",
+"my_comment": null
+},
+{
+"id": 230,
+"created_at": "2026-10-23T18:55:22.680094+00:00",
+"acted_at": "2026-10-24T07:57:51.181056+00:00",
+"status": "posted",
+"stage": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -44,10 +200,10 @@
 {
 "id": 229,
 "created_at": "2026-10-23T14:55:39.162139+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:54.694406+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -83,10 +239,10 @@
 {
 "id": 228,
 "created_at": "2026-10-23T14:55:15.396558+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:53.903664+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -122,10 +278,10 @@
 {
 "id": 227,
 "created_at": "2026-10-23T14:52:57.335428+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:51.915626+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -161,10 +317,10 @@
 {
 "id": 226,
 "created_at": "2026-10-23T14:49:13.906136+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:50.524140+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "clinics",
 "lane_name": "Clinic & dental owners (GCC)",
@@ -200,10 +356,10 @@
 {
 "id": 225,
 "created_at": "2026-10-23T09:59:50.252100+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:57.399303+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -239,10 +395,10 @@
 {
 "id": 224,
 "created_at": "2026-10-23T09:57:04.752568+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:56.011336+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -278,10 +434,10 @@
 {
 "id": 223,
 "created_at": "2026-10-23T09:47:10.055004+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:52.559174+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 3,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -317,10 +473,10 @@
 {
 "id": 222,
 "created_at": "2026-10-22T19:09:30.117109+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:56.677293+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 3,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -356,10 +512,10 @@
 {
 "id": 221,
 "created_at": "2026-10-22T19:09:20.852385+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:55.348907+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -395,10 +551,10 @@
 {
 "id": 220,
 "created_at": "2026-10-22T19:08:34.924875+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:53.225794+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -434,10 +590,10 @@
 {
 "id": 219,
 "created_at": "2026-10-22T19:06:49.733916+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T07:57:49.837439+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -8813,6 +8969,14 @@
 ],
 "usage": [
 {
+"day": "2026-10-24",
+"posts_scraped": 25,
+"cards_sent": 4,
+"llm_input_tokens": 31184,
+"llm_output_tokens": 13538,
+"llm_cost_usd": 0.0
+},
+{
 "day": "2026-10-23",
 "posts_scraped": 73,
 "cards_sent": 8,
@@ -8957,9 +9121,9 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.77,
+"apify_month_usd": 2.82,
 "apify_month_cap_usd": 5.0,
-"learned": 202,
+"learned": 214,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

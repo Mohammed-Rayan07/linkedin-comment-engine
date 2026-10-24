@@ -1,14 +1,14 @@
 {
-"generated_at": "2026-10-24T13:51:52.163900+00:00",
-"actions_applied": 243,
+"generated_at": "2026-10-24T14:18:05.882879+00:00",
+"actions_applied": 244,
 "cards": [
 {
 "id": 239,
 "created_at": "2026-10-24T13:03:07.346610+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-24T14:17:30.141952+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -9165,10 +9165,10 @@
 "usage": [
 {
 "day": "2026-10-24",
-"posts_scraped": 70,
+"posts_scraped": 74,
 "cards_sent": 9,
-"llm_input_tokens": 83539,
-"llm_output_tokens": 32965,
+"llm_input_tokens": 85142,
+"llm_output_tokens": 33040,
 "llm_cost_usd": 0.0
 },
 {
@@ -9318,7 +9318,7 @@
 ],
 "apify_month_usd": 2.91,
 "apify_month_cap_usd": 5.0,
-"learned": 222,
+"learned": 223,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

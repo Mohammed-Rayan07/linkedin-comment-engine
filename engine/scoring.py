@@ -112,6 +112,9 @@ def _mock(posts: list[tuple[str, Post, Lane]]) -> dict[str, Any]:
 def priority(p: Post, lane: Lane, score: dict[str, Any]) -> float:
     if score["sensitive"]:
         return 0.0
+    if score["value_room"] <= 3:
+        # nothing he has lived to add: freshness and fit must not lift it into a card (an AI "fact out of nowhere")
+        return 0.0
     icp = max(0, min(10, score["icp_fit"]))
     if score["author_type"] == "peer_vendor":
         # a vendor post can still be read by buyers (icp_fit judges the audience), but discount it

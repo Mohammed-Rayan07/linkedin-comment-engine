@@ -258,3 +258,16 @@ def test_manual_action_logs_hand_done_work(cfg):
     assert len(rows) == 2                                                          # the replayed duplicate made no 3rd card
     snap = snapshot(cfg, engine.store)
     assert any(c["lane"] == "manual" and c["stage"] == "connected" for c in snap["cards"])
+
+
+def test_nothing_lived_to_add_never_becomes_a_card(cfg):
+    # a fresh, busy post from a perfect-fit buyer still isn't a card if he has nothing he has lived to add
+    from datetime import datetime, timedelta, timezone
+    from engine.models import Post
+    from engine.scoring import priority
+    p = Post(id="1", url="u", text="t", author_name="A B", author_headline="Clinic owner", author_url="a",
+             author_type="profile", posted_at=datetime.now(timezone.utc) - timedelta(hours=1),
+             likes=80, comments=5, shares=0, lane_id=cfg.lanes[0].id)
+    score = {"sensitive": False, "icp_fit": 9, "author_type": "buyer"}
+    assert priority(p, cfg.lanes[0], dict(score, value_room=3)) == 0.0
+    assert priority(p, cfg.lanes[0], dict(score, value_room=7)) > 6

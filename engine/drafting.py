@@ -94,10 +94,9 @@ Every option's first sentence must respond to something specific in THIS post. I
 a different post on the same topic, rewrite it.
 proof_ids lists the profile proofs each option draws on (empty if it uses only opinions or the post).
 connection_note: only when asked for one in the request, otherwise "". When asked: under {NOTE_MAX} characters,
-reads like a person, not a template. Name the one thing from their post that made him want to connect, in plain
-words, and stop. No pitch, no "I'd love to connect", no "expand my network", no "synergies".
-Example: "Hi Sara, your line about enquiries going quiet after 6 PM stuck with me. I build lead systems for
-brokerages in the GCC, so I'm always learning from people who see it daily." """ + _learned(examples)
+reads like a person, not a template. First name, then the one specific thing from their post that made him want
+to connect, in plain words, and stop. Vary the shape from note to note. No pitch, no description of his services,
+no "I'd love to connect", no "expand my network", no "synergies".""" + _learned(examples)
 
 
 def _recently_used(store) -> tuple[list[str], list[str]]:

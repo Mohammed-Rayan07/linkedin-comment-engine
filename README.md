@@ -100,10 +100,10 @@ angles (tap the text to copy), and a connection note for buyer posts. After you 
 **✅ Posted N** (it logs which angle you used), or tap **⏭ Skip** or **🔁 New angles**. Send `/stats`
 to the bot at any time.
 
-**How it learns your voice.** Every comment you mark ✅ Posted becomes an example for future drafts.
-When you edit a draft before posting, **reply to the card with your final version**. That's the
-strongest signal, and edited examples are weighted first. After a couple of weeks the drafts should read
-like you.
+**How it learns your voice.** Only from your own words. Edit the draft in the dashboard's text box before
+tapping **I posted this**, or **reply to the Telegram card with your final version**. Drafts posted unchanged
+are not used as examples: that taught the model to copy itself, and every comment ended up with the same
+shape. Edits you make inside LinkedIn after pasting are invisible to the engine.
 
 Comment as early as you can. The first 60–90 minutes after a post goes up get most of the reach,
 which is why the engine favours fresh posts.

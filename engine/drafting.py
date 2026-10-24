@@ -51,12 +51,14 @@ class Draft:
 
 
 def _learned(examples) -> str:
+    # Only his own wording teaches his voice. Drafts he posted unchanged are the model's writing, and
+    # feeding those back made every comment converge on the same template.
+    examples = [ex for ex in examples if ex["source"] == "edited"]
     if not examples:
         return ""
-    parts = ["\n# Comments Rayan actually posted (strongest signal for his voice; match how he writes)"]
+    parts = ["\n# Comments in Rayan's own words (strongest signal for his voice; match how he writes)"]
     for ex in examples:
-        label = "he rewrote it to" if ex["source"] == "edited" else "he picked"
-        parts.append(f"Post: {ex['post_excerpt'][:240]}\n{label}: {ex['comment']}")
+        parts.append(f"Post: {ex['post_excerpt'][:240]}\nhe wrote: {ex['comment']}")
     return "\n\n".join(parts)
 
 
@@ -73,6 +75,7 @@ His reputation is on the line with every word, so accuracy beats cleverness.
   Builds are demos/prototypes/own tooling, never "for a client". There are no verified client results.
 - Never break anything in `never_claim`.
 - If he has nothing specific to add, set can_add_value=false and explain in skip_reason. A skipped post costs nothing; a hollow comment costs credibility.
+  Skipping is the right call often, especially outside his lane. Never write a comment just to have one.
 
 # Expert profile
 {profile_yaml}
@@ -81,11 +84,20 @@ His reputation is on the line with every word, so accuracy beats cleverness.
 {cfg.voice}
 
 # Output
-Write {n} options, each using a DIFFERENT angle (missing_step, field_detail, pushback, make_concrete, sharp_question).
-Each option: {cfg.s('comment', 'min_chars', default=140)}-{cfg.s('comment', 'max_chars', default=650)} characters, ready to paste, English only.
+Write {n} options that a reader could tell apart at a glance, each using a DIFFERENT angle
+(missing_step, field_detail, pushback, make_concrete, sharp_question):
+- Option 1 is short: one or two sentences, under 180 characters. A specific reaction with a reason, or one answerable question.
+- Option 2 is the one place his own work may appear, told as a quick story, and only if a proof genuinely fits. Otherwise a concrete test or example.
+- Option 3 takes a different stance: a respectful disagreement, or a question about their specific situation.
+Each option: {cfg.s('comment', 'min_chars', default=40)}-{cfg.s('comment', 'max_chars', default=450)} characters, ready to paste, English only.
+Every option's first sentence must respond to something specific in THIS post. If you could paste it under
+a different post on the same topic, rewrite it.
 proof_ids lists the profile proofs each option draws on (empty if it uses only opinions or the post).
-connection_note: only when asked for one in the request, otherwise "". When asked: a connection request note under {NOTE_MAX} characters
-that references this specific post, makes no pitch, and gives the person a reason to accept.""" + _learned(examples)
+connection_note: only when asked for one in the request, otherwise "". When asked: under {NOTE_MAX} characters,
+reads like a person, not a template. Name the one thing from their post that made him want to connect, in plain
+words, and stop. No pitch, no "I'd love to connect", no "expand my network", no "synergies".
+Example: "Hi Sara, your line about enquiries going quiet after 6 PM stuck with me. I build lead systems for
+brokerages in the GCC, so I'm always learning from people who see it daily." """ + _learned(examples)
 
 
 def _recently_used(store) -> tuple[list[str], list[str]]:

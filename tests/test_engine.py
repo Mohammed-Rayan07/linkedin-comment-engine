@@ -55,6 +55,17 @@ def test_style_bans(cfg):
     assert any("leverage" in x for x in check(cfg, "You can leverage agents for this."))
 
 
+def test_ai_templates_blocked_but_natural_contrast_passes(cfg):
+    # real drafts that read as AI under other people's posts
+    assert check(cfg, "The hard part isn't that they lack dedication. It is that nobody has a fixed role.")
+    assert check(cfg, "The step most brokerages miss isn't getting more enquiries, but ensuring a fast reply.")
+    assert check(cfg, "The hidden cost of wearing every hat isn't just fatigue, it's response latency.")
+    assert check(cfg, "Lead loss usually comes down to who owns the follow-up.")
+    # the same words, said the way people actually talk
+    assert check(cfg, "Honestly I'd push back on the hiring part. It isn't cheap, but it's the only fix for walk-ins.") == []
+    assert check(cfg, "Ha, my WhatsApp is not a CRM, but I treat it like one.") == []
+
+
 def test_family_never_mentioned(cfg):
     assert any("forbidden" in x for x in check(cfg, "My dad runs a logistics operation like this."))
 

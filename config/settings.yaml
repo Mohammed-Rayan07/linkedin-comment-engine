@@ -29,13 +29,13 @@ budgets:
   max_posts_per_run: 27
   # How many filtered posts get an LLM score per run.
   max_llm_scored_per_run: 40
-  # Cards you receive in Telegram. 15-20/day is a solid, sustainable commenting habit.
-  max_cards_per_day: 25
-  max_cards_per_run: 10
+  # Cards you receive in Telegram. 8-12 real comments a day beat 25 templated ones (24 Oct: readers spot AI comments).
+  max_cards_per_day: 12
+  max_cards_per_run: 5
   # Minimum final priority (0-10) for a post to become a card.
   min_priority: 6.0
   # If strong posts can't fill the quota, posts down to this score fill the gap (the card shows the score).
-  floor_priority: 5.0
+  floor_priority: 6.0
 
 filters:
   min_post_chars: 180
@@ -44,8 +44,8 @@ filters:
   skip_non_english: true     # you review every comment before posting, so drafts stay in a language you can check
 
 comment:
-  min_chars: 140
-  max_chars: 650
+  min_chars: 40         # real comments are often one or two sentences
+  max_chars: 450
   options_per_post: 3
 
 telegram:

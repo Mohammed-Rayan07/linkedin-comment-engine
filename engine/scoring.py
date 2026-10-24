@@ -64,6 +64,9 @@ For each post return:
 - icp_fit 0-10: how likely the post's author AND its readers are his buyers. A vendor talking to vendors is 0-2.
 - value_room 0-10: how much room there is for a specific, expert comment grounded in the proof bank
   or opinions above. Generic motivation, announcements, celebrations and pure self-promotion score low.
+  Ask: has he actually lived this? If the post is about an industry or job he has never touched (oil and
+  gas, surgery, aerospace, banking deals, trade fairs) cap value_room at 3, however well general business
+  logic could be applied. A comment built from general logic reads as an AI "fact out of nowhere".
 - sensitive: true for layoffs, grief, health struggles, politics, religion, tragedies, legal disputes.
   He should not comment there.
 - why: max 20 words, plain English, the reason this post is or isn't worth his time.

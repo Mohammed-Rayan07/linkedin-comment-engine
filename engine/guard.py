@@ -39,6 +39,16 @@ CLIENT_CLAIM_PATTERNS = [
     r"\bdeployed (for|at|in) \d+",
 ]
 NOT_X_ITS_Y = re.compile(r"\bit[’']?s not (just |only )?[^.!?]{1,50}[,.;:]\s*it[’']?s\b", re.I)
+# "The hard part isn't A. It is B." / "...isn't A, but B": the most common shape in the drafts readers flagged as AI
+ISNT_X_BUT_Y = re.compile(
+    r"\b(?:is|are)(?:n[’']t| not) (?:just |only |really |about )?[^.!?\n]{1,80}?"
+    r"(?:,\s*but (?:rather )?(?:the|that|how|whether|\w+ing)\b|[,.;:]\s*(?:it|they)(?:[’']s| is| are)\b)", re.I)
+# Consultant templates that recur across drafts; one of them is enough to sound machine-written.
+AI_TEMPLATES = [
+    re.compile(r"\bthe (?:step|part|thing) most [^.!?]{0,50}\b(?:skip|miss|overlook|ignore)", re.I),
+    re.compile(r"\busually comes down to\b", re.I),
+    re.compile(r"\bthe hidden cost\b", re.I),
+]
 EM_DASH = re.compile(r"—|\s–\s")
 NUMBER = re.compile(r"(?<![\w.])\$?\d[\d,]*(?:\.\d+)?%?")
 TIME_OR_247 = re.compile(r"\b24/7\b|\b\d{1,2}(?::\d{2})?\s?(?:am|pm)\b", re.I)
@@ -131,6 +141,11 @@ def check(comment: str, profile: dict[str, Any], post_text: str, min_chars: int,
         v.append("AI-sounding word: 'leverage'")
     if NOT_X_ITS_Y.search(text):
         v.append("uses the 'it's not X, it's Y' construction")
+    elif ISNT_X_BUT_Y.search(text):
+        v.append("uses the 'isn't X, but Y' construction")
+    for pat in AI_TEMPLATES:
+        if m := pat.search(text):
+            v.append(f"templated AI phrasing: '{m.group()}'")
     if EM_DASH.search(text):
         v.append("contains an em dash")
     if re.search(r"(^|\s)#\w", text):

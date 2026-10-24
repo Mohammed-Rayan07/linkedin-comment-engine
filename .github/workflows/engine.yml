@@ -24,7 +24,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
+      # Check out the branch tip, not the commit that triggered the run. A run that queued behind another
+      # (two "Run now" taps, or a tap during a scheduled run) would otherwise start from the old database
+      # and its state commit could never rebase onto the one the earlier run pushed.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-python@v5
         with:

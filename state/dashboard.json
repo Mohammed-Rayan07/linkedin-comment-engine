@@ -1,7 +1,163 @@
 {
-"generated_at": "2026-10-24T08:12:15.788811+00:00",
+"generated_at": "2026-10-24T09:25:11.131674+00:00",
 "actions_applied": 235,
 "cards": [
+{
+"id": 238,
+"created_at": "2026-10-24T09:25:10.548046+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.0,
+"author_name": "Lee Birchall",
+"author_headline": "Owner and Director of DV8 Designs, an award-winning firm since 2006, leading in architectural and interior design for hospitality, commercial, and transformative place-making projects.",
+"author_url": "https://www.linkedin.com/in/lee-birchall-60854b11?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJk3agByKWOffYRiETTh4aNd1mymbGMYmk",
+"post_url": "https://www.linkedin.com/posts/lee-birchall-60854b11_schoolyardknutsford-foodhall-knutsford-activity-7519680020219494400-u2nB",
+"post_text": "Great to see this one getting the green light!🚦 \n\nWe understand what goes into making multi-operator food and drink venues work. It’s not just about the individual units, but how the whole space comes together — the layout, flow, atmosphere and how the different operators work alongside each other to create a destination people want to return to! 😊\n\nHaving worked on similar many multiple site operatator venues before, so it’s great to see another project like this moving forward.\n\nMarshall House is a fantastic building and it’ll be interesting to see how this one develops. 🤞\n\n#DV8Designs #HospitalityDesign #FoodHallDesign #MultiOperator #InteriorDesign #Knutsford #Cheshire\n\nMark Boler Ged Mason, OBE, HonDBA \n\nDV8 Designs - Architecture & Design Practice \nRebecca Brooks Jessica Sutherland Carrie Oliver Molly Smith Josh Allen Antonia Urmson",
+"posted_at": "2026-10-24T08:43:45.719000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "Architectural design director. Space design, not ideal ICP for software automation.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "When multiple independent operators share a single physical venue, daily coordination usually fragments across chats and phone calls. How do venue management teams typically structure operational handoffs between different units once the space is fully active?"
+},
+{
+"angle": "missing_step",
+"text": "Designing the physical flow of a multi-operator food hall is critical, but the step most operators skip is defining how inter-tenant communication works. When different businesses share infrastructure under one roof, unstandardized handoffs create daily operational friction."
+},
+{
+"angle": "make_concrete",
+"text": "When a venue houses several independent operators, coordination overhead scales much faster than the team tracking it. If daily operational updates rely on scattered messages instead of clear systems, minor alignment issues turn into constant friction."
+}
+],
+"connection_note": "Hi Lee. Saw your update on the green light for Marshall House. Multi-operator venue design involves complex operational layouts, so I've been following how these spaces come together. Would be great to connect.",
+"my_comment": null
+},
+{
+"id": 237,
+"created_at": "2026-10-24T09:25:04.001266+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 5.3,
+"author_name": "𝗔𝗱𝗮𝗺 𝗠𝗼𝘀𝘁𝗮𝗳𝗮 🎯",
+"author_headline": "45M+ impressions || 16 years building Saudi Arabia’s retail market. Now I help foreign brands ($1M–$20M) enter it. || Ex-Samsung CCO || 95% market entry success rate. || 30K+ Followers",
+"author_url": "https://www.linkedin.com/in/adammostafa80?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAOrFM4B08BOZD_2N4CTXATqPYX8qo4U-4M",
+"post_url": "https://www.linkedin.com/posts/adammostafa80_adammostafa-procurement-supplychain-activity-7519666115405578240-3Ojp",
+"post_text": "𝗠𝗘𝗡𝗔'𝘀 𝘀𝗽𝗼𝗿𝘁𝘀 𝗲𝗰𝗼𝗻𝗼𝗺𝘆: 𝗵𝗼𝘄 𝗺𝘂𝗰𝗵 𝗼𝗳 𝘁𝗵𝗲 𝗵𝗲𝗮𝗱𝗹𝗶𝗻𝗲 𝗶𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗲𝗱?\n\n· · · · ·\n\nAn infographic circulating on LinkedIn claims $5B in Saudi investment opportunities, a $3.8B UAE sports market and $75B of regional growth potential. I checked each one.\n\n· · · · ·\n\nSaudi Arabia: confirmed. A Ministry of Investment official said at the 2026 Sports Investment Forum that current sports investment opportunities are about SR18 billion ($5 billion). Separately, a SportsTechX report estimates the Saudi sports market at $8.4 billion in 2024, with a projection of $22.5 billion by 2030.\n\n· · · · ·\n\nUAE and the regional $75B: I could not find a source for either. Published UAE figures vary widely by segment and methodology, so a single $3.8B number is hard to defend. One often-cited regional figure is that Saudi Arabia and the UAE together have invested over $65 billion in sports development.\n\n· · · · ·\n\nWhy this matters for procurement and category teams: sports growth pulls demand across apparel, footwear, nutrition, beverages, facility services and technology. Planning should rest on sourced figures, not on a graphic that looks polished.\n\n· · · · ·\n\nRule of thumb before you share or budget on a market number: find the original source, the year, and the definition of the market.\n\n· · · · ·\n\nWhich sports-related category do you expect to grow fastest in the GCC?\n\n· · · · ·\n\n𝘼 𝙜𝙤𝙤𝙙-𝙡𝙤𝙤𝙠𝙞𝙣𝙜 𝙘𝙝𝙖𝙧𝙩 𝙞𝙨 𝙣𝙤𝙩 𝙖 𝙨𝙤𝙪𝙧𝙘𝙚.\n\n· · · · ·\n\n𝗔𝗱𝗮𝗺 𝗠𝗼𝘀𝘁𝗮𝗳𝗮 | 𝗣𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁 & 𝗦𝘂𝗽𝗽𝗹𝘆 𝗖𝗵𝗮𝗶𝗻 𝗖𝗼𝗻𝘀𝘂𝗹𝘁𝗮𝗻𝘁\n𝟭𝟲+ 𝘆𝗲𝗮𝗿𝘀 𝗮𝗰𝗿𝗼𝘀𝘀 𝘁𝗵𝗲 ",
+"posted_at": "2026-10-24T07:48:30.553000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Retail and procurement consultant. Good regional audience but not an immediate buyer of lead-gen or AI ops.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Checking the original source works for macro figures, but procurement teams often hit the opposite problem when vetting vendor claims. When a supplier hands over a catalog with promised delivery times, treating self-reported metrics as fact without testing the underlying operational workflow leads to budget surprises. How do you vet operational claims when third-party data does not exist?"
+},
+{
+"angle": "missing_step",
+"text": "Verifying market size is step one, but category teams usually trip on the operational handoff once demand arrives. When procurement opens new vendor lists for a growing sector, inbound purchase requests get stuck in manual loops because teams rely on scattered emails. Sourcing the right market figure is useless if the internal approval loop takes weeks to process a single request."
+},
+{
+"angle": "make_concrete",
+"text": "Reading the metric before choosing a model is just as critical in forecasting as checking macro sources. When I worked on an income prediction challenge, choosing the right metric definition instead of trusting default outputs changed the result by almost 4 MAPE points. If the baseline metric is flawed, every downstream budget built on top of it inherits that error."
+}
+],
+"connection_note": null,
+"my_comment": null
+},
+{
+"id": 236,
+"created_at": "2026-10-24T09:23:47.108398+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.5,
+"author_name": "Nima Amini",
+"author_headline": "Commercial Real Estate & Hotel Investments | Debt & Equity Advisory | Managing Partner, Multi-Family Office | Commodity Trading | GCC · Europe",
+"author_url": "https://www.linkedin.com/in/nima-amini-a08926ba?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABlo3CgB7BIybhct3_KBZ_YmJquxLi8YKkU",
+"post_url": "https://www.linkedin.com/posts/nima-amini-a08926ba_mezzaninecapital-privatecredit-structuredfinance-activity-7519669266829254656-2UgT",
+"post_text": "THE UAE DOES NOT HAVE A CAPITAL SHORTAGE.  \nIT HAS A STRUCTURING GAP.\n\nEffective immediately, Panthera Capital Partners can structure and arrange access to mezzanine capital across Dubai and the wider UAE.\n\nTicket sizes: AED 5 million to AED 500 million — or USD equivalent.  \nIndicative terms: 3 to 24 months.\n\nBacked by established private investors and investment groups based in the UAE, the capital can support:\n\n• Commercial real estate acquisitions\n• Hotels and hospitality assets\n• Development and repositioning projects\n• Bridge financing and refinancing\n• Logistics, retail and Famp;B businesses\n• Startup and growth-stage businesses\n• Expansion capital and special situations\n• Gaps between senior debt and sponsor equity\n\nThe requirement is straightforward: a credible sponsor, a defined use of funds, a defensible business model and a clear repayment or exit strategy.\n\nThis is not capital for unstructured ideas. It is execution capital for transactions and businesses that are ready to move.\n\nFor an initial assessment, send us:\nTransaction size · Capital requirement · Use of funds · Sponsor equity · Security package · Required term · Exit strategy\n\nConfidential enquiries by direct message with the reference:\n“UAE MEZZANINE”\nAll transactions remain subject to underwriting, KYC, due diligence and final investment approval.\n\n#MezzanineCapital #PrivateCredit #StructuredFinance #DubaiRealEstate #HospitalityInvestment #UAEInvestment",
+"posted_at": "2026-10-24T08:01:01.911000+00:00",
+"likes": 1,
+"comments": 2,
+"why": "Real estate partner looking for structured debt, not an operational AI buyer right now.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "The gap between available capital and closed deals usually comes down to intake friction. When sponsors submit incomplete metrics or vague exit plans, underwriting teams waste days confirming baseline numbers before structured evaluation even begins."
+},
+{
+"angle": "sharp_question",
+"text": "When assessing mezzanine requests across different asset classes like CRE versus growth-stage F&B, how do you standardise the initial deal intake so your team isn't bogged down chasing missing sponsor documents?"
+},
+{
+"angle": "field_detail",
+"text": "Enforcing strict submission parameters upfront is what keeps high-ticket underwriting moving. Without clear intake filters at the initial assessment stage, advisors end up spending more time clarifying missing documents than actually structuring deals."
+}
+],
+"connection_note": "Hi Nima, saw your post on structuring mezzanine capital in the UAE. Clear deal intake and upfront criteria are critical when moving fast on execution capital. Would be great to connect here on LinkedIn.",
+"my_comment": null
+},
+{
+"id": 235,
+"created_at": "2026-10-24T09:22:06.505803+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (GCC)",
+"intent": "buyer",
+"priority": 8.9,
+"author_name": "Maryam Ali",
+"author_headline": "Clinic Manager | Elaira Polyclinic | Dubai",
+"author_url": "https://www.linkedin.com/in/maryam-ali-31bab7429?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGyNNAcBvK2psxiyL4TnuO46DxZGywjga-4",
+"post_url": "https://www.linkedin.com/posts/maryam-ali-31bab7429_dubaijobs-medicalreceptionist-clinicjobs-activity-7519665040015380480-Eozw",
+"post_text": "WE’RE HIRING | Medical Receptionist & Call Center\n\n📍 Business Bay, Dubai\n\nRequirements:\n• Previous experience in a medical or aesthetic clinic is a must.\n• Fluent in Arabic and English — Arabic is essential.\n• Excellent communication skills.\n• Must be currently based in the UAE.\n\n📩 Send your CV via LinkedIn DM.\n\n#DubaiJobs #MedicalReceptionist #ClinicJobs #HiringDubai",
+"posted_at": "2026-10-24T07:44:14.160000+00:00",
+"likes": 0,
+"comments": 1,
+"why": "Clinic manager hiring receptionists. Perfect pain point for AI voice receptionist builds.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "Bilingual Arabic and English phone coverage is tough to maintain during peak call surges. In bilingual voice builds I've worked on, the edge case that breaks intake isn't language switching itself, but capturing patient names and contact info accurately over noisy lines when accents vary."
+},
+{
+"angle": "sharp_question",
+"text": "Medical and aesthetic clinics usually see sharp call spikes during mid-day breaks and right after work. When multiple calls land at the front desk simultaneously, how are you currently routing overflow so prospective patients don't drop off?"
+},
+{
+"angle": "missing_step",
+"text": "Hiring fixes 9-to-5 call volume, but the gap most clinics overlook is handling inquiries that come in after hours. A patient calling at 10 PM with an inquiry won't wait for morning opening hours, they just call the next clinic on Google until someone answers."
+}
+],
+"connection_note": "Hi Maryam, noticed your hiring update for Elaira Polyclinic in Business Bay. I follow clinic operations and workflow management across the GCC and would be glad to connect here on LinkedIn.",
+"my_comment": null
+},
 {
 "id": 234,
 "created_at": "2026-10-24T08:12:15.257194+00:00",
@@ -8970,10 +9126,10 @@
 "usage": [
 {
 "day": "2026-10-24",
-"posts_scraped": 25,
-"cards_sent": 4,
-"llm_input_tokens": 31184,
-"llm_output_tokens": 13538,
+"posts_scraped": 46,
+"cards_sent": 8,
+"llm_input_tokens": 69471,
+"llm_output_tokens": 28054,
 "llm_cost_usd": 0.0
 },
 {
@@ -9121,7 +9277,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.82,
+"apify_month_usd": 2.86,
 "apify_month_cap_usd": 5.0,
 "learned": 214,
 "metrics": {},

@@ -1,5 +1,5 @@
 {
-"generated_at": "2026-10-24T18:18:27.250639+00:00",
+"generated_at": "2026-10-25T05:28:04.226069+00:00",
 "actions_applied": 244,
 "cards": [
 {
@@ -9164,6 +9164,14 @@
 ],
 "usage": [
 {
+"day": "2026-10-25",
+"posts_scraped": 18,
+"cards_sent": 0,
+"llm_input_tokens": 3376,
+"llm_output_tokens": 593,
+"llm_cost_usd": 0.0
+},
+{
 "day": "2026-10-24",
 "posts_scraped": 78,
 "cards_sent": 9,
@@ -9316,7 +9324,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.92,
+"apify_month_usd": 2.96,
 "apify_month_cap_usd": 5.0,
 "learned": 223,
 "metrics": {},

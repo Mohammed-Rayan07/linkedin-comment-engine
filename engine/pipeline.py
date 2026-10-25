@@ -235,6 +235,8 @@ class Engine:
                 report.notes.append(f"lane {lane.id} failed: {e}")
                 continue
             report.fetched += len(posts)
+            lane_new = 0
+            lane_filtered: dict[str, int] = {}
             known = store.known_ids([p.id for p in posts])
             for p in posts:
                 if p.id in known:
@@ -244,10 +246,14 @@ class Engine:
                 reason = filters.reject_reason(p, lane, cfg)
                 if reason:
                     report.filtered[reason] = report.filtered.get(reason, 0) + 1
+                    lane_filtered[reason] = lane_filtered.get(reason, 0) + 1
                     store.add_post(p, "filtered", reason)
                 else:
                     store.add_post(p, "new")
                     candidates.append((p, lane))
+                    lane_new += 1
+            log.info("lane %s: %d fetched, %d new candidates, filtered=%s",
+                     lane.id, len(posts), lane_new, lane_filtered or "none")
 
         # posts left unscored by an earlier run (e.g. the model was overloaded) get another chance
         seen = {p.id for p, _ in candidates}

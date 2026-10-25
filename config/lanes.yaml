@@ -36,54 +36,54 @@ vendor_headline_patterns:
   - "crm consultant"
 
 lanes:
-  # Tested live on 2026-10-05. Searching for pain words ("missed calls clinic") returned ~90% vendors
-  # selling AI receptionists. Filtering on the AUTHOR's job title (author_keywords, LinkedIn OR syntax)
-  # returns real owners and operators. Their posts get fewer likes, but your comment reaches a buyer directly.
+  # Decision makers in the UAE, KSA and UK. Search for clinic owners/directors, not vendors
+  # pitching receptionist software. budget_weight affects scrape allocation only, never quality scores.
   - id: clinics
-    name: Clinic & dental owners (GCC)
+    name: Clinic & dental owners (UAE, KSA, UK)
     kind: search
     intent: buyer
     enabled: true
     weight: 1.0
+    budget_weight: 1.4
     posted_limit: week   # owners post rarely; the watermark still only fetches what's new
     max_age_hours: 120   # a buyer reads every comment on their post, even days later
-    max_posts_per_query: 10
-    sort_by: relevance
-    # keep this list short: a 9-term version returned 0 posts on LinkedIn (live test 2026-10-05)
-    author_keywords: 'dentist OR "clinic owner" OR "medical director" OR "clinic manager" OR dermatologist OR "aesthetic clinic"'
+    max_posts_per_query: 25
+    sort_by: date
+    author_keywords: 'dentist OR "clinic owner" OR "medical director" OR "clinic manager" OR dermatologist OR "aesthetic clinic" OR "practice owner" OR "clinic director"'
     queries:
       - Dubai clinic
+      - Dubai dental clinic
       - Riyadh clinic
       - Saudi clinic patients
-      - UAE dental clinic
+      - UAE dental practice
       - Jeddah clinic
-      - med spa Dubai
+      - Dubai aesthetic clinic
       - Abu Dhabi clinic
-      - Dammam clinic
-      - dental practice UAE
-      - patients Saudi Arabia clinic
+      - London clinic
+      - UK dental clinic
     buyer_headline_hints: [clinic, dental, dentist, "med spa", aesthetic, dermatolog, physio, "medical director", "practice owner", "clinic manager", "medical center", polyclinic, physician]
 
   - id: realestate
-    name: Brokerage founders & sales leaders (UAE/KSA)
+    name: Dubai & GCC real estate brokerage decision makers
     kind: search
     intent: buyer
     enabled: true
     weight: 1.0
+    budget_weight: 1.75
     posted_limit: week   # owners post rarely; the watermark still only fetches what's new
     max_age_hours: 120   # a buyer reads every comment on their post, even days later
-    max_posts_per_query: 10
-    sort_by: relevance
-    author_keywords: '"brokerage" OR "real estate CEO" OR "managing director" OR "head of sales" OR "sales director" OR "founder & CEO"'
+    max_posts_per_query: 25
+    sort_by: date
+    author_keywords: '"brokerage owner" OR broker OR "real estate CEO" OR "managing director" OR "head of sales" OR "sales director" OR "founder & CEO"'
     queries:
+      - Dubai real estate
       - Dubai real estate brokerage
-      - Dubai real estate agents team
-      - Riyadh real estate
-      - Dubai property leads
-      - Abu Dhabi real estate
-      - Saudi real estate market
       - Dubai off-plan sales
-      - real estate sales team Dubai
+      - Dubai property leads
+      - Dubai real estate agents
+      - Abu Dhabi real estate
+      - Riyadh real estate
+      - Saudi real estate market
     buyer_headline_hints: [broker, brokerage, "real estate", realtor, property, "sales director", "head of sales", "managing director", ceo, founder]
 
   - id: gcc_audience
@@ -92,11 +92,12 @@ lanes:
     intent: audience
     enabled: true
     weight: 0.85
+    budget_weight: 0.3
     posted_limit: 24h
     max_age_hours: 48    # popular posts move fast: comment early
     min_likes: 30        # only posts with real reach
-    max_posts_per_query: 10
-    sort_by: relevance
+    max_posts_per_query: 25
+    sort_by: date
     queries:
       - Dubai real estate market
       - Saudi business growth
@@ -116,10 +117,11 @@ lanes:
     intent: buyer
     enabled: true
     weight: 0.9
+    budget_weight: 0.55
     posted_limit: week
     max_age_hours: 120
-    max_posts_per_query: 10
-    sort_by: relevance
+    max_posts_per_query: 25
+    sort_by: date
     author_keywords: '"business owner" OR founder OR "co-founder" OR CEO OR "managing director" OR "general manager"'
     queries:
       - Dubai customers WhatsApp
@@ -137,7 +139,9 @@ lanes:
     enabled: false   # live test 2026-10-05: almost no results with an owner-title filter
     weight: 0.9
     posted_limit: 24h
-    max_posts_per_query: 10
+    max_posts_per_query: 25
+    budget_weight: 0.5
+    sort_by: date
     author_keywords: '"marketing agency" OR "digital agency" OR "performance marketing" OR "media buying"'
     queries:
       - clinic marketing leads
@@ -151,7 +155,9 @@ lanes:
     enabled: false   # pain-word search was mostly vendors; needs an author-title filter before enabling
     weight: 0.8
     posted_limit: 24h
-    max_posts_per_query: 10
+    max_posts_per_query: 25
+    budget_weight: 0.5
+    sort_by: date
     queries:
       - dispatch drivers calls WhatsApp operations
       - manual invoice matching purchase orders
@@ -180,3 +186,27 @@ lanes:
     max_posts_per_profile: 1
     # 30-100 specific owners you'd love as clients. Every post they make jumps your queue.
     profiles: []
+
+  - id: competitor_reach
+    name: AI lead response vendors with buyer audiences
+    kind: search
+    intent: audience
+    enabled: true
+    weight: 0.72
+    budget_weight: 0.8
+    posted_limit: 24h
+    max_age_hours: 36
+    min_likes: 5
+    max_posts_per_query: 25
+    sort_by: date
+    author_keywords: 'founder OR CEO OR "AI automation" OR "voice AI" OR proptech OR "real estate technology" OR "dental technology" OR "clinic software"'
+    queries:
+      - AI receptionist clinic
+      - AI receptionist real estate
+      - Dubai real estate WhatsApp automation
+      - clinic WhatsApp automation
+      - real estate AI lead follow-up
+      - dental technology UAE
+      - voice AI property
+      - Dubai proptech
+    buyer_headline_hints: [founder, ceo, owner, broker, brokerage, clinic, dental, "real estate", "head of sales"]

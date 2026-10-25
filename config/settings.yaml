@@ -21,17 +21,16 @@ models:
     server_fallbacks: true
 
 budgets:
-  # Apify bills ~$0.002 per returned post (+$0.001 per query that returns nothing).
-  # 80/day = $0.16/day ≈ $4.80/month, inside the free plan's $5 monthly credit.
-  # Roughly a third survive the filters + scoring, which is what 20-25 cards/day needs.
-  max_posts_scraped_per_day: 80
-  # Split across the enabled lanes each run (3 scheduled runs/day ≈ 80 posts).
-  max_posts_per_run: 27
-  # How many filtered posts get an LLM score per run.
-  max_llm_scored_per_run: 40
-  # Cards you receive in Telegram. 8-12 real comments a day beat 25 templated ones (24 Oct: readers spot AI comments).
-  max_cards_per_day: 12
-  max_cards_per_run: 5
+  # Capacity for three productive runs/day. At ~$0.002 per returned post, 750/day is
+  # ~$45/month plus empty-query charges; actual spend follows results and exceeds the $5 free credit.
+  max_posts_scraped_per_day: 750
+  # 250 results/run gives the unchanged quality gates enough candidates to yield ~15 cards.
+  max_posts_per_run: 250
+  # Score the full fetched set; otherwise good posts get dropped before ICP scoring.
+  max_llm_scored_per_run: 250
+  # Hard cap protects the 25-30/day target across scheduled and manual runs.
+  max_cards_per_day: 30
+  max_cards_per_run: 15
   # Minimum final priority (0-10) for a post to become a card.
   min_priority: 6.0
   # If strong posts can't fill the quota, posts down to this score fill the gap (the card shows the score).

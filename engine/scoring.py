@@ -2,14 +2,16 @@
 from __future__ import annotations
 
 import json
+import logging
 from typing import Any
 
 from .config import Config, Lane
-from .llm import LLM
+from .llm import LLM, LLMUnavailable
 from .models import Post
 
 BATCH = 10
 ANGLES = ["missing_step", "field_detail", "pushback", "make_concrete", "sharp_question"]
+log = logging.getLogger(__name__)
 
 SCHEMA: dict[str, Any] = {
     "type": "object",
@@ -46,10 +48,10 @@ def _system(cfg: Config) -> str:
     return f"""You triage LinkedIn posts for {p['who']['name']}, founder of {p['who']['business']} ({p['who']['base']}).
 {p['who']['one_liner']}
 
-He wants to comment on posts where (a) the audience includes his buyers and (b) he can add something
-specific from his real experience. His first clients will be SMB owners who feel the pain of missed
-calls/WhatsApp, slow lead follow-up and ops chaos, have budget, and buy from a credible specialist:
-clinic and med-spa owners, real-estate brokerages, marketing-agency owners, ops leaders in the GCC.
+His target buyers, in order, are (1) Dubai/UAE real-estate brokerage owners, managing directors and
+heads of sales, (2) clinic, dental and med-spa owners/directors in the UAE, KSA and UK, and (3) other
+GCC service-business owners with lead-response problems. A peer vendor is a reach target only when
+their post's real audience includes those decision makers; a vendor pitch aimed at other vendors is low-fit.
 
 His proof bank (the only experience he can draw on):
 {proofs}
@@ -61,7 +63,8 @@ For each post return:
 - author_type: buyer (owns/runs an SMB or decides on ops/sales tooling), peer_vendor (sells AI,
   automation, marketing or lead-gen services), creator (content creator / influencer with a business
   audience), other.
-- icp_fit 0-10: how likely the post's author AND its readers are his buyers. A vendor talking to vendors is 0-2.
+- icp_fit 0-10: for buyer posts, rate the author's fit; for peer-vendor/creator posts, rate whether the
+  readers likely include those specific real-estate and clinic decision makers. A vendor talking to vendors is 0-2.
 - value_room 0-10: how much room there is for a specific, expert comment grounded in the proof bank
   or opinions above. Generic motivation, announcements, celebrations and pure self-promotion score low.
   Ask: has he actually lived this? If the post is about an industry or job he has never touched (oil and
@@ -131,14 +134,21 @@ def score_posts(cfg: Config, llm: LLM, items: list[tuple[Post, Lane]]) -> list[t
     scored = []
     for i in range(0, len(items), BATCH):
         chunk = [(f"p{j}", p, lane) for j, (p, lane) in enumerate(items[i:i + BATCH])]
-        result = llm.json(
-            task="scoring",
-            system=_system(cfg),
-            user=_user(chunk),
-            schema=SCHEMA,
-            max_tokens=8000,
-            mock=lambda c=chunk: _mock(c),
-        )
+        try:
+            result = llm.json(
+                task="scoring",
+                system=_system(cfg),
+                user=_user(chunk),
+                schema=SCHEMA,
+                max_tokens=8000,
+                mock=lambda c=chunk: _mock(c),
+            )
+        except LLMUnavailable as e:
+            if not scored:
+                raise
+            log.warning("scoring stopped after %d posts; remaining posts can be retried next run: %s",
+                        len(scored), e)
+            break
         by_ref = {r["ref"]: r for r in result.get("results", [])}
         for ref, p, lane in chunk:
             s = by_ref.get(ref)

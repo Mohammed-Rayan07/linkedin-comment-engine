@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import logging
 from datetime import datetime, timedelta, timezone
 from typing import Any
@@ -26,18 +27,33 @@ class BudgetExhausted(Exception):
     pass
 
 
-def _watermark_key(lane: Lane) -> str:
-    return f"watermark:{lane.id}"
+def _watermark_key(lane: Lane, item: str | None = None) -> str:
+    if item is None:
+        return f"watermark:{lane.id}"
+    token = hashlib.sha1(item.encode("utf-8")).hexdigest()[:12]
+    return f"watermark:{lane.id}:{token}"
 
 
-def _since(lane: Lane, store: Store) -> datetime:
-    """Only ask Apify for posts newer than the last successful run (you pay per returned post)."""
+def _since(lane: Lane, store: Store, items: list[str] | None = None) -> datetime:
+    """Use the oldest selected item watermark so none of a lane's queries are skipped."""
     window = timedelta(hours=POSTED_LIMIT_HOURS.get(lane.posted_limit, 24))
     floor = datetime.now(timezone.utc) - window
-    mark = store.get(_watermark_key(lane))
-    if mark:
-        return max(floor, datetime.fromisoformat(mark) - WATERMARK_OVERLAP)
+    marks = [store.get(_watermark_key(lane, item)) for item in (items or [])]
+    if marks and all(marks):
+        oldest = min(datetime.fromisoformat(mark) for mark in marks if mark)
+        return max(floor, oldest - WATERMARK_OVERLAP)
     return floor
+
+
+def _rotate(store: Store, lane: Lane, items: list[str], n: int) -> list[str]:
+    """Rotate smaller manual budgets while each selected item keeps its own watermark."""
+    if n >= len(items):
+        return list(items)
+    key = f"rotation:{lane.id}"
+    start = int(store.get(key, "0") or 0) % len(items)
+    picked = [items[(start + i) % len(items)] for i in range(n)]
+    store.put(key, str((start + n) % len(items)))
+    return picked
 
 
 def _run_actor(cfg: Config, actor: str, payload: dict[str, Any], max_items: int) -> list[dict[str, Any]]:
@@ -52,18 +68,7 @@ def _run_actor(cfg: Config, actor: str, payload: dict[str, Any], max_items: int)
 
 
 def remaining_today(cfg: Config, store: Store) -> int:
-    return int(cfg.s("budgets", "max_posts_scraped_per_day", default=25)) - store.today()["posts_scraped"]
-
-
-def _rotate(store: Store, lane: Lane, items: list[str], n: int) -> list[str]:
-    """Take n items starting where the last run stopped, so every query gets its turn over the day."""
-    if n >= len(items):
-        return list(items)
-    key = f"rotation:{lane.id}"
-    start = int(store.get(key, "0") or 0) % len(items)
-    picked = [items[(start + i) % len(items)] for i in range(n)]
-    store.put(key, str((start + n) % len(items)))
-    return picked
+    return int(cfg.s("budgets", "max_posts_scraped_per_day", default=750)) - store.today()["posts_scraped"]
 
 
 def fetch_lane(cfg: Config, store: Store, lane: Lane, budget: int | None = None, probe: bool = False,
@@ -93,7 +98,9 @@ def fetch_lane(cfg: Config, store: Store, lane: Lane, budget: int | None = None,
                 queries, per_query = lane.queries, lane.max_posts_per_query
             else:
                 queries = _rotate(store, lane, lane.queries, max(1, min(len(lane.queries), budget)))
-                per_query = max(1, min(lane.max_posts_per_query, budget // len(queries)))
+                since = (since_override or _since(lane, store, queries)).isoformat()
+                per_query = max(1, min(lane.max_posts_per_query,
+                                       (budget + len(queries) - 1) // len(queries)))
             payload: dict[str, Any] = {
                 "searchQueries": queries,
                 "maxPosts": per_query,
@@ -110,6 +117,8 @@ def fetch_lane(cfg: Config, store: Store, lane: Lane, budget: int | None = None,
             per_profile = lane.max_posts_per_profile
             profiles = lane.profiles if probe else _rotate(
                 store, lane, lane.profiles, max(1, min(len(lane.profiles), budget // max(per_profile, 1))))
+            if not probe:
+                since = (since_override or _since(lane, store, profiles)).isoformat()
             payload = {
                 "targetUrls": profiles,          # one run for the whole watchlist
                 "maxPosts": per_profile,
@@ -121,7 +130,10 @@ def fetch_lane(cfg: Config, store: Store, lane: Lane, budget: int | None = None,
         posts = [p for p in (post_from_apify(i, lane.id) for i in items) if p]
         if not probe:
             store.add_scraped(len(items))
-            store.put(_watermark_key(lane), datetime.now(timezone.utc).isoformat())
+            checked = queries if lane.kind == "search" else profiles
+            checked_at = datetime.now(timezone.utc).isoformat()
+            for item in checked:
+                store.put(_watermark_key(lane, item), checked_at)
     log.info("lane %s: %d posts", lane.id, len(posts))
     return posts
 

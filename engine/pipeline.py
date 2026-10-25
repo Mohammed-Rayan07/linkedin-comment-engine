@@ -24,6 +24,30 @@ class SendFailed(Exception):
     """Telegram rejected a card. Stop drafting more this run (each draft costs LLM tokens)."""
 
 
+def _allocate_scrape_budget(lanes: list[Lane], budget: int) -> list[int]:
+    """Allocate discovery by ICP lane share without changing comment quality scores."""
+    if not lanes or budget <= 0:
+        return [0] * len(lanes)
+    # Keep tiny one-off runs spread across lanes; apply ICP weights once there is room to do so.
+    if budget <= len(lanes) * 10:
+        shares = [budget // len(lanes)] * len(lanes)
+        for i in range(budget % len(lanes)):
+            shares[i] += 1
+        return shares
+    weights = [max(0.0, lane.budget_weight) for lane in lanes]
+    total = sum(weights)
+    if total <= 0:
+        weights = [1.0] * len(lanes)
+        total = float(len(lanes))
+    exact = [budget * weight / total for weight in weights]
+    shares = [int(value) for value in exact]
+    remainder = budget - sum(shares)
+    order = sorted(range(len(lanes)), key=lambda i: (exact[i] - shares[i], weights[i]), reverse=True)
+    for i in order[:remainder]:
+        shares[i] += 1
+    return shares
+
+
 @dataclass
 class RunReport:
     fetched: int = 0
@@ -69,7 +93,7 @@ class Engine:
             self.store.set_post_status(p.id, "skipped", f"writer:{d.skip_reason}")
             report.skipped_by_writer += 1
             return False
-        card_id = self.store.add_card(p.id, d.options, d.connection_note)
+        card_id = self.store.add_card(p.id, d.options)
         try:
             msg_id = self.tg.send(render_card(card_id, p, lane, score, prio, d), keyboard(card_id, len(d.options)))
         except Exception as e:
@@ -169,6 +193,12 @@ class Engine:
             report.notes.append("paused: skipped finding posts and drafting")
             self.update_board()
             return report
+        daily_cards_left = (int(cfg.s("budgets", "max_cards_per_day", default=30))
+                            - store.today()["cards_sent"])
+        if daily_cards_left <= 0:
+            report.notes.append("daily card limit reached: skipped scraping and drafting")
+            self.update_board()
+            return report
         if not skip_fetch:
             try:
                 if note := mystats.check(self):
@@ -180,12 +210,21 @@ class Engine:
         if skip_fetch:
             lanes = []  # only score/draft posts already saved by earlier runs
         candidates: list[tuple[Post, Lane]] = []
-        # split this run's scrape budget fairly so the first lane can't eat the whole day
-        run_budget = min(remaining_today(cfg, store),
-                         run_budget or int(cfg.s("budgets", "max_posts_per_run", default=8)))
+        # Weight discovery toward real-estate and clinic buyers. Quality scoring stays separate.
+        # Scale the scrape ceiling down when this run has fewer card slots left, avoiding spend
+        # on candidates the daily delivery cap could not send.
+        per_run_cards = int(cfg.s("budgets", "max_cards_per_run", default=15))
+        requested_cards = min(per_run_cards, daily_cards_left,
+                              card_quota if card_quota is not None else per_run_cards)
+        per_run_posts = int(cfg.s("budgets", "max_posts_per_run", default=250))
+        requested_posts = min(per_run_posts, run_budget if run_budget else per_run_posts)
+        scaled_posts = max(1, (requested_posts * requested_cards + per_run_cards - 1) // per_run_cards)
+        run_budget = min(remaining_today(cfg, store), scaled_posts)
         since = datetime.now(timezone.utc) - timedelta(days=since_days) if since_days else None
-        for i, lane in enumerate(lanes):
-            share = max(1, run_budget // len(lanes) + (1 if i < run_budget % len(lanes) else 0))
+        shares = _allocate_scrape_budget(lanes, run_budget)
+        for lane, share in zip(lanes, shares):
+            if share <= 0:
+                continue
             try:
                 posts = fetch_lane(cfg, store, lane, budget=share, since_override=since)
             except BudgetExhausted as e:
@@ -218,16 +257,19 @@ class Engine:
                 candidates.append((_post_from_row(row), lane))
 
         # freshest first, capped to the per-run scoring budget
-        candidates.sort(key=lambda pl: (-pl[1].weight, pl[0].age_hours))
-        candidates = candidates[: int(cfg.s("budgets", "max_llm_scored_per_run", default=40))]
-        try:
-            if candidates:
+        candidates.sort(key=lambda pl: (-pl[1].budget_weight, pl[0].age_hours))
+        candidates = candidates[: int(cfg.s("budgets", "max_llm_scored_per_run", default=250))]
+        if candidates:
+            try:
                 for p, lane, s, prio in score_posts(cfg, self.llm, candidates):
                     store.set_score(p.id, s, prio)
                     report.scored += 1
+            except LLMUnavailable as e:
+                report.notes.append(f"{e}; unscored posts will be retried next run")
+        try:
             self._deliver_best(report, card_quota)
         except LLMUnavailable as e:
-            report.notes.append(f"{e}; unscored/undrafted posts will be retried next run")
+            report.notes.append(f"{e}; remaining drafts will be retried next run")
         self.update_board()
         return report
 
@@ -243,11 +285,10 @@ class Engine:
 
     def _deliver_best(self, report: RunReport, card_quota: int | None = None) -> None:
         cfg, store = self.cfg, self.store
-        if card_quota is not None:
-            quota = card_quota
-        else:
-            left_today = int(cfg.s("budgets", "max_cards_per_day", default=20)) - store.today()["cards_sent"]
-            quota = min(int(cfg.s("budgets", "max_cards_per_run", default=8)), left_today)
+        left_today = max(0, int(cfg.s("budgets", "max_cards_per_day", default=30))
+                         - store.today()["cards_sent"])
+        per_run = int(cfg.s("budgets", "max_cards_per_run", default=15))
+        quota = min(per_run, left_today, card_quota) if card_quota is not None else min(per_run, left_today)
         if quota <= 0:
             report.notes.append("daily card limit reached")
             return

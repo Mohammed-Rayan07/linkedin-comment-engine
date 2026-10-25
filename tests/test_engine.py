@@ -81,7 +81,7 @@ def test_mock_run_end_to_end(cfg, capsys):
     assert report.filtered.get("job_post") == 1
     assert report.carded == 3
     out = capsys.readouterr().out
-    assert "Option 1" in out and "Connection note" in out
+    assert "Option 1" in out and "Connection note" not in out
 
     # second run: everything already seen, nothing re-sent
     report2 = engine.run()

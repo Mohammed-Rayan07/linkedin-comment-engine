@@ -29,7 +29,7 @@ copy .env.example .env
 Fill in `.env`:
 
 1. **GEMINI_API_KEY**: free, from aistudio.google.com > Get API key. The engine uses Gemini 3.8 Flash by default; to use Claude instead, set `models.provider: claude` and add `ANTHROPIC_API_KEY`
-2. **APIFY_TOKEN**: from console.apify.com > Settings > Integrations. The default 80 posts a day costs about $4.80 a month, which fits inside the free plan's $5 monthly credit.
+2. **APIFY_TOKEN**: from console.apify.com > Settings > Integrations. The engine can now fetch up to 750 posts/day. At ~$0.002 per returned post, that is up to ~$45/month plus charges for empty queries (actual spend depends on results). Set the daily scrape limit in config/settings.yaml lower if you want a smaller cost ceiling.
 3. **Telegram**: message @BotFather, send `/newbot`, and paste the token into `TELEGRAM_BOT_TOKEN`. Then open your new bot, send it `hi`, and run:
    ```bash
    python -m engine telegram-setup
@@ -95,8 +95,8 @@ python -m engine stats    # last 7 days, including $ spent
 python -m engine check "your own comment text"   # run the guard on something you wrote
 ```
 
-In Telegram, each card shows the post, why it was picked, three comment options with different
-angles (tap the text to copy), and a connection note for buyer posts. After you post, tap
+In Telegram, each card shows the post, why it was picked, and three comment options with different
+angles (tap the text to copy). After you post, tap
 **✅ Posted N** (it logs which angle you used), or tap **⏭ Skip** or **🔁 New angles**. Send `/stats`
 to the bot at any time.
 
@@ -121,7 +121,13 @@ which is why the engine favours fresh posts.
 
 Button taps are applied at the start of the next scheduled run.
 
-**The schedule is the only runner.** The database (`data/engine.db`) lives in this repo and every
+**The schedule is the only runner.** Each run can scrape up to 250 posts and send up to 15 cards;
+the daily caps are 750 scraped posts and 30 cards. A card is sent only when it passes the same ICP,
+lived-experience and truth checks as before, so 15 is a ceiling rather than a promise when the feed is quiet.
+The search budget favors Dubai/UAE real-estate decision makers, then clinic decision makers in the UAE,
+KSA and UK, then vendors whose audiences include those buyers. Quality thresholds are not lowered.
+
+The database (`data/engine.db`) lives in this repo and every
 scheduled run commits it back, so there's one copy of your cards. Don't run `run`, `fill` or `bot`
 locally while the schedule is on. If you ever do, `git pull` first and push right after.
 
@@ -129,7 +135,7 @@ locally while the schedule is on. If you ever do, `git pull` first and push righ
 
 | Item | Monthly |
 |---|---|
-| Apify (80 posts/day cap) | ~$4.80, covered by the free plan's $5/month |
+| Apify (750 posts/day maximum) | Up to ~$45/month for returned posts, plus empty-query charges; above the $5 free credit |
 | Gemini 3.8 Flash (free tier) | $0. It's rate-limited, so the engine paces its calls and falls back to Gemini 3.7 Flash if the daily quota runs out. On the free tier, Google may use the prompts (public posts + your proof bank) to improve its products. |
 | GitHub Actions (private repo) | free (~300 of 2,000 free minutes) |
 

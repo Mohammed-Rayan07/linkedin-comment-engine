@@ -43,7 +43,6 @@ def snapshot(cfg: Config, store: Store) -> dict[str, Any]:
             "why": score.get("why", ""), "best_angle": score.get("best_angle", ""),
             "options": [{"angle": o.get("angle", ""), "text": o.get("text", "")}
                         for o in json.loads(r["options_json"])],
-            "connection_note": r["connection_note"],
             "my_comment": ({"text": m["text"], "url": m["url"], "likes": m["likes"], "replies": m["replies"],
                             "checked_at": m["checked_at"]} if m else None),
         })
@@ -70,7 +69,7 @@ def snapshot(cfg: Config, store: Store) -> dict[str, Any]:
         "stats_last_checked": store.get("mystats_checked_at"),
         "paused": store.get("paused") == "1",
         "settings": {
-            "cards_per_day": cfg.s("budgets", "max_cards_per_day", default=20),
+            "cards_per_day": cfg.s("budgets", "max_cards_per_day", default=30),
             "stats_enabled": bool(cfg.s("my_stats", "enabled", default=False)),
             "runs": "08:00 / 13:00 / 18:00 Riyadh",
         },

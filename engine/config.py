@@ -32,6 +32,7 @@ class Lane:
     sort_by: str = "relevance"  # relevance | date
     max_age_hours: float | None = None  # overrides filters.max_age_hours for this lane
     min_likes: int = 0
+    budget_weight: float = 1.0
 
 
 @dataclass

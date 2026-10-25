@@ -35,9 +35,9 @@ def main() -> int:
     ap.add_argument("--mock", action="store_true", help="use fixtures + fake LLM, no API keys needed")
     ap.add_argument("--lanes", help="comma-separated lane ids to run (default: all enabled)")
     ap.add_argument("--yes", action="store_true", help="skip the cost confirmation for yield-test")
-    ap.add_argument("--target", type=int, default=20, help="fill: cards you want waiting in Telegram")
+    ap.add_argument("--target", type=int, default=15, help="fill: cards you want waiting in Telegram")
     ap.add_argument("--days", type=float, default=5, help="fill: how far back to look")
-    ap.add_argument("--max-posts", type=int, default=200, help="fill: Apify post budget (~$0.002 each)")
+    ap.add_argument("--max-posts", type=int, default=250, help="fill: Apify post budget (~$0.002 each)")
     ap.add_argument("--no-fetch", action="store_true", help="fill: don't scrape, just score/draft saved posts")
     ap.add_argument("-v", "--verbose", action="store_true")
     args = ap.parse_args()
@@ -124,13 +124,12 @@ def fill(cfg, engine: Engine, args) -> int:
     pending = engine.store.db.execute("SELECT COUNT(*) FROM cards WHERE status='sent'").fetchone()[0]
     need = args.target - pending
     print(f"{pending} cards already waiting; need {max(need, 0)} more. "
-          f"Budget: up to {args.max_posts} posts ≈ ${args.max_posts * PRICE_PER_POST_USD:.2f} of Apify credit.")
+          f"Run cap: {args.max_posts} posts ≈ ${args.max_posts * PRICE_PER_POST_USD:.2f}; "
+          "the configured daily cap still applies.")
     if need <= 0:
         return 0
     b = cfg.settings.setdefault("budgets", {})
-    b["max_posts_scraped_per_day"] = engine.store.today()["posts_scraped"] + args.max_posts
     b["max_llm_scored_per_run"] = args.max_posts
-    b.setdefault("floor_priority", 5.0)
     report = engine.run(args.lanes.split(",") if args.lanes else None,
                         since_days=args.days, run_budget=args.max_posts, card_quota=need,
                         skip_fetch=args.no_fetch)

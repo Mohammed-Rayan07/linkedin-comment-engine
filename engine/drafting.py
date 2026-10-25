@@ -16,8 +16,6 @@ from .scoring import ANGLES
 
 log = logging.getLogger(__name__)
 
-NOTE_MAX = 280  # LinkedIn connection notes cap at 300 chars
-
 SCHEMA: dict[str, Any] = {
     "type": "object",
     "properties": {
@@ -36,9 +34,8 @@ SCHEMA: dict[str, Any] = {
                 "additionalProperties": False,
             },
         },
-        "connection_note": {"type": "string"},
     },
-    "required": ["can_add_value", "skip_reason", "options", "connection_note"],
+    "required": ["can_add_value", "skip_reason", "options"],
     "additionalProperties": False,
 }
 
@@ -46,7 +43,6 @@ SCHEMA: dict[str, Any] = {
 @dataclass
 class Draft:
     options: list[dict[str, Any]]
-    connection_note: str | None
     skip_reason: str | None = None
 
 
@@ -92,11 +88,7 @@ Write {n} options that a reader could tell apart at a glance, each using a DIFFE
 Each option: {cfg.s('comment', 'min_chars', default=40)}-{cfg.s('comment', 'max_chars', default=450)} characters, ready to paste, English only.
 Every option's first sentence must respond to something specific in THIS post. If you could paste it under
 a different post on the same topic, rewrite it.
-proof_ids lists the profile proofs each option draws on (empty if it uses only opinions or the post).
-connection_note: only when asked for one in the request, otherwise "". When asked: under {NOTE_MAX} characters,
-reads like a person, not a template. First name, then the one specific thing from their post that made him want
-to connect, in plain words, and stop. Vary the shape from note to note. No pitch, no description of his services,
-no "I'd love to connect", no "expand my network", no "synergies".""" + _learned(examples)
+proof_ids lists the profile proofs each option draws on (empty if it uses only opinions or the post).""" + _learned(examples)
 
 
 def _recently_used(store) -> tuple[list[str], list[str]]:
@@ -113,7 +105,6 @@ def _recently_used(store) -> tuple[list[str], list[str]]:
 
 
 def _user(p: Post, lane: Lane, score: dict[str, Any], feedback: str | None, store=None) -> str:
-    want_note = lane.intent in ("buyer", "prospect") and score.get("author_type") == "buyer"
     payload = {
         "lane": lane.name,
         "lane_intent": lane.intent,
@@ -125,7 +116,6 @@ def _user(p: Post, lane: Lane, score: dict[str, Any], feedback: str | None, stor
         "triage_note": score.get("why"),
         "suggested_angle": score.get("best_angle"),
         "suggested_proofs": score.get("proof_ids"),
-        "write_connection_note": want_note,
         "post_text": p.text[:4000],
     }
     msg = "Draft comments for this post:\n" + json.dumps(payload, ensure_ascii=False, indent=1)
@@ -141,8 +131,6 @@ def _user(p: Post, lane: Lane, score: dict[str, Any], feedback: str | None, stor
 
 
 def _mock(p: Post, lane: Lane, score: dict[str, Any]) -> dict[str, Any]:
-    note = (f"Hi {p.first_name}, your post on missed enquiries matched what I keep seeing when I map "
-            "how calls and WhatsApp actually flow. Would be good to stay connected.")
     return {
         "can_add_value": True,
         "skip_reason": "",
@@ -160,7 +148,6 @@ def _mock(p: Post, lane: Lane, score: dict[str, Any]) -> dict[str, Any]:
                       "is what every new lead gets. Curious what you'd find, because that's usually where the gap is, "
                       "not in the ads.")},
         ],
-        "connection_note": note if lane.intent in ("buyer", "prospect") else "",
     }
 
 
@@ -179,7 +166,7 @@ def draft_comments(cfg: Config, llm: LLM, p: Post, lane: Lane, score: dict[str, 
     )
     result = llm.json(user=_user(p, lane, score, None, llm.store), **call)
     if not result.get("can_add_value"):
-        return Draft([], None, result.get("skip_reason") or "nothing specific to add")
+        return Draft([], result.get("skip_reason") or "nothing specific to add")
 
     bad = {i: v for i, v in _violations(result, cfg, p).items() if v}
     if bad:
@@ -187,15 +174,12 @@ def draft_comments(cfg: Config, llm: LLM, p: Post, lane: Lane, score: dict[str, 
         log.info("post %s: regenerating, violations:\n%s", p.id, feedback)
         result = llm.json(user=_user(p, lane, score, feedback, llm.store), **call)
         if not result.get("can_add_value"):
-            return Draft([], None, result.get("skip_reason") or "nothing specific to add")
+            return Draft([], result.get("skip_reason") or "nothing specific to add")
 
     clean = [o for i, o in enumerate(result.get("options", []))
              if not guard.check(o["text"], cfg.profile, p.text,
                                 cfg.s("comment", "min_chars", default=140),
                                 cfg.s("comment", "max_chars", default=650))]
-    note = (result.get("connection_note") or "").strip() or None
-    if note and guard.check(note, cfg.profile, p.text, 0, NOTE_MAX):
-        note = None
     if not clean:
-        return Draft([], None, "every draft failed the truth/voice checks")
-    return Draft(clean, note)
+        return Draft([], "every draft failed the truth/voice checks")
+    return Draft(clean)

@@ -534,10 +534,6 @@ function cardDetail(c, interactive) {
   const post = h("div", { class: "post clamp" }, c.post_text || "");
   const more = (c.post_text || "").length > 420 ? h("button", { class: "btn ghost sm", onclick: (e) => { post.classList.toggle("clamp"); e.target.textContent = post.classList.contains("clamp") ? "Show full post" : "Show less"; } }, "Show full post") : null;
   if (!more) post.classList.remove("clamp");
-  const noteTa = c.connection_note ? h("textarea", { rows: 3 }) : null;
-  if (noteTa) noteTa.value = state.edits[`${c.id}:note`] ?? c.connection_note;
-  noteTa?.addEventListener("input", () => (state.edits[`${c.id}:note`] = noteTa.value));
-  const isBuyer = c.intent === "buyer" || c.intent === "prospect";
 
   const el = h("div", { class: "detail" },
     h("div", { class: "dhead" }, h("span", { class: "id" }, `#${c.id}`), chip(c), scoreBadge(c.priority),
@@ -556,14 +552,6 @@ function cardDetail(c, interactive) {
 
     h("div", { class: "step" }, h("span", { class: "num" }, "2"), "Copy a comment, paste it under the post", h("span", { class: "hint" }, "rewrite the first line in your own words")),
     h("div", { class: "opts" }, c.options.map((o, i) => optionBlock(c, i, o, interactive))),
-
-    c.connection_note ? h("div", {},
-      h("div", { class: "step" }, h("span", { class: "num" }, "3"), "Send a connection request with this note", h("span", { class: "hint" }, isBuyer ? "after your comment is up" : "optional")),
-      h("div", { class: "note" }, noteTa),
-      h("div", { class: "opt-foot" }, h("span", { class: "chars" }, "max 300 chars on LinkedIn"),
-        c.author_url ? h("a", { class: "btn", href: c.author_url, target: "_blank", rel: "noopener" }, "Open profile ↗") : null,
-        h("button", { class: "btn primary", onclick: () => copy(noteTa.value, "Note") }, "⧉ Copy note"),
-        h("button", { class: "btn", onclick: () => act({ kind: "stage", card: c.id, stage: "connected" }, `#${c.id} moved to Connection sent`) }, "🤝 I sent it"))) : null,
   );
 
   if (c.status !== "sent") {

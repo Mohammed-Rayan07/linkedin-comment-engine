@@ -48,9 +48,6 @@ def render_card(card_id: int, p: Post, lane: Lane, score: dict[str, Any], prio: 
         lines.append(f"<b>Option {i} · {ANGLE_LABEL.get(o['angle'], o['angle'])}</b>")
         lines.append(f"<code>{e(o['text'])}</code>")  # tap to copy on mobile
         lines.append("")
-    if d.connection_note:
-        lines.append("🤝 <b>Connection note</b> (send after your comment):")
-        lines.append(f"<code>{e(d.connection_note)}</code>")
     lines.append("")
     lines.append("<i>Edited it? Reply to this message with your final comment so I learn your voice.</i>")
     text = "\n".join(lines)

@@ -145,7 +145,7 @@ class Store:
         return self.db.execute("SELECT * FROM posts WHERE id=?", (post_id,)).fetchone()
 
     # --- cards -------------------------------------------------------------
-    def add_card(self, post_id: str, options: list[dict[str, Any]], connection_note: str | None) -> int:
+    def add_card(self, post_id: str, options: list[dict[str, Any]], connection_note: str | None = None) -> int:
         cur = self.db.execute(
             "INSERT INTO cards (post_id, created_at, options_json, connection_note) VALUES (?,?,?,?)",
             (post_id, _now(), json.dumps(options), connection_note),

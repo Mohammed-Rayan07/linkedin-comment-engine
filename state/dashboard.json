@@ -1,7 +1,45 @@
 {
-"generated_at": "2026-10-25T18:21:16.804414+00:00",
+"generated_at": "2026-10-25T18:24:22.870220+00:00",
 "actions_applied": 247,
 "cards": [
+{
+"id": 257,
+"created_at": "2026-10-25T18:24:22.296215+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 6.9,
+"author_name": "SHIV Gowdru",
+"author_headline": "Recruiter | Hiring Expert | Talent Acquisition xperion Medical Recruiting Opportunities Throughout Middle East",
+"author_url": "https://www.linkedin.com/in/shiv-gowdru-261623347?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFbEb6kBjJttkBNVGNd_YWM0cGYaSnZdXKE",
+"post_url": "https://www.linkedin.com/posts/shiv-gowdru-261623347_hiring-dental-receptionist-we-are-activity-7520186549456490497-zZbI",
+"post_text": "📢Hiring: Dental Receptionist!!!🚨\n\nWe are looking for a Filipino Receptionist to join our dental clinic in Dubai.\n\n📄 Requirements:\n✅Filipino nationality\n✅Immediate joining\n✅Good communication and customer service skills\n- Previous dental clinic experience preferred\n\n➡️Interested candidates can share their CV dentalclinicteamdxb@gmail.com",
+"posted_at": "2026-10-25T18:16:31.700000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Medical recruiter hiring a dental receptionist in Dubai. Good clinic target, but it is a job post.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Finding someone for immediate joining in Dubai is tough. What happens with the enquiries that land after hours while the desk is empty?"
+},
+{
+"angle": "make_concrete",
+"text": "Staffing a dental clinic desk in Dubai fixes the daytime queue, but the ones calling at 11 PM still hit voicemail. That is usually where the real leak is."
+},
+{
+"angle": "pushback",
+"text": "Hiring a receptionist for a Dubai clinic covers the opening hours, but nobody can sit at that desk 24 hours a day. Hard to solve after-hours drop-off with headcount alone."
+}
+],
+"my_comment": null
+},
 {
 "id": 256,
 "created_at": "2026-10-25T18:21:10.125217+00:00",
@@ -9569,10 +9607,10 @@
 "usage": [
 {
 "day": "2026-10-25",
-"posts_scraped": 306,
-"cards_sent": 17,
-"llm_input_tokens": 206052,
-"llm_output_tokens": 77629,
+"posts_scraped": 337,
+"cards_sent": 18,
+"llm_input_tokens": 225471,
+"llm_output_tokens": 84826,
 "llm_cost_usd": 0.0
 },
 {
@@ -9728,7 +9766,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 3.53,
+"apify_month_usd": 3.6,
 "apify_month_cap_usd": 5.0,
 "learned": 226,
 "metrics": {},

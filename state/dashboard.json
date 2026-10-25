@@ -1,7 +1,85 @@
 {
-"generated_at": "2026-10-25T07:12:26.194192+00:00",
+"generated_at": "2026-10-25T09:49:35.354718+00:00",
 "actions_applied": 244,
 "cards": [
+{
+"id": 241,
+"created_at": "2026-10-25T09:49:34.710054+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 6.1,
+"author_name": "𝗔𝗱𝗮𝗺 𝗠𝗼𝘀𝘁𝗮𝗳𝗮 🎯",
+"author_headline": "45M+ impressions || 16 years building Saudi Arabia’s retail market. Now I help foreign brands ($1M–$20M) enter it. || Ex-Samsung CCO || 95% market entry success rate. || 30K+ Followers",
+"author_url": "https://www.linkedin.com/in/adammostafa80?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAOrFM4B08BOZD_2N4CTXATqPYX8qo4U-4M",
+"post_url": "https://www.linkedin.com/posts/adammostafa80_adammostafa-procurement-supplychain-activity-7520020568344076288-E1Vb",
+"post_text": "𝗘𝘃𝗲𝗿𝘆 𝗗𝗫𝗕 𝗮𝗿𝗿𝗶𝘃𝗮𝗹, 𝗼𝗻𝗲 𝘁𝗮𝘅𝗶 𝗰𝗼𝗺𝗽𝗮𝗻𝘆\n\n· · · · ·\n\nDubai Taxi Company (DTC) holds about 45% of Dubai's taxi market and has an exclusive five-year agreement with Dubai Airports to serve as the taxi operator at both DXB and Al Maktoum International.\n\n· · · · ·\n\nFY2025 at a glance:\n\n🚕 Revenue: AED 2.47 billion (+13%)\n🧳 53 million trips across taxi and limousine\n💵 Total FY2025 dividend: AED 302.7 million (+7.5%)\n📜 Policy: pay out at least 85% of annual net profit\n\n· · · · ·\n\nThe model is simple. The airport funnels a steady flow of tourists and residents into a fleet the company already controls, and the dividend policy returns most of the profit to shareholders.\n\n· · · · ·\n\nBut monopoly-like positions are never risk free. Ride-hailing rivals, regulated fares set by the RTA, and the arrival of self-driving taxis in Dubai could all shift the economics. A contract with a fixed term has to be renewed.\n\nProcurement lesson: an exclusive access contract is an asset, and also a dependency. Know when it expires and what happens next.\n\n· · · · ·\n\n𝙀𝙭𝙘𝙡𝙪𝙨𝙞𝙫𝙚 𝙖𝙘𝙘𝙚𝙨𝙨 𝙥𝙖𝙮𝙨 𝙬𝙚𝙡𝙡 𝙪𝙣𝙩𝙞𝙡 𝙩𝙝𝙚 𝙘𝙤𝙣𝙩𝙧𝙖𝙘𝙩 𝙞𝙨 𝙧𝙚𝙣𝙚𝙜𝙤𝙩𝙞𝙖𝙩𝙚𝙙.\n\n· · · · ·\n\n𝗔𝗱𝗮𝗺 𝗠𝗼𝘀𝘁𝗮𝗳𝗮 | Procurement & Supply Chain Consultant, GCC\n\n💬 Agree or disagree? Tell me in the comments.\n♻️ Repost if this is useful for your network.\n\n#AdamMostafa #Procurement #SupplyChain #GCC #SaudiArabia #UAE",
+"posted_at": "2026-10-25T07:16:58.719000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "Interesting GCC transport analysis, but outside Rayan's core proof bank of lead-waste and voice agents.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "That line about exclusive access being a dependency is spot on, Adam. Once passengers order ride-hailing before reaching the curb, physical queue control loses its edge."
+},
+{
+"angle": "field_detail",
+"text": "A five-year exclusive airport deal gives predictable volume today, but tech shifts usually erode the moat from the edges first. When ride-hailing apps or self-driving fleets capture passengers before they walk out of arrival gates, the valuation shifts well before the contract actually expires."
+},
+{
+"angle": "sharp_question",
+"text": "Curious how you see procurement teams accounting for tech shifts like autonomous taxis in a 5-year tender, Adam? Pricing a long-term monopoly gets tricky when the dispatch model could look totally different by year three."
+}
+],
+"connection_note": "Adam, caught your breakdown of DTC's airport agreement and contract expiry risks. Loved the clear procurement takeaway on exclusive access being both an asset and a dependency.",
+"my_comment": null
+},
+{
+"id": 240,
+"created_at": "2026-10-25T09:41:04.950867+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"intent": "buyer",
+"priority": 6.4,
+"author_name": "Mohammad Bahareth",
+"author_headline": "Founding Partner @ Manahij Al-Difa Lawfirm | Bringing Global Conglomerates to KSA with Turnkey Legal, Workspace & Talent Solutions | Business Strategist | Goal Model Canvas™ Creator | Inc. Arabia Columnist",
+"author_url": "https://www.linkedin.com/in/mohammadbahareth?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAE3KsgBkSL7TcxW5LCN55CZWVt8-gsASXM",
+"post_url": "https://www.linkedin.com/posts/mohammadbahareth_saudiarabia-gcc-marketentry-activity-7520040316398276608-WElb",
+"post_text": "Success in Saudi Arabia should become an asset for GCC expansion—not a\ntemplate copied without question.\n\nA practical lesson from The Investor’s Guide to Saudi Arabia is that\nstrong market entry depends on alignment between strategy and local\noperating reality. Once a Saudi platform begins to work, executives\noften face a second question: which parts of that model are genuinely\nportable, and which are valuable precisely because they were designed\nfor Saudi Arabia?\n\nThe distinction matters. A customer proposition may travel well. A\npricing logic, partnership model, hiring structure, approval process,\nor stakeholder map may not. Replicating everything can export hidden\nassumptions; rebuilding everything wastes institutional learning.\n\nBefore entering another GCC market, separate the Saudi model into three layers:\n\n1. Preserve: capabilities that create advantage across markets, such\nas delivery discipline, sector expertise, or governance standards.\n2. Adapt: elements that depend on local customers, channels, talent,\neconomics, or stakeholder expectations.\n3. Retire: temporary solutions that were useful during Saudi entry but\nshould not become regional infrastructure.\n\nThis exercise turns experience into a reusable corporate capability.\nIt also gives boards a clearer basis for allocating capital, assigning\nleadership, and sequencing expansion.\n\nRegional scale does not come from treating the GCC as one operating\nenvironment. It comes from knowing exactly what your Saudi experience",
+"posted_at": "2026-10-25T08:35:27.022000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "General GCC strategy post, lacks specific operational hooks for AI or speed-to-lead work.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "sharp_question",
+"text": "The 'Retire' layer for temporary solutions is smart, Mohammad. Which of those entry workarounds do teams struggle most to actually let go of?"
+},
+{
+"angle": "field_detail",
+"text": "Separating 'which parts of that model are genuinely portable' comes down to architecture. In a multi-agent prototype I built, keeping language rules and escalation paths in a config layer meant moving to a new setup was just a content swap instead of a ground-up rebuild."
+},
+{
+"angle": "missing_step",
+"text": "Exporting 'hidden assumptions' usually happens at the workflow level, Mohammad. Teams often adapt pricing and legal structures for a new GCC market, but forget that their daily coordination relies on local phone calls and informal chats. That unwritten workflow breaks the second you cross borders."
+}
+],
+"connection_note": "Mohammad, enjoyed your breakdown on separating Preserve, Adapt, and Retire layers when expanding out of Saudi. The point about exporting hidden operational assumptions hit home.",
+"my_comment": null
+},
 {
 "id": 239,
 "created_at": "2026-10-24T13:03:07.346610+00:00",
@@ -9165,10 +9243,10 @@
 "usage": [
 {
 "day": "2026-10-25",
-"posts_scraped": 38,
-"cards_sent": 0,
-"llm_input_tokens": 5887,
-"llm_output_tokens": 903,
+"posts_scraped": 58,
+"cards_sent": 2,
+"llm_input_tokens": 26444,
+"llm_output_tokens": 12502,
 "llm_cost_usd": 0.0
 },
 {
@@ -9324,7 +9402,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 3.0,
+"apify_month_usd": 3.04,
 "apify_month_cap_usd": 5.0,
 "learned": 223,
 "metrics": {},

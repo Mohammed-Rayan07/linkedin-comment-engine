@@ -1,14 +1,90 @@
 {
-"generated_at": "2026-10-25T14:07:46.636287+00:00",
-"actions_applied": 246,
+"generated_at": "2026-10-25T17:07:53.731641+00:00",
+"actions_applied": 247,
 "cards": [
 {
-"id": 242,
-"created_at": "2026-10-25T13:57:52.283083+00:00",
+"id": 244,
+"created_at": "2026-10-25T17:07:53.076286+00:00",
 "acted_at": null,
 "status": "sent",
 "stage": null,
 "chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.1,
+"author_name": "Mehwish Ansari",
+"author_headline": "Partnering for Skills, Growth & Impact | Workforce Development | Corporate Learning Expert | Vision 2030 Contributor",
+"author_url": "https://www.linkedin.com/in/mehwish-ansari-b83a1a1b4?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADH8ExMBPc1G_IRIi_f8J8ncB70LwscGgbs",
+"post_url": "https://www.linkedin.com/posts/mehwish-ansari-b83a1a1b4_aiproductivity-saudibusiness-businesstransformation-activity-7520026288695439360-NuFn",
+"post_text": "EPISODE 1/5 | THE MILLION-RIYAL DECISION\n\nWe've invested SAR 1 million in AI. Why are our customers still complaining?”\nIt was 9:00 AM on a Sunday morning in Riyadh. Khalid, CEO of a growing Saudi service company called Namaa Solutions, walked into the management meeting with a confident smile.\nAfter months of planning, the company had finally launched its new AI-powered customer service system. The promise was impressive: Faster responses. Lower operating costs. Happier customers.\nThree months later, Khalid opened the performance report. \nCustomer response time: Improved by 70%.Customer complaints: Increased by 25%.He stared at the numbers.\n“How is that possible?” The IT manager proudly explained that the system was working exactly as designed. The Customer Service Manager disagreed. \n\"Sir, customers are getting faster answers. But theyre not getting their problems solved.” The room went silent.\nThen Sara, the HR Director, asked a question nobody had considered.\n “Before we invested in AI, did we actually find out why customers were unhappy?” Khalid looked around the room.\nNobody answered. For the first time, he wondered whether the company had spent a million riyals solving the wrong problem. That afternoon, he asked Sara to investigate. What she discovered the following morning was far more concerning than the customer complaints.\nTO BE CONTINUED…🔜 Episode 2: The Employees Who Were Afraid of AI💬 If you were Khalid, what would you investigate first?  \nA fictional business s",
+"posted_at": "2026-10-25T07:39:42.557000+00:00",
+"likes": 4,
+"comments": 0,
+"why": "Fictional story on buying AI without discovery first. Directly aligns with Ray's opinions.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Response time down 70% but complaints up 25% is classic. If I were Khalid, I'd check how many of those 'fast answers' actually forced a second call."
+},
+{
+"angle": "field_detail",
+"text": "Sara's question hits the actual root cause, Mehwish. In an inventory system I built, we intentionally kept the AI read-and-propose only because fast automated answers without resolution cause total chaos. If Khalid's system is giving quick replies without the ability to execute fixes, it's just a digital wall between the customer and a solution."
+},
+{
+"angle": "pushback",
+"text": "Instead of just asking why customers were unhappy, I'd look directly at human handoffs. A 70% drop in response time usually means the software is closing tickets before the actual problem is resolved. If the team's KPIs reward speed over resolution, you end up paying a million riyals just to irritate customers faster."
+}
+],
+"my_comment": null
+},
+{
+"id": 243,
+"created_at": "2026-10-25T17:06:42.355999+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 7.6,
+"author_name": "Mohamad El Kurdi",
+"author_headline": "Founder of FNM Properties | Real Estate Investment Advisor",
+"author_url": "https://www.linkedin.com/in/mohammadalkurdi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAyEVkAB3Yqvt4M8TEJPsODTM_m-wh5KKTU",
+"post_url": "https://www.linkedin.com/posts/mohammadalkurdi_meta-whatsappbusiness-smallbusiness-activity-7520082581502013440-qSLO",
+"post_text": "14 days ago, Meta shut down our WhatsApp for Business.\n14 days later, we're still waiting for someone to take responsibility.\nWe run FNM Properties, a licensed and verified real estate company in Dubai. We pay for Meta services, invest in advertising and use WhatsApp to communicate with our clients and investors.\nOur alleged violation? SPAM.\nWe were following up with existing clients and property inquiries. Yes, some messages were copied and pasted because clients requested information about the same projects.\nIf we violated a policy, we're willing to correct it. But how can we fix something nobody explains?\nWhat followed was unbelievable:\n❌ Multiple support agents joined our conversations, then left without resolving anything.\n❌ Endless verification, security checks and technical errors.\n❌ Promises of human escalation that never materialized.\n❌ A final decision with no further appeal option.\nMeanwhile, our operations have been disrupted, transactions affected and financial losses continue.\nIs this how one of the world's largest technology companies treats verified, paying business customers?\nWe build businesses on these platforms, pay for their services and trust them with our customer relationships.\nYet one decision can disrupt years of hard work, with seemingly no accountability.\nMeta, we're not asking for special treatment. We're asking for a fair HUMAN review and someone to take responsibility.\nBig Tech should support small businesses, not leave them helpless.\nMaybe it's",
+"posted_at": "2026-10-25T11:23:23.808000+00:00",
+"likes": 7,
+"comments": 5,
+"why": "Dubai real estate agency facing WhatsApp ban. Perfect fit for alternative communication infrastructure.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "field_detail",
+"text": "Copying the same project text to multiple inquiries is what triggers Meta's automated spam filters. Were you using the basic Business app or the official WhatsApp API?"
+},
+{
+"angle": "missing_step",
+"text": "Copying and pasting project info on the standard WhatsApp Business app gets flagged as broadcast spam by Meta's algorithm almost immediately. The only safe way around it is using the official API with pre-approved message templates. But getting a banned phone number unblocked through Meta support is brutal because you're mostly fighting automated routing, not real humans."
+},
+{
+"angle": "pushback",
+"text": "Telegram sounds like a clean alternative, but most Dubai buyers won't switch apps just to ask about a listing. While Meta support drags its feet, have you been able to redirect new ad traffic straight to direct calls or web forms?"
+}
+],
+"my_comment": null
+},
+{
+"id": 242,
+"created_at": "2026-10-25T13:57:52.283083+00:00",
+"acted_at": "2026-10-25T17:02:40.221623+00:00",
+"status": "posted",
+"stage": null,
+"chosen_option": 2,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -38,7 +114,6 @@
 "text": "Waiting until things settle down rarely works because the urgent work never stops. Did you end up carving out a specific time block for ops, or just handle it day by day?"
 }
 ],
-"connection_note": "David - enjoyed your post on Vanguard Plumbing, especially the part about keeping information straight behind customer appointments. Thought it would be good to connect.",
 "my_comment": null
 },
 {
@@ -77,7 +152,6 @@
 "text": "Curious how you see procurement teams accounting for tech shifts like autonomous taxis in a 5-year tender, Adam? Pricing a long-term monopoly gets tricky when the dispatch model could look totally different by year three."
 }
 ],
-"connection_note": "Adam, caught your breakdown of DTC's airport agreement and contract expiry risks. Loved the clear procurement takeaway on exclusive access being both an asset and a dependency.",
 "my_comment": null
 },
 {
@@ -89,7 +163,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.4,
 "author_name": "Mohammad Bahareth",
@@ -116,7 +190,6 @@
 "text": "Exporting 'hidden assumptions' usually happens at the workflow level, Mohammad. Teams often adapt pricing and legal structures for a new GCC market, but forget that their daily coordination relies on local phone calls and informal chats. That unwritten workflow breaks the second you cross borders."
 }
 ],
-"connection_note": "Mohammad, enjoyed your breakdown on separating Preserve, Adapt, and Retire layers when expanding out of Saudi. The point about exporting hidden operational assumptions hit home.",
 "my_comment": null
 },
 {
@@ -128,7 +201,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.5,
 "author_name": "Johnson William",
@@ -155,7 +228,6 @@
 "text": "With off-plan transactions reaching 91,340 against 82,208 ready properties, buyer intent splits into two very different qualification paths. How are sales teams currently separating casual price shoppers from investors ready to deploy capital on actual rental yields?"
 }
 ],
-"connection_note": "Hi Johnson, your breakdown of the DLD tracker numbers and the ready versus off-plan pricing gap caught my attention. I follow UAE real estate data closely and would love to connect.",
 "my_comment": null
 },
 {
@@ -194,7 +266,6 @@
 "text": "When a venue houses several independent operators, coordination overhead scales much faster than the team tracking it. If daily operational updates rely on scattered messages instead of clear systems, minor alignment issues turn into constant friction."
 }
 ],
-"connection_note": "Hi Lee. Saw your update on the green light for Marshall House. Multi-operator venue design involves complex operational layouts, so I've been following how these spaces come together. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -233,7 +304,6 @@
 "text": "Reading the metric before choosing a model is just as critical in forecasting as checking macro sources. When I worked on an income prediction challenge, choosing the right metric definition instead of trusting default outputs changed the result by almost 4 MAPE points. If the baseline metric is flawed, every downstream budget built on top of it inherits that error."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -245,7 +315,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.5,
 "author_name": "Nima Amini",
@@ -272,7 +342,6 @@
 "text": "Enforcing strict submission parameters upfront is what keeps high-ticket underwriting moving. Without clear intake filters at the initial assessment stage, advisors end up spending more time clarifying missing documents than actually structuring deals."
 }
 ],
-"connection_note": "Hi Nima, saw your post on structuring mezzanine capital in the UAE. Clear deal intake and upfront criteria are critical when moving fast on execution capital. Would be great to connect here on LinkedIn.",
 "my_comment": null
 },
 {
@@ -284,7 +353,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 8.9,
 "author_name": "Maryam Ali",
@@ -311,7 +380,6 @@
 "text": "Hiring fixes 9-to-5 call volume, but the gap most clinics overlook is handling inquiries that come in after hours. A patient calling at 10 PM with an inquiry won't wait for morning opening hours, they just call the next clinic on Google until someone answers."
 }
 ],
-"connection_note": "Hi Maryam, noticed your hiring update for Elaira Polyclinic in Business Bay. I follow clinic operations and workflow management across the GCC and would be glad to connect here on LinkedIn.",
 "my_comment": null
 },
 {
@@ -323,7 +391,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Dr. Kandace Kichler, MD, FACS",
@@ -350,7 +418,6 @@
 "text": "Breaking down a workflow to teach it usually exposes steps that were kept purely out of legacy habit. When experienced practitioners audit their own routines to teach trainees, how often do they end up eliminating steps that no longer make sense?"
 }
 ],
-"connection_note": "Hi Dr. Kandace, saw your post on Dr. Talei's advice about teaching surgical work. The point on having an explicit reason for every step resonates strongly with how I approach workflow logic and process design. Would love to connect here on LinkedIn.",
 "my_comment": null
 },
 {
@@ -362,7 +429,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.6,
 "author_name": "Kevin Steckel",
@@ -389,7 +456,6 @@
 "text": "Focusing on procurement teams instead of headline numbers is the right call. Once those new PIF entities and main contractors publish vendor requirements in Q4, what is the biggest operational hurdle German SMEs face in meeting Saudi pre-qualification criteria on short notice?"
 }
 ],
-"connection_note": "Hi Kevin, saw your breakdown on how German Mittelstand firms should read FII announcements and track procurement teams post-event. I am based in Riyadh building AI workflows and follow local market entry dynamics closely. Would be great to connect here.",
 "my_comment": null
 },
 {
@@ -428,7 +494,6 @@
 "text": "Getting security clearances and service windows right upfront saves massive operational friction on day one. When access rules or site restrictions change mid-contract, how do your teams update field instructions without relying on manual group chat messages?"
 }
 ],
-"connection_note": "Hi Clinton, saw your post on matching commercial service delivery to real site constraints and access rules. Appreciate your insights on commercial intelligence and operational alignment. Would love to connect.",
 "my_comment": null
 },
 {
@@ -440,7 +505,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 7.3,
 "author_name": "Jonathan Stegall, MD",
@@ -467,7 +532,6 @@
 "text": "The front desk and nursing staff set the tone before a patient ever hears a diagnosis or treatment plan. When patient reviews highlight those personal touchpoints, how are you capturing those front-desk insights during daily handoffs so the physician knows what mattered to the patient before walking into the room?"
 }
 ],
-"connection_note": "Hi Dr. Stegall, caught your post on how small staff touchpoints shape patient experience far more than raw metrics. Really appreciated your focus on the whole team's role in care. Would love to connect.",
 "my_comment": null
 },
 {
@@ -506,7 +570,6 @@
 "text": "Uncovering existing services often comes down to the initial conversation, but front-line teams usually default to taking down just the primary request. When you identify these niche offerings, how are your teams structuring initial intake so staff bring them up naturally without making the interaction feel like a forced upsell?"
 }
 ],
-"connection_note": "Hi Acie, saw your post on highlighting peripheral services that clients don't realize exist. Spot on point about intake and surfacing secondary capabilities. Would love to connect and follow your updates here on LinkedIn.",
 "my_comment": null
 },
 {
@@ -545,7 +608,6 @@
 "text": "How do you scope an application when a micro-business has zero process documentation and everything lives in the owner's head? When the workflow changes week to week, building custom software often forces them to figure out how they actually operate first."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -584,7 +646,6 @@
 "text": "When project announcements drive a sudden surge of international and local interest, how are sales teams structuring initial qualification so hot inquiries do not go cold over the weekend?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -596,7 +657,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.9,
 "author_name": "Eamon Johal",
@@ -623,7 +684,6 @@
 "text": "Every missed enquiry or delayed update forces a client to look elsewhere. Running a quick check by calling your own dispatch line during peak hours reveals exactly what your customers experience when response times slip."
 }
 ],
-"connection_note": "Hi Eamon, enjoyed your post on building real operational ease into logistics in Dubai. Tracking how last-mile updates actually flow through to clients caught my eye. Would be good to connect.",
 "my_comment": null
 },
 {
@@ -635,7 +695,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 8.7,
 "author_name": "Jose Luiz Landeiro",
@@ -662,7 +722,6 @@
 "text": "When tracking how often these pre-exam steps catch an incorrect cuff size or bad positioning, how are your clinic leads logging those near-misses so you can spot which shift or staff member needs retraining before it impacts report quality?"
 }
 ],
-"connection_note": "Enjoyed your breakdown on MAPA exam quality control and catching collection errors before the report stage. Always interesting to connect with clinicians focused on tightening operational workflows.",
 "my_comment": null
 },
 {
@@ -674,7 +733,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.2,
 "author_name": "Marc C.",
@@ -701,7 +760,6 @@
 "text": "It looks like a cooling market on the surface, but the operational shift is really about buyer friction. When buyers switch from panic-buying to evaluating genuine long-term value, raw lead count matters far less than how fast an enquiry is qualified and routed. The real risk in a selective market is letting high-intent enquiries sit unassisted overnight."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -740,7 +798,6 @@
 "text": "When sales cycles stretch out, the operational bottleneck shifts from lead volume to response speed and follow-up. The step most teams miss in a slower market is locking down initial response time. In the speed-to-lead systems I build, bringing inbound enquiry to first response in under 10 seconds is what stops a hesitant buyer from moving to a competitor."
 }
 ],
-"connection_note": "Hi Rizwan, enjoyed your breakdown of Dubai's Q3 residential numbers and the shift in buyer behavior. Always good to connect with folks analyzing UAE real estate market dynamics closely.",
 "my_comment": null
 },
 {
@@ -779,7 +836,6 @@
 "text": "Separating communication from tracking makes sense, but adoption is where the friction lives. When team members still message instructions or approvals in WhatsApp out of convenience, how are you enforcing that boundary without someone constantly copying and pasting tasks into the system?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -818,7 +874,6 @@
 "text": "Managing brownfield work across multiple offshore fields means constant status checks between operators and contractors. When teams are chasing updates on jacket fabrication and deck module delivery across multiple sites daily, coordination overhead scales much faster than the headcount assigned to track it."
 }
 ],
-"connection_note": "Hi Alexei. Enjoyed your breakdown of the new Aramco EPCI awards and the LTA pool structure. Operating across complex industrial supply chains like Marjan and Safaniya brings unique coordination challenges. Would value connecting.",
 "my_comment": null
 },
 {
@@ -830,7 +885,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Obinna Azuike",
@@ -857,7 +912,6 @@
 "text": "Unplanned development levies completely distort the initial economics of a land purchase. If a property requires millions in unexpected infrastructure fees before a foundation can even go down, the acquisition cost needs to factor those liabilities in from day one."
 }
 ],
-"connection_note": "Enjoyed your breakdown of hidden estate development fees and the true cost of land acquisitions. Sharing notes from the property sector across different markets.",
 "my_comment": null
 },
 {
@@ -896,7 +950,6 @@
 "text": "Asking candidates to name one problem is a strong filter, but the missing step is separating workflow friction from team capability. In ops discovery, half the drag described as a staffing shortage is just manual tracking between tools. Mapping where candidate drop-offs happen precedes adding software."
 }
 ],
-"connection_note": "Hi Ilya, saw your post on fixing operational drag and loss of candidates in staffing. I map workflows and build AI automation to strip out manual coordination leaks. Would be glad to connect and follow your work with HelpResource.",
 "my_comment": null
 },
 {
@@ -908,7 +961,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.8,
 "author_name": "Abdelrahman Shalaby, MBA",
@@ -935,7 +988,6 @@
 "text": "The gap between closing deals and losing them usually hides in unmeasured stage drops. If a third of lost transactions drop off at pre-approval because timelines were unclear, that points to missing stage-gates rather than poor broker effort. Setting hard qualification rules before an offer gets accepted stops teams from chasing deals that were doomed at discovery."
 }
 ],
-"connection_note": "Hi Abdelrahman, read your note on analyzing lost transaction data in Doha and Dubai. Shifting financial qualification earlier in the funnel to catch preventable drop-offs is a solid operational framework. Would be great to connect here on LinkedIn.",
 "my_comment": null
 },
 {
@@ -947,7 +999,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.3,
 "author_name": "Rizwan Z.",
@@ -974,7 +1026,6 @@
 "text": "A 25.1% price jump stretches buyer decision cycles as investors evaluate entry points. In the outbound system I run for my own agency, follow-ups thread directly into the original email so long-term prospects keep full context over a multi-month nurture window. Without structured threading, six-month buyers get lost in basic CRM noise."
 }
 ],
-"connection_note": "Hi Rizwan, saw your post breaking down Dubai's 25.1% prime price growth against global luxury benchmarks. Interested in how you're seeing backend operations handle that surge in high-value buyer inquiries. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -986,7 +1037,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.9,
 "author_name": "Eyal Ashur",
@@ -1013,7 +1064,6 @@
 "text": "The supply incoming on Al Maryah could compress secondary rental yields short-term, even with pricing sitting 33% to 50% below ready comps. Until that new inventory gets absorbed by ADGM corporate relocations, holding costs can quietly eat into the projected capital growth."
 }
 ],
-"connection_note": "Hi Eyal, saw your breakdown on Abu Dhabi capital growth and the price per sq ft spread between ready and off-plan in Saadiyat and Al Maryah. Excellent market breakdown, would be great to connect.",
 "my_comment": null
 },
 {
@@ -1025,7 +1075,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.0,
 "author_name": "Firas El Ashry",
@@ -1052,7 +1102,6 @@
 "text": "In post-deal workflows I have mapped, the biggest friction point between developers and brokers isn't commission rates, it's visibility. When post-sale coordination lives in WhatsApp groups and manual email threads, inquiries sit unanswered. Turning those handoffs into clear status triggers stops brokers from having to call three people just to give an investor an update."
 }
 ],
-"connection_note": "Hi Firas, enjoyed your point on reputation being built after the deal. The handoff between sales and post-sales support in UAE real estate is where so many client experiences break down. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -1064,7 +1113,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.7,
 "author_name": "Khaled Eldesouky",
@@ -1091,7 +1140,6 @@
 "text": "When overseas buyers reach out after an international exhibition, response speed dictates whether they stay engaged. If an inquiry sits in a queue overnight, the initial momentum often drops away entirely."
 }
 ],
-"connection_note": "Hi Khaled, following your post on Almajdiah's international expansion and global exhibitions. Would be great to connect and follow your work in Saudi real estate.",
 "my_comment": null
 },
 {
@@ -1103,7 +1151,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.8,
 "author_name": "Umar Khan",
@@ -1130,7 +1178,6 @@
 "text": "When international investors reach out from different time zones, how do you structure your response workflow so inquiries coming in late at night still get immediate attention without burning out your sales team?"
 }
 ],
-"connection_note": "Hi Umar. Saw your post about launching Palmstone Dubai for UK and international investors. Moving from Blackburn to set up a brokerage here is a great jump. Would be good to connect as you build out the firm.",
 "my_comment": null
 },
 {
@@ -1142,7 +1189,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.3,
 "author_name": "Eighty Three Property",
@@ -1169,7 +1216,6 @@
 "text": "When owners hold onto details for months before getting in touch, how do you track engagement signals across that six-hundred-strong database to know which properties are warming up before they respond?"
 }
 ],
-"connection_note": "Enjoyed your breakdown on maintaining a consistent 18-month letter cadence for off-market properties. Would be good to connect and follow your insights on database consistency here in the region.",
 "my_comment": null
 },
 {
@@ -1208,7 +1254,6 @@
 "text": "The real test for local enterprise deployments is not how clean the Arabic or English handling is during a polished demo. It is what happens at the edges when accents, data mismatches, or system noise break the inputs. If you do not engineer the phonetic lookup and fallback path upfront, the system fails the moment it hits real operational friction."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -1220,7 +1265,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.3,
 "author_name": "Jamie Gurvitz",
@@ -1247,7 +1292,6 @@
 "text": "When new project launches spike inbound volume across multiple channels at the same time, how do you prevent response times from slipping while your sales managers are busy in meetings with brokers?"
 }
 ],
-"connection_note": "Hi Jamie, saw your post about expanding the sales team at LEOS as new projects roll out. Always interested in connecting with sales leaders scaling operations in Dubai real estate.",
 "my_comment": null
 },
 {
@@ -1259,7 +1303,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.3,
 "author_name": "Abdelrahman Shalaby, MBA",
@@ -1286,7 +1330,6 @@
 "text": "Choosing the wrong baseline metric distorts everything downstream. When reporting periods are misaligned, any pricing strategy or automated lead routing built on those trends ends up optimizing for noise rather than reality."
 }
 ],
-"connection_note": "Hi Abdelrahman. Enjoyed your breakdown on real estate data comparisons in Doha and Dubai. Spot-on point about incomplete reporting periods skewing market reads. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -1325,7 +1368,6 @@
 "text": "Willing clients are often the riskiest group to pilot with. Because they already know you, they tend to be forgiving of confusing steps and give polite feedback on things they would not actually bother with in a real transaction. The truer test is putting that property briefing in front of five cold inbound inquiries who owe you nothing, and watching where they abandon the form."
 }
 ],
-"connection_note": "Hi Ahmed, your post on running disciplined pilots before expanding a service was spot on, especially evaluating what people actually use versus what they say. Would like to connect and follow your work with Cevitas in Dubai.",
 "my_comment": null
 },
 {
@@ -1364,7 +1406,6 @@
 "text": "Processing 25 million transactions since 2018 means handling massive data volume without letting edge cases clog the queue. When backend systems compress a nine-day manual review down to one day, the validation logic has to run instantly or the queue just shifts upstream."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -1376,7 +1417,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.8,
 "author_name": "Nestor Rodriguez",
@@ -1403,7 +1444,6 @@
 "text": "In clinical leadership, hesitation to speak up often gets labeled as a confidence issue when it's actually a workflow issue. As a medical director, how do you structure your clinical operations so staff can flag broken handoffs or bottlenecks without waiting for a formal review?"
 }
 ],
-"connection_note": "Hi Nestor, saw your post on THRIVE South Bay about speaking up. As someone who audits healthcare operational workflows, your point on silent hesitation resonated deeply. Would love to connect here on LinkedIn.",
 "my_comment": null
 },
 {
@@ -1415,7 +1455,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 6.1,
 "author_name": "Hala M Jamoul",
@@ -1442,7 +1482,6 @@
 "text": "When testing after-hours clinic responsiveness, late-evening calls usually hit empty desks or automated voicemails. Even with strong daytime reception staff, most new patient inquiries happening after 7 PM end up booking with whichever clinic picks up first."
 }
 ],
-"connection_note": "Hi Hala, saw your hiring post for the nurse and receptionist roles at your clinic in Dubai. I follow operational workflows in healthcare across the GCC and would love to connect.",
 "my_comment": null
 },
 {
@@ -1454,7 +1493,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 8.0,
 "author_name": "Goyal Dentistry",
@@ -1481,7 +1520,6 @@
 "text": "A simple test to see how much chaos reaches new leads is calling your own front desk at 7 PM on a Friday. Whatever caller experience happens when the team is away or overwhelmed is what determines whether a patient books or calls the next clinic."
 }
 ],
-"connection_note": "Hi Goyal, saw your post on front desk operations in dental clinics. Balancing patient checkouts and incoming phone calls is a major challenge across practices. Would love to connect and follow your work.",
 "my_comment": null
 },
 {
@@ -1493,7 +1531,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.2,
 "author_name": "M Taimoor Aamer Chughtai",
@@ -1520,7 +1558,6 @@
 "text": "AED 30K in ad spend brings in inquiries around the clock, but most front desks shut down in the evening. When a qualified buyer submits 4 inquiries at 10 PM, how are teams structuring their after-hours routing so those leads don't sit untouched until the next morning?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -1559,7 +1596,6 @@
 "text": "When mapping out operations for service businesses, founders often spend months perfecting physical layouts and design concepts. Yet the biggest operational friction almost always happens in the communication layer between initial interest and confirmed booking. Fixing the intake workflow matters just as much as the room design."
 }
 ],
-"connection_note": "Enjoyed your post on hosting founder dinners for early feedback months before opening. Always interesting to see how early validation shapes the build. Would love to connect.",
 "my_comment": null
 },
 {
@@ -1571,7 +1607,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 6.2,
 "author_name": "Dr.Nourhan Zeidan",
@@ -1598,7 +1634,6 @@
 "text": "When you are deep into intricate aesthetic cases that require absolute focus, how do your teams handle patient inquiries so the level of attention matches the quality of the dentistry?"
 }
 ],
-"connection_note": "Hi Dr. Nourhan, your post on preserving natural beauty in aesthetic dentistry caught my attention. I follow developments in GCC dental practices and would love to connect.",
 "my_comment": null
 },
 {
@@ -1610,7 +1645,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.3,
 "author_name": "Sagai Nathan Philip",
@@ -1637,7 +1672,6 @@
 "text": "When HNIs evaluate developer risk across dozens of active projects, how do your teams filter out the ones with hidden milestone delays before presenting options to cross-border investors?"
 }
 ],
-"connection_note": "Hi Sagai, read your breakdown on Dubai real estate due diligence, especially the gap between gross and net yields. Would love to stay connected and follow your insights on investor risk management.",
 "my_comment": null
 },
 {
@@ -1676,7 +1710,6 @@
 "text": "Having a local partner sounds like an instant fix for travel restrictions, but a partner without explicit workflows still stalls. If coordination relies on unwritten rules and personal phone calls back to headquarters, the local team gets stuck waiting for remote sign-offs anyway. Structuring those handoffs cleanly is what actually keeps site work moving."
 }
 ],
-"connection_note": "Hi Kevin, saw your post on business continuity for German firms operating in Saudi Arabia during travel warnings. Appreciated your practical breakdown on local partner execution and duty-of-care. Would love to connect here in Riyadh.",
 "my_comment": null
 },
 {
@@ -1688,7 +1721,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 9.8,
 "author_name": "Faisal Khwaja",
@@ -1715,7 +1748,6 @@
 "text": "When daily listings climb 55.1%, tenant choice punishes slow coordination. If someone can tour multiple comparable units in the same area this afternoon, they will not wait for a delayed reply. Faisal, across the leasing operations you see in Dubai, how are teams structuring inbound intake so viewings get confirmed immediately instead of sitting in shared WhatsApp chats?"
 }
 ],
-"connection_note": "Hi Faisal, saw your note on Dubai rental listings jumping 55.1% and how that shifts negotiating power for tenants. Tracking how brokerages handle operational intake as supply expands. Would be glad to connect here.",
 "my_comment": null
 },
 {
@@ -1754,7 +1786,6 @@
 "text": "When customer care keeps recycling the exact same line for four weeks, the breakdown is rarely a bad agent. It is a blind dispatch queue. When you traced the follow-ups, did the support team actually see your ticket aging in real-time, or did it vanish into a black hole the moment the initial call ended?"
 }
 ],
-"connection_note": "Hi Rohan, read your post on the Livpure support loop. The app showing healthy while the hardware fails is a fascinating telemetry failure. Would love to connect.",
 "my_comment": null
 },
 {
@@ -1766,7 +1797,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.6,
 "author_name": "Joseph Wang'ondu",
@@ -1793,7 +1824,6 @@
 "text": "When the decision-maker is abroad and the relative at home is managing the groundwork, how do you handle the loop when a single question requires checking multiple people? Do your sales workflows route those multi-stakeholder queries into a shared tracking system, or does it still rely on direct phone calls?"
 }
 ],
-"connection_note": "Enjoyed your breakdown on diaspora land sales, especially the operational burden placed on relatives acting as multi-role supervisors. Managing multi-stakeholder coordination is a core focus of mine. Would love to connect.",
 "my_comment": null
 },
 {
@@ -1805,7 +1835,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.9,
 "author_name": "Danish Salim Qureshi",
@@ -1832,7 +1862,6 @@
 "text": "When official registration data lags behind actual buyer behavior by months, leadership has to rely on real-time pipeline signals. How do you verify whether a broker is accurately logging whether an enquiry wants off-plan or finished stock, or does that classification get lost once conversations move into personal WhatsApp chats?"
 }
 ],
-"connection_note": "Enjoyed your breakdown of the Q3 Dubai report and the real lag in registered data versus active secondary enquiries. Would be great to connect and follow your market notes.",
 "my_comment": null
 },
 {
@@ -1844,7 +1873,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 10.0,
 "author_name": "Rhona Eskander",
@@ -1871,7 +1900,6 @@
 "text": "Clinical training teaches you how to treat the patient in front of you, but operational systems have to be built live. Beyond cash flow and recruitment, what was the hardest workflow in your practice to turn into a repeatable system?"
 }
 ],
-"connection_note": "Hi Rhona, enjoyed your post on practice leadership and learning the business side on the job. Operating in the clinic space, I see how much clinical precision matters, but building systems for operations is a whole separate journey. Would love to connect.",
 "my_comment": null
 },
 {
@@ -1883,7 +1911,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.4,
 "author_name": "Tracie Battle, D.M.D.,M.S. (Smile Center of Huntsville)",
@@ -1910,7 +1938,6 @@
 "text": "The clinical transformation is what shows on camera, but the missing step in patient experience often happens weeks earlier. Patients carrying that level of dental anxiety usually hesitate at the intake stage. Making that initial contact frictionless is what gets them through the door to begin with."
 }
 ],
-"connection_note": "Hi Dr. Tracie, saw your post about restoring patient confidence through smile makeovers. That patient-first approach stands out. Would love to connect and follow your work.",
 "my_comment": null
 },
 {
@@ -1922,7 +1949,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.9,
 "author_name": "Fahad Al-Fahad",
@@ -1949,7 +1976,6 @@
 "text": "Filtering through 1,750 projects requires knowing exact buyer constraints upfront. When taking on new off-plan buyers, how do you capture their specific yield targets and payment preferences into a central pipeline so your team can match new developer launches instantly without manual back-and-forth?"
 }
 ],
-"connection_note": "Hi Fahad, enjoyed your post on navigating 1,750+ off-plan projects in Dubai. Filtering developer options down to investor capacity is a huge topic for real estate advisory teams right now. Would love to connect.",
 "my_comment": null
 },
 {
@@ -1988,7 +2014,6 @@
 "text": "Group chats build community quickly, but they struggle the moment they act as a coordination desk. How do you plan to manage organizer communication when multiple workshops are listed at once? If questions stay in the main feed, members mute the noise. If they move to direct messages, the organizer ends up trapped managing dozens of isolated chats on their personal phone."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -2027,7 +2052,6 @@
 "text": "Designing around exceptions is the right focus, but the operational hurdle is the return loop. When an invoice with a missing PO gets routed to a supervisor, does the human take over the entire task, or do they just unblock the single missing field and return it to the agent? How that handoff back into the workflow is handled determines whether labor costs actually detach from volume."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -2039,7 +2063,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.2,
 "author_name": "Nosa Aigbe Lebarty, MD",
@@ -2066,7 +2090,6 @@
 "text": "How do you protect that level of attentive communication when the front desk is flooded with repetitive scheduling calls? That operational friction is usually what forces staff to rush patients through intake."
 }
 ],
-"connection_note": "Hi Dr. Nosa, I read your post on patient dignity and making space for real discussions. I work on clinic operations and workflows, and I would value connecting with you here.",
 "my_comment": null
 },
 {
@@ -2105,7 +2128,6 @@
 "text": "Financial due diligence is standard during an acquisition, but operational due diligence is where most deals quietly break down post-close. When evaluating a target business, how do you verify whether the daily workflow can survive without the retiring owner stepping in to handle exceptions every afternoon?"
 }
 ],
-"connection_note": "Hi TJ, enjoyed your post on small business continuity and the practical side of transitions. Operating readiness during an acquisition is a fascinating puzzle; would love to connect and follow your insights.",
 "my_comment": null
 },
 {
@@ -2117,7 +2139,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Kevin B.",
@@ -2144,7 +2166,6 @@
 "text": "Capturing the energy of Vision 2030 is straightforward, but the missing step for growing companies is building the infrastructure behind the sales desk. If inbound inquiries double next month, teams usually rely on manual follow-ups that create massive leaks before a deal ever reaches a human."
 }
 ],
-"connection_note": "Enjoyed your read on the pace of growth here in Riyadh. Operating on the ground here shows how fast things move. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -2156,7 +2177,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.7,
 "author_name": "Dr. Shruti Santosh",
@@ -2183,7 +2204,6 @@
 "text": "Liking the human side of practice is essential, but clinical hours set a hard physical ceiling on how many conversations you can have. The real friction usually isn't chairside care. It's maintaining that personal touch in follow-ups when you're back-to-back in treatment."
 }
 ],
-"connection_note": "Hi Dr. Shruti, saw your post on balancing clinical work with connecting across dentistry. I build workflows for clinics in the GCC and always value connecting with practitioners focused on patient experience. Would love to connect.",
 "my_comment": null
 },
 {
@@ -2195,7 +2215,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.4,
 "author_name": "Cleon Barretto",
@@ -2222,7 +2242,6 @@
 "text": "Recruiting experienced off-plan leaders is crucial, but pipeline visibility is where most new teams struggle early on. When bringing in a new team leader, how do you verify whether agent drop-off is a closing skill issue versus leads getting lost in unmonitored WhatsApp threads?"
 }
 ],
-"connection_note": "Hi Cleon, saw your hiring post for a Real Estate Team Leader at Dressler & Naik. Interested in how Dubai brokerages structure off-plan lead routing and team pipelines as they scale.",
 "my_comment": null
 },
 {
@@ -2234,7 +2253,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 6.7,
 "author_name": "Diana Melnikova",
@@ -2261,7 +2280,6 @@
 "text": "Launching treatment rooms quickly is a strong execution signal. When managing multi-room inventory and supplier expenses across a growing clinic, how do you track stock movement and invoice matching without your team getting bogged down in manual purchase order checks?"
 }
 ],
-"connection_note": "Hi Diana, read your post on clinic operations and cost control. Managing DHA compliance and supplier expenses across 26 staff is serious scale. Would love to connect.",
 "my_comment": null
 },
 {
@@ -2273,7 +2291,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.8,
 "author_name": "Ahmed Seleem",
@@ -2300,7 +2318,6 @@
 "text": "No cold calling is a strong incentive for agents, but portal leads create a different challenge: response speed. A portal inquiry isn't a guaranteed deal; it's a tiny window before the buyer reaches out to the next agency. The operational issue usually isn't lead quality, but how fast the intake system gets the lead to an active agent."
 }
 ],
-"connection_note": "Hi Ahmed, saw your hiring post for Elanova Real Estate and your focus on providing qualified portal leads to brokers. I track lead routing and sales desk workflows across UAE real estate. Would be great to connect here.",
 "my_comment": null
 },
 {
@@ -2339,7 +2356,6 @@
 "text": "The biggest friction point in SME accounting is usually the lag between front-line operations and the books. When project leads or site staff hold on to vendor bills and receipts for weeks, financial reporting arrives too late to guide cash decisions. When you onboard a fast-growing client, how do you get their team to submit clean source documents without having your accountants chase them manually?"
 }
 ],
-"connection_note": "Hi Farhan, saw your post on SME financial visibility in the UAE. The point about rising revenue masking cost creep resonates. I map and automate operational workflows in the region and often look at the intake friction before data hits the books. Glad to connect here.",
 "my_comment": null
 },
 {
@@ -2351,7 +2367,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.5,
 "author_name": "Sam King",
@@ -2378,7 +2394,6 @@
 "text": "Liquid buyers moving into ready stock expose a weakness that off-plan masks. In off-plan campaigns, delayed replies rarely kill the deal immediately because the developer controls the allocation. In the ready market, where over 10,000 one-bedroom deals have already closed this year, the asset is open to the entire market. If an inbound lead sits in an inbox for an hour, the buyer does not wait; they call the next agency with keys."
 }
 ],
-"connection_note": "Hi Sam, your breakdown of Q3 ready apartment data was sharp, particularly the volume split between 1-beds and ultra-luxury on the Palm. Great to see analysis grounded in actual DLD transactions rather than off-plan marketing. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -2390,7 +2405,7 @@
 "chosen_option": 3,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.0,
 "author_name": "Afiya Choudhury",
@@ -2417,7 +2432,6 @@
 "text": "Aligning commercial goals with national ambitions sounds good on paper, but delivery fails when daily operations cannot support the promise. Across the organisations you see entering the market, how many actually map their workflows and compliance handoffs before recruiting, versus hiring people simply to absorb back-office friction?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -2429,7 +2443,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.1,
 "author_name": "Fahad Al-Fahad",
@@ -2456,7 +2470,6 @@
 "text": "When developers roll out aggressive buying conditions, the real bottleneck is rarely investor interest. It is handling the specific friction points that make buyers pause, like post-handover supply and payment schedule risk. In your advisory workflow, how do you systematically track and follow up on those specific investor objections once the initial brochure has been sent?"
 }
 ],
-"connection_note": "Hi Fahad, saw your post on Dubai market opportunities and investor hesitation. I follow how advisory desks handle off-plan deal flow and buyer qualification across the UAE. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -2495,7 +2508,6 @@
 "text": "When physical equipment gets retrofitted or upgraded, older field solutions become obsolete or dangerous. In a group with 100 members and months of rapid messages, how does the system handle memory invalidation when an old fix is retired? Surfacing an outdated workaround during a live incident is usually the failure mode that breaks trust with field engineers."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -2507,7 +2519,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 8.3,
 "author_name": "Omid Kashtiara",
@@ -2534,7 +2546,6 @@
 "text": "Trust starts the moment a patient tries to book. When I had severe tooth pain at 11 PM, I called five clinics. Three did not answer, one played a robotic voicemail reading opening hours, and one was Arabic-only. The sixth clinic answered, booked the appointment, and got a loyal patient. Clinical quality only matters if the front door is actually open."
 }
 ],
-"connection_note": "Hi Omid, your post on respect for patient time being what makes a clinic last hit home. Clinical skill is the baseline, but the intake experience before the chair is what sets the tone. Would be great to connect with an experienced clinic operator in the UAE.",
 "my_comment": null
 },
 {
@@ -2546,7 +2557,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.6,
 "author_name": "Don Mosbeh",
@@ -2573,7 +2584,6 @@
 "text": "When an agent concedes margin in the room, it is often because they cannot afford to lose the meeting. If their calendar has no other qualified appointments lined up that week, panic drives the discount more than poor technique. When you audit underperforming sales desks, how much of that discounting traces back to pipeline insecurity rather than room presence?"
 }
 ],
-"connection_note": "Don, enjoyed your post on room control and protecting deal margins. Defending terms usually breaks down between weak negotiation technique and an empty pipeline that forces the agent to panic. Glad to follow your work on real estate sales leadership in the region.",
 "my_comment": null
 },
 {
@@ -2612,7 +2622,6 @@
 "text": "Provided leads sound like an immediate win, but handing raw contacts to commission-based advisors usually creates quiet waste. Advisors naturally cherry-pick the warmest two and let the rest sit until they go cold. Unless the firm has deterministic routing and qualified intake upfront, half the marketing spend gets abandoned before a second call happens."
 }
 ],
-"connection_note": "Hi Nick, saw your post on recruiting self-employed wealth managers in Dubai. The lead distribution dynamic for commission-based roles is an interesting operational puzzle. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -2624,7 +2633,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.3,
 "author_name": "Sofia Lachtar",
@@ -2651,7 +2660,6 @@
 "text": "Over 1 million rental contracts signals massive tenant turnover across the city. For full-service brokerages, handling that volume often cannibalizes sales capacity because agents get pulled into tenancy renewals and listing inquiries. As rental contract volume continues climbing, how does Valor separate incoming leasing leads so your sales team stays focused purely on off-plan and commercial buyers?"
 }
 ],
-"connection_note": "Hi Sofia, saw your breakdown of Dubai's Q3 transaction trends, especially the shift toward smaller commercial office units. Follow your market updates closely and would be glad to connect here.",
 "my_comment": null
 },
 {
@@ -2663,7 +2671,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.5,
 "author_name": "Azid Gungah MBA MSc",
@@ -2690,7 +2698,6 @@
 "text": "Institutional portfolios protect their margins because tenant requests, safety certs, and contractor dispatches follow defined escalation rules rather than sitting in someone's inbox. For an investor building toward institutional scale, at what specific portfolio size do you see manual phone calls and group chats completely break down?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -2729,7 +2736,6 @@
 "text": "Supplier quote chasing eats the most time because nobody prices the same scope the same way. One sends a PDF total, another texts a day rate, and another leaves out materials. How is Ava structuring those mismatched supplier quotes so the contractor doesn't spend half their evening auditing the bot's extractions?"
 }
 ],
-"connection_note": "Hi Maxwell, saw your post on tackling tender paperwork with Ava. I build workflow automation and deal with the chaos of quote reconciliation often, so I appreciate the push to get trade owners off late-night admin. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -2741,7 +2747,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.8,
 "author_name": "M Taimoor Aamer Chughtai",
@@ -2768,7 +2774,6 @@
 "text": "The friction between marketing and sales almost always hides behind response latency. Waiting three hours gives an interested buyer plenty of time to contact competing firms. When you audit an underperforming brokerage pipeline, how do you verify whether a lost deal actually died from poor lead quality or simply because first contact took too long?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -2780,7 +2785,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.0,
 "author_name": "EMEKAM UGOCHUKWU",
@@ -2807,7 +2812,6 @@
 "text": "The deals that bleed investors dry rarely fail on the purchase price. They fail because holding costs compound while execution stalls. In your projects, where do you find investors underestimate the capital requirement most: the contingency reserves for physical delays, or the carrying costs of an extended vacancy?"
 }
 ],
-"connection_note": "Hi Emekam, enjoyed your point on capital capacity in real estate. The carrying cost while seeing a project through is where most budgets actually break. Would be great to connect and follow your updates here.",
 "my_comment": null
 },
 {
@@ -2819,7 +2823,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Mansour AlTohimi",
@@ -2846,7 +2850,6 @@
 "text": "National institutional stability gives Saudi companies a clear runway, but the internal counterpart is operational autonomy. When you evaluate businesses scaling in the Kingdom, how do you verify whether their decision-making is embedded in reliable systems versus just resting on the founder manually unblocking daily issues?"
 }
 ],
-"connection_note": "Mansour, your point on institutional resilience as an economic advantage in Saudi Arabia resonated. I map operational workflows for scaling businesses in Riyadh and follow your work on building durable companies here. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -2885,7 +2888,6 @@
 "text": "Click-to-WhatsApp cuts down click friction, but it shifts the entire bottleneck onto the sales desk. When multiple enquiries land at once or come in after hours, how do your clients keep those conversations from stalling? If an inbound chat sits for thirty minutes without qualification, high-intent buyers usually message the next business on their feed."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -2897,7 +2899,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.7,
 "author_name": "Mustajab Ahmad",
@@ -2924,7 +2926,6 @@
 "text": "Rapid transaction growth like Abu Dhabi's 31.1% year-on-year surge exposes where deal pipelines actually constrict. Moving AED 27.4 billion in residential volume in a single quarter shifts the pressure straight to cross-border verification, escrow milestones, and compliance. When those handoffs rely on manual email threads, settlement timelines stretch and capital sits idle before closing."
 }
 ],
-"connection_note": "Mustajab, saw your post on UAE transaction volumes in Q3 2026, especially the 31.1% growth in Abu Dhabi. Enjoyed your perspective on structured investments and cross-border capital. Would be great to connect here.",
 "my_comment": null
 },
 {
@@ -2936,7 +2937,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 9.7,
 "author_name": "Abdullah Elmohammed",
@@ -2963,7 +2964,6 @@
 "text": "Rewarding performance fairly requires knowing where the friction actually lives. When an agent's deal volume dips, how does your management team diagnose whether it was poor negotiation or qualified inquiries slipping through slow follow-up? Without clear operational visibility into lead routing, fixing broker output usually defaults to guesswork."
 }
 ],
-"connection_note": "Abdullah, your point on building a brokerage around systems rather than just one-off commissions resonated. The agencies that scale sustainably are the ones that protect broker time with solid infrastructure. Would be great to connect here.",
 "my_comment": null
 },
 {
@@ -3002,7 +3002,6 @@
 "text": "Most founders entering the UAE focus almost entirely on picking the right jurisdiction. Yet with trade and transportation driving over a third of the economy, operational bottlenecks appear in the daily coordination with local partners and banks. When companies approach Al Riyady Group for market entry, how often do they have their backend workflows mapped before committing capital?"
 }
 ],
-"connection_note": "Hi Saqib, your breakdown of Dubai's sector distribution caught my eye, especially the point on trade and transport driving the core rather than just real estate headlines. Would be great to connect and follow your work.",
 "my_comment": null
 },
 {
@@ -3041,7 +3040,6 @@
 "text": "Framing administration as a second job often leads founders into a trap: trying to outwork operational friction with sheer hours. When a skilled practitioner brute-forces the back office at night, coordination stays stuck in group chats, phone calls, and manual follow-ups. The bottleneck isn't that they lack formal management training. It is that they treat broken workflows as personal chores instead of building deterministic handoffs that run without them."
 }
 ],
-"connection_note": "Hi Peter, saw your note on the gap between practitioner skills and building an organization around them. Running into this constantly when auditing operational workflows for SMBs. Looking forward to reading your article on the 12 Fatal Issues Framework.",
 "my_comment": null
 },
 {
@@ -3053,7 +3051,7 @@
 "chosen_option": 3,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.6,
 "author_name": "Kaseer Cotti Collan",
@@ -3080,7 +3078,6 @@
 "text": "Direct messaging and personal phone calls get initial contacts, but they create a quiet tracking leak for a brokerage. When high-ticket inquiries land directly in personal WhatsApp chats, status updates stay trapped on individual phones instead of a central pipeline. If an investor goes silent after receiving the brochure, there is no system triggering the follow-up before they move on to another firm."
 }
 ],
-"connection_note": "Hi Kaseer, saw your post on Ramhan Island in Abu Dhabi. With luxury capital increasingly looking beyond Dubai, I'm following how UAE brokerages are positioning Abu Dhabi waterfront assets to international investors. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -3092,7 +3089,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.5,
 "author_name": "Mohammad Bahareth",
@@ -3119,7 +3116,6 @@
 "text": "A promise register only works if the commercial team has skin in the delivery outcome. If sales commissions pay out at signature, the people who made the informal commitments have already moved on before the early-warning review happens. How do the firms you advise structure commercial incentives so the deal team stays tied to delivery success through the first quarter?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -3158,7 +3154,6 @@
 "text": "A single regional playbook fails on execution, but treating every country as completely bespoke creates its own trap. The underlying workflow can stay consistent across borders if approval thresholds, escalation triggers, and local compliance live as modular rules outside the core pipeline. If the process is rebuilt from scratch in every territory, leadership loses the ability to measure operational health or diagnose where money is leaking."
 }
 ],
-"connection_note": "Hi Hani, read your breakdown on cross-border MEA expansion. The point on how unaligned scaling just exports chaos resonates with the workflow work I do across the region. Would like to connect and follow your work.",
 "my_comment": null
 },
 {
@@ -3170,7 +3165,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.0,
 "author_name": "Peter Dayot",
@@ -3197,7 +3192,6 @@
 "text": "Securing $350 million in subordinated bonds from residential buyers shows how sophisticated the top of the market has become. But pitching a 5% yield inside a $15 million home purchase blurs the line between real estate brokerage and private credit. How are advisory desks presenting those subordination terms without getting bogged down in weeks of custom legal back-and-forth with the buyer's counsel?"
 }
 ],
-"connection_note": "Hi Peter, saw your post on the Aman development raising $350M through Founder Bonds. Fascinating look at how ultra-luxury developers are blending private credit structures into residential sales. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -3236,7 +3230,6 @@
 "text": "Catching friction on calls matters, but listening alone does not prevent what happened in Ohio. An attorney breaching client confidentiality on Google is an impulse control failure under stress. Early sentiment detection gives the firm time to fix the relationship, but stopping a public Bar complaint requires an approval gate on public review replies so nobody can post defensively without partner review."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -3248,7 +3241,7 @@
 "chosen_option": 3,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.2,
 "author_name": "M Taimoor Aamer Chughtai",
@@ -3275,7 +3268,6 @@
 "text": "Agent visibility usually breaks because client communication lives in personal WhatsApp chats rather than a tracked system. When you audit a sales desk, how do you verify whether a broker actually followed up without forcing them into manual CRM data entry that they inevitably abandon?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -3287,7 +3279,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.5,
 "author_name": "Ahmed Salah",
@@ -3314,7 +3306,6 @@
 "text": "Aligning campaigns with ready and close-handover inventory cuts out the noise of pure speculators. When those high-intent inquiries flood in, how does your sales team currently filter out buyers who want a ready unit but lack immediate financing approval?"
 }
 ],
-"connection_note": "Hi Ahmed, your post on shifting Dubai real estate campaigns toward ready and close-handover units hit close to home. Would love to connect and follow your insights on sales ops.",
 "my_comment": null
 },
 {
@@ -3353,7 +3344,6 @@
 "text": "When daily coordination lives in phone calls and WhatsApp, that friction never shows up as a line item on the books. It just feels like you need more hands. A simple diagnostic is tracking how many daily calls are just people asking for information stored in your head. If that number is high, fixing the workflow comes before adding payroll."
 }
 ],
-"connection_note": "Hi Alan, saw your post about stepping off the tools at Waste Wizard Group. Balancing driver runs, sales, and payroll at year three is a massive lift. Would love to connect and follow your growth journey.",
 "my_comment": null
 },
 {
@@ -3365,7 +3355,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.7,
 "author_name": "Sagai Nathan Philip",
@@ -3392,7 +3382,6 @@
 "text": "Legal ownership and FEMA rules get an investor comfortable with the transaction, but long-term success comes down to post-handover management. For an HNI deploying ₹1 crore or ₹2 crore, tenant turnover, service charges, and maintenance across borders drain returns faster than regulatory fees. That operational plan needs to be clear before signing the reservation agreement."
 }
 ],
-"connection_note": "Hi Sagai, saw your post on the 8 questions Indian HNIs need to ask before buying in Dubai. The breakdown between gross and net yield is where most buyers need real clarity. Would be great to connect and follow your upcoming investor series.",
 "my_comment": null
 },
 {
@@ -3404,7 +3393,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.0,
 "author_name": "Aksiniya Stoycheva",
@@ -3431,7 +3420,6 @@
 "text": "Chasing high lead volume on 0% tax and visas usually hurts a luxury sales desk more than it helps. When inbound prospects come in through direct messaging without upfront qualification, senior brokers spend half their week answering entry-level residency questions instead of closing transactions. A smaller volume of pre-vetted buyers with verified capital will always beat an inbox full of unvetted chats."
 }
 ],
-"connection_note": "Hi Aksiniya, saw your post on next-gen wealth moving into UAE real estate. Always interested in how top sales directors in Dubai manage the surge of international buyer inquiries across time zones. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -3443,7 +3431,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.1,
 "author_name": "Daniel Clarke",
@@ -3470,7 +3458,6 @@
 "text": "Once buyers realize the listing agent is contractually bound to the seller, what actually changes their behaviour? Does that realization make them seek independent representation, or does the hesitation around paying a direct advisory fee keep them negotiating alone anyway?"
 }
 ],
-"connection_note": "Daniel, your poll on who the agent actually represents hits an important blind spot. The representation asymmetry buyers face against professional negotiators is rarely discussed plainly. Would like to follow your work on buyer agency here.",
 "my_comment": null
 },
 {
@@ -3509,7 +3496,6 @@
 "text": "The cheapest option is usually a trap, but prestige alone does not solve client retention. A high-end Sheikh Zayed Road office gets people to take you seriously on day one. If proposals take five days to send or follow-ups get lost in group chats, the contrast hurts credibility even more. Premium space works best when backend execution is already tight enough to match it."
 }
 ],
-"connection_note": "Hi Shresht, your post on an office communicating credibility to banks and clients before you say a word resonated. Appreciated your perspective on Ejari compliance and commercial presence in Dubai. Following your work building 3S Group and BizCity across the UAE.",
 "my_comment": null
 },
 {
@@ -3548,7 +3534,6 @@
 "text": "Point 5 is where capital deployment usually stalls. When daily coordination runs on phone calls and WhatsApp, it never appears as a line item. It just shows up as a constant urge to hire more people. When you evaluate SMEs seeking growth capital, how often is their hiring plan driven by genuine capacity limits versus manual workflows that should have been automated?"
 }
 ],
-"connection_note": "Hi Arslan, saw your post on the AED 1B Emirates Growth Fund and your 5 criteria for SME capital readiness. Point 5 on teams executing without the founder resonates strongly with the operational bottlenecks I see in GCC businesses. Would like to connect.",
 "my_comment": null
 },
 {
@@ -3587,7 +3572,6 @@
 "text": "Teasing the offer on WhatsApp in November builds great pipeline, but managing that influx across a six-week festival puts massive pressure on floor staff. When inbound messages surge alongside footfall in December, how do your retail teams filter immediate buyers from casual browsers without pulling staff away from physical sales?"
 }
 ],
-"connection_note": "Hi Arslan, caught your timeline breakdown for DSF planning. Managing that November WhatsApp waitlist spike without overwhelming in-store staff is an interesting operational puzzle. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -3599,7 +3583,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.5,
 "author_name": "Danish Salim Qureshi",
@@ -3626,7 +3610,6 @@
 "text": "Leasing enquiries jumping 45 per cent while ready apartment prices soften 2.4 per cent highlights an interesting yield dynamic. When advising investors on ready stock right now, are you seeing them prioritize tenanted properties with immediate cash flow, or vacant units where they can capture current rental demand on their own terms?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -3638,7 +3621,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 10.0,
 "author_name": "Dr. Tamer Abusalah, MSc HCM, BDS",
@@ -3665,7 +3648,6 @@
 "text": "Distributing 22 specialists across 3 standalone branches solves geographic friction, but it increases intake complexity. When a patient reaches out with ambiguous symptoms, how do your clinic leads ensure front-desk staff route them to the right specialist on the first touch instead of causing scheduling back-and-forth?"
 }
 ],
-"connection_note": "Hi Dr. Tamer, saw your update on expanding Tajmeel's specialist dental clinics across Abu Dhabi. The hub-and-spoke model with direct hospital referral pathways is a great approach to community access. Would be glad to connect and follow the rollout.",
 "my_comment": null
 },
 {
@@ -3704,7 +3686,6 @@
 "text": "Publishing a direct mobile line makes reaching out simple, but relying strictly on phone calls creates an operational bottleneck during busy site hours. If two contractors call at once or someone reaches out after hours, an unanswered ring sends them straight to the next equipment provider. Having a rapid digital intake running alongside direct calls is what prevents those high-value inquiries from leaking."
 }
 ],
-"connection_note": "Hi Riffat, saw your post on mobile crane rentals across Saudi Arabia. Always interested in how heavy equipment and lifting operations manage site dispatch and fast lead qualification here in KSA. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -3716,7 +3697,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.8,
 "author_name": "Faisal Khwaja",
@@ -3743,7 +3724,6 @@
 "text": "Separating citywide expansion from project-level math is where most first-time investors stumble. Dubai reaching 4.58 million residents confirms macro demand, but individual project success still depends on localized supply and developer execution. When buyers message you about a specific development, what is the first filter you use to test whether their holding plan matches realistic handover timelines?"
 }
 ],
-"connection_note": "Hi Faisal, your point on Dubai's population growth vs pocket-level supply caught my eye. Good to see an advisor focusing on realistic hold periods over generic market hype. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -3755,7 +3735,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 8.5,
 "author_name": "Maryam Ali",
@@ -3782,7 +3762,6 @@
 "text": "A great receptionist keeps the day running, but the true benchmark is the 7 PM test. Call your own clinic line at 7 PM or on a Friday. Whatever happens on that call is what high-intent patients experience when the desk is unstaffed. In competitive areas like Business Bay, an unanswered call or a recorded voicemail about hours usually means the patient immediately calls the next clinic."
 }
 ],
-"connection_note": "Hi Maryam, saw your post hiring a call center receptionist for Elaira Polyclinic in Business Bay. Managing front-desk patient flow alongside incoming phone lines is a tough balance in busy clinics. Would love to connect and follow your team's growth.",
 "my_comment": null
 },
 {
@@ -3794,7 +3773,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 6.2,
 "author_name": "Bob Jing",
@@ -3821,7 +3800,6 @@
 "text": "Recognizing that extractions have zero consultation hurdle is spot on. The missing operational step is ensuring that the moment an urgent inquiry hits, the booking is locked in instantly before the patient looks elsewhere."
 }
 ],
-"connection_note": "Hi Bob, enjoyed your breakdown of the business side of dental extractions, especially the point about turning acute pain into long-term trust. Connecting with fellow operators focused on clinic operations.",
 "my_comment": null
 },
 {
@@ -3833,7 +3811,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.3,
 "author_name": "Faisal Khwaja",
@@ -3860,7 +3838,6 @@
 "text": "Knowing the milestone rules is only half the battle. The missing operational step is automated tracking that alerts the sales team the moment a construction milestone clears, so they can trigger the bank application before the buyer loses momentum."
 }
 ],
-"connection_note": "Faisal, enjoyed your breakdown of the Sobha and RAKBANK financing checkpoint. Tracking construction milestones like that changes how brokerages qualify off-plan buyers. Would love to connect.",
 "my_comment": null
 },
 {
@@ -3899,7 +3876,6 @@
 "text": "In an inventory system I built, the AI can propose but never write. That boundary is critical when dealing with customer data under PDPL. The LLM can handle phrasing, but deterministic code must govern data retrieval. When an agent only receives the exact transactional record needed for that specific inquiry, you eliminate the risk of a model exposing broader customer history."
 }
 ],
-"connection_note": "Hi Muhammad, read your post on AI data access and PDPL in Saudi Arabia. Enforcing data boundaries at the API layer rather than inside prompts is a conversation I track closely while building AI systems in Riyadh. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -3911,7 +3887,7 @@
 "chosen_option": 3,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.5,
 "author_name": "Andi Narti",
@@ -3938,7 +3914,6 @@
 "text": "Dubai brokers spend half their day out on site viewings, which is exactly when fresh portal leads tend to stall. When your routing rules assign an enquiry to an agent who is tied up with a client, does Clix re-route the lead dynamically based on live calendar availability, or does it rely on a manager manually stepping in after a response threshold is breached?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -3977,7 +3952,6 @@
 "text": "Combining live phone and WhatsApp handling with video creation puts two very different paces on one person. When inbound volume spikes while they are on camera, how do you keep initial response times under a few minutes so prospects do not reach out to competing services?"
 }
 ],
-"connection_note": "Hi Shaista, saw your post hiring for a sales and content role in Bur Dubai. Combining live WhatsApp/phone conversion with content creation is a unique operational challenge. Would love to connect and follow your team's growth at YS International.",
 "my_comment": null
 },
 {
@@ -4016,7 +3990,6 @@
 "text": "Divvey, when you coach owner-led businesses through this friction, where does the real breakdown usually happen? Is it the owner struggling to write down clear approval boundaries, or the team routing small decisions upward because they expect to be second-guessed if something goes wrong?"
 }
 ],
-"connection_note": "Hi Divvey, saw your post on Lala vs Salary Singh and the delegation trap in owner-led SMEs. Setting clear decision boundaries and escalation paths is a huge part of workflow design. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -4028,7 +4001,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.1,
 "author_name": "Ieva B.",
@@ -4055,7 +4028,6 @@
 "text": "Analyzing competing inventory nearby is essential before signing an off-plan agreement. When inbound inquiries spike after major market data updates, how do you keep buyers focused on these comparative metrics instead of getting swept up by the next aggressive developer payment plan?"
 }
 ],
-"connection_note": "Hi Ieva. Enjoyed your breakdown on evaluating Dubai off-plan competition before looking at payment plans. Working on data flows here in Riyadh and thought it would be good to connect.",
 "my_comment": null
 },
 {
@@ -4067,7 +4039,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.2,
 "author_name": "Faisal Khwaja",
@@ -4094,7 +4066,6 @@
 "text": "Announcements like this usually trigger a wave of interest from buyers trying to time the market. When these inquiries land across your team, how do you quickly separate investors who actually hold the capital for that 50 percent threshold from casual browsers?"
 }
 ],
-"connection_note": "Hi Faisal, really enjoyed your breakdown of the Sobha and RAKBANK financing update. As someone tracking market structures in the region, I would love to connect and follow your insights on Dubai real estate.",
 "my_comment": null
 },
 {
@@ -4106,7 +4077,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.2,
 "author_name": "Alex Johnson",
@@ -4133,7 +4104,6 @@
 "text": "Relationships and sound judgment drive repeat business at this level, but initial inbound inquiries still demand immediate attention. When family offices or international buyers reach out out of hours, how do you balance maintaining that high-touch private banking feel with the speed-to-response expected in a market moving this fast?"
 }
 ],
-"connection_note": "Enjoyed your breakdown of the FT piece on Dubai real estate, especially the point on how discretion and long-term relationships drive the top end of the market. Connecting to follow your insights on the sector.",
 "my_comment": null
 },
 {
@@ -4145,7 +4115,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 8.0,
 "author_name": "Bob Jing",
@@ -4172,7 +4142,6 @@
 "text": "Rapport in the operatory keeps patients returning, but that trust begins before they ever see a clinician. If an anxious caller gets a rushed receptionist or a dead line, they simply hang up and call the next clinic down the road. You only ever count the patients who made it into the chair, never the missed calls that went to a competitor."
 }
 ],
-"connection_note": "Hi Bob, enjoyed your post on training new grads to build chairside trust and treat patients like friends. That focus on patient connection in dentistry is rare and refreshing. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -4211,7 +4180,6 @@
 "text": "Maria usually beats a document search because she knows the unwritten context, like which rule is actually enforced during a dinner rush. When two kitchen instructions conflict in your system, how do you structure the workflow to flag that clash to an admin rather than forcing the chef on the line to parse both?"
 }
 ],
-"connection_note": "Hi Xaris, came across your post on AI search competing with 'ask Maria' in kitchen workflows. Really liked your point on showing conflicting instructions rather than guessing. I build AI agent workflows in KSA and enjoyed the focus on operational trust. Would love to connect.",
 "my_comment": null
 },
 {
@@ -4223,7 +4191,7 @@
 "chosen_option": 3,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.3,
 "author_name": "Ian D'Souza",
@@ -4250,7 +4218,6 @@
 "text": "Vetting external partners solves trust, but the missing operational step is a shared intake system. Without one, the client gets asked for the same passport copies, business plans, and proof of address across five different advisor email chains. Unifying that data intake upfront protects the founder's time during setup."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -4262,7 +4229,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.1,
 "author_name": "Dr. Mohammed Hassan Al Raeesi",
@@ -4289,7 +4256,6 @@
 "text": "Guides educate buyers, but they can also create an operational trap for brokers. When an investor reads this and asks to compare three off-plan launches at once, agents can easily spend hours manually pulling brochures and payment schedules instead of focusing on buyers ready to commit."
 }
 ],
-"connection_note": "Dr. Mohammed, saw your post sharing the off-plan buyer guide. I follow how Gulf brokerages handle inbound qualification when overseas investors start comparing developer payment plans. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -4328,7 +4294,6 @@
 "text": "Taking ownership sounds simple until a customer calls three times in an afternoon just to check if a backordered part came in. In auto service, coordination that lives in phone calls and manual reminders never shows up as a line item, but it wears down the service team. Turning every concern into a tracked workflow fixes the follow-through."
 }
 ],
-"connection_note": "Hi Mo, saw your post on post-sale customer experience in auto retail. I map operational workflows and automation for service-driven businesses. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -4367,7 +4332,6 @@
 "text": "International founders often research UAE company setup late at night outside standard Gulf hours. If an inquiry sits in the queue until the morning team logs in, the momentum cools off before the first conversation even happens."
 }
 ],
-"connection_note": "Scaling ad spend for Dubai company formation brings in volume, but the real test is how fast those inquiries reach the corporate services team. Would be good to connect.",
 "my_comment": null
 },
 {
@@ -4406,7 +4370,6 @@
 "text": "Relationships open doors in the GCC, but relying on them without backend discipline backfires. When an introduction lands, local partners judge the business on response speed and operational execution, not just conversation over coffee. If a founder takes days to follow up or coordinates deals across unstructured chat threads, that initial trust evaporates."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -4418,7 +4381,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.5,
 "author_name": "Stavros Malaxos",
@@ -4445,7 +4408,6 @@
 "text": "Giving overseas investors two open doors often slows down decisions rather than speeding them up. Greece and the UAE solve entirely different pain points: Schengen mobility on one side, tax residency and asset growth on the other. If the discovery phase doesn't isolate the primary objective on day one, investors get stuck comparing completely incompatible options."
 }
 ],
-"connection_note": "Hi Stavros, saw your post on comparing Greece and UAE Golden Visas for international investors. Great perspective on dual-market positioning across Europe and the Gulf. Would be glad to connect and follow your work.",
 "my_comment": null
 },
 {
@@ -4457,7 +4419,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.3,
 "author_name": "Nasr-ed-dine El-mansoury",
@@ -4484,7 +4446,6 @@
 "text": "With villas reaching 9.9M AED, what is your intake protocol when an overseas buyer messages that direct number outside Gulf business hours? Does your system qualify their timeline and book the private appointment right away, or does the inquiry wait until the morning shift?"
 }
 ],
-"connection_note": "Hi Nasr, saw your post on the Manchester City Yas Residences launch. Always interested in how sales leaders handle inbound lead qualification and appointment booking across high-ticket Abu Dhabi projects. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -4496,7 +4457,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.7,
 "author_name": "Anthony Quartararo",
@@ -4523,7 +4484,6 @@
 "text": "When second-wave capital starts pricing off actual construction rather than brochures, how are local operators handling the surge in compliance tracking and reporting without scaling headcount linearly?"
 }
 ],
-"connection_note": "Enjoyed your breakdown on the Makkah and Madinah ownership rules and the gap between brochure timelines and observable construction progress. Thoughtful perspective on verification versus capital flow. Would love to connect.",
 "my_comment": null
 },
 {
@@ -4535,7 +4495,7 @@
 "chosen_option": 3,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.9,
 "author_name": "Farah Abou Ouf",
@@ -4562,7 +4522,6 @@
 "text": "When brokerages recruit consultants with the promise of qualified leads, how is the handoff from portals to agents structured? In many sales floors, an admin is stuck manually assigning inquiries in WhatsApp groups, which turns into a bottleneck the moment three leads land at once."
 }
 ],
-"connection_note": "Hi Farah, saw your post recruiting for real estate admins and consultants in Dubai. I work on brokerage ops workflows and lead routing systems across the region, and follow how teams structure the handoff between admin and sales. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -4601,7 +4560,6 @@
 "text": "Most CX software companies assume complex calls just need a longer prompt with more instructions. That breaks down the second an LLM is asked to make operational judgment calls. Thomas, for accounts with intricate workflows, where do you draw the line between steps software can handle deterministically and edges that must go straight to a human?"
 }
 ],
-"connection_note": "Thomas, enjoyed your point on CX AI vendors ignoring contact center reality. Too many tools try to solve complex policy in prompts instead of tested code. Following your work on contact center operations.",
 "my_comment": null
 },
 {
@@ -4613,7 +4571,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.6,
 "author_name": "Tobias Lindemann",
@@ -4640,7 +4598,6 @@
 "text": "Attracting capital allocators solves the funding side, but the missing operational step is retaining technical execution on the ground. When founders set up in the Gulf, the common friction is finding local engineering talent to build the systems, which often leads to outsourcing the builds back to Western hubs. Until that talent layer matures locally, the ecosystem stays split."
 }
 ],
-"connection_note": "Hi Tobias, enjoyed your breakdown of the Savills wealth rankings and how Gulf hubs compare against US AI talent density. Following your work on smart infrastructure and AI in the region.",
 "my_comment": null
 },
 {
@@ -4679,7 +4636,6 @@
 "text": "Macro trade figures make market expansion look like a policy milestone, but for an SME, international growth breaks on the operational details. If a business does not fix how approvals and client inquiries move between the UK and the Gulf, execution turns into endless follow-up calls. The bottleneck is rarely demand; it is cross-border coordination."
 }
 ],
-"connection_note": "Hi Ana, saw your post on the UK-UAE £30bn trade target. I'm based in Riyadh working on operational workflows across the Gulf. Interested in how expanding SMEs navigate cross-border coordination between the two markets. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -4691,7 +4647,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.9,
 "author_name": "Alex Macri MBA",
@@ -4718,7 +4674,6 @@
 "text": "The competitive gap in Saudi logistics is definitely operational rather than capital. For European asset managers entering the Kingdom, how do you plan to enforce institutional governance when industrial tenants still rely on informal communication channels and manual approvals for daily operations?"
 }
 ],
-"connection_note": "Hi Alex, read your analysis on KSA's logistics real estate expansion and the need for institutional operational frameworks. Being based in Riyadh, I see the ground-level operational friction in industrial facilities every day. Would love to connect.",
 "my_comment": null
 },
 {
@@ -4730,7 +4685,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 6.3,
 "author_name": "Dan Brook",
@@ -4757,7 +4712,6 @@
 "text": "More data in preventative care often creates an operational backlog before it improves outcomes. If the criteria for what triggers a follow-up investigation aren't hardcoded by strict protocols beforehand, scanning healthy individuals just leads to unnecessary testing. Defining what the system should ignore is where most clinical workflows struggle."
 }
 ],
-"connection_note": "Hi Dan, caught your points on BBC Radio 4 regarding full-body MRI scans and managing patient data sets. The challenge of filtering actionable risks from incidental noise in preventative health is a crucial topic. Would love to connect here on LinkedIn.",
 "my_comment": null
 },
 {
@@ -4769,7 +4723,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 6.6,
 "author_name": "Shubhangi Tapkir",
@@ -4796,7 +4750,6 @@
 "text": "Convincing patients to visit before they feel pain is the toughest hurdle in dentistry. Once a patient completes a checkup, do you pre-book their next six-month visit chairside before they walk out, or does your front desk run a recall list to bring them back?"
 }
 ],
-"connection_note": "Hi Shubhangi, saw your post about catching silent tooth decay and gum issues before pain starts. Getting patients in for preventive care is a shared challenge across clinics. I follow dental practice operations closely, would be great to connect.",
 "my_comment": null
 },
 {
@@ -4808,7 +4761,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 7.4,
 "author_name": "Dr.Ahmed Alnasrawi",
@@ -4835,7 +4788,6 @@
 "text": "Because cheek biting feels like a minor habit at first, most people put off booking until painful ulcers appear. In your practice, how often does early diagnosis happen during routine checkups versus patients reaching out specifically for chronic soft tissue irritation?"
 }
 ],
-"connection_note": "Hi Dr. Ahmed, saw your post on cheek biting and how misaligned restorations cause chronic soft tissue trauma. Really appreciate clean clinical breakdowns from clinic directors across the GCC. Would be glad to connect here.",
 "my_comment": null
 },
 {
@@ -4847,7 +4799,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 8.4,
 "author_name": "S.Mother Teresa Dental and Cosmetic Clinic",
@@ -4874,7 +4826,6 @@
 "text": "Supporting implant patients across time zones is unmatched for patient retention, but it creates a real coordination challenge. When travelling patients reach out with post-op discomfort during peak clinic hours, how does your team triage those calls so doctors can review them immediately without interrupting chairside procedures?"
 }
 ],
-"connection_note": "Hi Dr. Girish, saw your post on managing Mrs. Gracia's post-implant care while she was abroad. Supporting patients across borders and time zones is a tough operational challenge for most practices. Would love to connect and follow your work.",
 "my_comment": null
 },
 {
@@ -4886,7 +4837,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 9.8,
 "author_name": "Cleon Barretto",
@@ -4913,7 +4864,6 @@
 "text": "Relying on consultant hunger to catch inbound leads creates silent leaks. Even the most driven agent cannot answer a fresh inquiry while presenting to an investor in Downtown. If the first qualified response does not happen in seconds, the buyer simply contacts the next brokerage on Property Finder. The system has to qualify and route immediately so the consultant steps into a warm conversation."
 }
 ],
-"connection_note": "Hi Cleon, saw your post hiring consultants for Dressler and Naik in Dubai. Good to see a brokerage backing agents with CRM and daily leads rather than just expecting cold outreach. Would love to stay connected as you grow the sales team here.",
 "my_comment": null
 },
 {
@@ -4952,7 +4902,6 @@
 "text": "Coordination across two countries quickly breaks down when it relies on WhatsApp groups and scattered emails. Without a clear system connecting UK oversight to Dubai operations, every minor decision turns into a cross-border meeting."
 }
 ],
-"connection_note": "Enjoyed your breakdown on running a business between the UK and Dubai. The operational coordination piece caught my eye. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -4991,7 +4940,6 @@
 "text": "When an automated check-in wakes up a six-month-old chat and the lead replies instantly during peak hours, how does your system prioritize that response against fresh inbound leads landing at the exact same time?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -5003,7 +4951,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 8.8,
 "author_name": "Bob Jing",
@@ -5030,7 +4978,6 @@
 "text": "Dental schools skip customer experience entirely, leaving young grads to figure out front-desk operations by accident. When you are training a new dentist on chairside care, how do you get them to align with the patient communication style you want for the practice?"
 }
 ],
-"connection_note": "Enjoyed your post on dental being a people business and the reality of training new grads. Would be great to connect and follow your insights on practice growth.",
 "my_comment": null
 },
 {
@@ -5069,7 +5016,6 @@
 "text": "Most small businesses do not have a lead generation problem, they have a lead-waste problem. Missing three inquiries a day because the team is tied up elsewhere quietly costs hundreds of thousands in lost revenue over a year."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -5108,7 +5054,6 @@
 "text": "Finding reps who know UAE licensing requirements is half the battle. When inbound volume spikes across mainland and free zone queries, how do you keep manual proposal generation from slowing down your response time?"
 }
 ],
-"connection_note": "Hi Omid, saw your opening for a sales specialist at Top One UAE. Managing inbound lead routing for business setup firms is an interesting ops puzzle. Would love to connect.",
 "my_comment": null
 },
 {
@@ -5120,7 +5065,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.8,
 "author_name": "Faisal Khwaja",
@@ -5143,7 +5088,6 @@
 "text": "Comparing off-plan payment structures against completed rental yields is the core analytical hurdle. The missing step is how quickly your CRM surfaces those matching options when an investor asks about a specific delivery year, before they move on to another agency."
 }
 ],
-"connection_note": "Enjoyed your breakdown of the two distinct stories in the Q3 Dubai market, especially the contrast between off-plan timelines and completed assets. Would be good to connect.",
 "my_comment": null
 },
 {
@@ -5182,7 +5126,6 @@
 "text": "Scrolling through 200 FAQs gives you a comprehensive reference guide, but most users will only read the top three items before dropping off. Tracking what people actually type into the search bar tells you which answers deserve to sit at the very top of the page."
 }
 ],
-"connection_note": "Hi Jonathan, enjoyed your post on building out an extensive FAQ page and routing missing questions directly to your inbox. Would love to connect and follow your work in legal and financial services.",
 "my_comment": null
 },
 {
@@ -5194,7 +5137,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.2,
 "author_name": "Anna Ghukasyan",
@@ -5221,7 +5164,6 @@
 "text": "Handling four languages across a telesales floor requires strict routing rules so agents do not waste time sorting misrouted chats. In the bilingual routing setups I build, qualifying the language preference upfront ensures inquiries land directly with the right speaker."
 }
 ],
-"connection_note": "Hi Anna, saw your post looking for multilingual sales agents at Elite Class. Managing lead routing across Russian, Turkish, and Arabic inquiries is a fascinating operational puzzle. Would love to connect.",
 "my_comment": null
 },
 {
@@ -5233,7 +5175,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.8,
 "author_name": "Vineet Mathur",
@@ -5260,7 +5202,6 @@
 "text": "Checking escrow and exit strategies protects the capital, but response latency dictates who gets the deal. If an investor reviews these criteria and messages an agency on a Friday evening, waiting until Monday morning usually means another broker already locked in the booking."
 }
 ],
-"connection_note": "Hi Vineet, enjoyed your off-plan checklist, especially the focus on matching payment plans to cash flow strategies rather than launch hype. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -5272,7 +5213,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.1,
 "author_name": "Dr Kinnar Shah",
@@ -5299,7 +5240,6 @@
 "text": "Crafting the exact phrase for the chairside close solves the live consultation, but tracking how many patients walk out without booking is where most clinics fly blind. When a patient says they need to think about it, how do your coaching clients track that unclosed pipeline so it does not get lost?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -5311,7 +5251,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.0,
 "author_name": "Tomer Michel Ederi",
@@ -5338,7 +5278,6 @@
 "text": "Surfacing buyer behavior only works if reps trust the signal. If a sales agent gets pinged every time an overseas prospect clicks a render or reopens a brochure, alert fatigue sets in within days. When you map this out for developers, what specific threshold triggers a live sales alert versus just updating the lead record in the background?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -5377,7 +5316,6 @@
 "text": "In your research framework for UAE real estate SMEs, how are you measuring AI adoption in operational coordination versus front-end sales? In small brokerages, coordination that lives in WhatsApp and phone calls never shows up as an explicit line item, it just appears as a need to hire more admin staff. Curious if your study looks at whether AI actually reduces internal coordination drag, or if adoption is mostly concentrated in client-facing marketing."
 }
 ],
-"connection_note": "Dr. Shafiq, saw your post on your PhD research into AI adoption in UAE real estate SMEs. I build operational automation and multi-agent systems in the GCC, and track how SMEs handle workflow automation. Would welcome following your research findings here.",
 "my_comment": null
 },
 {
@@ -5389,7 +5327,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.1,
 "author_name": "Faisal Khwaja",
@@ -5416,7 +5354,6 @@
 "text": "The shift is less about buyers being cautious and more about the sales cycle doubling. Speculators buy off-plan launches directly from marketing decks. End-users evaluate service charges, handover penalties, and district infrastructure. Teams built for high-speed launch hype struggle when every closed deal requires five times more consultative handling."
 }
 ],
-"connection_note": "Faisal, your Q3 breakdown on the 47% value drop alongside 72% off-plan volume caught my attention. Following your analysis on how Dubai buyer dynamics are shifting toward end-users.",
 "my_comment": null
 },
 {
@@ -5428,7 +5365,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.6,
 "author_name": "Schelton Assoumou",
@@ -5455,7 +5392,6 @@
 "text": "In complex multi-party operations, coordination overhead never shows up as a line item until it stalls execution. When communication lives across scattered updates rather than a unified system, project tracking quickly becomes a heavy drag on the deal team."
 }
 ],
-"connection_note": "Enjoyed your breakdown of the shared-upside structure for Rahim's property in Brooklyn. Following your insights on creative real estate finance and capital formation. Would love to connect.",
 "my_comment": null
 },
 {
@@ -5494,7 +5430,6 @@
 "text": "When founders are moving fast and pulling funds for unexpected cash flow needs, retroactive categorization becomes a massive bottleneck during tax or bank reviews. When you advise fast-growing UAE companies, do you see founders adopt strict internal controls early, or does the cleanup usually wait until an external audit forces the issue?"
 }
 ],
-"connection_note": "Hi Peter, caught your post on classifying owner withdrawals in UAE companies. As someone building operational tracking workflows, I see founders hit this exact paper-trail wall during reviews. Would love to connect.",
 "my_comment": null
 },
 {
@@ -5533,7 +5468,6 @@
 "text": "When an enterprise backend lets sales sell inventory that web systems and dispatch know does not exist, where does the failure usually get caught internally before a customer has to go rogue and call dispatch directly?"
 }
 ],
-"connection_note": "Hi Neil. Read your breakdown of the Littlewoods and Very fulfillment loop. That exact disconnect between sales, web inventory, and dispatch is a fascinating operational failure mode. Would love to connect.",
 "my_comment": null
 },
 {
@@ -5545,7 +5479,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 9.8,
 "author_name": "Baiju Kothari",
@@ -5572,7 +5506,6 @@
 "text": "Detailed visual aids and clear communication change the whole trajectory for a patient ready to give up on their teeth. When prospective patients message your practice late in the evening with complex cosmetic questions, how do you make sure those high-intent enquiries get handled before office hours open?"
 }
 ],
-"connection_note": "Hi Baiju, enjoyed your breakdown of saving natural teeth over extractions. Your point on chairside communication applies well to how clinics handle inbound patient trust. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -5584,7 +5517,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.6,
 "author_name": "Nicholas Jones, MD, FACS",
@@ -5611,7 +5544,6 @@
 "text": "When educational posts bring in high volumes of detailed questions through DMs, how does your coordinator handle initial triage without losing prospective patients in the backlog?"
 }
 ],
-"connection_note": "Hi Nicholas. Enjoyed your breakdown on choosing between implants and a lift. I follow your clinical education content and would love to stay connected as you share more insights.",
 "my_comment": null
 },
 {
@@ -5623,7 +5555,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.5,
 "author_name": "Ahad Siddiq",
@@ -5650,7 +5582,6 @@
 "text": "When ultra-high-net-worth buyers request bespoke wellness configurations across multiple properties, how do your advisors capture and cross-reference those requirements without relying on manual notes and scattered chat threads?"
 }
 ],
-"connection_note": "Hi Ahad, enjoyed your post on wellness real estate and biological intelligence. Managing the operational side of those high-end portfolios caught my attention. Would love to connect.",
 "my_comment": null
 },
 {
@@ -5689,7 +5620,6 @@
 "text": "Pinning the schedule right beside the chat removes the friction of hunting through multiple apps. When that client asks to move Friday, how does the interface handle the actual shift? Does the trainer still have to manually adjust the calendar entry, or can they approve and lock the new slot directly from the thread?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -5701,7 +5631,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.3,
 "author_name": "Soufiane Natide",
@@ -5728,7 +5658,6 @@
 "text": "Backing consultants with a CRM and qualified leads is a strong hiring pull. When international buyer inquiries land across different time zones, how does your system route them by language and availability so high-intent leads never sit idle in the database?"
 }
 ],
-"connection_note": "Hi Soufiane, saw your post on hiring consultants and backing them with CRM and premium leads at Property Network. Always respect sales leaders focused on building real systems around their agents. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -5767,7 +5696,6 @@
 "text": "Tawakkalna verification removes a massive trust barrier for Saudi buyers before they click pay. Once a store gets verified and ad efficiency improves, where do you usually see them hit their next operational limit? Is it pre-purchase chat support or handling shipping and return inquiries?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -5806,7 +5734,6 @@
 "text": "The missing step is checking how the daily operations are coordinated. When supplier orders, stock issues, and shift handovers live in WhatsApp group chats and manual phone calls, that overhead never shows up as a line item on the profit sheet. The buyer assumes the current headcount is sufficient, only to find they need more staff just to handle communication."
 }
 ],
-"connection_note": "Hi Ali, enjoyed your breakdown on evaluating restaurant acquisitions, particularly looking past stated profits to inherited supplier obligations. I focus on operational workflows and systems for service businesses here in the GCC. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -5818,7 +5745,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.1,
 "author_name": "RONY HECKER",
@@ -5845,7 +5772,6 @@
 "text": "Comparing gross yields of 6.6% in Dubai against 6.1% in Abu Dhabi is where paper returns usually mislead investors. Service charges, management fees, and vacancy risk differ significantly between the two emirates, especially with 120,000 new units entering Dubai in 2026. That slight gross yield advantage often disappears once net operating costs are calculated. Net yield after holding costs tells a much clearer story."
 }
 ],
-"connection_note": "Hi Rony, caught your post on family office allocations and the USD peg nuance between Dubai and Abu Dhabi. Rare to see an agency leader highlight the currency reality so directly. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -5857,7 +5783,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.4,
 "author_name": "Faisal Khwaja",
@@ -5884,7 +5810,6 @@
 "text": "Citywide delivery numbers hide local concentration, especially when handovers between 2027 and 2030 cluster in specific zones. Comparing an off-plan project comes down to three immediate figures: total pipeline units in that area, delivery overlap, and historical rental absorption. Without those three data points upfront, investors fall back on generic macro noise."
 }
 ],
-"connection_note": "Hi Faisal, saw your post on breaking down Dubai's 2027-2030 supply pipeline by micro-market rather than citywide figures. Spot-on approach to evaluating off-plan yield. Would love to connect here on LinkedIn.",
 "my_comment": null
 },
 {
@@ -5896,7 +5821,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Mohammad Alghamdi",
@@ -5923,7 +5848,6 @@
 "text": "Giving senior agents autonomy and minimal office hours is great for retention, but how do you handle lead distribution when agents are working remotely? When enquiries land outside standard hours, what stops them from sitting in a queue?"
 }
 ],
-"connection_note": "Hi Mohammad. Enjoyed your post on structuring brokerage support and autonomy for senior agents in Dubai. Always interested in how regional brokerages scale ops. Let us connect.",
 "my_comment": null
 },
 {
@@ -5935,7 +5859,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 7.2,
 "author_name": "Maryam Ali",
@@ -5962,7 +5886,6 @@
 "text": "Handling inbound WhatsApp chats manually usually runs smoothly until three enquiries land at the exact same minute. How are you structuring the handoff between incoming chat triage and outbound follow-up calls so the new sales executive does not get overwhelmed during peak clinic hours?"
 }
 ],
-"connection_note": "Hi Maryam, saw your post hiring a Medical Sales Executive for Elaira Polyclinic. I focus on clinic operations and lead automation in the GCC, so I follow how Dubai polyclinics structure WhatsApp conversion and follow-ups. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -5974,7 +5897,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.4,
 "author_name": "Ahmed Shawky",
@@ -6001,7 +5924,6 @@
 "text": "The clinical precision is clear, but multi-step care across specialists is where clinic operations usually break down. If the prosthodontist appointment isn't booked before the patient leaves the chair, the risk of them missing the 6-month evaluation window rises sharply."
 }
 ],
-"connection_note": "Hi Ahmed, saw your post on negotiating lateral anatomy in endo retreatment and referring to the prosthodontist. Managing smooth handoffs between specialists is a crucial operational step. Would love to connect here on LinkedIn.",
 "my_comment": null
 },
 {
@@ -6013,7 +5935,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 6.7,
 "author_name": "Salahudeen Aboobacker",
@@ -6040,7 +5962,6 @@
 "text": "Knowing when to leave healthy structure alone is sound clinical judgement, but commercial pressure in private dentistry pushes the other way. Patients frequently measure value by how visibly altered their smile looks when they leave the clinic. The hard part of conservative dentistry is keeping that discipline when the patient actively pushes for an aggressive cosmetic change."
 }
 ],
-"connection_note": "Hi Salahudeen, enjoyed your post on preserving natural tooth structure at Pearl Dental Clinic. Rare to see dental founders advocate for doing less when commercial pressure pushes for aggressive cosmetic work. Would be glad to connect.",
 "my_comment": null
 },
 {
@@ -6052,7 +5973,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.0,
 "author_name": "Mohammad Shahnawaz Alam",
@@ -6079,7 +6000,6 @@
 "text": "Ready office assets require immediate verification of existing tenant leases, while off-plan commercial deals pivot on developer milestones and fit-out timelines. When an inbound investor reaches out, how does your team qualify which path they belong on before booking the consultation?"
 }
 ],
-"connection_note": "Hi Mohammad, saw your breakdown on the numbers behind Dubai commercial real estate and ready vs. off-plan assets. Enjoyed your perspective on evaluating tenant demand and rental potential. Would be glad to connect here.",
 "my_comment": null
 },
 {
@@ -6091,7 +6011,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.5,
 "author_name": "Uttam K.",
@@ -6118,7 +6038,6 @@
 "text": "When you underwrite the downside for overseas buyers, how often does the hidden cost come from coordination? When updates, approvals, and questions get handled across phone calls and WhatsApp, that friction never shows up as a line item. How do you advise investors to factor in that operational drag before committing?"
 }
 ],
-"connection_note": "Hi Uttam, saw your post on the questions Dubai property investors whisper. Starting with the downside and underwriting deal risks is a refreshing angle in a market full of upside hype. Would like to connect and follow the series.",
 "my_comment": null
 },
 {
@@ -6130,7 +6049,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.7,
 "author_name": "Stavros Malaxos",
@@ -6157,7 +6076,6 @@
 "text": "Personal introductions protect discretion, but relying solely on manual networking introduces a quiet lag. High-profile buyers expect absolute confidentiality, but they also move fast when the right asset surfaces. If passing an off-market brief between European and UAE desks takes days of back-and-forth calls, another advisory secures the allocation first."
 }
 ],
-"connection_note": "Hi Stavros, your post on Abu Dhabi's FDI surge and discreet off-market matching caught my attention. Managing confidential mandates across the UAE and Europe is an impressive cross-border operation. Would be glad to connect here.",
 "my_comment": null
 },
 {
@@ -6169,7 +6087,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.1,
 "author_name": "Faisal Khwaja",
@@ -6196,7 +6114,6 @@
 "text": "Off-plan still taking 72% of sales while overall volume drops 38% means serious buyers are taking time to compare options. When an investor DMs you their budget and timeframe, how are you handling that initial qualification so high-intent leads do not sit waiting in the inbox?"
 }
 ],
-"connection_note": "Hi Faisal, saw your breakdown of the Q3 Dubai data and the drop in transaction volume alongside 72% off-plan demand. Enjoyed your perspective on buyer caution and due diligence. Would be glad to connect here.",
 "my_comment": null
 },
 {
@@ -6222,7 +6139,6 @@
 "why": "",
 "best_angle": "",
 "options": [],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6248,7 +6164,6 @@
 "why": "",
 "best_angle": "",
 "options": [],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6274,7 +6189,6 @@
 "why": "",
 "best_angle": "",
 "options": [],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6305,7 +6219,6 @@
 "text": "\"What's the best deal right now?\" usually means the investor hasn't been asked their goal yet. The first reply sets the tone: a list of units, or a question about rental income versus appreciation. Lists are faster to send, so I'd guess most agencies default to them. How do you handle that first WhatsApp message: goal question first, or listings first?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6336,7 +6249,6 @@
 "text": "The 'Available?' enquiries are the hard part: most aren't worth an agent's hour, but a few are the serious buyer. In the flows I build, the agent only gets pulled in once budget, area and timeline are captured and the lead is ready to talk. Where do you draw the line between what the assistant answers and what goes to the agent?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6367,7 +6279,6 @@
 "text": "The 51% first run that turned out to be the test setup is the honest part. Writing the 35 cases yourself is the classic trap, so do you plan a second set built from real WhatsApp messages? In a voice agent I built, the failures only showed up with accents and names, never in the clean test calls."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6398,7 +6309,6 @@
 "text": "The day 2 and day 5 cadence makes sense. The stop-when-they-reply rule is the part that protects trust: nothing hurts more than an automated nudge landing after the client already answered. I built that same tripwire into my own outbound system, checking the inbox for a reply before every send. Do you check for replies across every channel or just WhatsApp?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6429,7 +6339,6 @@
 "text": "521 calls in a month is a strong number. The follow-up question for the practice is what happens to those calls at 7 PM or when the front desk is on another line. I once called 5 clinics at 11 PM with a toothache and only the 6th picked up. Did the case study track how many of the 521 were actually answered?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6460,7 +6369,6 @@
 "text": "Intake leakage is a better name than lead generation problem. The step that gets missed is ownership: the alert reaches a broker who is mid-showing, so the first 4 minutes belong to nobody. Do your clients assign that owner by rota, or is it still whoever sees it first?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6491,7 +6399,6 @@
 "text": "The sticky notes stage is real. One thing I'd check in any broker CRM: does a new WhatsApp enquiry create the lead by itself, or does it wait for someone to type it in? The first minutes after an enquiry decide a lot, and manual entry eats them. How does CoBroker capture enquiries today?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6522,7 +6429,6 @@
 "text": "Good split. Under tactics I'd add one metric for the front desk: time from enquiry to first human reply, split by business hours and after 7 PM. A strategy can name the avatar perfectly and still lose them in the gap between interest and the first reply. Which number do you have owners track weekly?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6553,7 +6459,6 @@
 "text": "The 186 conversations answered within minutes is the number that matters here. Do you track time to first reply per campaign next to CPL? A lead answered in 5 minutes and one called back tomorrow are different leads at the same cost, and most reports only show the cost."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6584,7 +6489,6 @@
 "text": "Good audit. I'd run a second version at 11 PM: send an enquiry and time how long until a human replies. I once called 5 clinics at 11 PM with a toothache. 3 didn't answer, 1 played a voicemail reading out opening hours, 1 was Arabic-only. The 6th picked up and got the patient. Does your audit cover the after-hours path?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6596,7 +6500,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.8,
 "author_name": "Mohammad Alghamdi",
@@ -6623,7 +6527,6 @@
 "text": "Each profile moves at a completely different operational tempo. Dubai demands immediate allocation speed before inventory moves, while Abu Dhabi and Sharjah buyers require detailed yield modeling and patience. Mohammad, how do your teams route these inquiries so agents do not default to chasing quick Dubai deals while slower advisory leads go cold?"
 }
 ],
-"connection_note": "Hi Mohammad, enjoyed your breakdown of how Dubai liquidity balances with Sharjah yields and Abu Dhabi stability. Clear view on regional investor profiles. I run Raynix AI here in Riyadh focusing on CRM and automation workflows, would be great to connect.",
 "my_comment": null
 },
 {
@@ -6635,7 +6538,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.4,
 "author_name": "Michèle El Badawi",
@@ -6662,7 +6565,6 @@
 "text": "Evaluating secondary market liquidity upfront separates true advisory from transaction pushing. When your team builds long-term exit strategies for investors across a 3 to 5 year horizon, how do you keep track of their changing yield targets without those high-value buyer profiles getting lost in standard CRM follow-up lists?"
 }
 ],
-"connection_note": "Hi Michèle, read your post on Emaar's September secondary market numbers vs off-plan hype. Loved the point on evaluating 5-year resale liquidity before buying. Would welcome connecting with another operator focused on Dubai real estate.",
 "my_comment": null
 },
 {
@@ -6701,7 +6603,6 @@
 "text": "Prepayment deposits usually crush front-end checkout conversion, so e-commerce platforms actively push back on them. Across your fleets right now, how much of that cancellation risk gets caught at the hub before loading, or are drivers only finding out once they arrive at the pin?"
 }
 ],
-"connection_note": "Hi Nagi, saw your post on last-mile COD cancellations in KSA. The margin hit from impulse checkouts turning into doorstep refusals is a serious operational leak for fleets here. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -6713,7 +6614,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.8,
 "author_name": "BASH OLAKUNLE ABIOLA OLOWOSELU",
@@ -6740,7 +6641,6 @@
 "text": "In my work auditing business operations, I see a parallel: some problems are just management issues wearing a technology costume. Similarly, a bad real estate investment is often a weak market thesis wearing a shiny architectural rendering. The hardest part of the diagnosis isn't gathering the data, it's deciding which red flags are dealbreakers before you fall in love with the asset."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6752,7 +6652,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.2,
 "author_name": "Ahmed Harby",
@@ -6779,7 +6679,6 @@
 "text": "Constant spiritual demand brings high inbound volume, but international interest often creates a serious operational drag. Foreign buyers are dealing with brand new ownership regulations. If eligibility screening isn't filtered strictly by rule upfront, brokers spend most of their day answering repetitive legal questions instead of moving verified buyers to reservation."
 }
 ],
-"connection_note": "Ahmed, saw your post on completing the first Masar Makkah deals for foreign buyers under the new ownership law. Cross-border buyer intake across different time zones is a fascinating operational challenge. Would love to connect and follow Coldwell Banker's progress here in KSA.",
 "my_comment": null
 },
 {
@@ -6791,7 +6690,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 6.9,
 "author_name": "Daniel Kaufman",
@@ -6818,7 +6717,6 @@
 "text": "A clear prep protocol protects clinical outcomes, but linking directly to a free consultation can easily flood staff with unqualified leads. How does your front desk screen patients against those readiness criteria before giving away a surgeon's calendar slot? Do you automate that intake qualification, or does a coordinator handle every form manually?"
 }
 ],
-"connection_note": "Hi Daniel, saw your post on vetting plastic surgeons and your Plastics Prep Protocol. Appreciated the focus on qualifying patient readiness upfront. I build ops and intake workflows for medical clinics, would be great to connect here.",
 "my_comment": null
 },
 {
@@ -6830,7 +6728,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.2,
 "author_name": "Nour Kishk",
@@ -6857,7 +6755,6 @@
 "text": "Hiring an administrator to manage Trakheesi permits and portal uploads keeps listings moving, but it can also hide a broken handoff. When agents pass property details across group chats with missing documents, the admin ends up acting as a full-time chaser instead of running operations. The fix is setting up the workflow so an admin only receives files once every DLD requirement is already attached."
 }
 ],
-"connection_note": "Hi Nour, saw your post hiring a real estate admin for Masha in Business Bay. Managing Trakheesi permits and portal updates gets messy fast when agent handoffs live in chat. I build CRM and ops workflows here in the region, would love to connect.",
 "my_comment": null
 },
 {
@@ -6869,7 +6766,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.1,
 "author_name": "Ahmed Salah",
@@ -6896,7 +6793,6 @@
 "text": "Stripping out the developer and cluster protects ad spend and keeps CPL low on paper. The friction usually surfaces immediately after the click: how do your agents handle the first call when a lead realizes the project is not the developer they had in mind? Do you filter that mismatch in your CRM before the handoff, or does the broker have to absorb all the friction manually?"
 }
 ],
-"connection_note": "Ahmed, saw your post on withholding developer details to protect CPL on Dubai real estate campaigns. Curious how you see that impact the handoff to the sales desk when agents make the first call. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -6935,7 +6831,6 @@
 "text": "Dreading every incoming notification happens when intake has no structure. When client requests live in direct chat threads and phone calls, every small thought becomes an urgent interruption. When you help owners reset these relationships, how often is the fix simply moving the client off instant messaging and into an asynchronous queue?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -6947,7 +6842,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.4,
 "author_name": "Ahmed Zinab",
@@ -6974,7 +6869,6 @@
 "text": "Operator intuition catches the daily friction that outside tech teams miss. The hard part with vertical marketplaces like BoatFinder+ is keeping availability accurate on the back end. When operators are out on the water, how do you capture schedule changes? Do they update calendars inside your system, or does your team still have to confirm bookings manually over WhatsApp?"
 }
 ],
-"connection_note": "Ahmed, saw your post on building BoatFinder+ from your time in marine operations. Agree that the best workflow platforms come from people who ran the physical businesses first. Building workflow systems out of Riyadh, would like to connect and follow your build.",
 "my_comment": null
 },
 {
@@ -6986,7 +6880,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.3,
 "author_name": "Hassan Waqar",
@@ -7013,7 +6907,6 @@
 "text": "Many high-net-worth investors ask for market intelligence but rarely read the full document. When you distribute these daily updates, how do you track which specific data points, like interest rate shifts versus geopolitical changes, actually trigger the follow-up conversations? Do you find macro global data or local transaction numbers get more responses?"
 }
 ],
-"connection_note": "Hi Hassan, saw your post on global interest rates and Dubai property. I build AI workflows and automation systems here in Riyadh. Would love to connect and keep up with your daily market updates.",
 "my_comment": null
 },
 {
@@ -7025,7 +6918,7 @@
 "chosen_option": 3,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.9,
 "author_name": "Lukas Rothfuchs",
@@ -7052,7 +6945,6 @@
 "text": "European investors are used to a transaction pace that often collides with the reality of local regulatory timelines in Saudi. When coordinating between European buyers and licensed KSA partners, where does the operational handoff usually break down first? Is it the initial entity setup or the document-gathering phase?"
 }
 ],
-"connection_note": "Hi Lukas, enjoyed your post on Saudi real estate coordination for European investors. I'm based in Riyadh and build systems to streamline local operations and workflows. Would love to connect and follow your insights on cross-border deals.",
 "my_comment": null
 },
 {
@@ -7064,7 +6956,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.5,
 "author_name": "Abdurahmon Karimov",
@@ -7091,7 +6983,6 @@
 "text": "The step most advisors miss is translating scarcity into hard supply constraints before the investor gets sold on finishes. High-end materials and brand partnerships are easy to put in a deck, but they don't protect value. Proving that an asset is irreplaceable means giving the buyer the exact count of comparable waterfront plots remaining in that micro-district."
 }
 ],
-"connection_note": "Hi Abdurahmon, saw your point on distinguishing AED 30M+ property prices from genuine scarcity in Dubai. Enjoyed the focus on land and 10-year replication rather than just branded finishes. Would like to connect.",
 "my_comment": null
 },
 {
@@ -7103,7 +6994,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.9,
 "author_name": "Nitin Chopra",
@@ -7130,7 +7021,6 @@
 "text": "Raising broker standards is the right macro move, but the step most brokerages miss is backend infrastructure. If a certified agent is expected to provide tailored advisory while manually tracking leads across WhatsApp chats, the quality degrades the moment volume spikes."
 }
 ],
-"connection_note": "Hi Nitin, saw your post on Abu Dhabi's 112% transaction growth and the move toward mandatory broker certification. I build workflow and CRM automation systems for UAE real estate operations and appreciated your point on advisory quality. Would love to connect.",
 "my_comment": null
 },
 {
@@ -7142,7 +7032,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.8,
 "author_name": "Eric Block DMD, CAGS, FICOI, FICD, FAADS, FIADFE",
@@ -7169,7 +7059,6 @@
 "text": "Many practice owners think they have a staff problem when daily operations get chaotic. But if your team has to check with you for every minor scheduling or patient coordination deviation, you haven't built a system. You've just built a stressful job where you are the single point of failure."
 }
 ],
-"connection_note": "Hi Eric, saw your post about the IADLC session on inner saboteurs. As someone auditing workflows and building systems for businesses, I see how often personal leadership roadblocks translate directly into operational bottlenecks. Would love to connect.",
 "my_comment": null
 },
 {
@@ -7181,7 +7070,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.3,
 "author_name": "Abdelrahman Shalaby, MBA",
@@ -7208,7 +7097,6 @@
 "text": "In a predictive model I built for financial data, geography and hard historical baselines carried over half the predictive power. Relying on expectations or unverified inputs completely broke the accuracy. Real estate valuation runs on the same truth: unless you have a clean, structured database of actual historical transaction records, your advisors are just guessing based on the loudest seller's asking price."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -7220,7 +7108,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.0,
 "author_name": "Ahmad Alwani",
@@ -7247,7 +7135,6 @@
 "text": "More agents only solve your volume problem if your CRM infrastructure can keep up. Most brokerages don't actually have a lead generation problem, they have a lead-waste problem. If new hires are left to manage their follow-ups out of WhatsApp group chats, high-value opportunities will inevitably slip through the cracks."
 }
 ],
-"connection_note": "Hi Ahmad, saw you're expanding the sales team at Above & Beyond. I map workflows and build inbound automation systems. Would love to connect and follow your team's growth in Dubai.",
 "my_comment": null
 },
 {
@@ -7259,7 +7146,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.1,
 "author_name": "Sam King",
@@ -7286,7 +7173,6 @@
 "text": "When market transactions hit Dh379.4 billion, the bottleneck usually isn't lead generation, it's lead processing speed. The step most brokerages miss during volume spikes is structuring lead qualification automatically before human handoffs. If high-ticket ready buyers wait hours for property data, they simply move on to another broker."
 }
 ],
-"connection_note": "Hi Sam, loved your breakdown of the DLD September stats, especially the Dh196b ready vs Dh183b off-plan split across those 123,416 deals. I build workflow automation for UAE businesses and follow market insights closely. Would be great to connect here.",
 "my_comment": null
 },
 {
@@ -7298,7 +7184,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 9.1,
 "author_name": "SYED AHMAD ABU BAKR",
@@ -7325,7 +7211,6 @@
 "text": "Requiring telesales to update every call and follow-up in the CRM is necessary, but manual logging is usually the first thing that slips when call volumes go up. When you scale this team, how do you plan to keep the CRM data clean without the reps spending half their day on manual admin instead of making calls?"
 }
 ],
-"connection_note": "Hi Syed, saw your post about hiring telesales executives for Viviana Properties in Dubai. Keeping CRM data clean while maintaining high call volumes is a tough operational balance. Would love to connect and follow your team's growth.",
 "my_comment": null
 },
 {
@@ -7337,7 +7222,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.1,
 "author_name": "Dr. Kafayah Ogunsola",
@@ -7364,7 +7249,6 @@
 "text": "Letting patients see wait times upfront is a great filter, but the step most clinics skip is protecting the team from 'did you get my booking' emails. An immediate, automated confirmation that states the exact next steps stops the follow-up loop before it starts. It keeps the admin inbox quiet so your therapists can focus entirely on clinical care."
 }
 ],
-"connection_note": "Hi Dr. Kafayah, I read your post on managing patient expectations while protecting your therapists' rest at EmpathySpace. Building a global mental health system of this scale is highly impressive. I would love to connect and follow your journey.",
 "my_comment": null
 },
 {
@@ -7376,7 +7260,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.4,
 "author_name": "Aliya Shergill",
@@ -7403,7 +7287,6 @@
 "text": "Balancing today and tomorrow in Dubai is incredibly hard for a sales team. The agents who excel at fast secondary market deals in established areas like the Marina are rarely the same ones who can patiently nurture a buyer on a multi-year master development play. Trying to make the same team run both sales cycles usually means one of the strategies gets neglected."
 }
 ],
-"connection_note": "Hi Aliya, your point about different Dubai locations requiring completely different investment strategies makes a lot of sense. I build workflow automation here in the region and see how this impacts sales cadences. Would love to connect.",
 "my_comment": null
 },
 {
@@ -7442,7 +7325,6 @@
 "text": "Testing the frontline experience once is a great start, but how do you keep it consistent when you are not physically in the building? When we run the 7PM Test on a Friday night, we usually find that bad execution is a systems bottleneck, not a staff problem. How do you track these service gaps once you step away from the floor?"
 }
 ],
-"connection_note": "Hi Abdullah, your post on how the frontline team impacts word-of-mouth was spot on. I build workflows and voice systems here in Riyadh, and testing peak-hour customer experience is something I track closely. Would love to connect.",
 "my_comment": null
 },
 {
@@ -7454,7 +7336,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 10.0,
 "author_name": "Michael Steinbach",
@@ -7481,7 +7363,6 @@
 "text": "When an agent leaves a brokerage, they don't just take their contacts: they take the WhatsApp history where the actual context lives. A group chat is not a CRM. If client interactions aren't systemized outside of personal numbers, you're essentially renting your business from your brokers. How does Zolia capture that day-to-day context before the agent walks out?"
 }
 ],
-"connection_note": "Hi Michael, saw your post on building Zolia. Solving the midnight enquiry leak and the 'group chat as a CRM' problem is huge for Dubai brokerages right now. I build AI workflows and systems here in Riyadh. Would love to connect and follow your build.",
 "my_comment": null
 },
 {
@@ -7520,7 +7401,6 @@
 "text": "The biggest bottleneck for a commission-only partner isn't securing the first meeting, it's the operational drag of chasing handovers, site assessments, and client approvals. If that coordination lives in WhatsApp group chats, the new partner quickly becomes an administrative bottleneck instead of a growth engine. Establishing clear escalation rules for stalled proposals is the step most service firms skip when hiring for pure commission roles."
 }
 ],
-"connection_note": "Hi Nadia, I saw your post recruiting an Entrepreneur Partner to scale landscaping services in Dubai. I build operational systems and workflows for service businesses in the region and would love to connect to follow your scaling journey.",
 "my_comment": null
 },
 {
@@ -7532,7 +7412,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Bassel Alhamra",
@@ -7559,7 +7439,6 @@
 "text": "The missing step when pitching RAK as a complement to Dubai is adjusting the follow-up narrative. You cannot sell a market defined by 2027 milestones using the same transaction-heavy language as ready Dubai properties. The entire communication sequence has to change from 'act now' to an educational track that maps out RAK's infrastructure timeline. If the nurturing path doesn't change, the lead just goes cold."
 }
 ],
-"connection_note": "Hi Bassel, enjoyed your breakdown of how Dubai and RAK complement each other rather than compete. I build workflows here in the region and closely watch how brokerages manage the distinct sales cycles for both markets. Would love to connect.",
 "my_comment": null
 },
 {
@@ -7571,7 +7450,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.6,
 "author_name": "Centre Of Dental Excellence",
@@ -7598,7 +7477,6 @@
 "text": "Offering monthly payment options on restorative treatments like crowns is a proven way to lower the barrier to entry. When patients land on these specific cost pages, do you find they prefer to qualify themselves through an online calculator first, or do they still call the front desk to confirm the monthly payment terms?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -7610,7 +7488,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.6,
 "author_name": "Hassan Waqar",
@@ -7637,7 +7515,6 @@
 "text": "The shift to scrutinizing specific developer incentives and payment terms means your sales team needs accurate data instantly. If a broker has to search through disjointed WhatsApp chats and Excel sheets to answer a precise question on financing, the client gets impatient. The missing step is centralizing that inventory and incentive data so brokers aren't relying on memory or group chats during high-stakes calls."
 }
 ],
-"connection_note": "Hi Hassan, your point about the market shifting toward specific terms and yields over general hype really resonated. I track real estate workflow and sales automation trends in the region and would love to connect to follow your updates.",
 "my_comment": null
 },
 {
@@ -7676,7 +7553,6 @@
 "text": "Keeping sales pitches out of peer communities is what makes them actually worth staying in. When founders share their bottlenecks in your group, do you find they struggle more with getting new enquiries, or with building the internal systems to execute the work without working till 11 PM?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -7688,7 +7564,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.6,
 "author_name": "Kamel al Hijawi",
@@ -7715,7 +7591,6 @@
 "text": "Ready buyers spending above AED 6m want to see the finished product, which demands a highly manual, multi-week negotiation process. Off-plan, on the other hand, relies on speed and volume in specific towers. Since these require two completely opposite sales playbooks, how do you segment your database and automation so your team isn't treating a prime ready buyer with an off-plan template?"
 }
 ],
-"connection_note": "Hi Kamel, enjoyed your analysis of Tuesday's DXB Interact data. The shift in average ticket size from land and ready commercial floors is a sharp detail most people miss in the headlines. Would love to connect and follow your updates on the market.",
 "my_comment": null
 },
 {
@@ -7727,7 +7602,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 6.5,
 "author_name": "KONSTANTINOS KALOKASIDIS",
@@ -7754,7 +7629,6 @@
 "text": "The missing step for most clinics is the bridge between a patient's late-night research and the actual booking. If a patient reads your carousel at 11 PM and decides to call, but gets a voicemail, they usually just call the next clinic. Most businesses do not have a lead-making problem; they have a lead-waste problem where the gap between inquiry and booking hurts the clinic's growth."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -7766,7 +7640,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.7,
 "author_name": "Vikram S.",
@@ -7793,7 +7667,6 @@
 "text": "Hiring more telesales reps fixes the volume during the 9-to-5, but it doesn't solve the gap when three calls land at the exact same time. When a hot lead gets a busy tone, they rarely wait, they just scroll to the next broker on Google. Have you structured your routing to instantly catch those simultaneous calls, or do they still get missed when the team is already on the phone?"
 }
 ],
-"connection_note": "Hi Vikram, saw your post hiring telesales executives for Viviana. I build and audit sales workflows in the region. Always great to connect with real estate leaders scaling operations here in Dubai.",
 "my_comment": null
 },
 {
@@ -7832,7 +7705,6 @@
 "text": "To make the latency concrete: in an ops audit I ran on a medical-logistics operation, 30 to 40 out-of-stock items daily triggered 20 to 30 internal calls each. That is hundreds of manual touchpoints for a single routine issue. If the underlying systems do not handle these exceptions, the coordination budget will always be underfunded."
 }
 ],
-"connection_note": "Mohammad, your point on budgeting for the 'connective tissue' of Saudi market entry is spot on. Having mapped operational workflows here in Riyadh, I often see that coordination latency costs more than setup. Would love to connect and follow your insights.",
 "my_comment": null
 },
 {
@@ -7844,7 +7716,7 @@
 "chosen_option": 3,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.6,
 "author_name": "Mahipalsinh Rathod",
@@ -7871,7 +7743,6 @@
 "text": "Keeping buyers engaged over six weeks instead of six days is where standard sales processes break down. The coordination starts slipping into unmonitored WhatsApp threads. When you are designing these longer qualification loops, how do you ensure the transition from the instant automated response to the highly manual agent negotiation doesn't feel disjointed?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -7883,7 +7754,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 9.0,
 "author_name": "Nikhil Shanmugham",
@@ -7910,7 +7781,6 @@
 "text": "Comparing a project nearing completion in Silicon Oasis against one breaking ground with a 2028 target completely changes the risk profile. DLD data gives the raw completion metrics, but investors still need interpretation. How are your advisors structuring these project milestone checks into regular investor updates without getting bogged down in manual tracking?"
 }
 ],
-"connection_note": "Hi Nikhil, read your post on execution risk in Dubai off-plan. Agree that advisory shouldn't end when the SPA is signed. Would love to connect and follow your insights on Kaaya Prime Realty.",
 "my_comment": null
 },
 {
@@ -7922,7 +7792,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.0,
 "author_name": "Dhaval Popat",
@@ -7949,7 +7819,6 @@
 "text": "Connecting investors across the UK and UAE sounds straightforward, but the step most boutique brokerages skip is handoff speed across timezones. An investor inquiring from London at 8 PM Gulf time expects a fast response, not a callback the next day. If the coordination isn't systemized, that cross-border bridge leaks leads while the team sleeps."
 }
 ],
-"connection_note": "Hi Dhaval, saw your post about scaling Kaarna in Dubai and building the UK-UAE investor bridge. Taking 10 months to build the operational infrastructure before hiring is a rare and smart move. Would love to connect and follow your growth. Cheers, Rayan",
 "my_comment": null
 },
 {
@@ -7961,7 +7830,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.0,
 "author_name": "Rafaella Correa-Pinto",
@@ -7988,7 +7857,6 @@
 "text": "Publishing helpful tips is great for engagement, but the drop-off happens when patients try to act on it outside business hours. Calling your own front desk at 7 PM is the fastest way to see if your intake is matching your marketing effort."
 }
 ],
-"connection_note": "Hi Rafaella, great to see dentists sharing practical oral health tips here. Would love to connect and follow your insights on patient care.",
 "my_comment": null
 },
 {
@@ -8000,7 +7868,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.4,
 "author_name": "Thomas Sebastian",
@@ -8027,7 +7895,6 @@
 "text": "Filtering for 5 high-performing agents changes the growth math completely. Five agents backed by structured lead routing and clear workflow rules will consistently beat twenty agents left to handle follow-ups manually. Environment matters, but so does the operational stack."
 }
 ],
-"connection_note": "Hi Thomas, saw your post on building a focused 5-agent sales team in Business Bay. I build workflow automation and CRM systems for sales teams across UAE and KSA. Would be great to connect here.",
 "my_comment": null
 },
 {
@@ -8066,7 +7933,6 @@
 "text": "Cross-entity operations sound smooth in theory, but tracking a client moving through legal, finance, and digital setup simultaneously is where execution usually stutters. How do you maintain real-time visibility across all seven units without creating an endless schedule of internal status meetings?"
 }
 ],
-"connection_note": "Hi Mr. Noor, read your post on coordinating execution across SACB Group's seven units. Managing cross-entity handovers is a fascinating operational challenge in the GCC. Would love to connect and follow SACB's work in Dubai.",
 "my_comment": null
 },
 {
@@ -8105,7 +7971,6 @@
 "text": "Delivering on custom itineraries usually breaks at the handover between suppliers and clients. The step many teams skip is setting up automated triggers for schedule updates, so your ops team only gets pulled in when there is an actual exception to resolve."
 }
 ],
-"connection_note": "Hi Anil, saw your post on running DMC operations and managing supplier partnerships in Dubai. I focus on workflow and operational systems for GCC businesses. Would be great to connect here.",
 "my_comment": null
 },
 {
@@ -8117,7 +7982,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Dr Fahim Ehsan Rao",
@@ -8144,7 +8009,6 @@
 "text": "Many clinic founders look to automate the patient journey before the clinical workflow is actually defined. In my experience, some booking and follow-up bottlenecks are just management problems wearing an AI costume. You have to map the actual flow of work on the clinic floor before trying to write a single line of code or deploying a system."
 }
 ],
-"connection_note": "Dr. Fahim, saw your profile as Medical Director at Hair & Skin MD. I map operational workflows and build systems in the region. Would love to connect to follow your updates on clinic development and scaling medical services.",
 "my_comment": null
 },
 {
@@ -8156,7 +8020,7 @@
 "chosen_option": null,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.8,
 "author_name": "Vinay Babu",
@@ -8183,7 +8047,6 @@
 "text": "High commission splits attract experienced agents, but keeping them productive comes down to lead flow efficiency. The step most brokerages struggle with when scaling lead volume is response time. Routing inbound enquiries to the right agent in under ten seconds prevents good leads from going cold."
 }
 ],
-"connection_note": "Hi Vinay, saw your post hiring real estate agents in Business Bay. Releasing commission in 2-3 days alongside qualified leads is a strong proposition for top producers in Dubai. Would love to connect and follow your growth at Damos.",
 "my_comment": null
 },
 {
@@ -8195,7 +8058,7 @@
 "chosen_option": 3,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.1,
 "author_name": "Mohammad Bahareth",
@@ -8222,7 +8085,6 @@
 "text": "Most international firms test commercial demand assumptions first, but the ones that quietly sink an expansion are usually operational: where coordination breaks and how long approvals take locally. When you help companies set these evidence standards, do you find they struggle more with testing commercial hypotheses or testing their operational delivery capacity?"
 }
 ],
-"connection_note": "Mohammad, your framework on assigning evidence standards and expiry dates to KSA entry assumptions resonates. I build systems and audit operations here in Riyadh and follow your work on international expansion strategy.",
 "my_comment": null
 },
 {
@@ -8234,7 +8096,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.3,
 "author_name": "Faisal Khwaja",
@@ -8261,7 +8123,6 @@
 "text": "When ready homes take over, the sales cycle stretches. Brokerages can no longer rely on fast off-plan momentum. If buyer coordination still lives in WhatsApp group chats instead of a structured system, these longer-term leads simply get lost in the daily noise. A group chat is not a CRM."
 }
 ],
-"connection_note": "Hi Faisal, I read your breakdown of the Dubai property market shift toward ready homes. The contrast between developers holding launch prices and ready apartment prices dipping is a sharp observation. Would love to connect and follow your market updates here.",
 "my_comment": null
 },
 {
@@ -8273,7 +8134,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.4,
 "author_name": "Kamel al Hijawi",
@@ -8300,7 +8161,6 @@
 "text": "With four of the five biggest apartment sales being ready units between AED 7m and AED 10.4m, the operational speed of the sale changes. Ready buyers usually expect immediate response times, whereas concentrated off-plan spikes like the 17 villa deals in Al Yufrah 1 require rapid bulk routing. How do you structure your sales teams to handle these two completely different transaction velocities?"
 }
 ],
-"connection_note": "Hi Kamel, your breakdown of the Dubai property sales data was spot on. Comparing that Monday baseline of 509 deals against Friday's outlier is a great reminder to ignore headline noise. Would love to connect and follow your market insights here.",
 "my_comment": null
 },
 {
@@ -8339,7 +8199,6 @@
 "text": "The shift from inbox to WhatsApp in Riyadh is absolute. How do you advise founders to manage the transition from the informal WhatsApp handshake to the formal procurement process? Once a transaction moves past the relationship stage, keeping those details organized without losing the personal momentum is where most market entrants struggle."
 }
 ],
-"connection_note": "Hi James, loved your point about Riyadh business living on WhatsApp instead of the inbox. Being based here, I see this daily. Group chats run the show. Would love to connect and follow your insights on market entry in the region. Cheers, Rayan.",
 "my_comment": null
 },
 {
@@ -8351,7 +8210,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Matthew Brown",
@@ -8378,7 +8237,6 @@
 "text": "Digital care coordinators sound great in theory, but they fail at the edges like accents, names, and dropped calls. When building voice agents for healthcare workflows, you have to engineer the fallback path first, because speech-to-text will always mishear a patient on a mobile line. The model talks, but the deterministic code has to handle the rescue."
 }
 ],
-"connection_note": "Hi Matthew, enjoyed your post on the Gulhaven healthcare simulation and the reality of the Left Shift. Your point about structured action and following up in digital care pathways resonated. Would love to connect.",
 "my_comment": null
 },
 {
@@ -8390,7 +8248,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Sheila Gordon-Holt",
@@ -8417,7 +8275,6 @@
 "text": "Finding the right practice usually comes down to reducing friction at the very first touchpoint. Patients looking for a dental home want reassurance before they even book. Beyond the initial consultation, what do you think is the most overlooked factor in turning a casual caller into a lifelong patient?"
 }
 ],
-"connection_note": "Hi Sheila, enjoyed your insights on how patients find a dental practice they can trust in Charlotte. Always interesting to compare notes on patient acquisition and experience. Would love to connect.",
 "my_comment": null
 },
 {
@@ -8429,7 +8286,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 7.0,
 "author_name": "Mihaela Jovancevic Svorcina",
@@ -8456,7 +8313,6 @@
 "text": "How are multi-practitioner clinics currently auditing which staff members have active EDE approvals versus standard social media licenses? When advertising approvals are handled ad hoc across different departments, things slip through before marketing goes live."
 }
 ],
-"connection_note": "Hi Mihaela, enjoyed your breakdown of the new DHA peptide and advertising regulations. Since I build compliance-heavy workflows in the region, your post caught my attention. Would love to stay connected.",
 "my_comment": null
 },
 {
@@ -8468,7 +8324,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 8.0,
 "author_name": "Dr John Butler",
@@ -8495,7 +8351,6 @@
 "text": "How do you isolate human factors and workflow friction during early product trials before scaling? In discovery audits, I usually find that the operational reality of a busy clinic exposes design flaws that laboratory testing never touches."
 }
 ],
-"connection_note": "Hi John, enjoyed your post on medical product adoption and clinical pathways. Having mapped workflows across hospital and clinic supply chains, I resonate with your focus on human factors over lab performance. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -8507,7 +8362,7 @@
 "chosen_option": 2,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 7.0,
 "author_name": "Dr Terence Moodley",
@@ -8534,7 +8389,6 @@
 "text": "When the digital scan and your clinical intuition point in completely different directions, how do you weigh the tech data against what your hands are telling you?"
 }
 ],
-"connection_note": "Hi Dr Terence, really enjoyed your post on digital dentistry and how tech informs rather than replaces clinical judgment. It parallels a lot of the architecture choices we make in AI. Would love to connect.",
 "my_comment": null
 },
 {
@@ -8546,7 +8400,7 @@
 "chosen_option": 3,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 7.5,
 "author_name": "Dr John Butler",
@@ -8573,7 +8427,6 @@
 "text": "That boundary between technology and actual use is where most implementations stall out. When evaluating how clinical teams adopt new wound care products under high pressure, how do you separate friction caused by product design from friction in the existing operational process?"
 }
 ],
-"connection_note": "Hi John, enjoyed your post on how medical tech adoption depends on workflow alignment. Operating in the region, that boundary between a product working on paper and surviving clinical reality is fascinating. Would love to connect.",
 "my_comment": null
 },
 {
@@ -8585,7 +8438,7 @@
 "chosen_option": 0,
 "note": null,
 "lane": "clinics",
-"lane_name": "Clinic & dental owners (GCC)",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
 "intent": "buyer",
 "priority": 8.5,
 "author_name": "Dr. Brinda Kansagra Patel",
@@ -8612,7 +8465,6 @@
 "text": "The step most practices skip is checking what happens after hours. When the physical doors close, inquiries still land. If those calls drop, collections and chair utilization suffer long before the dentist notices the gap."
 }
 ],
-"connection_note": "Hi Dr. Brinda. Really enjoyed your post on dental practices running smoothly without physical presence. Your points on true margins and predictability hit home. Would love to connect.",
 "my_comment": null
 },
 {
@@ -8624,7 +8476,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.0,
 "author_name": "Fawad Hashmi",
@@ -8651,7 +8503,6 @@
 "text": "When you add a new market like Abu Dhabi to an existing Dubai operation, how do you handle routing inbound investor enquiries so they land with the right agent instantly instead of sitting in a queue?"
 }
 ],
-"connection_note": "Saw your announcement about the Abu Dhabi expansion, Fawad. Managing inbound lead routing across two emirates is a fascinating operational puzzle. Would be good to connect.",
 "my_comment": null
 },
 {
@@ -8663,7 +8514,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.0,
 "author_name": "Ayesha Sienna",
@@ -8690,7 +8541,6 @@
 "text": "Announcements like this drive massive spikes in interest, but most of those leads leak out if they are not answered instantly. In the speed-to-lead systems I build, getting that first response out in under ten seconds changes the entire conversion rate."
 }
 ],
-"connection_note": "Hi Ayesha. Saw your breakdown of the Aldar and Arada partnership in Abu Dhabi real estate. Following your coverage of the local market developments. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -8702,7 +8552,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Arif Nadeem",
@@ -8729,7 +8579,6 @@
 "text": "International buyers moving fast on Riyadh or Jeddah property will not wait around for a manual reply. When enquiries land via WhatsApp, routing them instantly and getting a response back in under 10 seconds keeps the conversation alive before they look elsewhere."
 }
 ],
-"connection_note": "Hi Arif, read your post on the shift for foreign real estate ownership in Saudi and the WhatsApp CTA. Interesting angle on how market entry is evolving. Thought it would be good to connect since we are both operating here in Riyadh.",
 "my_comment": null
 },
 {
@@ -8741,7 +8590,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Ambrose Ambrose",
@@ -8768,7 +8617,6 @@
 "text": "That approach fixes the first touch, but what happens when you scale it past fifty conversations a week? How do your agents track who asked for a location match versus a budget range without letting leads slip through the cracks?"
 }
 ],
-"connection_note": "Hi Ambrose, saw your post on dropping property flyer DMs in real estate. Spot on about selling the solution instead of the spec sheet. Connected here to follow your sales insights from the property market.",
 "my_comment": null
 },
 {
@@ -8780,7 +8628,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Ibrahim Sayyed",
@@ -8807,7 +8655,6 @@
 "text": "The shift toward off-plan hides a massive operational bottleneck. Getting an inbound inquiry into a CRM in under ten seconds is great, but it falls apart if the team has to manually cross-reference scattered price lists to find an available unit."
 }
 ],
-"connection_note": "Hi Ibrahim, read your H1 report on Aqaro and the off-plan market shift. Found your breakdown on how much of the volume still runs on manual price lists particularly interesting given my work building CRM and inventory systems. Would love to connect.",
 "my_comment": null
 },
 {
@@ -8819,7 +8666,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 5.5,
 "author_name": "Sam King",
@@ -8846,7 +8693,6 @@
 "text": "With off-plan hitting double the transaction count of ready homes, agents are dealing with a massive influx of smaller-ticket enquiries. How are growing brokerages handling that volume spike without letting leads slip through the cracks during peak hours?"
 }
 ],
-"connection_note": "Hi Sam. Enjoyed your breakdown of the DLD numbers, especially the split between off-plan volume and ready home checks. Based in Riyadh and tracking how regional market activity impacts operational workflows. Would be good to connect.",
 "my_comment": null
 },
 {
@@ -8885,7 +8731,6 @@
 "text": "Three missed enquiries a day at a one thousand average value adds up to over 300,000 a year left on the table. Automating the initial WhatsApp response fixes the midnight gap, but the real test is what happens when the lead asks something outside the script. That is usually where automated threads fall apart without deterministic escalation rules."
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -8924,7 +8769,6 @@
 "text": "Closing Friday loops fixes the existing queue, but what happens to the inbound messages that land on Saturday when operations are closed? Do those sit until Monday morning anyway, or how do you handle the weekend gap?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -8936,7 +8780,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.7,
 "author_name": "Shivam Luthra",
@@ -8963,7 +8807,6 @@
 "text": "How do you handle the handoff when a buyer switches languages mid-conversation, like starting in English and dropping a phrase in Mandarin? Does the context carry over cleanly to the broker, or does the human have to untangle the chat history?"
 }
 ],
-"connection_note": null,
 "my_comment": null
 },
 {
@@ -8975,7 +8818,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.7,
 "author_name": "Nathan Priestley",
@@ -9002,7 +8845,6 @@
 "text": "The hardest part when the market moves this fast is beating the lag. In the speed-to-lead systems I build, getting an inbound enquiry to a first qualified response in under ten seconds is what captures the buyer before they move on. When DIFC is fully occupied, whoever replies first wins the client."
 }
 ],
-"connection_note": "Hi Nathan, really enjoyed your breakdown of the Dubai office market and the reality of finding inventory in DIFC right now. I build automation systems in the region and follow your commentary on brokerages closely. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -9041,7 +8883,6 @@
 "text": "Since this role splits time between physical reception duties and digital WhatsApp follow-ups, how do you handle the response time lag when she is busy with trainers or clients? In the speed-to-lead systems I build, we aim for under 10 seconds on that first response to lock in the booking before the lead moves on to another center."
 }
 ],
-"connection_note": "Hi Shaimaa, saw your post hiring an admin and operations coordinator for Kickit. Managing a physical space while staying on top of instant WhatsApp bookings is a massive operational balancing act. Would love to connect and follow your growth in Dubai!",
 "my_comment": null
 },
 {
@@ -9053,7 +8894,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 7.0,
 "author_name": "Stefan Gustafsson",
@@ -9080,7 +8921,6 @@
 "text": "For brokers handling high-ticket real estate investors, lead decay happens fast. If an enquiry about a renovation deal sits in an unassigned inbox, that investor is already looking at off-plan launches. Routing and qualifying those inbound leads in under 10 seconds is what keeps the pipeline moving."
 }
 ],
-"connection_note": "Hi Stefan. Saw your post on bringing villa flip club deals to Dubai brokers. Given how fast high-ticket investor enquiries need a response, I track a lot of the operational bottlenecks in brokerage sales flows. Would love to connect.",
 "my_comment": null
 },
 {
@@ -9119,7 +8959,6 @@
 "text": "How do you maintain that standard when the front desk gets slammed with three things at once? I always tell operators to try the 7PM Test: call your own desk at 7 PM on a Friday and see what happens. Whatever the caller experiences on that phone call is the real first impression they get."
 }
 ],
-"connection_note": "Hi Cory, caught your post on host interactions affecting average spend. The first touchpoint sets the entire tone, even before guests walk in. I build automation and voice systems in Riyadh. Would love to connect and follow your updates.",
 "my_comment": null
 },
 {
@@ -9158,7 +8997,6 @@
 "text": "How are you handling the edge cases when a prospect drops off mid-conversation or the CRM sync fails? That is usually where multi-agent setups hit friction before Phase 2."
 }
 ],
-"connection_note": "Saw your post on rolling out Citi Buddy for Citi Developers and automated Salesforce routing. I build multi-agent workflows and speed-to-lead automation here in Riyadh, so I have been following how Dubai real estate is adopting this. Would be great to connect.",
 "my_comment": null
 },
 {
@@ -9197,7 +9035,6 @@
 "text": "Ambiguity is usually an operations problem wearing a communication costume. When I mapped a distributor's workflow, we found supervisors handling 50 to 60 calls a day just asking \"where are you?\" because there was no central system. When you look at local market entry, how much of the service-recovery protocol is left to manual WhatsApp coordination versus being hardcoded into a tracking system?"
 }
 ],
-"connection_note": "Hi Mohammad, your piece on service-recovery models and escalation paths for Saudi market entry is excellent. I audit operations and build workflows here in Riyadh, and ambiguity is indeed where trust breaks down. Would love to connect to follow your insights.",
 "my_comment": null
 },
 {
@@ -9209,7 +9046,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 8.5,
 "author_name": "Mikhail Prudnikov",
@@ -9236,7 +9073,6 @@
 "text": "Building AI tools in-house is a strong move, but the operational edge comes down to seconds. In the speed-to-lead systems I build, getting from inbound enquiry to first qualified response in under ten seconds is what separates the agencies that survive from the rest."
 }
 ],
-"connection_note": "Hi Mikhail, really enjoyed your take on moving away from massive broker headcounts to lean, skilled teams. I build speed-to-lead automation systems in the region and would love to stay connected.",
 "my_comment": null
 },
 {
@@ -9248,7 +9084,7 @@
 "chosen_option": 1,
 "note": null,
 "lane": "realestate",
-"lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
 "intent": "buyer",
 "priority": 6.8,
 "author_name": "Ahmed Salah",
@@ -9275,17 +9111,16 @@
 "text": "The tricky part about lead waste is that missed opportunities never show up in your reports. You only see the clients your brokers actually talk to, not the ones who got tired of waiting and went to the next agency. Most brokerages don't have a lead generation problem: they have a lead-waste problem."
 }
 ],
-"connection_note": null,
 "my_comment": null
 }
 ],
 "usage": [
 {
 "day": "2026-10-25",
-"posts_scraped": 75,
-"cards_sent": 3,
-"llm_input_tokens": 35999,
-"llm_output_tokens": 15262,
+"posts_scraped": 118,
+"cards_sent": 5,
+"llm_input_tokens": 57793,
+"llm_output_tokens": 21818,
 "llm_cost_usd": 0.0
 },
 {
@@ -9441,15 +9276,15 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 3.07,
+"apify_month_usd": 3.16,
 "apify_month_cap_usd": 5.0,
-"learned": 225,
+"learned": 226,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,
 "paused": false,
 "settings": {
-"cards_per_day": 12,
+"cards_per_day": 30,
 "stats_enabled": false,
 "runs": "08:00 / 13:00 / 18:00 Riyadh"
 }

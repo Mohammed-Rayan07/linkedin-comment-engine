@@ -1,6 +1,6 @@
 {
-"generated_at": "2026-10-25T18:24:22.870220+00:00",
-"actions_applied": 247,
+"generated_at": "2026-10-25T19:04:12.446087+00:00",
+"actions_applied": 251,
 "cards": [
 {
 "id": 257,
@@ -343,10 +343,10 @@
 {
 "id": 248,
 "created_at": "2026-10-25T18:16:41.632376+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-25T19:02:32.229591+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "realestate",
 "lane_name": "Dubai & GCC real estate brokerage decision makers",
@@ -381,10 +381,10 @@
 {
 "id": 247,
 "created_at": "2026-10-25T18:15:08.796171+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-25T19:02:33.050567+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Dubai & GCC real estate brokerage decision makers",
@@ -419,10 +419,10 @@
 {
 "id": 246,
 "created_at": "2026-10-25T18:10:14.409627+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-25T19:02:31.383366+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "realestate",
 "lane_name": "Dubai & GCC real estate brokerage decision makers",
@@ -457,10 +457,10 @@
 {
 "id": 245,
 "created_at": "2026-10-25T18:09:25.978498+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-25T19:02:30.454717+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 1,
 "note": null,
 "lane": "realestate",
 "lane_name": "Dubai & GCC real estate brokerage decision makers",
@@ -9607,10 +9607,10 @@
 "usage": [
 {
 "day": "2026-10-25",
-"posts_scraped": 337,
+"posts_scraped": 369,
 "cards_sent": 18,
-"llm_input_tokens": 225471,
-"llm_output_tokens": 84826,
+"llm_input_tokens": 227900,
+"llm_output_tokens": 84958,
 "llm_cost_usd": 0.0
 },
 {
@@ -9766,9 +9766,9 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 3.6,
+"apify_month_usd": 3.66,
 "apify_month_cap_usd": 5.0,
-"learned": 226,
+"learned": 230,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

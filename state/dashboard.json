@@ -1,14 +1,53 @@
 {
-"generated_at": "2026-10-25T09:49:35.354718+00:00",
-"actions_applied": 244,
+"generated_at": "2026-10-25T13:57:52.793112+00:00",
+"actions_applied": 246,
 "cards": [
 {
-"id": 241,
-"created_at": "2026-10-25T09:49:34.710054+00:00",
+"id": 242,
+"created_at": "2026-10-25T13:57:52.283083+00:00",
 "acted_at": null,
 "status": "sent",
 "stage": null,
 "chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 8.5,
+"author_name": "David Reep",
+"author_headline": "--",
+"author_url": "https://www.linkedin.com/in/david-reep-391585242?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADw9x90BAZn8-IXu7HC8PEpPneexpNRD_bM",
+"post_url": "https://www.linkedin.com/posts/david-reep-391585242_a-customer-sees-the-appointment-behind-it-activity-7520107399978995715-MvjC",
+"post_text": "A customer sees the appointment. Behind it is a business learning how to make all the pieces fit.\n\nPlanning time, keeping information straight, and making sure the next step is clear may not be the most visible parts of running a family-owned company. They still deserve attention.\n\nThe challenge is that this work competes with everything that feels urgent. It can be tempting to put it off until things settle down. But a business needs time spent on how it operates, alongside time spent doing the work.\n\nAs I think about Vanguard Plumbing's future, I want to make room for both. Better organization should help customers know what to expect and help the people doing the work prepare well.\n\nOne benefit of building a family business is being able to connect that effort to something personal: a company we want to see work well for years to come.\n\nThat's a useful direction to keep in mind, even when the next improvement is small.",
+"posted_at": "2026-10-25T13:02:00.994000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Plumbing business owner discussing operational organization and keeping information straight behind customer appointments.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Keeping information straight while juggling field jobs is tough. How do you usually track the next steps when everyone is out on calls?"
+},
+{
+"angle": "make_concrete",
+"text": "Making all the pieces fit is hard when urgent jobs take over. The 7 PM Test is a fast way to check where details drop: call your own front desk on a Friday evening and see what happens."
+},
+{
+"angle": "missing_step",
+"text": "Waiting until things settle down rarely works because the urgent work never stops. Did you end up carving out a specific time block for ops, or just handle it day by day?"
+}
+],
+"connection_note": "David - enjoyed your post on Vanguard Plumbing, especially the part about keeping information straight behind customer appointments. Thought it would be good to connect.",
+"my_comment": null
+},
+{
+"id": 241,
+"created_at": "2026-10-25T09:49:34.710054+00:00",
+"acted_at": "2026-10-25T13:51:15.767283+00:00",
+"status": "posted",
+"stage": null,
+"chosen_option": 1,
 "note": null,
 "lane": "smb_owners",
 "lane_name": "GCC SMB founders & GMs (service businesses)",
@@ -44,10 +83,10 @@
 {
 "id": 240,
 "created_at": "2026-10-25T09:41:04.950867+00:00",
-"acted_at": null,
-"status": "sent",
+"acted_at": "2026-10-25T13:51:15.026416+00:00",
+"status": "posted",
 "stage": null,
-"chosen_option": null,
+"chosen_option": 2,
 "note": null,
 "lane": "realestate",
 "lane_name": "Brokerage founders & sales leaders (UAE/KSA)",
@@ -9243,10 +9282,10 @@
 "usage": [
 {
 "day": "2026-10-25",
-"posts_scraped": 58,
-"cards_sent": 2,
-"llm_input_tokens": 26444,
-"llm_output_tokens": 12502,
+"posts_scraped": 75,
+"cards_sent": 3,
+"llm_input_tokens": 35999,
+"llm_output_tokens": 15262,
 "llm_cost_usd": 0.0
 },
 {
@@ -9402,9 +9441,9 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 3.04,
+"apify_month_usd": 3.07,
 "apify_month_cap_usd": 5.0,
-"learned": 223,
+"learned": 225,
 "metrics": {},
 "my_comments": [],
 "stats_last_checked": null,

@@ -28,7 +28,7 @@ copy .env.example .env
 
 Fill in `.env`:
 
-1. **GEMINI_API_KEY**: free, from aistudio.google.com > Get API key. The engine uses Gemini 3.8 Flash by default. For failover, optionally set `GEMINI_FALLBACK_API_KEY` to a key from a separate Google Cloud project (quotas are project-scoped). Add both keys to `.env` locally and as GitHub Actions repository secrets. Gemini automatically switches to the backup account when the primary hits quota, a server outage, or an invalid key. To use Claude instead, set `models.provider: claude` and add `ANTHROPIC_API_KEY`.
+1. **GEMINI_API_KEY**: free, from aistudio.google.com > Get API key. The engine uses Gemini 3.8 Flash by default. For failover, optionally set `GEMINI_FALLBACK_API_KEY` (or the existing `.env` alias `FALLBACK_API_KEY`) to a key from a separate Google Cloud project (quotas are project-scoped). Add the backup as the `GEMINI_FALLBACK_API_KEY` GitHub Actions repository secret. Gemini automatically switches to the backup account when the primary hits quota, a server outage, or an invalid key. To use Claude instead, set `models.provider: claude` and add `ANTHROPIC_API_KEY`.
 2. **APIFY_TOKEN**: from console.apify.com > Settings > Integrations. The engine can now fetch up to 750 posts/day. At ~$0.002 per returned post, that is up to ~$45/month plus charges for empty queries (actual spend depends on results). Set the daily scrape limit in config/settings.yaml lower if you want a smaller cost ceiling.
 3. **Telegram**: message @BotFather, send `/newbot`, and paste the token into `TELEGRAM_BOT_TOKEN`. Then open your new bot, send it `hi`, and run:
    ```bash

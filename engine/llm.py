@@ -53,9 +53,11 @@ class LLM:
         if cfg.mock:
             return
         if self.provider == "gemini":
-            keys = [(name, os.getenv(var, "").strip()) for name, var in (
-                ("primary", "GEMINI_API_KEY"), ("fallback", "GEMINI_FALLBACK_API_KEY"),
-            ) if not _placeholder(var)]
+            primary_key = os.getenv("GEMINI_API_KEY", "").strip()
+            fallback_key = (os.getenv("GEMINI_FALLBACK_API_KEY") or os.getenv("FALLBACK_API_KEY") or "").strip()
+            keys = [("primary", primary_key)] if primary_key and "REPLACE_ME" not in primary_key else []
+            if fallback_key and "REPLACE_ME" not in fallback_key and fallback_key not in {key for _, key in keys}:
+                keys.append(("fallback", fallback_key))
             if not keys:
                 raise RuntimeError("GEMINI_API_KEY and GEMINI_FALLBACK_API_KEY are missing in .env")
             from google import genai
@@ -68,7 +70,7 @@ class LLM:
                 )
                 self.gemini_clients.append((name, client))
             if len(keys) == 1:
-                log.warning("GEMINI_FALLBACK_API_KEY is not configured; Gemini has no account-level failover")
+                log.warning("Gemini fallback key is not configured; Gemini has no account-level failover")
             self.client = self.gemini_clients[0][1]
         elif self.provider == "claude":
             if _placeholder("ANTHROPIC_API_KEY"):

@@ -137,6 +137,41 @@ def test_live_budget_split_and_query_rotation(cfg, monkeypatch):
     assert engine.store.today()["posts_scraped"] == 25        # daily cap respected exactly
 
 
+def test_gemini_daily_quota_switches_to_fallback_account(cfg, monkeypatch):
+    from types import SimpleNamespace
+    from google.genai import errors
+    from engine.llm import LLM
+
+    class Models:
+        def __init__(self, fail):
+            self.fail = fail
+            self.calls = []
+
+        def generate_content(self, *, model, contents, config):
+            self.calls.append(model)
+            if self.fail:
+                raise errors.ClientError(429, {"error": {"message": "PerDay quota exhausted"}})
+            return SimpleNamespace(usage_metadata=None, candidates=[], text='{"ok":true}')
+
+    primary = SimpleNamespace(models=Models(fail=True))
+    fallback = SimpleNamespace(models=Models(fail=False))
+    llm = LLM.__new__(LLM)
+    llm.cfg = cfg
+    llm.provider = "gemini"
+    llm.store = SimpleNamespace(add_tokens=lambda *args: None)
+    llm._last_call = 0.0
+    llm._exhausted = set()
+    llm._invalid_accounts = set()
+    llm.gemini_clients = [("primary", primary), ("fallback", fallback)]
+    monkeypatch.setattr("engine.llm.time.sleep", lambda _: None)
+
+    result = llm._gemini("scoring", "system", "user", {"type": "object"}, 20)
+
+    assert result == {"ok": True}
+    assert primary.models.calls == [cfg.s("models", "gemini", "scoring")]
+    assert fallback.models.calls == [cfg.s("models", "gemini", "scoring")]
+
+
 def test_learning_from_posted_and_edited_comments(cfg):
     engine = Engine(cfg)
     engine.run()

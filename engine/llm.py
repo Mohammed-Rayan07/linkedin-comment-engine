@@ -46,20 +46,30 @@ class LLM:
         self.store = store
         self.provider = cfg.s("models", "provider", default="gemini")
         self._last_call = 0.0
-        self._exhausted: set[str] = set()  # gemini models whose daily free quota ran out this run
+        self._exhausted: set[tuple[str, str]] = set()  # (account, model) pairs whose quota ran out this run
+        self._invalid_accounts: set[str] = set()
+        self.gemini_clients: list[tuple[str, Any]] = []
         self.client: Any = None
         if cfg.mock:
             return
         if self.provider == "gemini":
-            if _placeholder("GEMINI_API_KEY"):
-                raise RuntimeError("GEMINI_API_KEY is missing in .env (get one free at aistudio.google.com)")
+            keys = [(name, os.getenv(var, "").strip()) for name, var in (
+                ("primary", "GEMINI_API_KEY"), ("fallback", "GEMINI_FALLBACK_API_KEY"),
+            ) if not _placeholder(var)]
+            if not keys:
+                raise RuntimeError("GEMINI_API_KEY and GEMINI_FALLBACK_API_KEY are missing in .env")
             from google import genai
             from google.genai import types
             # fail fast (no SDK-internal retry loops) so our own fallback chain kicks in
-            self.client = genai.Client(
-                api_key=os.environ["GEMINI_API_KEY"],
-                http_options=types.HttpOptions(timeout=75_000, retry_options=types.HttpRetryOptions(attempts=1)),
-            )
+            for name, key in keys:
+                client = genai.Client(
+                    api_key=key,
+                    http_options=types.HttpOptions(timeout=75_000, retry_options=types.HttpRetryOptions(attempts=1)),
+                )
+                self.gemini_clients.append((name, client))
+            if len(keys) == 1:
+                log.warning("GEMINI_FALLBACK_API_KEY is not configured; Gemini has no account-level failover")
+            self.client = self.gemini_clients[0][1]
         elif self.provider == "claude":
             if _placeholder("ANTHROPIC_API_KEY"):
                 raise RuntimeError("ANTHROPIC_API_KEY is missing in .env")
@@ -97,7 +107,7 @@ class LLM:
         level = str(g.get(f"{task}_thinking", "high")).upper()
         gap = float(g.get("min_seconds_between_calls", 7))
 
-        for model in [m for m in candidates if m and m not in self._exhausted]:
+        for model in dict.fromkeys(m for m in candidates if m):
             config = types.GenerateContentConfig(
                 system_instruction=system,
                 response_mime_type="application/json",
@@ -106,52 +116,62 @@ class LLM:
                 thinking_config=types.ThinkingConfig(thinking_level=level),
                 automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=True),
             )
-            for attempt in range(3):
-                wait = self._last_call + gap - time.monotonic()
-                if wait > 0:
-                    time.sleep(wait)  # free tier has a per-minute cap; pace ourselves
-                self._last_call = time.monotonic()
-                try:
-                    resp = self.client.models.generate_content(model=model, contents=user, config=config)
-                except errors.ClientError as e:
-                    if e.code == 429:
-                        msg = str(e)
-                        hinted = _retry_delay(msg, default=0)
-                        # a short retry hint means a per-minute limit: wait it out on the same model.
-                        # no hint (or a long one) plus a per-day quota name means today's quota is gone.
-                        if (not hinted or hinted > 120) and ("PerDay" in msg or "per day" in msg.lower()):
-                            log.warning("%s: free daily quota used up, switching model", model)
-                            self._exhausted.add(model)
+            model_missing = False
+            for account, client in self.gemini_clients:
+                if account in self._invalid_accounts or (account, model) in self._exhausted:
+                    continue
+                for attempt in range(3):
+                    wait = self._last_call + gap - time.monotonic()
+                    if wait > 0:
+                        time.sleep(wait)  # pace calls across both keys in this process
+                    self._last_call = time.monotonic()
+                    try:
+                        resp = client.models.generate_content(model=model, contents=user, config=config)
+                    except errors.ClientError as e:
+                        if e.code in (401, 403) or (e.code == 400 and re.search(
+                                r"api[ _-]?key.*(invalid|not valid)|invalid.*api[ _-]?key", str(e), re.I)):
+                            log.warning("Gemini %s key was rejected; switching account", account)
+                            self._invalid_accounts.add(account)
                             break
-                        delay = hinted or 30 * (attempt + 1)
-                        log.info("%s rate-limited, retrying in %ss", model, delay)
-                        time.sleep(delay)
+                        if e.code == 429:
+                            msg = str(e)
+                            hinted = _retry_delay(msg, default=0)
+                            # A daily quota error is account/model specific; try the other key immediately.
+                            if (not hinted or hinted > 120) and ("PerDay" in msg or "per day" in msg.lower()):
+                                log.warning("Gemini %s account exhausted quota for %s; switching account", account, model)
+                                self._exhausted.add((account, model))
+                                break
+                            delay = hinted or 30 * (attempt + 1)
+                            log.info("Gemini %s rate-limited on %s, retrying in %ss", account, model, delay)
+                            time.sleep(delay)
+                            continue
+                        if e.code == 404:
+                            log.warning("Gemini model %s not available; trying next model", model)
+                            model_missing = True
+                            break
+                        raise
+                    except errors.ServerError as e:
+                        log.info("Gemini %s server error on %s (%s), retrying", account, model, e.code)
+                        time.sleep(5 * 2 ** attempt)
                         continue
-                    if e.code == 404:
-                        log.warning("model %s not available, trying fallback", model)
-                        break
-                    raise
-                except errors.ServerError as e:
-                    log.info("%s server error (%s), retrying", model, e.code)
-                    time.sleep(5 * 2 ** attempt)
-                    continue
-                except Exception as e:  # timeouts / connection drops
-                    log.info("%s request failed (%s), retrying", model, type(e).__name__)
-                    time.sleep(5 * 2 ** attempt)
-                    continue
+                    except Exception as e:  # timeouts / connection drops
+                        log.info("Gemini %s request failed on %s (%s), retrying", account, model, type(e).__name__)
+                        time.sleep(5 * 2 ** attempt)
+                        continue
 
-                um = resp.usage_metadata
-                if um:
-                    self.store.add_tokens(um.prompt_token_count or 0,
-                                          (um.candidates_token_count or 0) + (um.thoughts_token_count or 0), 0.0)
-                cand = (resp.candidates or [None])[0]
-                reason = str(getattr(cand, "finish_reason", "") or "")
-                if "SAFETY" in reason or "PROHIBITED" in reason or "BLOCKLIST" in reason:
-                    raise LLMRefusal(reason)
-                if "MAX_TOKENS" in reason:
-                    raise RuntimeError("Gemini output hit max_output_tokens; raise max_tokens")
-                text = resp.text or ""
-                return json.loads(text)
+                    um = resp.usage_metadata
+                    if um:
+                        self.store.add_tokens(um.prompt_token_count or 0,
+                                              (um.candidates_token_count or 0) + (um.thoughts_token_count or 0), 0.0)
+                    cand = (resp.candidates or [None])[0]
+                    reason = str(getattr(cand, "finish_reason", "") or "")
+                    if "SAFETY" in reason or "PROHIBITED" in reason or "BLOCKLIST" in reason:
+                        raise LLMRefusal(reason)
+                    if "MAX_TOKENS" in reason:
+                        raise RuntimeError("Gemini output hit max_output_tokens; raise max_tokens")
+                    return json.loads(resp.text or "")
+                if model_missing:
+                    break
         raise LLMUnavailable("all Gemini models are overloaded or out of free quota right now")
 
     # ---- Claude ---------------------------------------------------------------

@@ -1,7 +1,459 @@
 {
-"generated_at": "2026-10-25T17:07:53.731641+00:00",
+"generated_at": "2026-10-25T18:21:16.804414+00:00",
 "actions_applied": 247,
 "cards": [
+{
+"id": 256,
+"created_at": "2026-10-25T18:21:10.125217+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 6.3,
+"author_name": "Sheikh Zaid",
+"author_headline": "AI Video Creator | Creating AI-Powered Ads & Viral Content | Content Strategist",
+"author_url": "https://www.linkedin.com/in/sheikhzaid12?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADe_MPkBwURkGYTzm_YPApS1M0aUFkorPj8",
+"post_url": "https://www.linkedin.com/posts/sheikhzaid12_at-revo-weve-been-creating-organic-content-activity-7520157045648412672-dVeq",
+"post_text": "At Revo, we’ve been creating organic content since day one.\n\nEvery agent has knowledge worth sharing. Our job has been to help them share it in a way people connect with.\n\nSometimes that’s a property walkthrough.\nSometimes it’s answering a question buyers are afraid to ask.\n\nSometimes it’s explaining real estate in the language someone feels most comfortable speaking.\n\nOver time, those videos build familiarity. Familiarity builds trust. \nAnd that trust opens conversations across the world.\n\nToday, we are the UAE’s largest real estate content team.\n\nI’ve personally hired the creators behind this work, and they’re one of the best teams I’ve ever worked with. \n\nWatching their ideas turn into recognised personal brands has been a proud part of my journey at Revo.\n\nTogether, we’ve built real estate influencers across regional languages and generated millions of leads through organic content—helping us sell over AED 1.5 billion in Dubai properties to buyers worldwide.\n\nThere’s a lesson here for anyone building a business or a personal brand:\n\nYou answer questions every day that someone else is searching for.\n\nStart sharing those answers.\n\nYou may be more useful to people than you realise.",
+"posted_at": "2026-10-25T16:19:17.444000+00:00",
+"likes": 3,
+"comments": 1,
+"why": "Content agency vendor talking about organic leads. Reaches buyers, but vendor-centric.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "missing_step",
+"text": "Generating millions of organic leads is massive, but what happens when they land outside office hours? That is usually where the drop-off happens."
+},
+{
+"angle": "field_detail",
+"text": "Handling regional languages across millions of leads is a huge routing puzzle. When we build bilingual workflows, getting that match right on the first touch changes the whole funnel."
+},
+{
+"angle": "pushback",
+"text": "\"Selling over AED 1.5 billion\" through organic content is wild, but content only gets you the inbound ping. The real test is how fast someone actually answers when the lead drops in at midnight."
+}
+],
+"my_comment": null
+},
+{
+"id": 255,
+"created_at": "2026-10-25T18:20:54.856158+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 6.5,
+"author_name": "Lisa Kelly",
+"author_headline": "Website Specialist For Aesthetics & Skincare Clinics & Salons",
+"author_url": "https://www.linkedin.com/in/lisakellywebsitesforclinics?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAGF_T0BrYTAWc1YVhaN5_nxwkTzaAg3Izs",
+"post_url": "https://www.linkedin.com/posts/lisakellywebsitesforclinics_elenilondon-battersea-claphamjunction-activity-7519364180697698304-k1zM",
+"post_text": "Your clinic results deserve the same care at home. 💫\n\nThe Eleni London online shop is now open.\n\nThe Eleni London skincare range is formulated by Eleni. It’s clinically tested, medical grade, organic, vegan and cruelty free, and suitable for all skin types. It uses the same ingredients she trusts in clinic, including NAD+, antioxidants and dermal restoratives, so you can protect your results between appointments.\n\nInside the shop:\n🤍 The full Eleni London homecare range\n👁️ Daba mascaras and lash serum, all vegan\n✨ Skin packages you’ll only find online\n💳 Klarna and Clearpay on retail, GoCardless to spread treatment courses\n🎁 Gift vouchers\n🎃 Our Halloween special, live now\n\nSkin memberships are coming soon.\nShop now 👉 shop.elenilondon.com\nOr visit the clinic at 113c Northcote Road, Battersea, close to Clapham Junction.\n\nShop designed and built by @websitesforclinics. Clinic owners, if you’d love your retail range selling while you’re in the treatment room, see www.websitesforclinics.com\n\n#elenilondon #Battersea #ClaphamJunction #ClinicHomecare",
+"posted_at": "2026-10-23T11:48:43.709000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Aesthetics clinic website specialist showcasing retail shop launch. Direct ICP sector.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Having the shop handle retail during treatments is a smart setup. Do clients message first asking what fits, or do they go straight to the link?"
+},
+{
+"angle": "make_concrete",
+"text": "Getting retail moving while you're in a treatment room makes clinic days easier. The checkout is sorted, but skincare questions still land in WhatsApp while hands are busy."
+},
+{
+"angle": "missing_step",
+"text": "Congrats on the Northcote Road launch, Lisa. When orders drop in during a packed clinic day, how do you catch the questions clients send right before buying?"
+}
+],
+"my_comment": null
+},
+{
+"id": 254,
+"created_at": "2026-10-25T18:20:45.118493+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 7.2,
+"author_name": "Wassam Ashfaq",
+"author_headline": "General Dentist | SHA-Licensed | BDS | PG Dip Endodontics | Healthcare Development and Strategy",
+"author_url": "https://www.linkedin.com/in/wassam-ashfaq-818162236?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADrBZBQBQ4cMFZuEiQqDQe-FLhqynlNz8QI",
+"post_url": "https://www.linkedin.com/posts/wassam-ashfaq-818162236_homepage-activity-7520153734367236096-u8kr",
+"post_text": "AEEDC DUBAI 2027 is returning from 19–21 January at the Dubai World Trade Centre, bringing together dental professionals, manufacturers and innovators from around the world.\n\nFor anyone interested in the latest developments in dentistry, there are several technologies worth exploring at this year's exhibition:\n\n• Intraoral scanners and digital impression systems that are making traditional impression workflows increasingly digital.\n• Chairside CAD/CAM systems capable of designing and manufacturing dental restorations within the clinic.\n• Dental 3D printers for surgical guides, dental models, splints and clear-aligner production.\n• Digital implant planning and guided surgery systems, particularly for complex full-arch rehabilitation.\n• New clear-aligner manufacturing technologies, materials and automated production workflows.\n\nBeyond the equipment, AEEDC is also an opportunity to compare technologies, speak directly with manufacturers and explore potential partnerships.\n\nFor dentists, clinic owners and hospital dental departments planning their next investment in digital dentistry, it's an event worth attending.\n19–21 January 2027 | Dubai World Trade Centre\n\nhttps://aeedc.com/\n#AEEDCDubai #DigitalDentistry #UAEHealthcare",
+"posted_at": "2026-10-25T16:06:07.973000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Dentist discussing AEEDC and digital dental tech.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "All that CAD/CAM and implant tech is incredible, but how many of those new cases slip away because an evening enquiry sits in WhatsApp till morning?"
+},
+{
+"angle": "make_concrete",
+"text": "Comparing intraoral scanners and digital workflows at DWTC is useful, but the drop-off usually happens before the patient ever touches the chair."
+},
+{
+"angle": "pushback",
+"text": "Equipping a clinic with 3D printers and guided surgery systems is a massive upgrade, though I'd look closely at how fast those inbound consultation requests get answered first."
+}
+],
+"my_comment": null
+},
+{
+"id": 253,
+"created_at": "2026-10-25T18:20:35.595529+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 7.4,
+"author_name": "Khoudar Brahim",
+"author_headline": "Luxury Property Advisor, Dubai | Prime Addresses for Private Investors & Families | German, French & English",
+"author_url": "https://www.linkedin.com/in/khoudar-brahim-460236310?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAE8OdggBPqtfPlEzpPUDFnWpyhOw1r9gSvY",
+"post_url": "https://www.linkedin.com/posts/khoudar-brahim-460236310_dubairealestate-investmentstrategy-duediligence-activity-7520167443877728257-a0Ra",
+"post_text": "The Real Value of a Real Estate Investment Is Tested Before You Buy\n\nA property can have an attractive price, a recognised address and a convincing presentation.\n\nBut none of these factors alone makes it a sound investment.\n\nBefore committing capital to real estate in Dubai, I believe five questions deserve attention.\n\n1. What creates demand?\n\nLook beyond the location’s reputation. Understand who wants to live there and why.\n\n2. Is the price justified?\n\nCompare similar properties, examine the costs and challenge projected returns.\n\n3. Who will buy it after you?\n\nConsider future demand, competing supply and resale potential before entering the market.\n\n4. What could go wrong?\n\nAccount for delays, vacancies, changing market conditions and assumptions that may not materialise.\n\n5. Does it fit your investment strategy?\n\nA property can be attractive and still be unsuitable for your objectives, time horizon or liquidity needs.\n\nDubai offers a diverse range of real estate opportunities. But access to opportunities is only part of the equation.\n\nThe real work lies in understanding what you are buying, what could affect the outcome and whether the potential justifies the risk.\n\nAs a Strategic Property Advisor, this is the principle I return to:\n\nEvaluate the investment before becoming attached to the property.\n\nCapital deserves discipline.\n\n#DubaiRealEstate #InvestmentStrategy #DueDiligence",
+"posted_at": "2026-10-25T17:00:36.575000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Good strategic due diligence post by a broker, but lacks immediate hook for automation.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Evaluating demand and price makes total sense, but how fast can you actually get those numbers when a hot unit drops?"
+},
+{
+"angle": "field_detail",
+"text": "The part about competing supply in point three is where most spreadsheets fall apart. Are you pulling that data live, or relying on quarterly reports that are already months old?"
+},
+{
+"angle": "pushback",
+"text": "I'd push back on evaluating everything before getting attached. In a fast market, waiting to check all five boxes usually means someone else closes the unit while you are still running the numbers."
+}
+],
+"my_comment": null
+},
+{
+"id": 252,
+"created_at": "2026-10-25T18:20:10.389559+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 7.6,
+"author_name": "Anas Ahmed",
+"author_headline": "Channel Operations & Marketplace Management Executive | SAP | Salesforce | Real Estate & E-Commerce | Open to Work | Dubai |Specializing in Customer Service, E-commerce Operations, Partner Servicing professional",
+"author_url": "https://www.linkedin.com/in/anas-ahmed-249a56186?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACvwFtkBfxSb6eo0EQPoTRaCw7avVyztW0w",
+"post_url": "https://www.linkedin.com/posts/anas-ahmed-249a56186_the-dubai-real-estate-market-is-maturing-activity-7520122885970223104-TtL6",
+"post_text": "The Dubai real estate market is maturing, and buyers are prioritizing developers with a proven track record of delivery—something we are proving every day at Sobha Realty. \n\n​But behind every massive off-plan sales quarter is a hidden engine: Channel Operations.\n\n​Brokers are the lifeblood of this market. In my day-to-day handling broker agreements, processing commissions, and driving event approvals, I’ve learned one massive lesson: Backend speed directly fuels frontend sales.\n\n​When we remove friction—when agreements are generated instantly, events are approved smoothly, and commissions are processed flawlessly—our broker network stays highly motivated and inventory moves faster.\n\n​Flashy launches make the headlines, but bulletproof operations keep the sales engine running.",
+"posted_at": "2026-10-25T14:03:33.142000+00:00",
+"likes": 5,
+"comments": 0,
+"why": "Channel operations executive at Sobha Realty discussing backend speed and broker friction.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "\"Backend speed directly fuels frontend sales\" is such a real truth. Did you build the agreement generation in-house or tie it directly into SAP or Salesforce?"
+},
+{
+"angle": "field_detail",
+"text": "When commission payouts take days to clear, brokers naturally move their buyers to the next developer. Did cutting down agreement times move the needle faster than event approvals?"
+},
+{
+"angle": "pushback",
+"text": "I'd push back slightly on calling operations a hidden engine, because when agreement processing lags during a launch, the sales team feels it instantly. Was the Salesforce setup enough, or did you need custom code to hit instant generation?"
+}
+],
+"my_comment": null
+},
+{
+"id": 251,
+"created_at": "2026-10-25T18:19:58.923004+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.1,
+"author_name": "Waleed Sahoh Alsuwaidi",
+"author_headline": "Strategic Telecom Leader | 32+ Yrs at Etisalat UAE (e&) | Expert in Strategy, Business Performance, Customer experience, PMO & ESG | Board & Advisory Roles. Open to non-executive board roles, or strategic consultancy.",
+"author_url": "https://www.linkedin.com/in/waleed-sahoh-alsuwaidi-b446211a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAQB1yQBKCsTWNqxvDyiT30-kSEmo1Qw-y0",
+"post_url": "https://www.linkedin.com/posts/waleed-sahoh-alsuwaidi-b446211a_aehaeqaepaezaepaesabraepaesaenaetaepaezaepaes-activity-7520143409450262528-Hu7d",
+"post_text": "يسعدني أن أعلن عن بداية فصل جديد في مسيرتي المهنية، بحصولي على رخصة وسيط عقاري.\n\nأحمل معي خبرة مهنية ممتدة في الاستراتيجية، وأداء الأعمال، والتنظيم، وتجربة المتعاملين، وإدارة المشاريع، وأتطلع إلى توظيفها في قطاع ترتكز فيه العلاقات الناجحة على الثقة والمصداقية وحسن التقدير.\n\nوبصفتي مواطناً إماراتياً، أعتز بهذا الإنجاز في قطاع يسهم بدور مهم في مسيرة التنمية في دولة الإمارات.\n\nخطوة جديدة، وطموح متجدد للتعلّم والإسهام بخبرتي.\n\nI’m pleased to announce a new chapter in my professional journey: obtaining my real estate broker licence.\n\nI bring extensive experience in strategy, business performance, regulation, customer experience and project management, and look forward to applying it in a sector where successful relationships are built on trust, integrity and sound judgment.\n\nAs an Emirati, I’m proud to reach this milestone in a sector that plays an important role in the UAE’s development.\n\nA new milestone, with renewed ambition to learn and contribute my experience.\n\n#عقارات_الإمارات #UAERealEstate #ProfessionalDevelopment",
+"posted_at": "2026-10-25T15:25:06.321000+00:00",
+"likes": 8,
+"comments": 8,
+"why": "New real estate broker licence announcement in the UAE. Good ICP fit for speed-to-lead systems.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Moving from decades at Etisalat to real estate brokerage is quite a jump. Are you planning to set up automated lead handling from day one, or build out a manual team first?"
+},
+{
+"angle": "pushback",
+"text": "Trust and integrity matter for long term client relationships, but in a market moving this fast, the first broker to reply usually wins. How are you handling incoming inquiries so they never sit unanswered?"
+}
+],
+"my_comment": null
+},
+{
+"id": 250,
+"created_at": "2026-10-25T18:19:40.473513+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 8.3,
+"author_name": "Raneem Haidar",
+"author_headline": "Operation manager",
+"author_url": "https://www.linkedin.com/in/raneem-haidar-22b8aa1b4?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADH3TsMBlsOkRNwuqxBju27QTJFwh2JE3-Y",
+"post_url": "https://www.linkedin.com/posts/raneem-haidar-22b8aa1b4_hiring-dubaijobs-callcenterjobs-activity-7520044949808234496-zIGa",
+"post_text": "📢 Job Opportunity: Female Call Center Representative\n\nA medical center specializing in aesthetic, located in Jumeirah, Dubai 📍, is looking for an experienced Female Call Center Representative to join its team.\n\nRequirements:\n\n* Minimum of 2 years of call center experience, specifically in aesthetic or cosmetic clinics.\n* Fluency in both Arabic and English (spoken and written).\n* Excellent communication and interpersonal skills, with the ability to handle clients professionally.\n\nSalary: Based on experience and qualifications.\n\n📩 Interested candidates are kindly requested to send their CV via WhatsApp:\n\n📱 +971 56 377 9914\n\n#Hiring #DubaiJobs #CallCenterJobs #AestheticClinic #MedicalJobs #Jumeirah #JobOpportunity",
+"posted_at": "2026-10-25T08:53:51.713000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Aesthetic clinic in Jumeirah hiring a call center rep. Direct opening to discuss lead-waste and instant booking automation.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "What happens to the WhatsApp inquiries that land at 11 PM or on a Friday afternoon before the new rep gets in?"
+},
+{
+"angle": "make_concrete",
+"text": "Hiring for WhatsApp handling makes sense, but the math on missed night enquiries gets brutal for clinics. When a patient messages at midnight with severe pain or a pricing question, waiting for the morning shift usually loses them to the clinic down the street."
+},
+{
+"angle": "pushback",
+"text": "A human rep is great for the consultation itself, but relying on manual WhatsApp replies for initial speed usually slows down when three enquiries land at once. Do you find the after-hours drop-off is your main leak?"
+}
+],
+"my_comment": null
+},
+{
+"id": 249,
+"created_at": "2026-10-25T18:18:32.895370+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 8.7,
+"author_name": "Project Rebrand",
+"author_headline": "Founder, Project Rebrand | Customer Journey Research & Business Development",
+"author_url": "https://www.linkedin.com/in/project-rebrand-25a47a42b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGzQW-YBwNLulqoczRJdBaSnWKl_eZApqPQ",
+"post_url": "https://www.linkedin.com/posts/project-rebrand-25a47a42b_ive-spent-the-past-few-weeks-looking-at-activity-7520121060051230720-ry3v",
+"post_text": "I’ve spent the past few weeks looking at how dozens of London aesthetic clinics handle enquiries on Instagram.\n\nThree things stood out:\n\nSome take bookings entirely by DM, so one busy day can leave messages sitting unanswered.\nSome send an automated first reply that never leads to a human conversation.\nMany have a beautiful page, but it’s not always clear what a new client should do next.\nEach of these can cost a clinic enquiries it has already paid to attract.\n\nI’m building Project Rebrand to help with this: a short review of your page and enquiry-to-booking journey, with clear fixes.\nIf you run a clinic, or know someone who does, comment “REVIEW” or message me and I’ll take a free look at your page this week.\n\nI'd also be interested to hear from clinic owners: what do you find most challenging about managing new enquiries?",
+"posted_at": "2026-10-25T13:56:17.809000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Customer journey researcher targeting aesthetic clinic enquiries. Perfect overlap for lead waste.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "field_detail",
+"text": "That automated first reply trap on IG is so common. Did you find clinics were taking hours to follow up after that initial bot message, or just dropping the thread entirely?"
+},
+{
+"angle": "make_concrete",
+"text": "The DM sitting unanswered after paid ads hit is where the lead waste math gets painful. Most clinic owners only track captured bookings, so they never see how many 3-enquiry-a-day gaps quietly add up over a month."
+},
+{
+"angle": "sharp_question",
+"text": "When clinics rely entirely on IG DMs, did you notice if the responses stalled more on weekends and after hours, or were they dropping leads right in the middle of a busy clinic day?"
+}
+],
+"my_comment": null
+},
+{
+"id": 248,
+"created_at": "2026-10-25T18:16:41.632376+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.9,
+"author_name": "Akram Ata",
+"author_headline": "I help Dubai real estate advisors capture amp; qualify more buyer leads, without losing them in DMs.",
+"author_url": "https://www.linkedin.com/in/akram-ata-4177532b6?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEvt35MBDdVl3KkJGLanq0ev4kB4qEE5Wmw",
+"post_url": "https://www.linkedin.com/posts/akram-ata-4177532b6_a-real-estate-agents-instagram-bio-might-activity-7520182663798861824-0Jyh",
+"post_text": "A real estate agent’s Instagram bio might be the first step in a buyer’s journey.\n\nBut “DM me for details” leaves the buyer to explain everything through messages:\n• What’s their budget?\n• Which area are they interested in?\n• What type of property are they looking for?\n• When are they planning to buy?\n\nA simple lead qualification form can make this process more structured by collecting these details upfront.\n\nI’m building this kind of lead capture system for Dubai real estate advisors helping them collect more useful information and organize incoming inquiries.\n\nHere’s a quick look at how it works.\nCurious? Check out the demo through the link in comment.",
+"posted_at": "2026-10-25T18:01:05.287000+00:00",
+"likes": 0,
+"comments": 1,
+"why": "Directly targets Dubai real estate lead capture. Great room to apply speed-to-lead and WhatsApp automation frameworks.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Moving buyers away from unguided messages makes total sense. Do you find most Dubai buyers complete the budget field on the first try?"
+},
+{
+"angle": "missing_step",
+"text": "Collecting structured info upfront stops agents from chasing missing details. The next hurdle is usually what happens right after submission. If that qualified form sits unread for two hours, the lead goes cold regardless of how clean the data is."
+},
+{
+"angle": "pushback",
+"text": "Forms definitely give agents cleaner data, but buyers scrolling Instagram often abandon them if there are too many fields. Have you found a sweet spot for how many questions to ask without killing the completion rate?"
+}
+],
+"my_comment": null
+},
+{
+"id": 247,
+"created_at": "2026-10-25T18:15:08.796171+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.9,
+"author_name": "Ziad El Chaar",
+"author_headline": "Founder and CEO of DarGlobal Real Estate, Founder & Chairman at Wasalt.",
+"author_url": "https://www.linkedin.com/in/ziad-el-chaar-bb985229?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAX_mT0BUjqfHQbAB7fzVqE7jrvRa4wyW9s",
+"post_url": "https://www.linkedin.com/posts/ziad-el-chaar-bb985229_we-are-no-longer-just-developing-real-estate-activity-7520111328074661888-e1X-",
+"post_text": "We are no longer just developing real estate in Saudi Arabia. We are bringing international investment into the Kingdom.\n\nInvestors from 57 foreign nationalities have already invested in our Jeddah project, proving the strength of international demand for Saudi real estate.\n\nWith three new projects planned in Diriyah and Jeddah, we are accelerating our expansion in a market we strongly believe in.\n\nMore on our growth strategy and vision for the Kingdom in my interview with Asharq Al-Awsat: https://lnkd.in/eDRBtnsR",
+"posted_at": "2026-10-25T13:17:37.525000+00:00",
+"likes": 101,
+"comments": 14,
+"why": "CEO of DarGlobal Real Estate discussing international investment expansion into Saudi Arabia.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "57 nationalities buying into Jeddah is a massive signal for KSA real estate. Are those overseas buyers mostly coming through international roadshows or direct digital channels?"
+},
+{
+"angle": "make_concrete",
+"text": "When you have 57 foreign nationalities buying into Jeddah, timezone gaps become a real challenge. Overseas investors reaching out at 2 AM Riyadh time won't wait until morning for project details, so that first touchpoint makes or breaks the deal."
+},
+{
+"angle": "missing_step",
+"text": "Bringing foreign investment into Diriyah and Jeddah is impressive, but remote buyers often stall during initial qualification. Did you have to adapt the onboarding and intake process specifically for non-resident buyers?"
+}
+],
+"my_comment": null
+},
+{
+"id": 246,
+"created_at": "2026-10-25T18:10:14.409627+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 9.8,
+"author_name": "Mian Sameed",
+"author_headline": "Founder of Forever Prime Properties | Dubai-Based Real Estate Firm | Buying, Selling, and Renting | Connecting Clients With Prime Properties Through Trust, Expertise, and Professionalism.",
+"author_url": "https://www.linkedin.com/in/mian-sameed-97215137a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAF2jTSYB5RxbYXcB1SWLhh4jUdYdGLF0VD0",
+"post_url": "https://www.linkedin.com/posts/mian-sameed-97215137a_hiring-dubaijobs-performancemarketing-activity-7520155744210710528-C2lV",
+"post_text": "🚀 WE’RE HIRING | PERFORMANCE MARKETING & LEAD GENERATION SPECIALIST\n\n📍 Dubai, UAE | Hybrid | Full-Time\n💼 Experience: 2+ Years\n\nForever Prime Properties is looking for a results-driven specialist to generate qualified buyer and investor leads for Dubai real estate, particularly off-plan properties and investment opportunities.\n\nKey Responsibilities\n• Manage paid campaigns across Meta, Google Ads, and LinkedIn.\n• Generate qualified property buyer and investor leads.\n• Optimize audience targeting, landing pages, retargeting, and conversion funnels.\n• Integrate campaigns with GoHighLevel (GHL) CRM and automate lead distribution.\n• Monitor ad budgets, CPL, CPQL, and campaign performance.\n• Collaborate with the sales team to improve lead quality and conversions.\n• Provide regular campaign performance reports.\n\nRequirements\n• Minimum 2 years of performance marketing experience.\n• Strong knowledge of Meta Ads Manager and Google Ads.\n• Dubai real estate lead generation experience preferred.\n• Experience with CRM, conversion tracking, and campaign optimization.\n• Proven results in generating qualified leads.\n• Must be based in Dubai and available to visit the office when required.\n\nWhat We Offer\n✨ Hybrid working flexibility\n✨ Performance-based incentives\n✨ Long-term career growth opportunities\n\n📩 How to Apply\n\nSend your CV, previous campaign results, advertising budget experience, expected salary, and availability to:\n\n📧 info@foreverprimeproperties.ae\n\nWe’re looking for quality leads t",
+"posted_at": "2026-10-25T16:14:07.157000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Brokerage founder hiring for GHL CRM and lead gen. Perfect fit for speed-to-lead automation.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Automating lead distribution inside GHL saves so much manual sorting, Mian. What's the target response window for your agents once an off-plan enquiry lands?"
+},
+{
+"angle": "field_detail",
+"text": "'Leads that convert, not just clicks' almost always depends on what happens in the first two minutes. In the speed-to-lead systems I build, getting the first qualified response out in under 10 seconds does far more for conversion than tweaking ad copy. For an off-plan investor browsing Meta, waiting even an hour to get a floor plan means they've moved on to another project."
+},
+{
+"angle": "pushback",
+"text": "Hiring a performance marketer to fix lead quality can backfire if the real delay is on the sales side. When an off-plan Meta lead waits two hours for an agent callback, even high-intent investors seem cold by the time someone reaches out. Are your agents picking up leads directly inside GHL, or is someone manually reassigning them?"
+}
+],
+"my_comment": null
+},
+{
+"id": 245,
+"created_at": "2026-10-25T18:09:25.978498+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 9.9,
+"author_name": "Kenneth Foster",
+"author_headline": "Dubai Real Estate Investment Consultant | Commercial & Residential Property Advisor | Helping Investors Build Wealth Through Strategic UAE Real Estate Opportunities",
+"author_url": "https://www.linkedin.com/in/kennyfoster80?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFablCcBy0o312nuAWvHAYyzosPsypwSuHg",
+"post_url": "https://www.linkedin.com/posts/kennyfoster80_dubaiproperty-dubairealestate-motorcitydubai-activity-7520178625292234752-CXjI",
+"post_text": "Thinking about investing in Dubai property from overseas? Motor City is one area worth looking into, but the key is knowing what to buy, what to pay, and whether the numbers actually make sense.\n\nA property showing a 7% gross rental yield might look attractive on paper. But once you account for service charges, maintenance, vacancies, property management and purchase costs, your actual return will be different.\n\n**This is where I come in as your real estate advisor.**\n\nI help foreign investors look beyond the sales pitch and make informed decisions by helping them:\n\n✅ Compare properties based on actual rental income and recent transactions.\n\n✅ Evaluate gross yield versus estimated net returns.\n\n✅ Review service charges, building quality and potential rental demand.\n\n✅ Understand the buying process, ownership requirements and available financing options.\n\n✅ Assess risks, future supply and resale potential before committing their capital.\n\nYou don't need to be living in Dubai to explore the market. But you do need the right information and a clear investment strategy.\n\nMy goal isn't just to help you buy a property. It's to help you understand **what you're buying, why it makes sense, and how it fits your investment goals.**\n\n📩 Interested in Motor City or other Dubai investment opportunities? DM me **“MOTOR CITY”** and let's discuss your options.\n\n\n#dubaiproperty #dubairealestate #motorcitydubai #propertyinvestment #foreigninvestors #realestateadvisor #DubaiInvestmentsPark",
+"posted_at": "2026-10-25T17:45:02.432000+00:00",
+"likes": 4,
+"comments": 0,
+"why": "Dubai real estate consultant dealing with overseas investors. Prime buyer target facing high lead volume challenges.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "sharp_question",
+"text": "When overseas buyers send that 'MOTOR CITY' DM at 2 AM Dubai time, do you find most of them expect a reply before they go to sleep?"
+},
+{
+"angle": "missing_step",
+"text": "Net yield breakdowns are what turn leads into actual buyers, but foreign investors usually message across different time zones. In the speed-to-lead systems I build, getting that initial response back in under 10 seconds is what keeps an overseas buyer from messaging three other Dubai agents while waiting."
+},
+{
+"angle": "pushback",
+"text": "The gap between a 7% gross yield and actual net return is where most foreign buyers hesitate. But in practice, do you find buyers drop off because the service charges are too high, or simply because getting those net numbers takes too many back-and-forth messages?"
+}
+],
+"my_comment": null
+},
 {
 "id": 244,
 "created_at": "2026-10-25T17:07:53.076286+00:00",
@@ -9117,10 +9569,10 @@
 "usage": [
 {
 "day": "2026-10-25",
-"posts_scraped": 118,
-"cards_sent": 5,
-"llm_input_tokens": 57793,
-"llm_output_tokens": 21818,
+"posts_scraped": 306,
+"cards_sent": 17,
+"llm_input_tokens": 206052,
+"llm_output_tokens": 77629,
 "llm_cost_usd": 0.0
 },
 {
@@ -9276,7 +9728,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 3.16,
+"apify_month_usd": 3.53,
 "apify_month_cap_usd": 5.0,
 "learned": 226,
 "metrics": {},

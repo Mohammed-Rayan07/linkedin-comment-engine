@@ -13,7 +13,7 @@ from .export import write_snapshot
 from .llm import LLM, LLMRefusal, LLMUnavailable
 from .models import Post
 from .scoring import score_posts
-from .sources import PRICE_PER_POST_USD, BudgetExhausted, fetch_lane, remaining_today
+from .sources import PRICE_PER_POST_USD, ApifyUnavailable, BudgetExhausted, fetch_lane, remaining_today
 from .store import Store
 from .telegram import Telegram, keyboard, process_updates, render_card
 
@@ -57,12 +57,15 @@ class RunReport:
     carded: int = 0
     skipped_by_writer: int = 0
     taps: int = 0
+    failed: bool = False  # scraping produced nothing because every lane errored; the CLI exits non-zero
     notes: list[str] = field(default_factory=list)
 
     def summary(self) -> str:
         f = ", ".join(f"{k}={v}" for k, v in sorted(self.filtered.items())) or "none"
         out = (f"fetched={self.fetched} new={self.new} filtered[{f}] scored={self.scored} "
                f"cards={self.carded} writer_skips={self.skipped_by_writer} taps_applied={self.taps}")
+        if self.failed:
+            out = "FAILED: no lane could be scraped\n" + out
         return out + "".join(f"\n  - {n}" for n in self.notes)
 
 
@@ -222,17 +225,28 @@ class Engine:
         run_budget = min(remaining_today(cfg, store), scaled_posts)
         since = datetime.now(timezone.utc) - timedelta(days=since_days) if since_days else None
         shares = _allocate_scrape_budget(lanes, run_budget)
+        lanes_tried = lanes_failed = 0
         for lane, share in zip(lanes, shares):
             if share <= 0:
                 continue
+            lanes_tried += 1
             try:
                 posts = fetch_lane(cfg, store, lane, budget=share, since_override=since)
             except BudgetExhausted as e:
                 report.notes.append(str(e))
+                lanes_tried -= 1
+                break
+            except ApifyUnavailable as e:
+                # the account itself is blocked: trying the other lanes would just repeat the same refusal
+                log.error("Apify unavailable, stopping scrape: %s", e)
+                report.notes.append(f"Apify unavailable, scraping stopped: {e}")
+                report.failed = True
+                self._alert_apify(str(e))
                 break
             except Exception as e:  # one broken lane shouldn't kill the run
                 log.exception("lane %s failed", lane.id)
                 report.notes.append(f"lane {lane.id} failed: {e}")
+                lanes_failed += 1
                 continue
             report.fetched += len(posts)
             lane_new = 0
@@ -254,6 +268,9 @@ class Engine:
                     lane_new += 1
             log.info("lane %s: %d fetched, %d new candidates, filtered=%s",
                      lane.id, len(posts), lane_new, lane_filtered or "none")
+
+        if lanes_tried and lanes_failed == lanes_tried:
+            report.failed = True  # every lane errored: a green run here would hide a dead scraper
 
         # posts left unscored by an earlier run (e.g. the model was overloaded) get another chance
         seen = {p.id for p, _ in candidates}
@@ -278,6 +295,20 @@ class Engine:
             report.notes.append(f"{e}; remaining drafts will be retried next run")
         self.update_board()
         return report
+
+    def _alert_apify(self, reason: str) -> None:
+        """Tell Rayan once a day on Telegram. The GitHub run itself also turns red (non-zero exit)."""
+        key = f"alert:apify:{datetime.now(timezone.utc).date().isoformat()}"
+        if self.store.get(key):
+            return
+        try:
+            self.tg.send("⚠️ Apify is refusing requests, so no new posts are being found.\n"
+                         f"{reason}\n"
+                         "Check console.apify.com > Settings > Usage (monthly limit) and the APIFY_TOKEN secret. "
+                         "Nothing is being spent while this lasts.")
+        except Exception as e:  # the alert is a courtesy; the failed run is the real signal
+            log.warning("apify alert not sent: %s", e)
+        self.store.put(key, "1")
 
     def update_board(self) -> None:
         try:

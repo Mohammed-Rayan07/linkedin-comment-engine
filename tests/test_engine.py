@@ -137,6 +137,69 @@ def test_live_budget_split_and_query_rotation(cfg, monkeypatch):
     assert engine.store.today()["posts_scraped"] == 25        # daily cap respected exactly
 
 
+def _live_engine(cfg, monkeypatch):
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    cfg.mock = False
+    cfg.apify_token = "test"
+    engine = Engine(cfg)
+    engine.llm.cfg = cfg
+    monkeypatch.setattr("engine.pipeline.score_posts", lambda *a, **k: [])
+    return engine
+
+
+def test_apify_403_is_account_level_but_500_is_not(cfg, monkeypatch):
+    import httpx
+    from engine import sources
+    cfg.apify_token = "t"
+    req = httpx.Request("POST", "https://api.apify.com/x")
+    monkeypatch.setattr(sources.httpx, "post", lambda *a, **k: httpx.Response(
+        403, json={"error": {"message": "Monthly usage hard limit exceeded"}}, request=req))
+    with pytest.raises(sources.ApifyUnavailable, match="hard limit"):
+        sources._run_actor(cfg, "a~b", {}, 10)
+    monkeypatch.setattr(sources.httpx, "post", lambda *a, **k: httpx.Response(500, request=req))
+    with pytest.raises(httpx.HTTPStatusError):
+        sources._run_actor(cfg, "a~b", {}, 10)
+
+
+def test_apify_block_stops_scrape_fails_run_and_alerts_once(cfg, monkeypatch):
+    from engine import sources
+    calls, alerts = [], []
+
+    def blocked(_cfg, actor, payload, max_items):
+        calls.append(payload.get("searchQueries"))
+        raise sources.ApifyUnavailable("Apify returned 403: monthly usage limit")
+
+    monkeypatch.setattr(sources, "_run_actor", blocked)
+    engine = _live_engine(cfg, monkeypatch)
+    monkeypatch.setattr(engine.tg, "send", lambda text, markup=None: alerts.append(text))
+    report = engine.run()
+    assert report.failed
+    assert len(calls) == 1                                    # stopped at the first lane, not every lane
+    assert engine.store.today()["posts_scraped"] == 0
+    engine.run()
+    assert len(alerts) == 1                                   # one Telegram alert per day, not per run
+    assert "Apify is refusing requests" in alerts[0]
+
+
+def test_run_fails_when_every_lane_errors_but_not_when_one_does(cfg, monkeypatch):
+    from engine import sources
+    engine = _live_engine(cfg, monkeypatch)
+
+    def boom(*a, **k):
+        raise RuntimeError("actor crashed")
+
+    monkeypatch.setattr(sources, "_run_actor", boom)
+    assert engine.run().failed
+
+    def one_bad_lane(_cfg, actor, payload, max_items):
+        if "clinic" in payload["searchQueries"][0].lower():
+            raise RuntimeError("actor crashed")
+        return []
+
+    monkeypatch.setattr(sources, "_run_actor", one_bad_lane)
+    assert not engine.run().failed
+
+
 def test_gemini_daily_quota_switches_to_fallback_account(cfg, monkeypatch):
     from types import SimpleNamespace
     from google.genai import errors

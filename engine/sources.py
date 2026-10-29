@@ -27,6 +27,16 @@ class BudgetExhausted(Exception):
     pass
 
 
+class ApifyUnavailable(Exception):
+    """Apify refused the whole account (bad token, no plan, or monthly usage limit hit).
+
+    Every lane would fail the same way, so the run stops scraping instead of trying each one."""
+
+
+# 401 bad token, 402 payment required, 403 usage limit / permission. None of these are per-lane problems.
+_ACCOUNT_LEVEL_STATUSES = {401, 402, 403}
+
+
 def _watermark_key(lane: Lane, item: str | None = None) -> str:
     if item is None:
         return f"watermark:{lane.id}"
@@ -56,12 +66,23 @@ def _rotate(store: Store, lane: Lane, items: list[str], n: int) -> list[str]:
     return picked
 
 
+def _apify_error(resp: httpx.Response) -> str:
+    """Apify's own explanation (e.g. monthly usage limit) when the body has one."""
+    try:
+        err = resp.json().get("error") or {}
+        return str(err.get("message") or err.get("type") or resp.text)[:200]
+    except Exception:
+        return resp.text[:200]
+
+
 def _run_actor(cfg: Config, actor: str, payload: dict[str, Any], max_items: int) -> list[dict[str, Any]]:
     max_charge = round(max_items * PRICE_PER_POST_USD + 0.02, 3)
     params = {"maxItems": max_items, "maxTotalChargeUsd": max_charge, "timeout": 280}
     headers = {"Authorization": f"Bearer {cfg.apify_token}"}
     url = f"{APIFY_BASE}/acts/{actor}/run-sync-get-dataset-items"
     resp = httpx.post(url, params=params, headers=headers, json=payload, timeout=300)
+    if resp.status_code in _ACCOUNT_LEVEL_STATUSES:
+        raise ApifyUnavailable(f"Apify returned {resp.status_code}: {_apify_error(resp)}")
     resp.raise_for_status()
     items = resp.json()
     return items if isinstance(items, list) else []

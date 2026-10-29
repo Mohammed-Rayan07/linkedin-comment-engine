@@ -83,7 +83,7 @@ def main() -> int:
     if args.command == "run":
         report = engine.run(args.lanes.split(",") if args.lanes else None)
         print(report.summary())
-        return 0
+        return 1 if report.failed else 0  # red GitHub run instead of a silent green one
 
     if args.command == "fill":
         return fill(cfg, engine, args)

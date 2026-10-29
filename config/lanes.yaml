@@ -181,12 +181,24 @@ lanes:
     name: Dream prospects
     kind: profiles
     intent: prospect
-    enabled: false   # add real URLs first, then enable
+    enabled: true
     weight: 1.3
     posted_limit: week
     max_posts_per_profile: 1
     # 30-100 specific owners you'd love as clients. Every post they make jumps your queue.
-    profiles: []
+    # Found with LinkedIn people search by job title (not keyword post search, which returns vendors),
+    # all commented on and connected with by hand on 28 Oct 2026. Add more the same way.
+    profiles:
+      - https://www.linkedin.com/in/paul-christodoulou-24740b2b/
+      - https://www.linkedin.com/in/jamessahota/
+      - https://www.linkedin.com/in/atinirmalgpagarani/
+      - https://www.linkedin.com/in/charles-kwadwo-tuffour/
+      - https://www.linkedin.com/in/rushda-parvez-28a91b1b2/
+      - https://www.linkedin.com/in/alex-sharp-dds-53826a104/
+      - https://www.linkedin.com/in/dr-shweta-prabhu/
+      - https://www.linkedin.com/in/dr-shoukath-ali-c-t-bds-msc-323b9723/
+      - https://www.linkedin.com/in/vitaliygyrin/
+      - https://www.linkedin.com/in/mfarooqsyed/
 
   - id: competitor_reach
     name: AI lead response vendors with buyer audiences

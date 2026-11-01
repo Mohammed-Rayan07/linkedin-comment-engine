@@ -1,5 +1,5 @@
 {
-"generated_at": "2026-10-31T19:07:52.906504+00:00",
+"generated_at": "2026-11-01T11:41:58.020673+00:00",
 "actions_applied": 277,
 "cards": [
 {
@@ -10344,7 +10344,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 4.18,
+"apify_month_usd": 0.0,
 "apify_month_cap_usd": 5.0,
 "learned": 256,
 "metrics": {},

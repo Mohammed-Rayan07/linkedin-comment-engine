@@ -1,7 +1,995 @@
 {
-"generated_at": "2026-11-07T19:29:38.434168+00:00",
+"generated_at": "2026-11-08T19:37:15.248917+00:00",
 "actions_applied": 277,
 "cards": [
+{
+"id": 363,
+"created_at": "2026-11-08T19:37:14.749814+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 6.5,
+"author_name": "Anis Doua",
+"author_headline": "Founder at Real Estate OS",
+"author_url": "https://www.linkedin.com/in/anisdoua?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFYSsmMBP3sn1-tSmsAn1qPZ01H3LYcn7lE",
+"post_url": "https://www.linkedin.com/feed/update/urn:li:groupPost:2194829-7525212576968933376",
+"post_text": "The Dubai real estate market moves at 100 mph, yet most agencies and brokerages are still losing deals because of slow, clunky tech and fragmented lead management.\n> In a hyper-competitive market, your digital infrastructure is either making you money or costing you clients.\n> Who I am & What I’ve Done:\n>  * I’m Anis Moez, a software engineer with over 6 years of deep background in sales, customer communication, and real estate market operations.\n>  * I combined that real-world industry experience with elite engineering to build EstateOS—an all-in-one real estate operating platform featuring custom agent websites, automated property listings, and unified lead dashboards.\n> What I’m Looking For:\n>  * Looking for a PropTech Product Lead, Real Estate Tech Engineer, or Digital Operations Lead role within a forward-thinking Dubai brokerage or proptech firm.\n>  * Ready to relocate immediately.\n> Let’s Skip the Red Tape:\n> If you run a high-performing real estate ecosystem in Dubai, value speed over corporate bureaucracy, and want someone who actually understands how agents close deals, drop me a DM directly. Let’s talk about how we can scale your tech and sales systems.",
+"posted_at": "2026-11-08T15:08:10.186000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "PropTech founder pitching real estate operating platform. Direct peer overlap, good opening for speed-to-lead pushback.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "That piece about fragmented leads slowing things down is spot on. How fast are Dubai brokerages actually routing inbound enquiries right now?"
+},
+{
+"angle": "make_concrete",
+"text": "The 100 mph speed in Dubai means a lead sitting in someone's WhatsApp for ten minutes is already talking to another agency. Are you seeing brokerages finally drop group chats for actual CRMs?"
+},
+{
+"angle": "pushback",
+"text": "Unified dashboards look great on paper, but agents ignore them if the first response takes minutes instead of seconds. Does EstateOS handle the instant reply layer or just the back-end view?"
+}
+],
+"my_comment": null
+},
+{
+"id": 362,
+"created_at": "2026-11-08T19:37:01.429173+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 7.2,
+"author_name": "Maksim Krivdenko",
+"author_headline": "Real Estate Broker in Dubai | BRN 62633 | Whitewill Real Estate | Property Finder SuperAgent | Branded residences, off-plan & resale | English, Русский",
+"author_url": "https://www.linkedin.com/in/maksim-krivdenko-61aa21200?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADNopDYBXSf9FDwBtZGpAqGHAEZ1VGE48sU",
+"post_url": "https://www.linkedin.com/posts/maksim-krivdenko-61aa21200_how-to-choose-and-verify-a-real-estate-broker-activity-7525233436916342784-6BMB",
+"post_text": "How to check a Dubai real estate broker in two minutes\n\nBuying in Dubai from abroad means trusting someone you may never meet. The good news: you can check that person in about two minutes.\n\n1. Ask for the BRN\n\nEvery broker in Dubai must hold a Broker Registration Number issued by RERA. Look it up in the Dubai REST app or on the Dubai Land Department website. The name and the brokerage should match. Mine is BRN 62633, and I'm happy when clients check it.\n\n2. Ask for DLD data, not opinions\n\nA good broker shows you registered DLD transactions for the same building and layout. \"The market price is X\" isn't data. \"Here are the last five deals for this layout, with floors and dates\" is.\n\n3. Insist on the official forms\n\nForm A is the agreement between seller and broker. Form B is between buyer and broker. Form F is the MOU between buyer and seller. If someone wants a deposit before Form F is signed, walk away.\n\n4. Get the total cost in writing\n\nDLD 4%, agency commission, trustee fees, developer fees on off-plan. A broker who can't put this on one page before you commit isn't ready to handle your money.\n\n5. Check the track record\n\nPlatform status (for example Property Finder SuperAgent), references and real cases with numbers.\n\nRed flags I'd never ignore:\n- pressure to pay before an MOU\n- a price far below every recent DLD deal, with no explanation\n- reluctance to share the BRN\n\nIt takes two minutes and it saves a lot of money.\n\nFull guide: https://lnkd.in/dxSaf9g6\n\n#DubaiRealEstat",
+"posted_at": "2026-11-08T16:31:03.437000+00:00",
+"likes": 2,
+"comments": 1,
+"why": "Dubai broker sharing practical buyer advice.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "Insisting on Form F before any deposit changes everything for someone buying from abroad. That one rule saves so much headache."
+},
+{
+"angle": "make_concrete",
+"text": "Getting the total cost on one page upfront is rare. When the DLD 4%, trustee fees, and developer charges all land on a single sheet, you immediately know who actually knows the numbers."
+},
+{
+"angle": "sharp_question",
+"text": "Asking for DLD data instead of opinions is the right filter. Do most international buyers actually check those past five deals themselves, or do they rely on the broker to pull them?"
+}
+],
+"my_comment": null
+},
+{
+"id": 361,
+"created_at": "2026-11-08T19:36:47.448543+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 7.7,
+"author_name": "Uttam K",
+"author_headline": "A Great Property Can Still Be a Terrible Investment. || I Challenge the Deal Before You Commit the Capital || Real Estate Broker + Litigator ||",
+"author_url": "https://www.linkedin.com/in/uttam-k-04266234?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAc3O7IBdMDr-NK81W3mgUPgzmFJXKbJQ-o",
+"post_url": "https://www.linkedin.com/posts/uttam-k-04266234_dubairealestate-realestateinvesting-airbnb-activity-7525225648055857152-CN9l",
+"post_text": "Your Airbnb pro forma is lying to you.\n\nNot on purpose. But it is.\n\nWhat happened with my client\n\nMark*, a Texas landlord with several US rentals, so he's not a beginner.\n\nHe sent me a Dubai Marina deal. \nThe sheet showed a double-digit yield as an Airbnb. \n\nHe was ready to wire the deposit.\nWe underwrote it like a deal back home.\n\nWhy the usual thinking fails\n\n• Gross is not NOI. Management fees run 15–25%. \nAdd cleaning, furniture, utilities, platform fees, permits and service charges \n\n• The sheet assumed 80%+ occupancy all year. \nDubai hotels averaged 80.6% in H1 2025, per Dubai's tourism department. \nOne unit won't beat the hotels every month.\n\n• Demand is real. Dubai drew 19.59M overnight visitors in 2025. \nSo is supply. Dubai Land Department logged 132,500 off-plan sales in 2025. \nMore units. More rivals for your guests.\n\n• STRs need a holiday home permit. \nSome buildings ban them. \nThink of an HOA that bans rentals under 30 days.\n\n• US tax still applies. Think IRS, FBAR and FATCA.\nMy 9 years in law helped here. \nMark's building had rules the brochure left out.\n\nThe outcome\n\nWe did not kill the deal. We fixed it. \nReal occupancy. Clean title. SPA checked line by line. \n\nA long-term lease as plan B. \nHe bought a better unit and closed with confidence.\n\nMy independent view\n\n• Underwrite the long-term lease. STR income is upside.\n• Stress-test occupancy 20–30% below the brochure.\n• Check permits and building rules first.\n• Get your contract reviewed by someone on your sid",
+"posted_at": "2026-11-08T16:00:06.428000+00:00",
+"likes": 1,
+"comments": 2,
+"why": "Real estate investment due diligence post by an expert; good context on market reality but limited AI angle.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "make_concrete",
+"text": "Treating long-term lease as the baseline and STR as upside changes the whole math. How often do buyers actually run that comparison before putting down a deposit?"
+},
+{
+"angle": "field_detail",
+"text": "That 15-25% management fee line usually catches overseas buyers off guard. Once you add utilities, building rules, and platform cuts, that double-digit pro forma yield shrinks in a hurry."
+},
+{
+"angle": "sharp_question",
+"text": "Stress-testing occupancy 20 to 30 percent below the brochure makes sense, especially with 132,500 off-plan units hitting the market. When you run that test for clients, how many of these Marina deals actually survive on long-term rental income alone?"
+}
+],
+"my_comment": null
+},
+{
+"id": 360,
+"created_at": "2026-11-08T19:36:18.696624+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 7.9,
+"author_name": "Kamil Ozornek, MBA",
+"author_headline": "🇦🇪 RERA-Licensed International Property Investment Advisor 🚀 3X Startup Founder (Formerly: Co-founder @sahibindencom)",
+"author_url": "https://www.linkedin.com/in/kamil-ozornek-mba-a9451b17?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAN1TVABkF35CdUb6GV06OPEGDI-wTCduWg",
+"post_url": "https://www.linkedin.com/posts/activity-7525197170355081216-zjI4",
+"post_text": "A client I've known for a long time rented the same Arjan 1BR apartment last week for 3 years. \n\nHis renewal notice arrived; he opened a mortgage calculator, and the repayment on a comparable unit came out to almost the same as his rent.\n\nHe is buying. Handover in March.\n\nThree years ago that conversation ended with \"the market is too hot right now\". \n\nThis time it ended with a spreadsheet.\n\nThe data says she is part of a pattern rather than an exception. \n\nDubai recorded around 33,900 residential sales in the third quarter, down 38.6 percent on last year. \n\nBut mortgage value hit a record AED 21.8 billion, up 8.1 percent. \n\nReady homes recovered almost 20 percent quarter on quarter while off-plan fell away. End users are buying. Investors have gone quiet.\n\nThe reason is supply. \n\nRoughly 38,000 units were completed in the first nine months of 2026, and about 525,000 are scheduled between 2027 and 2030. \n\nTenants can finally negotiate. Marina apartment rents are down 12.8 percent year-on-year, and Business Bay rents are down 12.2 percent.\n\nHere is the part most people skip. \n\nSofter rents make renting cheaper, too, which runs counter to the usual \"rent is dead money\" argument. \n\nThe real case for buying now is quieter than that. \n\nYou have time. \n\nYou can inspect the building, read the service charge, walk the neighborhood at 8 pm, and buy something you will still want in ten years.\n\nThat is a very different market from the one we had in 2024, when people bought off a floor p",
+"posted_at": "2026-11-08T14:06:56.815000+00:00",
+"likes": 2,
+"comments": 0,
+"why": "Experienced Dubai property advisor breaking down end-user mortgage shifts and market realities.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "That \"walk the neighborhood at 8 pm\" advice is so practical. The shift in traffic and parking between mid-afternoon and 8 pm trips up a lot of first-time buyers."
+},
+{
+"angle": "missing_step",
+"text": "Putting rent against mortgage on one page usually looks simple until service charges hit. When tenants run those numbers, is the service charge usually what flips the decision back to renting, or are end-users mostly brushing it off?"
+},
+{
+"angle": "sharp_question",
+"text": "That contrast between buying off a floor plan in twenty minutes in 2024 versus sitting down with a spreadsheet today says a lot. With total mortgage value hitting AED 21.8 billion, are bank approval timelines keeping pace with tenants ready to switch, or are delays popping up at valuation?"
+}
+],
+"my_comment": null
+},
+{
+"id": 359,
+"created_at": "2026-11-08T19:35:44.163545+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 7.9,
+"author_name": "Laurence 🧚🏻‍♂️ EVED AI",
+"author_headline": "EVED AI | The sales growth platform for hair transplant clinics. More booked consultations from the ad budget you already spend.",
+"author_url": "https://www.linkedin.com/in/laurence-eved-ai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGFxCGMBuWsTGkNzjyBv-qTrh8VAOJLk-Ys",
+"post_url": "https://www.linkedin.com/posts/laurence-eved-ai_the-care-stops-at-the-airport-activity-7525181433854795776-2Ts8",
+"post_text": "For a patient who traveled for his hair transplant, the care stops at the airport.\n\nHe flies home on day 2. To Berlin, Riyadh, Sao Paulo. From that moment, the clinic that operated on him is in another country, on another clock, and often in another language.\n\nThen day 8 comes, with its question in front of the mirror. He writes at 23:12. Nobody answers that night.\n\nI say this to surgeons and it makes them uncomfortable, so I will say it here too: a clinic that operates on patients from abroad and goes silent once they land sells an operation, not a result.\n\nThe medicine can be excellent. I have seen it be excellent. The patient will remember the week nobody answered.",
+"posted_at": "2026-11-08T13:04:24.941000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Relevant clinic sales platform discussing patient follow-up gaps. Great fit for speed-to-lead and aftercare AI angles.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "That 23:12 message on day 8 usually sits in a shared WhatsApp chat until 9 AM local time. By the time someone replies, panic has already turned into a negative review."
+},
+{
+"angle": "missing_step",
+"text": "Writing at 23:12 from another time zone is where standard aftercare breaks. The key is setting up clear triage rules: letting an automated system answer routine recovery questions instantly, while escalating genuine post-op concerns to an on-call team regardless of the hour."
+},
+{
+"angle": "sharp_question",
+"text": "Calling out the clinic that goes silent once the patient lands is a fair point. When you talk to these clinic teams, is the main bottleneck usually coverage across time zones, or handling multi-language questions past clinic hours?"
+}
+],
+"my_comment": null
+},
+{
+"id": 358,
+"created_at": "2026-11-08T19:35:28.178640+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 8.1,
+"author_name": "Marion Ueland-Billington",
+"author_headline": "Co-Founder",
+"author_url": "https://www.linkedin.com/in/marionueland?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADDq5DkBuSNb1e1lGD0pIZ_hnCyvq4zhIM8",
+"post_url": "https://www.linkedin.com/posts/marionueland_medicaltourism-dentalabroad-meetyourclinic-activity-7525166011847847936-iNHo",
+"post_text": "That quote from the Turkish dental clinic looks cheap. It probably isn't.\n\nA proper dental quote should list each procedure separately, crown, extraction, X-ray, consultation, with a price against every single line. If you get one number with no breakdown, that's not a quote. That's a figure designed to get you on a plane.\n\n\"All-inclusive\" is the phrase to watch. It usually covers the treatment itself and sometimes a hotel transfer. It rarely covers follow-up appointments, remedial work if something goes wrong, the consultation before treatment starts, or flights home if you need an emergency return. Those gaps can cost more than the original saving.\n\nBefore you commit, ask the clinic these three questions: What happens if I need additional work once treatment starts? Is aftercare included if I have complications back in the UK? What is your complaint and redress process? A good clinic will answer all three in writing without hesitation. An evasive response tells you something important.\n\nAlways get two quotes and lay them side by side. Not just the total, the line items. A quote missing sedation costs, temporary fittings, or a post-treatment check is artificially low. You're not comparing the same thing.\n\nOne thing worth checking: does the clinic hold any recognised accreditation? JCI accreditation is one of the more rigorous international standards for hospitals and clinics. It doesn't guarantee a perfect outcome, but it means someone external has checked their processes.\n\n",
+"posted_at": "2026-11-08T12:03:08.048000+00:00",
+"likes": 3,
+"comments": 1,
+"why": "Co-founder breaking down medical tourism quotes and transparent patient communication. Matches dental story nicely.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "That line about getting answers 'in writing without hesitation' is huge. When patients ask about aftercare, do most clinics have a set policy ready or is it usually vague until pushed?"
+},
+{
+"angle": "make_concrete",
+"text": "Calling out how 'all-inclusive' quotes hide temporary fittings and post-treatment checks hits the real issue. A single package price makes it impossible to tell if follow-up care is included once you return home."
+},
+{
+"angle": "pushback",
+"text": "I'd almost rank clear written aftercare terms higher than JCI accreditation for someone traveling abroad. An international standard shows their clinic facility was audited, but written agreement on who pays for local remedial work is what actually protects the patient."
+}
+],
+"my_comment": null
+},
+{
+"id": 357,
+"created_at": "2026-11-08T19:35:14.010779+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.3,
+"author_name": "Muhammad Nadeem Sarwar",
+"author_headline": "Off plan Leader",
+"author_url": "https://www.linkedin.com/in/muhammad-nadeem-sarwar-019ab43b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAiG_hUBtJf7ixTWOJfwlj98jH9uvpT48zQ",
+"post_url": "https://www.linkedin.com/posts/muhammad-nadeem-sarwar-019ab43b_hiring-alert-off-plan-real-estate-agents-activity-7525234895946760192-rkBt",
+"post_text": "Hiring Alert!\nOFF-PLAN REAL ESTATE AGENTS\nWe are looking for experienced Off-Plan Real Estate Agents to join our team in Dubai.\nWhat We Offer:\n💰  Decent salary + commission structure depending on experience  \n🚗 AED 600 monthly parking allowance for every broker because we understand how difficult and expensive parking can be in Business Bay. \n📈 Attractive commission structure  \n🏙️ Daily fresh leads & Access to leading off-plan projects \n🤝 Supportive and professional working environment  \n📚 Opportunities for career growth and development  \nRequirements:\n✅ Proven Off-plan real estate experience in Dubai. \n✅ Strong knowledge of the Dubai property market  \n✅ Excellent communication and negotiation skills  \n✅ Self-motivated and target-driven  \n✅ Existing client database is an advantage  \n📩 Interested candidates can send their CV to apply\nnadeem@wallmate-realestate-dubai.com",
+"posted_at": "2026-11-08T16:36:51.297000+00:00",
+"likes": 4,
+"comments": 1,
+"why": "Hiring post for Dubai off-plan agents, hints at active deal flow and lead volume.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "field_detail",
+"text": "That AED 600 parking allowance for Business Bay is such a practical detail. Anyone who has tried finding a spot near Marasi Drive on a weekday knows how real that pain is."
+},
+{
+"angle": "make_concrete",
+"text": "Providing daily fresh leads is a huge pull for brokers, but the real gap is usually response speed. If a fresh off-plan inquiry sits unassigned for twenty minutes, that buyer has already messaged two other agencies."
+},
+{
+"angle": "sharp_question",
+"text": "When you mention daily fresh leads, are those routed automatically based on who is free, or do agents manage their own intake as calls come in?"
+}
+],
+"my_comment": null
+},
+{
+"id": 356,
+"created_at": "2026-11-08T19:34:48.494027+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 8.3,
+"author_name": "Tohraan khan",
+"author_headline": "Founder, Triaxon - AI-native operations for Gulf businesses · CS, BITS Pilani Dubai",
+"author_url": "https://www.linkedin.com/in/tohraan-khan-5b592636b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFvLqdkBXyEZ8_8-2j64M6WD1e8GHzB7Eqs",
+"post_url": "https://www.linkedin.com/posts/tohraan-khan-5b592636b_new-driving-licence-rules-take-effect-across-activity-7525226171353972737-Wm2L",
+"post_text": "New driving licence rules take effect across the UAE on January 1, 2027.\n\nFor clinic owners in Dubai and Abu Dhabi, every regulatory shift creates an immediate spike in patient enquiries.\n\nPatients call to ask about medical fitness certificates and eye tests.\n\nThe front desk gets flooded.\n\nPhones ring off the hook.\n\nMost clinics handle this surge manually.\n\nStaff answer calls one by one.\n\nMessages sit in WhatsApp inboxes for hours.\n\nPatients grow impatient and book with competitors down the street.\n\nThe bottleneck is never clinical demand.\n\nIt is the first response time.\n\nA rule change means nothing if your intake system cannot handle the volume.\n\nFix the triage layer before the new rules go live.\n\nWe build automated qualification flows for medical practices across the UAE.\n\nIf useful, happy to share the n8n template we use.\n\nYour call.",
+"posted_at": "2026-11-08T16:02:11.192000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Direct competitor pitching AI-native operations and n8n workflows to UAE clinics.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Medical fitness and eye test enquiries usually ask the exact same three questions. Does your template pre-qualify document requirements, or just handle slot booking?"
+},
+{
+"angle": "field_detail",
+"text": "When call volume spikes like that, phone lines get noisy fast. In the voice agents I build, if speech recognition mishears a name or accent during intake, it retries once and then falls back to SMS so the patient isn't left hanging."
+},
+{
+"angle": "pushback",
+"text": "Automating the first response on WhatsApp stops patients from leaving immediately, but if staff still have to manually verify IDs or paperwork later, the bottleneck just shifts downstream. Are clinics using the flow to collect documents up front?"
+}
+],
+"my_comment": null
+},
+{
+"id": 355,
+"created_at": "2026-11-08T19:34:40.072468+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.4,
+"author_name": "Dagmara Kowalik",
+"author_headline": "Co-Founder & CEO at The Digital Bunch | Co-Founder at Saudi Venture Hub",
+"author_url": "https://www.linkedin.com/in/dagmarakowalik?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABNMcXABn80SJ4PuTuRWz86RCr286OwlKWE",
+"post_url": "https://www.linkedin.com/posts/dagmarakowalik_saudi-residential-real-estate-sold-about-activity-7525217233531301889-F5qB",
+"post_text": "Saudi residential real estate sold about  🔻 SAR 103 billion less in the first nine months of 2026 than in the same period last year.\n\nIn September alone, the total value of property transactions in the Kingdom fell  🔻 17% year on year.\n\nThe easy-growth years are over. Developers who keep selling the old way will feel it most. The winners will be the ones who digitalize, market smarter, run their assets better, and open up to international capital now that foreign ownership rules have changed.\nThat is what we’re discussing at Saudi Startup Majlis #4.\n\nOur guests:\n🔹 Mansour Alghamdi, Partner and CEO, Haifa Properties\n🔹 Faisal Ansari, Real Estate Advisor and International Investment Specialist\n🔹 Victor Barrero, CEO and Founder, Manara, and Board Member, Canadian Business Network in Saudi Arabia\n\nWe’ll cover:\n→ How AI and digital sales are changing how property is sold\n→ Property management and operations as a growth lever\n→ Attracting international investors and entering the market\n→ The business models that will define the next cycle\n\nThere’s also a signal in the data: Q3 was the strongest quarter of 2026 so far. The market is resetting, not disappearing. The people who move now will set the pace.\n\nExpect short talks, open questions, 90-second introductions from anyone who wants to share what they’re building, and networking until the last guest leaves.\n\n📅 18 November 2026, doors open at 6:30 PM\n📍 Saudi Venture Hub office, King Abdulaziz Rd, Riyadh\n👥 Limited to 50 guests",
+"posted_at": "2026-11-08T15:26:40.249000+00:00",
+"likes": 26,
+"comments": 2,
+"why": "Discusses Saudi real estate market reset and digital sales. Good fit for sales ops commentary.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "sharp_question",
+"text": "That SAR 103B dip is going to force real operational changes. When you mention digital sales, are developers looking at speed-to-lead or mostly shifting ad budgets?"
+},
+{
+"angle": "field_detail",
+"text": "That point about developers selling the old way is where the real revenue leaks. In the outbound system I run for my own agency, follow-ups thread into the original email and stop the moment someone replies. Most property teams run ads fine, but let enquiries cold-queue in WhatsApp."
+},
+{
+"angle": "pushback",
+"text": "Q3 being the strongest quarter is an interesting signal, but digitalizing sales often fails if it just means buying more software. If a lead waits hours for a call back, no amount of digital marketing saves the deal. Curious if the panel is focusing on intake speed or just buyer acquisition."
+}
+],
+"my_comment": null
+},
+{
+"id": 354,
+"created_at": "2026-11-08T19:34:13.085611+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.4,
+"author_name": "Rana DAHI",
+"author_headline": "Dubai Property Advisor | Investors, Golden Visa & Families Relocating to Dubai | Meydan & Off-Plan Specialist | 650% of Sales Target | fäm Properties | AR · EN · FR · IT",
+"author_url": "https://www.linkedin.com/in/rana-dahi-real-estate-agent?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAvBHLMBTr09bfvC2j4V8OeAFm4VD2COquc",
+"post_url": "https://www.linkedin.com/posts/rana-dahi-real-estate-agent_dubairealestate-meydan-districtone-activity-7525268224347918336-sVat",
+"post_text": "Dubai sold AED 34 billion in property in October. 📊\n\nHere's the part most people miss:\n\n🔹 11,937 deals, about 40% fewer than October 2025\n🔹 AED 1,640 per sqft, only 3.7% lower\n\nFewer deals. Steady prices.\nBuyers are being selective, not leaving.\n\nAnd at the top of the market, October's 5th most expensive villa sale (AED 64M) was in District One West, Meydan, just 5 km from Burj Khalifa.\n\nIt's one of the communities I work in every day.\n\nPlanning to buy, sell or invest in Meydan or off-plan? Message me before you decide.\n\nReal numbers. Smart moves.\n\n📲 WhatsApp: wa.me/971581089315\n\nSource: DLD data via DXB Interact, October 2026\n\n#DubaiRealEstate #Meydan #DistrictOne #DubaiInvestment #OffPlan #DubaiProperty #MarketUpdate",
+"posted_at": "2026-11-08T18:49:17.407000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Dubai property advisor analyzing market slowdown and selective buyers.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "sharp_question",
+"text": "40% fewer deals with steady prices means buyers are taking longer. Are you finding leads spend more time asking questions upfront before booking a viewing?"
+},
+{
+"angle": "missing_step",
+"text": "When deal volume drops 40%, catching serious buyers before they keep browsing becomes critical. In the speed-to-lead systems I build, replying in under 10 seconds is what keeps a high-intent inquiry on the phone instead of reaching out to three other brokers."
+},
+{
+"angle": "pushback",
+"text": "Selective buyers usually mean longer decision cycles rather than price drops. With top-end sales like that AED 64M villa in Meydan still closing, are developers holding firm on off-plan launch pricing or starting to offer quiet incentives?"
+}
+],
+"my_comment": null
+},
+{
+"id": 353,
+"created_at": "2026-11-08T19:34:01.756336+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.8,
+"author_name": "Oliver Hall",
+"author_headline": "Private Real Estate Advisor, Dubai | Prime & Ultra-Prime Property for UHNWIs, Family Offices & Global Investors | Discreet, Data-Led Acquisitions | OH-Property.com",
+"author_url": "https://www.linkedin.com/in/oliver-hall-9a5a6212a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB_WEQ0B4-Ip9nt_mhKuDARzQzEXPlyk2qw",
+"post_url": "https://www.linkedin.com/posts/oliver-hall-9a5a6212a_dubai-primeproperty-offmarket-activity-7525254384344080384-U87g",
+"post_text": "Some of the best homes in Dubai never reach a property portal.\n\nIn August, a Jumeirah Golf Estates villa sold privately for AED 110M. It was never listed, and it nearly doubled the community's previous AED 58M record.\n\nPrivate sales are not a back door to a bargain. They work for three reasons:\n\n1. Discretion is a feature, not a discount. Owners value privacy and control, and fewer bidders can mean a higher price, not a lower one.\n2. Price it against the register, not the story. Every private deal still needs Dubai Land Department comparables, a title check and a clear view of who represents whom.\n3. Be known before the home appears. Private homes go to buyers with a written brief, funds ready and the ability to decide quickly.\n\nIf you would like to be considered for off-market homes on Palm Jumeirah, in Emirates Hills or on Jumeirah Bay, message me privately with your brief. Everything stays confidential.\n\n#Dubai #PrimeProperty #OffMarket #FamilyOffice",
+"posted_at": "2026-11-08T17:54:17.693000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Prime Dubai real estate advisor discussing private UHNW transactions.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "That AED 110M sale doubling the previous AED 58M record is wild. On point 3, how often do those private buyers actually have pre-verified funds versus having to check on the spot?"
+},
+{
+"angle": "make_concrete",
+"text": "That third point about deciding quickly is where these off-market deals usually lag. When a pocket listing comes up, are you matching it against pre-vetted buyer briefs already on file, or reaching out to a private list case-by-case?"
+},
+{
+"angle": "pushback",
+"text": "Discretion fetching AED 110M makes sense for unique estates, but doesn't keeping a sale entirely private sometimes cap the upside by missing out on a real bidding war?"
+}
+],
+"my_comment": null
+},
+{
+"id": 352,
+"created_at": "2026-11-08T19:33:51.667307+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.9,
+"author_name": "Golenaz Mousavi",
+"author_headline": "Real Estate Relationship Manager | Property Investment & Advisory | Connecting Global Investors & Homebuyers with Tailored Opportunities | London • Dubai • Abu Dhabi",
+"author_url": "https://www.linkedin.com/in/golenaz-mousavi-15a1142a3?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAEkqaNYBzwJRVAdfiv1jlpP2wmrg7_fo92k",
+"post_url": "https://www.linkedin.com/posts/golenaz-mousavi-15a1142a3_realestateinvestment-wealthcreation-dubairealestate-activity-7525264334474739712-8Ei7",
+"post_text": "Real Estate Is More Than a Transaction. It’s About Building Long-Term Wealth.\n\nYou may have noticed that I don’t regularly post individual property listings. And there’s a reason for that.\n\nWith thousands of opportunities across Abu Dhabi, Dubai, and London, I don’t believe in promoting a handful of properties and expecting them to suit everyone.\n\nEvery client has different goals, priorities, and financial circumstances. What works for one investor may not be right for another.\n\nMy approach has always been relationship first, property second.\n\nBefore recommending any property, I believe in understanding your objectives, getting to know your expectations, and identifying opportunities that genuinely align with your needs.\n\nWhether you’re looking to invest, diversify your portfolio, secure a second home, or find the right property for personal use, the advice should always be tailored to you.\n\nBecause real estate is not simply about finding a property. It’s about making the right decision, at the right time, with the right guidance.\n\nThere are plenty of agents who can sell you a property.\n\nBut the real question is: Who can you trust to guide you towards the right decision, rather than simply convince you to buy?\n\nMy focus is on building meaningful, long-term relationships, providing strategic real estate advice, and helping clients create and preserve wealth through informed property decisions.\n\nI’m not here just to sell you a property. I’m here to help you make the right prope",
+"posted_at": "2026-11-08T18:33:49.989000+00:00",
+"likes": 37,
+"comments": 11,
+"why": "Relationship manager discussing trust and client acquisition strategy.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Skipping individual listings makes sense for advisory, but buyers usually ask about a specific property first. How do you pivot that initial enquiry into a real discovery chat?"
+},
+{
+"angle": "make_concrete",
+"text": "'Relationship first' sounds ideal, but the bottleneck is usually the intake. When an investor messages from London or Abu Dhabi about building a portfolio, if the discovery phase takes a day of back-and-forth on WhatsApp, they often move on to whoever has a ready brochure. How do you structure that initial intake so it feels consultative without slowing down?"
+},
+{
+"angle": "sharp_question",
+"text": "Not posting property listings definitely filters out deal-hunters. Curious if you find international investors in Dubai and London engage deeply with advisory posts, or if this approach mostly works once you already have a warm referral?"
+}
+],
+"my_comment": null
+},
+{
+"id": 351,
+"created_at": "2026-11-08T19:33:39.828907+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 9.5,
+"author_name": "Nadia Cortés",
+"author_headline": "Founder @TheRealtorDubai Real Estate Brokerage LLC",
+"author_url": "https://www.linkedin.com/in/therealtordubai?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABxsmxsBIx4m-ZTHQXA8GLgQUuRZwqXOoeM",
+"post_url": "https://www.linkedin.com/posts/therealtordubai_real-estate-agency-therealtordubai-activity-7525250780136833024-SaYx",
+"post_text": "Everyone is hiring in real estate. And I understand why. When there is no fixed salary, the cost of bringing a new agent on board is relatively low.\n\nBut that doesn’t mean hiring mistakes are cheap.\n\nThis year, particularly back in June, I made some terrible hiring decisions. Those mistakes represented unnecessary costs for the company, not only financially, but also in time, energy and resources.\n\nThat’s why I believe it’s equally important for the company and the candidate to choose each other wisely.\n\nThere are many things we are not.\n\nWe are not a huge corporation. If you’re looking for the systems, infrastructure and structure of a large brokerage, please join one. There is absolutely nothing wrong with that.\n\nWhat we offer is different.\n\nYou will learn to operate with 100% integrity and ethics. You will set your own targets, take responsibility for achieving them and receive the support you need along the way.\n\nYou will work under the leadership of someone who has spent the last seven and a half years hands-on in Dubai real estate. Not just managing people, but actually doing the business.\n\nYou will belong to an international team where your contribution matters. You won’t be just another agent on a recruitment spreadsheet.\n\nFor certain personalities, a smaller team is precisely where they can thrive.\n\nWhat are my non-negotiables?\n\nA positive attitude, relentless hunger to succeed, personal accountability and a genuine willingness to learn and work.\n\nAnd if you’re forme",
+"posted_at": "2026-11-08T17:39:58.383000+00:00",
+"likes": 7,
+"comments": 0,
+"why": "Brokerage founder discussing hiring mistakes and operational overhead.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Targeting former cabin crew who already bought property in Dubai is such a sharp angle for aviation clients. How did you first spot that overlap?"
+},
+{
+"angle": "make_concrete",
+"text": "Commission-only hiring looks free on paper, but a bad agent burns warm leads every day they're on board. Wasting inquiries from serious buyers ends up costing far more than any fixed salary would have."
+},
+{
+"angle": "pushback",
+"text": "You mentioned smaller brokerages lacking big corporate infrastructure, but lean teams can actually move much faster on inbound leads. With fewer internal handoffs, an inquiry gets handled immediately rather than getting lost in approval layers."
+}
+],
+"my_comment": null
+},
+{
+"id": 350,
+"created_at": "2026-11-08T19:33:12.958044+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 9.9,
+"author_name": "Dr. Saleh Al-Daghreer",
+"author_headline": "CEO and Founder",
+"author_url": "https://www.linkedin.com/in/dr-saleh-al-daghreer-4a3bba2a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAY6pTsB5aF3n3jW8WFpV6fRHUrrVysm8EU",
+"post_url": "https://www.linkedin.com/posts/dr-saleh-al-daghreer-4a3bba2a_dentistry-healthcareleadership-saudiarabia-activity-7525200210701135872-n_R8",
+"post_text": "Being an excellent dentist does not make you a good practice owner.\n\nA clinic is a company. It has accounting, finance, marketing, HR, contracts, operations and real estate. Clinical skill is one part of the equation, not the whole of it.\n\nI am starting a series on building a dental practice in Saudi Arabia, using Riyadh as the example because it is the hardest market to get right: high competition, rents that rose sharply in recent years, informed patients who compare, and high expectations for the environment and experience.\n\nThe first decision is not location. It is whether you are ready.\n\nFor most new graduates, the honest answer is: work first. The most expensive lessons are better learned on someone else's balance sheet. Government roles build clinical depth. Private hospitals expose you to systems, quality and insurance. A mid-sized private clinic shows you the business up close: why patients do not return, why chairs sit empty at 4 pm and overflow at 8 pm, why the best clinician is not always the highest earner.\n\nSigns you are ready:\n- Patients who follow you by name\n- A clear idea of what you will offer, and to whom\n- Capital that covers setup plus several months of operating losses\n- People you trust in finance and administration\n- Patience\n\nSigns you are not:\n- Opening because a colleague did\n- Projecting revenue but not costs\n- Not knowing the difference between profit and cash\n\nThen come the structural choices: start from scratch or acquire, go alone or partner. ",
+"posted_at": "2026-11-08T14:19:01.690000+00:00",
+"likes": 6,
+"comments": 0,
+"why": "Saudi dental practice founder discussing operational realities and empty chairs.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "That line about chairs sitting empty at 4 PM while 8 PM overflows is so real for Riyadh. Is the afternoon slump usually patient preference, or just how front desks handle scheduling?"
+},
+{
+"angle": "field_detail",
+"text": "Learning why patients don't return on someone else's balance sheet is spot on. A lot of those empty 4 PM slots happen simply because an enquiry came in after hours and sat in a WhatsApp inbox until the next morning."
+},
+{
+"angle": "pushback",
+"text": "Having patients follow you by name is great for starting out, but it can be a double-edged sword. If the chair count depends entirely on personal doctor loyalty rather than clinic intake systems, keeping those 4 PM slots filled gets tough the moment you expand."
+}
+],
+"my_comment": null
+},
+{
+"id": 349,
+"created_at": "2026-11-08T19:32:44.744621+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "prospects",
+"lane_name": "Dream prospects",
+"intent": "prospect",
+"priority": 10.0,
+"author_name": "James H Sahota",
+"author_headline": "Dubai property for investors in the UK, Europe, North America & Australia | Residential + Grade A commercial | 20+ years, my own money in the market | I’ll tell you what not to buy",
+"author_url": "https://www.linkedin.com/in/jamessahota?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAgCbZQBJDi1DIv0asOCtY2x7t6dnNTWBd8",
+"post_url": "https://www.linkedin.com/posts/jamessahota_dubairealestate-realestateleadership-coldcalling-activity-7525209246767017984-hyYJ",
+"post_text": "700 calls. 11 listings. 3 villa owners in Jumeirah Golf Estates ready to list with him.\n\nThat's what one of our newest agents achieved in a highly competitive market.\n\nNo established personal brand. No large following. Just consistent activity and a willingness to do the work.\n\nOn Monday, we revisited the fundamentals as a team: CRM management, KPIs, accountability and sales activity.\n\nOur foundations are strong, but strong foundations mean very little if the execution doesn't match.\nOne of the biggest mistakes I see in this industry is agents trying to skip the fundamentals in favour of the latest strategy or trend.\n\nWhen I started, I was in the office at 7am, getting a call booth and making calls. Repeatedly.\n\nThe lesson is simple:\n-Build conversations before chasing visibility.\n-Follow a proven sales process.\n-Track your activity and measure your results.\n-Stay accountable to the fundamentals.\n\nSocial media can amplify your business, but it cannot replace the discipline required to build one.\n\nMy goal is to see every agent on our team succeed, build wealth and create the life they want. That requires giving them the right structure and making sure they follow it.\n\nDon't reinvent the wheel before you've learned how to use it.\n\n📤 Share this with an agent who needs the reminder.\n\n🎥 Full episode is now live on YouTube. Link in bio.\n\n#DubaiRealEstate #RealEstateLeadership #ColdCalling #SalesPerformance #RealEstateCoaching #SalesManagement",
+"posted_at": "2026-11-08T14:54:56.056000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Dubai real estate broker discussing cold calling, KPIs, and CRM fundamentals. Direct hit for real estate lead management.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "700 calls to land 11 listings is serious hustle. Are your agents manually logging every one of those dispositions into the CRM, or is that part automated?"
+},
+{
+"angle": "field_detail",
+"text": "700 calls only yield results if the CRM keeps up. In the outbound system I run for my own agency, the tripwire that checks the inbox for replies before any follow-up goes out is what saved us. Without that stop-rule, high-volume outbound quickly turns into double-calling people who already answered."
+},
+{
+"angle": "pushback",
+"text": "Getting in a call booth at 7am definitely builds discipline. My main question with that level of outbound volume is what happens when someone calls back while an agent is mid-dial? Warm leads often end up sitting in voicemail while the team is executing on their cold list."
+}
+],
+"my_comment": null
+},
+{
+"id": 348,
+"created_at": "2026-11-08T12:28:27.444633+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 6.4,
+"author_name": "Ifham Ellahi",
+"author_headline": "Founder & CEO | Building Super Intelligence Infrastructure for the Future of Business",
+"author_url": "https://www.linkedin.com/in/ifham-ellahi-26a115339?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFTpkDIBkn_8GZT1lxaIHDe0P1uOnyWrQBo",
+"post_url": "https://www.linkedin.com/posts/ifham-ellahi-26a115339_real-estate-runs-on-inefficiency-always-activity-7524064480142659584-wyHG",
+"post_text": "Real estate runs on inefficiency. Always has.\n\nEvery “AI real estate” product right now is the same bot wearing a different suit talks to leads, tries to close, calls it innovation.\n\nWe’re building something else entirely: an AI agent platform for the real estate industry itself.\n\nAgents who type what they need and get it done. Developers and builders the ones executing on visions like Saudi Arabia’s 2030 infrastructure push who bring us their plans and get AI agents that help design, solve problems, and execute alongside their human teams. AI specialists live 24/7, working across the entire real estate value chain, not bolted onto one workflow.\n\nThis isn’t a feature. It’s infrastructure for an entire industry.\n\nWe’re starting in Dubai. Then Saudi Arabia, Qatar, and beyond every market where real estate runs on outdated tools and underused talent.\n\nNobody is building at this depth. That window doesn’t stay open forever.\n\nWe’re early. That’s not a weakness it means we can still shape this in public, with the people who’ll actually use it.\n\nSo here’s the ask: if you’re in real estate, construction, PropTech, or you just have an opinion worth having tell me what’s wrong with this. Not what sounds nice. What’s missing, what’s broken, what you’d push back on.",
+"posted_at": "2026-11-05T11:06:02.424000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Vendor building vague all-in-one AI agents. Perfect opening to push back on guardrails and deterministic limits.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "Since you asked for pushback: giving agents direct execution access across a whole value chain gets messy fast. How do you lock down what the model is never allowed to commit?"
+},
+{
+"angle": "field_detail",
+"text": "Broad agents usually trip up on messy real-world input. In the voice agents I build, audio accents scramble names and codes, so we route every transcript through a database lookup and confirmation before state changes happen. When your agents start executing across construction workflows, what does the fallback look like when incoming data is incomplete or ambiguous?"
+},
+{
+"angle": "sharp_question",
+"text": "Asking agents to help design and execute alongside construction teams sounds broad. Are these agents given direct write access to project systems, or do they only propose changes for a human to review and commit?"
+}
+],
+"my_comment": null
+},
+{
+"id": 347,
+"created_at": "2026-11-08T12:27:51.855578+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 6.5,
+"author_name": "Tohraan khan",
+"author_headline": "Founder, Triaxon - AI-native operations for Gulf businesses · CS, BITS Pilani Dubai",
+"author_url": "https://www.linkedin.com/in/tohraan-khan-5b592636b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFvLqdkBXyEZ8_8-2j64M6WD1e8GHzB7Eqs",
+"post_url": "https://www.linkedin.com/posts/tohraan-khan-5b592636b_most-clinic-owners-think-their-revenue-leaks-activity-7524818216687144960-WjoT",
+"post_text": "Most clinic owners think their revenue leaks happen in the waiting room.\n\nThey usually happen in the billing office two weeks later.\n\nAmerican Hospital Dubai just partnered with HEI Global Health to build advanced revenue cycle systems using AI.\n\nLarge groups are moving past manual claim reviews.\n\nFor independent clinics across Dubai, this changes the baseline.\n\nPatients expect immediate booking confirmation and transparent billing.\n\nWhen insurance claims sit for weeks, cash flow stops.\n\nManual follow-ups cost staff hours and delay collections.\n\nThe fix isn't hiring another administrator.\n\nThe fix is automating the handoffs between patient intake, coding, and payer submission.\n\nTriaxon builds intake and billing pipelines that cut processing times down to minutes.\n\nHappy to share the workflow if useful.",
+"posted_at": "2026-11-07T13:01:07.220000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "AI operations vendor targeting Gulf clinics. Good fit to share workflow opinions.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "pushback",
+"text": "If an enquiry drops before booking, there's no claim to process two weeks later. The billing office leaks revenue, but a quiet front desk leaks it first."
+},
+{
+"angle": "make_concrete",
+"text": "That note about not hiring another admin hits home. When handoffs between intake and processing live in WhatsApp or Excel, it doesn't show up as a bad workflow. It just looks like needing more staff. Are the independent clinics in Dubai mostly getting stuck passing details from the front desk or matching codes for insurance?"
+},
+{
+"angle": "sharp_question",
+"text": "Insurance submission rules in the Gulf get updated constantly. When automating that handoff between coding and payer submission, do you run the claim validation through deterministic code rules or let the model handle the payer guidelines directly?"
+}
+],
+"my_comment": null
+},
+{
+"id": 346,
+"created_at": "2026-11-08T12:26:51.548563+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 7.0,
+"author_name": "Sanjib Biswas, MHA IMAA CHAM",
+"author_headline": "Leading Hospitality Development with Asset Management and real numbers",
+"author_url": "https://www.linkedin.com/in/sanjib-hospitality-development-assetmanagement?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAIeZZoBWSQP9wQMRyI4dVtIV3SVvCzkIhM",
+"post_url": "https://www.linkedin.com/posts/activity-7525142751437332480-mjg1",
+"post_text": "Based on my last post- Act of AI. \nIf an algorithm slashes peak-season ADR by 70% in the GCC. How your Asset Management team safeguarded you.\n​When autonomous pricing, central distribution, or AI Agents fail, operators are pointing to third-party tech dependencies to seek liability relief or excuse underperformance.\n​For GCC asset owners, this is a firm red line.\n​The global insurance market is actively adapting to this boundary. As reported in The Economic Times, cyber and liability insurers are fundamentally re-evaluating how they cover \"AI business blunders\" and \"rogue AI agents.\"\n​Are these policies available in the GCC?\nYes. While mainland domestic policies often miss the mark, specialized AI & Tech Errors & Omissions (E&O) and System Failure Business Interruption coverages are being structured via the DIFC, ADGM, and international reinsurance syndicates.\n​To protect assets against this gap, GCC Hotel Management Agreements (HMAs) must anchor four non-negotiable protections:\n​Explicit FM Carve-Outs: Strictly bar algorithmic errors and SaaS failures from excusing operator performance.\n​Specialized AI & Tech E&O Mandates: Require operators and vendors to carry AI-inclusive Tech E&O and Cyber coverages via DIFC/ADGM or international syndicates to cover the financial fallout of algorithmic errors.\n​Protected Performance Tests: Prevent automated distribution missteps from being excluded from RevPAR Index or GOP covenant tests.\n​Human-in-the-Loop (HITL) Controls: Require 24/7 m",
+"posted_at": "2026-11-08T10:30:42.334000+00:00",
+"likes": 5,
+"comments": 0,
+"why": "Hospitality asset management discussing algorithmic liability and guardrails. Aligns well with opinions on deterministic code over prompts.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "missing_step",
+"text": "Relying on contractual policy for rate floors usually fails. If the floor is hardcoded into the execution logic, the algorithm physically can't drop the price past it."
+},
+{
+"angle": "field_detail",
+"text": "That 70% ADR drop scenario usually happens when the model has direct write access. In an inventory system I built, I made the AI read-and-propose only. The actual commit is handled by rule-based code, so the system literally rejects any price change below the preset floor regardless of what the AI suggests."
+},
+{
+"angle": "pushback",
+"text": "Requiring 24/7 manual overrides in an HMA sounds right on paper, but can an asset team realistically catch a rogue repricing run at 2 AM before central distribution syncs it? If the floor isn't enforced programmatically at the API layer, human-in-the-loop usually just means writing the incident report after the damage is done."
+}
+],
+"my_comment": null
+},
+{
+"id": 345,
+"created_at": "2026-11-08T12:26:35.786473+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 7.3,
+"author_name": "Saaz Zinzuvadiya",
+"author_headline": "Sales | Real Estate | Accounting | Marketing",
+"author_url": "https://www.linkedin.com/in/saaz-zinzuvadiya?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADQYQUQBmEDZPc6C3NNnpFzBBZw3JlNGlSc",
+"post_url": "https://www.linkedin.com/posts/saaz-zinzuvadiya_i-am-a-commercial-broker-in-dubai-and-i-have-activity-7525131307543162880-aZqr",
+"post_text": "I am a commercial broker in Dubai and i have worked with several business owners who were looking for a new commercial space or planning expansion.\n\nParts of Dubai are recovering, and some are performing exceptionally well. Residential RE in major areas have contracted quite a bit, unless you are a business owner or in revenue generating role, commercial has also taken a quite a hit.\n\nSurviving businesses report stronger orders. Finance and healthcare are expanding. Schools have started, local aviation capacity has largely returned, the population is at a record, and the best property still attracts buyers.\n\nAt the same time, fewer new businesses are being formed and a large number of existing licences have gone quiet. New tenants are paying materially less than a year ago while sitting tenants are being asked to pay more. The risk to rent is rarely the average. It is the marginal business, the marginal job, the next household, the leveraged owner and the next apartment that needs a tenant.\n\nCompared to 2025, there has been a fall in number of active licensees being formed and increasing number of licenses not being renewed which in direct has affected employment. Most displaced jobs sit in trading, site trades, hospitality, retail, F&B, real estate and transport.\n\nOver summer, central bank introduced number of financial packages in the form of deferred installments, and waiving of credit. Temporary relief can postpone the moment a weak borrower becomes visible in delinquency",
+"posted_at": "2026-11-08T09:45:13.897000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Discusses Dubai real estate market and AI pressure. Good ICP target but macro-heavy.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "You called AI the final boss for commercial tenants. Are you seeing brokers deal with clients shrinking space due to AI headcount cuts, or is it just cash preservation?"
+},
+{
+"angle": "field_detail",
+"text": "That gap between sitting tenants paying more while new ones pay less is sharp. In operational workflows, when margin pressure hits, companies usually freeze new software spend and external hires long before they give up physical floor space."
+},
+{
+"angle": "pushback",
+"text": "I doubt AI is the reason commercial footprints are shrinking just yet. Most GCC businesses adopting AI right now use it to handle extra workload without adding headcount, not to lay off whole teams and vacate floors."
+}
+],
+"my_comment": null
+},
+{
+"id": 344,
+"created_at": "2026-11-08T12:25:12.784386+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 7.8,
+"author_name": "ALI ALYASEEN",
+"author_headline": "CEO, Googan Business Services | Ph.D. in Strategy | Feasibility Studies, Market Research & Investment Advisory for Saudi Arabia since 1996 | دراسات الجدوى | دراسة السوق | Riyadh",
+"author_url": "https://www.linkedin.com/in/ali-alyaseen-86737131a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFDbBo8BfaLFurfxfa0K7LXvCn4g0-0UNOg",
+"post_url": "https://www.linkedin.com/posts/ali-alyaseen-86737131a_riyadh-realestate-feasibilitystudy-activity-7525131757369745409-mlo5",
+"post_text": "The towers arrive before the residents.\n\nIn Riyadh's newer districts, the roads, the streetlights and the first buildings are often in place long before the people who will live there. For anyone opening a shop, a clinic or a café in that district, the gap between \"built\" and \"lived in\" is the real risk.\n\nI have seen good concepts open on the right street, in the right district, two years too early. The location was not wrong. The timing was.\n\nBefore signing a lease in a district that is still filling up, I ask three questions:\n\n1. How many units around the site are occupied today, not planned?\n2. At what pace are new residents actually moving in?\n3. How many months of fixed costs can the business carry while the catchment fills?\n\nThe answer usually changes the lease more than the concept: a shorter first term, a rent-free fit-out period, or a smaller first unit.\n\nGrowth on the map and customers at the door arrive on different dates. Plan for both.\n\n#Riyadh #RealEstate #FeasibilityStudy #SaudiArabia",
+"posted_at": "2026-11-08T09:47:01.144000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Feasibility study expert discussing clinic timing and occupancy in new Riyadh districts.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "sharp_question",
+"text": "That gap between built and lived in hits new clinics hard here in Riyadh. How often do you see owners actually negotiate a rent-free fit-out period long enough?"
+},
+{
+"angle": "field_detail",
+"text": "The gap between built and lived in shows up across the whole supply chain in Riyadh. When I mapped a distributor's workflow delivering to 50-60 clinics and pharmacies, routes into newly built districts ran at low volume for months while residential move-ins lagged behind. Getting that rent-free fit-out period right is huge."
+},
+{
+"angle": "pushback",
+"text": "Taking a smaller first unit makes sense on paper, but for medical clinics it can backfire. If the layout is too tight to add services or equipment later, you end up paying for a full refit or moving right as the neighborhood finally fills up. Do you usually see clinics successfully expand in place?"
+}
+],
+"my_comment": null
+},
+{
+"id": 343,
+"created_at": "2026-11-08T12:24:45.643574+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.2,
+"author_name": "Surya Prakash Makarla",
+"author_headline": "Sr Property Advisor, Dubai, Alumnus of HARVARD-Emerging Leaders & Founder BCARE International",
+"author_url": "https://www.linkedin.com/in/surya-prakash-makarla-779757a4?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYuHI0BWsqNu2TD4st4ocYs2vXU6NpRTRs",
+"post_url": "https://www.linkedin.com/posts/surya-prakash-makarla-779757a4_dubairealestate-mentorshipmatters-famproperties-activity-7525117192485502976-3S-q",
+"post_text": "My journey over nearly 10 years in Dubai is majorly with Dubai’s #1 brokerage has been nothing short of extraordinary. With over 25 branches and a tech-driven, AI-forward approach, fäm leads the market from the front. But my success within this powerhouse is shaped by the incredible leaders I’ve been fortunate enough to learn from every day.\nA massive part of my professional DNA belongs to my long-time mentor and role model, our Executive Partner, Ramy Wahood. Ramy trained me in the absolute basics of Dubai real estate and taught me a vital lesson: the uniqueness of your presence with a client comes down to being charming, charismatic, and genuinely impactful.\nThanks to his guidance, I have evolved into a market expert specializing in Downtown Dubai and Business Bay, managing rentals, resales, and off-plan sales. From the iconic Burj Khalifa to ultra-luxury Emaar communities like The Address and Palace Residences, to DAMAC properties across Business Bay, I have built a legacy of trust and transaction excellence.\nBehind all of this is our founder, Firas Al Msaddi. Watching Firas lead is a masterclass. The man is a machine at work—fully focused, intensely concentrated, and completely driven.\nAt fäm, we marry this relentless drive with deep values: honesty, integrity, trust, and relationship-building. Our commitment to absolute transparency is why our clients trust us blindly and consistently refer their networks to us.\nIt is an absolute honor to say that the knowledge, expertis",
+"posted_at": "2026-11-08T08:49:08.605000+00:00",
+"likes": 4,
+"comments": 0,
+"why": "Senior property advisor at fäm Properties, Dubai's top brokerage. Direct buyer persona fit.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Running tech across 25 branches in Dubai is a serious scale. How much of that AI setup is focused on initial lead routing versus client management?"
+},
+{
+"angle": "make_concrete",
+"text": "Interesting to see fäm pushing tech across 25 branches. In the speed-to-lead systems I build, getting a qualified response to an inquiry in under 10 seconds is usually what stops a Downtown off-plan buyer from messaging the next broker."
+},
+{
+"angle": "field_detail",
+"text": "Bringing tech into luxury real estate only works when it serves the relationship. The tools buy you speed on the intake, but as you pointed out with Ramy's training, the actual trust in Downtown and Business Bay resales still happens advisor-to-client."
+}
+],
+"my_comment": null
+},
+{
+"id": 342,
+"created_at": "2026-11-08T12:24:27.338577+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 8.3,
+"author_name": "ALI ALYASEEN",
+"author_headline": "CEO, Googan Business Services | Ph.D. in Strategy | Feasibility Studies, Market Research & Investment Advisory for Saudi Arabia since 1996 | دراسات الجدوى | دراسة السوق | Riyadh",
+"author_url": "https://www.linkedin.com/in/ali-alyaseen-86737131a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFDbBo8BfaLFurfxfa0K7LXvCn4g0-0UNOg",
+"post_url": "https://www.linkedin.com/posts/ali-alyaseen-86737131a_entrepreneurship-retail-riyadh-activity-7525132963265720321-KpeI",
+"post_text": "A question for anyone opening a shop, clinic or café in Riyadh:\n\nWould you take the prime location with high rent, or a secondary location with the difference spent on marketing?\n\nThe prime site buys visibility every day without asking. The secondary site keeps fixed costs lower and puts the money into reaching customers directly. Both can work, and both can fail.\n\nMy view: it depends on how your customers arrive. If they buy on impulse, while passing by, the location is the marketing and the rent is worth it. If they plan the visit and search before they go, a good secondary site with easy parking and strong visibility online often wins.\n\nWhich did you choose, and would you choose it again?\n\n#Entrepreneurship #Retail #Riyadh",
+"posted_at": "2026-11-08T09:51:48.652000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Strategy consultant asking clinic/retail owners about location vs marketing trade-offs.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "make_concrete",
+"text": "For a clinic on a secondary site, putting that extra rent money into ads only works if the front desk actually picks up when those calls come in."
+},
+{
+"angle": "field_detail",
+"text": "Spending the rent difference on marketing for a clinic only works if someone answers when people search. When I needed a dentist at 11 PM, I called 5 clinics: 3 didn't pick up, 1 had a robotic hours message, and 1 had an Arabic-only voicemail. The 6th clinic answered, got the appointment and won the patient."
+},
+{
+"angle": "pushback",
+"text": "I'd push back on a secondary site winning just because customers search before they go. When a patient searches online, they usually message two or three clinics at once. If the front desk takes hours to reply on WhatsApp, that ad spend just paid for the competitor's appointment."
+}
+],
+"my_comment": null
+},
+{
+"id": 341,
+"created_at": "2026-11-08T12:24:04.104201+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 8.5,
+"author_name": "Patrick Lahoud",
+"author_headline": "Founder/Managing Director Accelerate ME Online",
+"author_url": "https://www.linkedin.com/in/patricklahoud?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAUV0NUBBcyUkBhgjT7gMYjj_Wvt8-94Q_M",
+"post_url": "https://www.linkedin.com/posts/patricklahoud_saudiarabia-digitalmarketing-ecommerce-activity-7525152887166046208-ElhA",
+"post_text": "Saudi Arabia has almost run out of people to bring online.\n\nGASTAT’s new 2026 survey puts internet use at 99.6%. Some 98% go online daily, and 74.5% buy goods or services online. SAMA says electronic payments already represent 85% of retail payments.\n\nThat changes the growth brief. Adding impressions now often means paying to reach the same connected audience again. The commercial gap has moved further down the journey.\n\nI’ve seen media teams held accountable for sales they can’t fully influence. Arabic product copy, stock availability, delivery promises, checkout speed and conversion tracking often sit with different teams. Media keeps pouring demand into a journey nobody manages end to end.\n\nA useful CMO review should start with the leaks: where interested customers drop, who owns the fix, and whether the data returns cleanly enough to improve the next media buy.\n\nBuying more reach won’t repair a journey that still leaks.\n\n#SaudiArabia #DigitalMarketing #Ecommerce #CMO",
+"posted_at": "2026-11-08T11:10:58.880000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Spot on lead-waste and journey leaks in Saudi. Perfect fit for lead waste math.",
+"best_angle": "missing_step",
+"options": [
+{
+"angle": "make_concrete",
+"text": "Media teams getting blamed for downstream drop-offs happens constantly. If an enquiry lands in a WhatsApp chat nobody opens until morning, no ad budget fixes that."
+},
+{
+"angle": "field_detail",
+"text": "That leak in the journey is so real. I experienced it as a customer at 11 PM: called 5 clinics, 3 didn't answer, 1 played opening hours, and 1 had an Arabic-only voicemail. The 6th answered and got the booking. Marketing did its job, but the handoff was where 5 of them failed."
+},
+{
+"angle": "sharp_question",
+"text": "Finding where interested customers drop is one thing, but fixing it usually crosses three departments. In your experience, Patrick, who actually takes ownership of the fix once the CMO points out the leak?"
+}
+],
+"my_comment": null
+},
+{
+"id": 340,
+"created_at": "2026-11-08T12:23:21.946989+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.6,
+"author_name": "Chirag Agrawal",
+"author_headline": "B2B Demand Generation Leader for IT, Software & App Development Companies | SEO • GEO • AEO • Paid Media | AI-Powered Growth Strategies | 10+ Years",
+"author_url": "https://www.linkedin.com/in/chirag-agrawal-dm-expert?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABnACHgBGtif-6BaJNYLPe5n2JZ2sT_6EFU",
+"post_url": "https://www.linkedin.com/posts/chirag-agrawal-dm-expert_realestateappdevelopment-dammam-saudiarabia-activity-7525135186439737344-1Yam",
+"post_text": "A property enquiry should arrive with enough context for an agent to act.\n\nThat sounds straightforward until the listing changes, the CRM connection fails or the assigned agent is unavailable.\n\nFor a Dammam real estate business, I would use those cases to evaluate development partners before discussing a long feature list.\n\nThis article compares seven companies, with Dev Technosys first, and connects each option to a practical buying question. It includes a Dhahran software company, a Riyadh research and development option, and Pune based engineering alternatives.\n\nThe location distinctions are deliberate. A company serving a Dammam buyer is not automatically operating from a Dammam office.\n\nThe guide covers the workflow behind the application: approved publication, dependable inventory, enquiries, agent assignment and recovery when an external system stops responding.\n\nArabic and English testing needs real property descriptions, SAR prices, unit references and mixed direction addresses. A language selector alone cannot establish that a customer understands availability or the next step after enquiring.\n\nI also look at the official REGA licensing starting points that buyers should review for their actual platform, alongside an illustrative development budget and existing product alternatives.\n\nMy suggested evaluation exercise uses one property. Publish it, accept an enquiry, withdraw the listing and temporarily disconnect the CRM.\n\nThen ask the supplier to show the customer, ",
+"posted_at": "2026-11-08T10:00:38.698000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Strong post on property enquiries, CRM failures, and disconnected systems in Dammam. Perfect fit for speed-to-lead and mock-first opinions.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "field_detail",
+"text": "Disconnecting the CRM during an evaluation is such a solid stress test. Most system demos only show the happy path when every API stays connected."
+},
+{
+"angle": "make_concrete",
+"text": "That CRM disconnection exercise is real. When I built a voice agent at a hackathon, I set up a single flag to flip integrations to mock mode so we could test what happens when external calls drop mid-conversation. Building for the failure state upfront saves so much chaos later."
+},
+{
+"angle": "sharp_question",
+"text": "Enquiry assignment is usually where context gets lost, especially when a lead gets forwarded to an agent without the listing details attached. Chirag, when you evaluate these Dammam setups, are you seeing systems fail more at the initial CRM sync or during that human handoff?"
+}
+],
+"my_comment": null
+},
+{
+"id": 339,
+"created_at": "2026-11-08T12:19:50.262541+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.7,
+"author_name": "Sunil Singh Negi",
+"author_headline": "I Build Client Portfolios and Sales Teams | Business Development · Sales · Relationship Management | Financial Services and Real Estate | UAE",
+"author_url": "https://www.linkedin.com/in/sunil-singh-negi-214912118?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB1Sy7ABaVW-26D_mcVgfV5nV0-oQgS7q-Q",
+"post_url": "https://www.linkedin.com/posts/sunil-singh-negi-214912118_dubairealestate-realestatesales-salesprofessionals-activity-7525060156586487808-lTfR",
+"post_text": "𝐘𝐨𝐮𝐫 𝐭𝐢𝐦𝐞 𝐚𝐧𝐝 𝐞𝐟𝐟𝐨𝐫𝐭 𝐚𝐫𝐞 𝐧𝐨𝐭 𝐚 𝐝𝐢𝐬𝐜𝐨𝐮𝐧𝐭.\n\nAnyone in real estate sales knows what a closed deal takes: weeks of calls and follow-ups, securing the right units, rounds of negotiation, and the stress that comes with all of it.\n\nYet in some corners of our market, giving up a large share of your hard-earned commission has become normal. Some salespeople hand back as much as 50% just to get a deal over the line, even when working directly with a developer.\n\nIt started as a shortcut. It has become a habit, and it is time to end it.\n\nBeyond what it does to your income, kickbacks carry real risk. Brokers in the UAE are regulated under the country’s anti-money laundering framework, and undisclosed or unusual payments can raise serious compliance questions for everyone involved. A transparent, documented commission arrangement is the only safe way to do business.\n\nSo here is my message to my fellow professionals:\n\nYour work has value. Your commission is earned, not negotiable. And a deal that depends on you giving up half your payout is not a good deal.\n\nLet’s raise the standard together: full payouts, clear agreements, and honest business.\n\n#DubaiRealEstate #RealEstateSales #SalesProfessionals #ProfessionalEthics #UAEProperty #SalesCommission #SalesIncentives #FairPay #EthicalSelling #BusinessEthics #Compliance #OffPlanDubai #DubaiInvestment",
+"posted_at": "2026-11-08T05:02:30.187000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Real estate sales leader discussing commission split habits and compliance. Excellent hook for speed-to-lead and ops leakage.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Giving up 50% of a commission just to close usually comes from desperation. Are buyers demanding kickbacks here, or are agents undercutting each other on the same developer units?"
+},
+{
+"angle": "make_concrete",
+"text": "Spending weeks on calls only to give up half the commission usually means the pipeline is leaking at the front end. When half your incoming enquiries go cold before anyone answers, every deal feels like a life-or-death negotiation. Fixing that waste at intake gives agents the backing to stand firm on their full payout."
+},
+{
+"angle": "pushback",
+"text": "The compliance risk around anti-money laundering is real, Sunil, but telling individual agents to stand firm won't change much while rival brokerages quietly look the other way. Until developers strictly audit where buyer rebates are coming from, honest agents who refuse to give up 50% will just keep losing clients to someone who will."
+}
+],
+"my_comment": null
+},
+{
+"id": 338,
+"created_at": "2026-11-08T12:05:41.623826+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 9.0,
+"author_name": "Tohraan khan",
+"author_headline": "Founder, Triaxon - AI-native operations for Gulf businesses · CS, BITS Pilani Dubai",
+"author_url": "https://www.linkedin.com/in/tohraan-khan-5b592636b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFvLqdkBXyEZ8_8-2j64M6WD1e8GHzB7Eqs",
+"post_url": "https://www.linkedin.com/posts/tohraan-khan-5b592636b_public-health-policy-shifts-create-sudden-activity-7525135381969747969-mmgN",
+"post_text": "Public health policy shifts create sudden demand spikes for private clinics across the UAE.\n\nThe state announced free dental screenings for kindergarten pupils in public schools.\n\nThat means thousands of parents will receive direct recommendations to seek follow-up care.\n\nMost dental practices are not built for a sudden influx of paediatric enquiries.\n\nThe phone rings continuously.\nFront desk staff miss calls during peak morning hours.\nParents wait hours for a callback and book elsewhere.\n\nThe bottleneck is never clinical capacity.\nIt is the first five minutes of communication.\n\nPrivate clinics need instant acknowledgement on every incoming WhatsApp and enquiry.\nAppointments must be qualified and logged without human delay.\n\nClinics that automate intake capture the demand.\nThe rest watch the enquiries slip into competitors' inboxes.",
+"posted_at": "2026-11-08T10:01:25.316000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Direct match on dental clinic speed-to-lead and WhatsApp intake during demand spikes.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Are clinics seeing most of these school screening enquiries hit WhatsApp first, or are parents jamming the phone lines during morning drop-off?"
+},
+{
+"angle": "field_detail",
+"text": "The reason clinics ignore this is that missed opportunities never show up in reports. The front desk feels slammed and the chairs look full, but parents waiting on an unread WhatsApp simply book with the practice down the street."
+},
+{
+"angle": "pushback",
+"text": "I would push back slightly on 'the bottleneck is never clinical capacity'. If instant intake books forty kindergarten check-ups in a morning, but the clinic only has one paediatric dentist on staff twice a week, the pile-up just shifts from the phone lines to the calendar."
+}
+],
+"my_comment": null
+},
 {
 "id": 337,
 "created_at": "2026-11-07T19:29:37.930905+00:00",
@@ -10542,348 +11530,6 @@
 "my_comment": null
 },
 {
-"id": 55,
-"created_at": "2026-10-08T20:39:49.159334+00:00",
-"acted_at": "2026-10-12T12:47:28.440746+00:00",
-"status": "posted",
-"stage": null,
-"chosen_option": 1,
-"note": null,
-"lane": "clinics",
-"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
-"intent": "buyer",
-"priority": 5.8,
-"author_name": "Eric Block DMD, CAGS, FICOI, FICD, FAADS, FIADFE",
-"author_headline": "Dentist, Author, Investor, Advisor, Podcaster, KOL, Husband, and Father of Two Wonderful Kids.",
-"author_url": "https://www.linkedin.com/in/ericblockdmd?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAMHdl4BFNiZ3yZ4KyNWx3ChWnpgOUQUkYg",
-"post_url": "https://www.linkedin.com/posts/ericblockdmd_here-is-the-recording-from-10726-iadlc-activity-7514036558501441536-99Q8",
-"post_text": "Here is the recording from 10/7/26.  IADLC Lifestyle Study Club features Dr. Megan Clarke.   She shows us how our inner \"Saboteurs\" get in the way of how we lead our teams and live our lives, and how to address them in real time. \nEnjoy!\nhttps://lnkd.in/ehyXCd4B",
-"posted_at": "2026-10-08T18:58:39.595000+00:00",
-"likes": 0,
-"comments": 0,
-"why": "Dental practice owner in GCC, but post is about inner saboteurs. No room for automation or proof points.",
-"best_angle": "sharp_question",
-"options": [
-{
-"angle": "sharp_question",
-"text": "When a clinical team's performance slips, a lot of practice owners immediately look for new software or a staff training program. How often do you find that the actual bottleneck is the owner's own reluctance to delegate the daily decision-making?"
-},
-{
-"angle": "missing_step",
-"text": "We often try to fix team friction by patching the workflow with new tools or stricter rules. The step we usually skip is looking at the leader's own behavior. Some operational problems are just a management problem wearing a software costume. If the owner is the bottleneck, no new tool will clean up the flow."
-},
-{
-"angle": "pushback",
-"text": "Many practice owners think they have a staff problem when daily operations get chaotic. But if your team has to check with you for every minor scheduling or patient coordination deviation, you haven't built a system. You've just built a stressful job where you are the single point of failure."
-}
-],
-"my_comment": null
-},
-{
-"id": 54,
-"created_at": "2026-10-08T20:39:39.108685+00:00",
-"acted_at": "2026-10-10T19:08:25.543680+00:00",
-"status": "posted",
-"stage": null,
-"chosen_option": 1,
-"note": null,
-"lane": "realestate",
-"lane_name": "Dubai & GCC real estate brokerage decision makers",
-"intent": "buyer",
-"priority": 7.3,
-"author_name": "Abdelrahman Shalaby, MBA",
-"author_headline": "Guiding Investors to Generational Wealth in Doha & Dubai | CEO at Piaci & Shalaby Real Estate | Creator: The Smart Investor’s Guide (Real Estate Masterclass Series)",
-"author_url": "https://www.linkedin.com/in/abdelrahmanshalaby?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAc3bPABHFD9zsqvcHvH8iQRn1XwVnItW1E",
-"post_url": "https://www.linkedin.com/posts/abdelrahmanshalaby_smartinvestornotes-realestateadvisory-brokerageintelligence-activity-7514033314668720129-vaOK",
-"post_text": "Smart Investor Notes | ملاحظات المستثمر الذكي\n\nAn asking price is a seller’s expectation. Not proof of market value.\n\nOne of the most important distinctions in real estate advisory is understanding the difference between what sellers ask and what buyers actually pay.\n\nWhen evaluating a property, comparing advertised prices alone is not enough.\n\nA proper assessment should consider:\n\n• Comparable completed transactions\n• Differences in location, size, condition and specifications\n• Incentives that affect the effective purchase price\n• Realistic rental income and operating costs\n• Resale liquidity and exit potential\n\nThis is particularly relevant when advising investors across Doha and Dubai.\n\nTwo properties may have identical asking prices but very different investment fundamentals.\n\nA broker can tell you what the market is offering.\n\nAn advisor should help determine what the opportunity is actually worth.\n\nThat distinction is where brokerage intelligence creates value.\n\n⸻\n\nالسعر المطلوب يعكس توقعات البائع، وليس بالضرورة القيمة السوقية للعقار.\n\nمن أهم الفروقات في الاستشارة العقارية التمييز بين الأسعار التي يطلبها البائعون والأسعار التي ينفذ بها المشترون صفقاتهم فعلياً.\n\nفعند تقييم عقار، لا تكفي مقارنة الأسعار المعلنة وحدها.\n\nبل يجب النظر إلى:\n\n• الصفقات الفعلية لعقارات مماثلة\n• اختلافات الموقع والمساحة والحالة والمواصفات\n• الحوافز التي تؤثر في تكلفة الشراء الفعلية\n• الدخل الإيجاري الواقعي والتكاليف التشغيلية\n• سيولة إعادة البيع وإمكانية التخارج\n\nوتزداد أهمية هذا التحليل عند تقد",
-"posted_at": "2026-10-08T18:45:46.205000+00:00",
-"likes": 2,
-"comments": 0,
-"why": "Real estate CEO discussing valuation vs asking price. Good ICP fit, but little direct connection to lead handling or AI.",
-"best_angle": "pushback",
-"options": [
-{
-"angle": "pushback",
-"text": "True advisory sounds great, but it is incredibly hard to enforce across a team when actual transaction data is siloed. If your historical transaction records and regional pricing metrics live in scattered spreadsheets or PDFs, busy agents will always default to sending standard developer brochures because it is faster. How do you keep the actual transaction data accessible enough that an agent uses it on every single call?"
-},
-{
-"angle": "sharp_question",
-"text": "Moving an agent from pitching the asking price to evaluating true opportunity value is a hard operational shift. When market volume is high, the temptation to just broadcast active listings is massive. What specific training or tool limits do you put in place to ensure your team actually runs these comparable analyses instead of just chasing the fastest commission?"
-},
-{
-"angle": "make_concrete",
-"text": "In a predictive model I built for financial data, geography and hard historical baselines carried over half the predictive power. Relying on expectations or unverified inputs completely broke the accuracy. Real estate valuation runs on the same truth: unless you have a clean, structured database of actual historical transaction records, your advisors are just guessing based on the loudest seller's asking price."
-}
-],
-"my_comment": null
-},
-{
-"id": 53,
-"created_at": "2026-10-08T20:39:28.578100+00:00",
-"acted_at": "2026-10-10T19:08:23.963928+00:00",
-"status": "posted",
-"stage": null,
-"chosen_option": 1,
-"note": null,
-"lane": "realestate",
-"lane_name": "Dubai & GCC real estate brokerage decision makers",
-"intent": "buyer",
-"priority": 8.0,
-"author_name": "Ahmad Alwani",
-"author_headline": "Sales Director at Above & Beyond Properties",
-"author_url": "https://www.linkedin.com/in/ahmad-alwani-5403a3a9?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcENUABu1rYo9dbjxvpyeuZGfIKX7BucUc",
-"post_url": "https://www.linkedin.com/posts/ahmad-alwani-5403a3a9_hiring-dubairealestate-realestatejobs-activity-7513933918014926848-K2Wg",
-"post_text": "We’re hiring! \n\nAbove & Beyond Properties is expanding our team and looking for Real Estate Sales Agents to join our team in Dubai.\n\nIf you’re motivated, ambitious, and ready to grow — let’s talk.\n\n📩 Send me your CV by DM.\n\n#Hiring #DubaiRealEstate #RealEstateJobs",
-"posted_at": "2026-10-08T12:10:48.196000+00:00",
-"likes": 2,
-"comments": 0,
-"why": "Sales director hiring agents in Dubai. Prime target for speed-to-lead and inbound lead routing solutions.",
-"best_angle": "missing_step",
-"options": [
-{
-"angle": "missing_step",
-"text": "Hiring ambitious agents is only half the battle. The step that keeps them motivated is setting up the routing infrastructure so they get high-intent leads in seconds. If a new agent has to wait hours for a manual admin handoff or dig through a shared spreadsheet, the momentum is gone before they even place the call."
-},
-{
-"angle": "sharp_question",
-"text": "When you bring on new agents in Dubai's market, how do you handle the lead distribution? Speed-to-lead is a massive competitive advantage, but manually routing incoming enquiries by agent availability and language usually breaks down the moment you scale the headcount."
-},
-{
-"angle": "make_concrete",
-"text": "More agents only solve your volume problem if your CRM infrastructure can keep up. Most brokerages don't actually have a lead generation problem, they have a lead-waste problem. If new hires are left to manage their follow-ups out of WhatsApp group chats, high-value opportunities will inevitably slip through the cracks."
-}
-],
-"my_comment": null
-},
-{
-"id": 52,
-"created_at": "2026-10-08T20:39:13.063560+00:00",
-"acted_at": "2026-10-10T19:08:23.180528+00:00",
-"status": "posted",
-"stage": null,
-"chosen_option": 1,
-"note": null,
-"lane": "realestate",
-"lane_name": "Dubai & GCC real estate brokerage decision makers",
-"intent": "buyer",
-"priority": 8.1,
-"author_name": "Sam King",
-"author_headline": "Founder @ YourDubaiPropertyGuy | 18+ Years of Real Estate Investor & Advisor | UAE & International Business Experience | Entrepreneur | Licensed Broker",
-"author_url": "https://www.linkedin.com/in/samkingm?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGySpBsB7RfDGtSGXNKsQNnP1ZqUzd8g5Wg",
-"post_url": "https://www.linkedin.com/posts/samkingm_dubai-land-department-just-closed-the-books-activity-7513951858885955584-Ubvt",
-"post_text": "Dubai Land Department just closed the books on September. Nine months into 2026, total real estate transactions sit at Dh574 billion. Dh379.4 billion of that is sales alone, across 123,416 deals — the second-highest sales figure this market has ever recorded. There are still three months left to beat it.Look past the headline number and the split tells the real story. Ready properties did Dh196 billion across 39,320 transactions. Off-plan did Dh183 billion across more than double that — 84,090 transactions. Fewer buyers are writing much bigger cheques for stock they can inspect, rent, and hold today, rather than paper on a handover date years out.Thats not a market running on hype. Thats capital thats done the maths.Ive been investing in this market since 2008 — long enough to know the difference between a cycle peak built on noise and one built on numbers like this. This ones the latter. Three months left in the year, and the market still has room to run.",
-"posted_at": "2026-10-08T13:22:05.633000+00:00",
-"likes": 0,
-"comments": 0,
-"why": "Dubai real estate broker discussing DLD transaction volumes. Good buyer profile, medium room for operational insights.",
-"best_angle": "make_concrete",
-"options": [
-{
-"angle": "make_concrete",
-"text": "The contrast in deal volume shows two completely different operational games. 84,090 off-plan transactions require high-velocity lead routing, while 39,320 ready deals with much higher average cheque sizes need a slow, advisory touch. When brokerages funnel both buyer types through the same workflow, one always gets neglected."
-},
-{
-"angle": "sharp_question",
-"text": "That split between 84,090 off-plan deals and 39,320 ready transactions really highlights the difference in buyer intent. Off-plan leads usually demand immediate response speed, while ready buyers want detailed yield data. How are your advisors structuring follow-ups so off-plan speed doesn't compromise the high-touch service ready buyers expect?"
-},
-{
-"angle": "missing_step",
-"text": "When market transactions hit Dh379.4 billion, the bottleneck usually isn't lead generation, it's lead processing speed. The step most brokerages miss during volume spikes is structuring lead qualification automatically before human handoffs. If high-ticket ready buyers wait hours for property data, they simply move on to another broker."
-}
-],
-"my_comment": null
-},
-{
-"id": 51,
-"created_at": "2026-10-08T20:35:55.926130+00:00",
-"acted_at": "2026-10-10T19:08:19.589809+00:00",
-"status": "posted",
-"stage": null,
-"chosen_option": 1,
-"note": null,
-"lane": "realestate",
-"lane_name": "Dubai & GCC real estate brokerage decision makers",
-"intent": "buyer",
-"priority": 9.1,
-"author_name": "SYED AHMAD ABU BAKR",
-"author_headline": "Sales Director at Viviana Properties",
-"author_url": "https://www.linkedin.com/in/syedahmadabubakr?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA131PQBjhlzGSRFfo7rHgwP44iID3Hzihw",
-"post_url": "https://www.linkedin.com/posts/syedahmadabubakr_viviana-properties-is-hiring-telesales-activity-7514011943209156609-F0Uc",
-"post_text": "Viviana Properties is hiring Telesales Executives to generate and convert leads for Dubai real estate. You will call prospective buyers and investors, present our properties, and book meetings and site visits for our sales team.\n\nKey Responsibilities\n\n- Make outbound calls to leads from portals, campaigns, databases and referrals\n\n- Handle inbound inquiries quickly and professionally\n\n- Understand each client's budget, needs and investment goals, and recommend suitable properties\n\n- Present Dubai projects, payment plans and investment opportunities clearly and honestly\n\n- Schedule appointments, property viewings and consultations\n\n- Follow up consistently to move leads through the pipeline\n\n- Update all calls, leads and follow-ups in the CRM\n\n- Meet or exceed daily call targets and monthly sales goals\n\n- Keep up to date with Dubai market trends, new launches and regulations\n\nRequirements\n\n- Previous sales or telesales experience (real estate experience is a plus)\n\n- Excellent spoken English; Hindi/Urdu or other languages are an advantage\n\n- Strong communication, persuasion and negotiation skills\n\n- Confident, target-driven and resilient with rejection\n\nBasic computer skills and comfort with CRM tools\n\nWilling to work from Dubai only\n\n- Ability to join immediately, or relocate to Dubai immediately\n\nWhat We Offer\n\n- Fixed salary (3k-4k) plus employment visa\n\n- Uncapped commission, with earnings that grow with your performance\n\n- Training on Dubai real estate and sales technique",
-"posted_at": "2026-10-08T17:20:50.852000+00:00",
-"likes": 2,
-"comments": 0,
-"why": "Real estate sales director hiring telesales for Dubai property. Perfect fit for speed-to-lead and CRM automation.",
-"best_angle": "missing_step",
-"options": [
-{
-"angle": "missing_step",
-"text": "The step most brokerages skip when hiring telesales to handle inbound inquiries is automating the handoff. If a new rep is on a 15-minute call with an investor, any incoming lead sits waiting, or they have to manually log it later. Resolving the routing before they land ensures they actually hit those daily call targets without administrative friction."
-},
-{
-"angle": "make_concrete",
-"text": "The math on delayed or missed inbound inquiries is brutal. If a team misses just 3 calls a day, assuming a 30% booking rate and an illustrative 1,000 SAR average value, that is over 300,000 SAR a year in lost opportunities. The real leak never shows up in reports because you only see the prospects you captured, not the ones who hung up and called the next broker."
-},
-{
-"angle": "sharp_question",
-"text": "Requiring telesales to update every call and follow-up in the CRM is necessary, but manual logging is usually the first thing that slips when call volumes go up. When you scale this team, how do you plan to keep the CRM data clean without the reps spending half their day on manual admin instead of making calls?"
-}
-],
-"my_comment": null
-},
-{
-"id": 50,
-"created_at": "2026-10-08T12:05:45.811342+00:00",
-"acted_at": "2026-10-12T12:47:33.916212+00:00",
-"status": "posted",
-"stage": null,
-"chosen_option": 1,
-"note": null,
-"lane": "clinics",
-"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
-"intent": "buyer",
-"priority": 5.1,
-"author_name": "Dr. Kafayah Ogunsola",
-"author_headline": "Not your regular Psychiatrist;Founder,MD/CEO EmpathySpace®️-Africa’s largest group of board certified and licensed Psychiatrists & Psychologists; ES Therapy Hub- Myempathyspace.com -ES Zen Hub -ES Media;",
-"author_url": "https://www.linkedin.com/in/dr-kafayah-ogunsola-017597170?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACiqRFMBor0Xm-8-O3lR7_Tkbx0RqMGeL3Q",
-"post_url": "https://www.linkedin.com/posts/dr-kafayah-ogunsola-017597170_happy-customer-service-week-we-built-something-activity-7513880947646259200-_1lZ",
-"post_text": "Happy customer service week!\n\nWe built something that has never been built in Africa before so be patient with us, as we continue to learn the ropes and build the future of mental health care for Nigerians home and Abroad. \n\nEmpathySpace™️ Therapy Hub; www.myempathyspace.com is a global mental healthcare service; we have catered to clients in over 20 counties, including China, Germany and Saudi Arabia, to mention a few.\n\nWe are not perfect but we can be trusted. We are credible. You can bank on our integrity.\n\nOur therapists are human; wives, fathers, people’s children, they have lives and they need rest! They are not AI.\n\nHow do you book a session and expect to have the session IRT. It’s not possible! At least not yet! We don’t sell the impossible…we sell what we are capable of delivering and we are known to D.E.L.I.V.E.R!!!\n\nNo service in Africa, offers what we have been offering in the last 8years of EmpathySpace®️existence. We will continue to deliver and provide competent and professional mental health care to Nigerians home and abroad but pls manage your expectations when you reach out to us. \n\nTherapy go reach everybody…pls note the waiting time for each therapist you are booking…it is at every point of the booking process on the website. \n\nWe thank you for your trust over the years & we appreciate your participation and patronage 🙏\n\n“You see this thing called ‘Therapy’ the day you start it, is the beginning of the rest of your life”. (Dr Kafayah Ogunsola,2025)\n\n“And P",
-"posted_at": "2026-10-08T08:40:19.076000+00:00",
-"likes": 1,
-"comments": 0,
-"why": "Mental health clinic founder discussing customer service week and manual booking expectations.",
-"best_angle": "pushback",
-"options": [
-{
-"angle": "pushback",
-"text": "Patients do not need the actual therapy session to happen in real time, but they do need to know their booking request was received immediately. When someone reaches out for mental health support, a multi-hour silence just adds to their anxiety. An instant, automated confirmation of the receipt keeps them from looking for another provider while your clinical team gets the rest they need."
-},
-{
-"angle": "sharp_question",
-"text": "Displaying the wait times directly on your website is a smart way to manage patient expectations upfront. When a patient sees a long wait for a specific therapist, does your booking system automatically suggest an available alternative, or do you find most clients prefer to wait for their first choice?"
-},
-{
-"angle": "missing_step",
-"text": "Letting patients see wait times upfront is a great filter, but the step most clinics skip is protecting the team from 'did you get my booking' emails. An immediate, automated confirmation that states the exact next steps stops the follow-up loop before it starts. It keeps the admin inbox quiet so your therapists can focus entirely on clinical care."
-}
-],
-"my_comment": null
-},
-{
-"id": 49,
-"created_at": "2026-10-08T11:57:14.538265+00:00",
-"acted_at": "2026-10-10T19:08:31.294594+00:00",
-"status": "posted",
-"stage": null,
-"chosen_option": 1,
-"note": null,
-"lane": "realestate",
-"lane_name": "Dubai & GCC real estate brokerage decision makers",
-"intent": "buyer",
-"priority": 6.4,
-"author_name": "Aliya Shergill",
-"author_headline": "Founder & CEO, Sunvibe One | Dubai Real Estate Expert | 10+ Years of Market Experience | Property Investment & Advisory | Off-Plan & Secondary Market | Turning Ambitions into Addresses",
-"author_url": "https://www.linkedin.com/in/aliya-shergill-b9408a1b0?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADEiEiAB8w40DT0U8ZidYImkuwOywZqs6lk",
-"post_url": "https://www.linkedin.com/posts/aliya-shergill-b9408a1b0_dubairealestate-dubaiproperty-realestateinvestment-activity-7513912208884518913-QPq_",
-"post_text": "A location becoming popular does not automatically make it the right investment.\n\nThe more important question is : \n\nWhy is the location trending?\n\nIs the growth being driven by :\n\n• Connectivity\n• Infrastructure\n• Lifestyle\n• Employment hubs\n• Rental demand\n• Master development\n• New residential or commercial supply\n\nDubai is a market where different locations serve very different objectives.\n\nDubai Marina is not JVC.\nDowntown Dubai is not Dubai Hills.\nBusiness Bay is not Dubai South.\nThese differences are not weaknesses. \n\nThey are what make Dubai’s real estate market so diverse.\n\nWhen evaluating a location, I prefer to look at both the present and the future.\n\nTODAY : \n\n• Connectivity\n• Current demand\n• Lifestyle\n• Rental market\n\nTOMORROW : \n\n• Planned infrastructure\n• Future development\n• Upcoming supply\n• Community evolution\n\nThere is no universal “best area in Dubai.\n\n”There are locations that may be better aligned with a particular budget, investment strategy, lifestyle or holding period.\n\nFor me, location analysis is not about following the trend.\n\nIt is about understanding the fundamentals behind the trend.\n\nResearch the reason.\n\nUnderstand the market.\n\nThen make the decision.\n\n— Aliya Shergill \nFounder  & CEO, \nSunvibe One Dubai Real Estate Brokerage\n\n#DubaiRealEstate #DubaiProperty #RealEstateInvestment #DubaiInvestments #UAERealEstate #PropertyInvestment #DubaiMarket",
-"posted_at": "2026-10-08T10:44:32.336000+00:00",
-"likes": 1,
-"comments": 0,
-"why": "Real estate CEO discussing location strategy, not operations, lead-waste, or back-office systems.",
-"best_angle": "sharp_question",
-"options": [
-{
-"angle": "sharp_question",
-"text": "When you segment buyers by location profile, like Downtown versus Dubai South, how do your sales teams handle the split operationally? A short-holding investor looking at Downtown needs daily transactional speed, while a Dubai South play requires months of nurturing. Running both tracks in a single CRM without messy handoffs is where most brokerages struggle."
-},
-{
-"angle": "field_detail",
-"text": "Keeping investors warm on a long-term holding play like Dubai South means sending updates over months without sounding robotic. In the outbound system I run for my own agency, I make sure follow-ups thread directly into the original email by querying the Sent message ID. It keeps the context of the initial research alive so the investor actually remembers why they showed interest."
-},
-{
-"angle": "pushback",
-"text": "Balancing today and tomorrow in Dubai is incredibly hard for a sales team. The agents who excel at fast secondary market deals in established areas like the Marina are rarely the same ones who can patiently nurture a buyer on a multi-year master development play. Trying to make the same team run both sales cycles usually means one of the strategies gets neglected."
-}
-],
-"my_comment": null
-},
-{
-"id": 48,
-"created_at": "2026-10-08T11:54:43.717460+00:00",
-"acted_at": "2026-10-10T19:08:28.656684+00:00",
-"status": "posted",
-"stage": null,
-"chosen_option": 1,
-"note": null,
-"lane": "smb_owners",
-"lane_name": "GCC SMB founders & GMs (service businesses)",
-"intent": "buyer",
-"priority": 6.6,
-"author_name": "Abdullah Ikhlas",
-"author_headline": "Founder at BrandFlux Ltd | Helping brands stand out through Design, Video & Creative Direction.",
-"author_url": "https://www.linkedin.com/in/abdullah-ikhlas?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD3tqOMB-bj0CUy6Wvh62al9MnhgyOFW95c",
-"post_url": "https://www.linkedin.com/posts/abdullah-ikhlas_04-log-kya-kahenge-applies-to-your-restaurant-activity-7513911723809107968-0RYz",
-"post_text": "\"04 log kya kahenge\" applies to your restaurant too, and those 4 people can put it on the road: your waiter, host, chef, and manager.\nYou can have the best content and the best ambiance, but if the staff experience is off, that's the word-of-mouth that spreads.\nTry this: spend one day as a customer, or invite a friend, and check whether what you market online is actually delivered at the table.\nCustomers forget what you posted. They never forget how you made them feel.",
-"posted_at": "2026-10-08T10:42:36.685000+00:00",
-"likes": 0,
-"comments": 0,
-"why": "Restaurant founder talking about frontline service execution and the 7PM test reality.",
-"best_angle": "make_concrete",
-"options": [
-{
-"angle": "make_concrete",
-"text": "We call this the 7PM Test. Call your own front desk, or walk into your own business, at 7 PM on a Friday when three things are going wrong at once. Whatever happens in that exact moment is the real experience your customers get. The marketing gets them to the door, but the peak-hour reality decides if they ever come back."
-},
-{
-"angle": "missing_step",
-"text": "The step most owners skip when testing their own service is keeping it completely anonymous. If the staff knows you or your friend, they will perform. Call your own front desk at 7 PM on a Friday under a different name when things are busy. How the team handles the chaos when they think nobody is watching is your true baseline."
-},
-{
-"angle": "sharp_question",
-"text": "Testing the frontline experience once is a great start, but how do you keep it consistent when you are not physically in the building? When we run the 7PM Test on a Friday night, we usually find that bad execution is a systems bottleneck, not a staff problem. How do you track these service gaps once you step away from the floor?"
-}
-],
-"my_comment": null
-},
-{
-"id": 47,
-"created_at": "2026-10-08T11:51:45.893483+00:00",
-"acted_at": "2026-10-10T19:08:17.688286+00:00",
-"status": "posted",
-"stage": null,
-"chosen_option": 1,
-"note": null,
-"lane": "realestate",
-"lane_name": "Dubai & GCC real estate brokerage decision makers",
-"intent": "buyer",
-"priority": 10.0,
-"author_name": "Michael Steinbach",
-"author_headline": "Founder of Hunoro & Zolia | Entrepreneur since 2014 | Strategic Leadership & Company Building",
-"author_url": "https://www.linkedin.com/in/michaelsteinbach-io?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAGGSaAkBq7UBq185oyjRLUj7o-COdIiaTa0",
-"post_url": "https://www.linkedin.com/posts/michaelsteinbach-io_introducing-zolia-real-estate-brokerages-activity-7513917212475408385-FoW0",
-"post_text": "I'm building Zolia, an AI operating system for real estate brokerages in Dubai.\n\nDubai's market has grown fast. Most back offices haven't. Enquiries arrive at midnight and wait until morning. When an agent leaves, clients often leave too. Commissions live in spreadsheets, and KYC and AML take hours every week.\n\nZolia gives a brokerage an AI team for the groundwork: first replies in seconds, in English or Arabic; a register of which client belongs to the brokerage; commissions tracked from deal to payout; a complete deal file before transfer. People still decide on money, signatures and compliance. Customer data stays in the UAE.\n\nWe're looking for a small group of founding brokerages to shape it with us. If that's you, or someone you know, join the waitlist or send me a message.",
-"posted_at": "2026-10-08T11:04:25.285000+00:00",
-"likes": 0,
-"comments": 0,
-"why": "Founder building real estate OS in Dubai; direct ICP match and high room for speed-to-lead and CRM proof.",
-"best_angle": "field_detail",
-"options": [
-{
-"angle": "make_concrete",
-"text": "Midnight enquiries are a massive leak. I remember calling 5 clinics at 11 PM with severe tooth pain. Three didn't answer, one played a robotic voicemail, and one was Arabic-only. The sixth answered and got me as a loyal patient. The same dynamic plays out with international real estate investors: the system that answers first wins the deal."
-},
-{
-"angle": "pushback",
-"text": "Automating the first reply is great, but the hard part of agentic AI isn't making the model talk. It's deciding what it's never allowed to write. In an inventory system I built, the AI can propose but never write to the database. Deterministic code or a human has to commit it. How are you structuring that write-boundary in Zolia to prevent messy CRM overrides?"
-},
-{
-"angle": "sharp_question",
-"text": "When an agent leaves a brokerage, they don't just take their contacts: they take the WhatsApp history where the actual context lives. A group chat is not a CRM. If client interactions aren't systemized outside of personal numbers, you're essentially renting your business from your brokers. How does Zolia capture that day-to-day context before the agent walks out?"
-}
-],
-"my_comment": null
-},
-{
 "id": 19,
 "created_at": "2026-10-05T15:48:13.081858+00:00",
 "acted_at": "2026-10-06T19:59:34.148443+00:00",
@@ -10961,6 +11607,14 @@
 }
 ],
 "usage": [
+{
+"day": "2026-11-08",
+"posts_scraped": 335,
+"cards_sent": 26,
+"llm_input_tokens": 291787,
+"llm_output_tokens": 118251,
+"llm_cost_usd": 0.0
+},
 {
 "day": "2026-11-07",
 "posts_scraped": 352,
@@ -11154,7 +11808,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 2.19,
+"apify_month_usd": 2.86,
 "apify_month_cap_usd": 5.0,
 "learned": 256,
 "metrics": {},

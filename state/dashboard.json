@@ -1,7 +1,349 @@
 {
-"generated_at": "2026-11-10T13:50:48.128889+00:00",
+"generated_at": "2026-11-10T21:22:51.343515+00:00",
 "actions_applied": 277,
 "cards": [
+{
+"id": 407,
+"created_at": "2026-11-10T21:22:50.854274+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 6.0,
+"author_name": "NOHA CHITOUR",
+"author_headline": "Founder, NOCH Technologies | Odoo & Zoho Developer | ERP, CRM & API / WhatsApp Integrations | Digital Marketing & SEO",
+"author_url": "https://www.linkedin.com/in/noha-chitour-294979367?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAFsXEVABFIzjwoIsO_Dw4ibxtLmawZ01HJ8",
+"post_url": "https://www.linkedin.com/posts/noha-chitour-294979367_never-lose-a-real-estate-lead-again-activity-7525246388360892416-dGkU",
+"post_text": "A buyer calls about a property. Your agent is busy. Nobody calls back.\nBy the next day, that buyer is talking to another agency. 😬\n\nThis is one of the most common problems I see in real estate sales teams, and it is rarely about the agents. It is about not having one clear system.\n\nAt NOCH Technologies we build CRM setups that help sales teams:\n✅ Know which buyers are ready to buy\n✅ Show every buyer the right homes, fast\n✅ Make sure every lead hears back on time\n\nSwipe through to see how it works 👉\n\nIf your team is losing leads in WhatsApp chats and spreadsheets, send me a message. Happy to share ideas.\n\n#RealEstate #CRM #ZohoCRM #Dubai #UAE #SalesTeam",
+"posted_at": "2026-11-08T17:22:31.302000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Odoo/Zoho vendor talking about missed real estate calls. Direct competitor territory.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "missing_step",
+"text": "A CRM organises the lead after it lands, but it doesn't call the buyer back in ten seconds when the agent is busy."
+},
+{
+"angle": "field_detail",
+"text": "In the speed-to-lead systems I build, the gap between enquiry and first response is under ten seconds. If you wait till the next day, a CRM is just recording where the deal died."
+},
+{
+"angle": "pushback",
+"text": "Calling it a clear system makes it sound like an ERP workflow issue, but usually it's just that agents are on viewings or it's 8 PM. A database can't pick up the phone."
+}
+],
+"my_comment": null
+},
+{
+"id": 406,
+"created_at": "2026-11-10T21:22:36.417074+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 6.1,
+"author_name": "Karel ZEMAN",
+"author_headline": "CEO, GO-Globe | AI Business Systems That Cut Manual Work 40-70% | 800+ Projects | Shell, Nestlé, UAE Govt | Since 2005",
+"author_url": "https://www.linkedin.com/in/karelzeman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABJROMBMVIAQoGdX6OAHgGPRL2xgV0V5eA",
+"post_url": "https://www.linkedin.com/posts/karelzeman_aigovernance-measurement-activity-7525833740347117568-9PDi",
+"post_text": "How would you know a support portal is saving money?\n\nRecord three numbers before launch:\n- Tickets per week\n- Cost per ticket\n- How often a customer has to contact you twice for the same problem\n\nMeasure again after three months. \n\nGartner's 2019 research found only 9% of customers fully resolved their issues through self-service, so track what actually gets solved, not just what gets redirected.\n\nThis applies across  Malaysia, Saudi Arabia, UAE, and USA.\n\nWhich of the three numbers could you pull today?\n\n#AIGovernance #Measurement",
+"posted_at": "2026-11-10T08:16:26.928000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "AI agency CEO talking support metrics and ticket costs. Good peer discussion on measurement.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "That third one about repeat contacts is the hardest to actually pull. Do most teams have a way to link a second call back to the first ticket, or does it usually live in someone's head?"
+},
+{
+"angle": "field_detail",
+"text": "Tracking how often a customer has to contact you twice tells you more than ticket volume ever will. When coordination lives across phone calls and WhatsApp instead of a ticket system, repeat contacts are where the real volume hides."
+},
+{
+"angle": "missing_step",
+"text": "The piece that usually gets missed is that tickets per week only counts what actually gets logged. If people are messaging instead of using the portal, the real volume is sitting somewhere else entirely."
+}
+],
+"my_comment": null
+},
+{
+"id": 405,
+"created_at": "2026-11-10T21:21:06.450197+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.5,
+"author_name": "Siobhan Brown",
+"author_headline": "CEO & Sales Director",
+"author_url": "https://www.linkedin.com/in/siobhanpbrown?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAnrKTAB1eP5RukIw_jC0dO_itVixN9Ref4",
+"post_url": "https://www.linkedin.com/posts/siobhanpbrown_royalbridges-relocationtouae-movingtouae-activity-7525967477709869060-vw6v",
+"post_text": "🌍 THINKING ABOUT MAKING THE UAE YOUR NEW HOME? 🇦🇪 🧑‍🧑‍🧒‍🧒\n\nMoving to a new country is an exciting journey, but it can also feel a little overwhelming. There are so many things to think about, from finding the right job, getting the right documents in place to register a new business or sponsor your family as well as finding the perfect home in the right neighbourhood to ensure you and your family feel settled and comfortable.\n\nAt Royal Bridges Real Estate & Relocation Consultancy, we’re here to make that journey easier and all managed under one roof (pardon the pun) 🤣. Whilst many claim to handle the A-Z services, most are outsourced which leaves space for hidden fees, traveling to many offices for different services and inconsistencies with the service standards. At Royal Bridges, all service providers are in house from the driver collecting you at the airport, to the agent collecting you for your house and school tours. \n\nWhether you’re considering Abu Dhabi, Dubai or elsewhere in the UAE, we offer personalised relocation assistance and real estate support, helping you feel at home from the very beginning and the support remains in place indefinitely. \n\nEvery move is different, and we’re here to guide and support you every step of the way.\nA new country. A new beginning. A place to call home. ❤️\n\n📩 Get in touch with Royal Bridges today. \n+971 56 861 1311 (English)\n+971 50 608 2608 (Arabic)\nRoyal Bridges AI +971 50 748 7489\n\n#RoyalBridges #RelocationToUAE #MovingToUAE #AbuDh",
+"posted_at": "2026-11-10T17:07:52.400000+00:00",
+"likes": 1,
+"comments": 0,
+"why": "Relocation and real estate firm listing their phone numbers and AI line. Good fit.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Listing an AI line right alongside the English and Arabic numbers is a great touch. How does the AI handle inquiries coming in late at night from clients still moving over?"
+},
+{
+"angle": "field_detail",
+"text": "Having a dedicated AI line for relocation makes total sense when clients are calling across different time zones. Does it route straight to the right in-house team member depending on whether they need school tours or business setup?"
+},
+{
+"angle": "pushback",
+"text": "Keeping every service in-house from the airport pickup to school tours is rare. The hard part is making sure the handoff between the airport driver and the agent doesn't drop details. How do your teams share notes before a tour starts?"
+}
+],
+"my_comment": null
+},
+{
+"id": 404,
+"created_at": "2026-11-10T21:20:17.590408+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.6,
+"author_name": "Mania Merrikhi",
+"author_headline": "CMO | CCO | Business Owner",
+"author_url": "https://www.linkedin.com/in/mania-merrikhi-844b9a13?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAALYVTQByjR3Sb7qWJ5n6jLxpd5izT5OrAc",
+"post_url": "https://www.linkedin.com/posts/mania-merrikhi-844b9a13_obgconnect-onebrokergroup-dubairealestate-activity-7525969335115345924-8MCu",
+"post_text": "The 4th Edition of OBG Connect is now fully booked. Thank you to our industry colleagues and partners for the incredible response and continued support.\n\nTomorrow, we look forward to welcoming Cherif Sleiman , Ben Bandari and Umar Bin Farooq , with COCO MIGNON moderating, for a conversation bringing together perspectives from across the real estate industry.\n\nCreating a space for meaningful dialogue, stronger relationships and shared insights is at the heart of OBG Connect—and I’m delighted to see this community continue to grow.\n\n📅 11 November 2026 | 11:00 AM\n📍 OBG Sales Centre, 37th Floor, Al Habtoor Business Tower, Dubai Marina\nONE BROKER GROUP Strada UAE Property Finder Benco Real Estate \n\nSee you tomorrow!\n\n#OBGConnect #OneBrokerGroup #DubaiRealEstate #RealEstateIndustry #SoldOut",
+"posted_at": "2026-11-10T17:15:15.240000+00:00",
+"likes": 4,
+"comments": 0,
+"why": "One Broker Group event announcement. Good buyer audience, moderate value room around lead handling.",
+"best_angle": "sharp_question",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Congrats on the full house, Mania. With the whole team tied up at the Al Habtoor Tower for the morning, how do the incoming leads get handled?"
+},
+{
+"angle": "field_detail",
+"text": "When an entire sales team is in the OBG Sales Centre for a morning panel, response times usually take the hit. Curious if teams use automation to cover that window."
+},
+{
+"angle": "missing_step",
+"text": "Full house on the 37th floor is great, but the real test is whether the enquiries coming in during the event get a reply in under ten seconds or wait until noon."
+}
+],
+"my_comment": null
+},
+{
+"id": 403,
+"created_at": "2026-11-10T21:20:08.832826+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 8.8,
+"author_name": "Ivan Ivkovic",
+"author_headline": "Founder @ SealMe | Ran a marketing agency in Dubai | Helping agency owners get the proposal out the same day the client says yes",
+"author_url": "https://www.linkedin.com/in/ivan-ivkovic-768629258?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAD9z6wABvtVk9tjFIr4zcsE3s4t8hjVvciA",
+"post_url": "https://www.linkedin.com/posts/ivan-ivkovic-768629258_the-best-proposal-i-ever-sent-was-one-page-activity-7525948038536835072-Cq8w",
+"post_text": "The best proposal I ever sent was one page long.\n\nIn Dubai we were pitching a real estate brokerage. Twelve agents, a founder who still answered every lead himself, and two other agencies in the running. One of them was much bigger than us. I found out later their deck was 34 pages.\n\nOn the call the founder talked for almost 40 minutes. Leads going cold over the weekend. Agents posting whatever they wanted on Instagram. A launch in March he was nervous about. A budget he mentioned twice, so I knew it was real.\n\nAfter the call I didn't open our proposal template.\n\nI wrote one page. His three problems, in his words. What we'd do about each one. The price he'd mentioned. A start date two weeks before his launch.\n\nHe signed the next morning. On the kickoff call he said: \"You were the only ones who sent back what I actually said.\"\n\nThe other agencies weren't worse than us. Their proposals were about them. Case studies, team photos, process diagrams. Ours was about him.\n\nMost proposals are long because they're written from a template, not from the call.\n\nThe client already told you what to put in it. Your job is to hand it back to them, clearly, while they still remember saying it.\n\nWhat's the shortest proposal you've ever closed with?",
+"posted_at": "2026-11-10T15:50:37.740000+00:00",
+"likes": 0,
+"comments": 0,
+"why": "Dubai agency founder discussing fast proposals and founder-led lead handling. Excellent fit.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "sharp_question",
+"text": "\"You were the only ones who sent back what I actually said\" is the best compliment a proposal can get. Did you keep that one page as your base template after that?"
+},
+{
+"angle": "make_concrete",
+"text": "\"Leads going cold over the weekend\" with twelve agents usually means the bottleneck is just getting to them fast enough. Did speed win the deal or was it the 1-page format?"
+},
+{
+"angle": "pushback",
+"text": "Honestly the 34-page deck gets sent because templates are easier to write than listening to a 40-minute call. Writing what they actually said takes actual work."
+}
+],
+"my_comment": null
+},
+{
+"id": 402,
+"created_at": "2026-11-10T21:20:01.517153+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "smb_owners",
+"lane_name": "GCC SMB founders & GMs (service businesses)",
+"intent": "buyer",
+"priority": 9.0,
+"author_name": "Muhammad Faizan Ali Arif",
+"author_headline": "Founder at Naseem Homes | End-to-End Property Management Dubai | Short-Term Rental | Furnishing | DTCM Licensed | Maximizing Owner Returns across UAE",
+"author_url": "https://www.linkedin.com/in/muhammad-faizan-ali-arif-73a182199?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC56NZ4B6If-3ukPLAAgTs3EXB-orunFsZQ",
+"post_url": "https://www.linkedin.com/posts/muhammad-faizan-ali-arif-73a182199_we-ran-a-holiday-home-business-in-dubai-on-activity-7525964111541596160-V87j",
+"post_text": "We ran a holiday-home business in Dubai on group chats. Here’s what it actually cost us.\n\nNot money, at first. Attention.\n\nEvery checkout clean was arranged in a WhatsApp group the evening before. Every photo of a finished apartment arrived in the same group, between voice notes and “ok”. Maintenance lived in another group. Owner questions in another.\n\nWhat that cost:\n→ I checked apartments myself, because the proof was buried in the scroll.\n→ Owner statements meant rebuilding the month from chats and Excel.\n→ When something went wrong, nobody could say who did what, and when.\n\nIn three months our team handled 984 WhatsApp conversations and about 32,600 messages, with a median reply time of 1.6 minutes.\n\nReplying was never the problem. Everything after the reply was.\n\nSo we built what we needed: one hub where every job, checklist, photo and invoice lives, set up by AI in about 15 minutes.\n\nWe open it free to service businesses in December.\n\nIf your business runs on group chats too, what does it cost you? I read every comment.",
+"posted_at": "2026-11-10T16:54:29.843000+00:00",
+"likes": 0,
+"comments": 1,
+"why": "Direct hit on group chats vs CRM, lead tracking, and operational mess.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "32,600 messages in three months is a part-time job just reading the scroll. Did the breaking point come from missed cleans or owner statements?"
+},
+{
+"angle": "field_detail",
+"text": "Rebuilding a month from chat history and Excel is the exact moment coordination turns into a second job. In the outbound system I run for my own agency, keeping data out of the chat thread entirely was the only fix."
+},
+{
+"angle": "pushback",
+"text": "Replying in 1.6 minutes sounds fast, but if everything after the reply lives in WhatsApp, that speed doesn't actually save you time. Did you track how many hours went into chasing photo proof?"
+}
+],
+"my_comment": null
+},
+{
+"id": 401,
+"created_at": "2026-11-10T21:19:45.100499+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 9.1,
+"author_name": "Loai Al Fakir",
+"author_headline": "CEO and Founder of Provident Real Estate",
+"author_url": "https://www.linkedin.com/in/loaifakir?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABl16kBA9E4zqCNnDQmfm64DTUv8FVef2c",
+"post_url": "https://www.linkedin.com/posts/loaifakir_dubairealestate-dubaiproperty-uae-activity-7526010791519596544-Autp",
+"post_text": "Dubai's property market is not stalling. It is settling into a more selective rhythm.\n\nOctober home sales, at 9,999 transactions worth AED 21.27 billion, held almost level with September, even as they remained well below last year's peak. The median registered price was AED 1,650 per square foot, based on Dubai Land Department records analysed by Projectory.\n\nThe mix is shifting. Ready-home sales rose 13.8% in October, to 36.1% of transactions, as more buyers looked at completed stock. Off-plan still accounted for nearly two-thirds of sales, led by Dubai South and Jumeirah Village Circle.\n\nSome 21.4% of Q3 tenancy transactions were agreed at a lower rent than the previous contract, up from 4.8% in the first quarter, according to Cavendish Maxwell. Average rents in September were still 5.5% higher than a year earlier, at AED 77.3 per square foot, but growth has slowed from 11.5% in September 2025. About 38,000 homes were handed over in the first nine months, up 41.4% on the same period last year.\n\nMy takeaway: after an exceptional run, advantage now sits with those who prepare carefully. Buyers and investors have more choice. Landlords who price to recent comparables will let faster. Sellers of quality, well-located homes still find demand. This is a healthier market, not a weaker one.\n\nHow are you reading the next six months?\n\n#DubaiRealEstate #DubaiProperty #UAE #PropertyMarket #RealEstate",
+"posted_at": "2026-11-10T19:59:59.217000+00:00",
+"likes": 3,
+"comments": 1,
+"why": "Loai Al Fakir, CEO of Provident Real Estate, breaking down Dubai market data and lead-to-conversion dynamics.",
+"best_angle": "pushback",
+"options": [
+{
+"angle": "make_concrete",
+"text": "When buyers have more choice, response time becomes the real filter. If a buyer enquiry sits for 30 minutes, they've already booked a viewing with another broker."
+},
+{
+"angle": "field_detail",
+"text": "That point about buyers having more choice is key. When I look at lead waste math, 3 missed calls a day at a 30% conversion rate adds up to over 300,000 SAR in lost pipeline a year. In a selective market, those buyers don't wait. They just call the next agency."
+},
+{
+"angle": "sharp_question",
+"text": "With 38,000 homes handed over in nine months, are your brokers seeing buyers take longer to decide, or are they just shopping three listings at once? Curious if response speed is changing how deals close for your team."
+}
+],
+"my_comment": null
+},
+{
+"id": 400,
+"created_at": "2026-11-10T21:19:14.108869+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "realestate",
+"lane_name": "Dubai & GCC real estate brokerage decision makers",
+"intent": "buyer",
+"priority": 9.2,
+"author_name": "Orhan Ipek",
+"author_headline": "Founder & CEO at Ipek & Partners Real Estate",
+"author_url": "https://www.linkedin.com/in/orhan-ipek-a1a989142?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACKsFnYB88I9zBn7EDl7CJ5YoakxpCd_McY",
+"post_url": "https://www.linkedin.com/posts/orhan-ipek-a1a989142_aqar-the-dubai-property-management-software-activity-7525972368687575040-hmEb",
+"post_text": "Renting out multiple properties in Dubai? Sounds easy, until you lose track. 🏙️\n\nOver the past years, I've rented out numerous properties in Dubai on behalf of my clients. One thing became clear very quickly: with every additional unit, it gets harder to keep the overview.\n\nRent payments, cheques, contract terms, Ejari, tenant changes: most of it runs through Excel, WhatsApp and email. Whether you're an agent or an owner, what you miss most is transparency.\n\nI've finally found the right solution: AQAR (aqarsoftware.com), a software tailored specifically to the Dubai real estate market. All rents, tenants and contracts in one place, clear and accessible anytime.\n\nWhether you're an agent or an owner renting out property in Dubai, feel free to reach out. Happy to share my experience. 👇\n\n#Dubai #RealEstate #PropertyManagement #Investment #PropTech",
+"posted_at": "2026-11-10T17:27:18.500000+00:00",
+"likes": 11,
+"comments": 0,
+"why": "Dubai real estate CEO complains about Excel and WhatsApp tracking. Perfect fit for speed-to-lead and CRM automation.",
+"best_angle": "make_concrete",
+"options": [
+{
+"angle": "field_detail",
+"text": "WhatsApp and Excel work fine for two properties, but by unit five the search bar becomes the CRM. Congrats on finding a proper setup, Orhan."
+},
+{
+"angle": "make_concrete",
+"text": "Running Ejari and cheque tracking through WhatsApp usually means key dates live in someone's personal chat history instead of a shared system. Does AQAR automate those cheque deposit reminders for tenants, or is it strictly a record database?"
+},
+{
+"angle": "sharp_question",
+"text": "When you mention losing track across WhatsApp and Excel, was the main leak missing cheque deposit dates or losing context during tenant handovers?"
+}
+],
+"my_comment": null
+},
+{
+"id": 399,
+"created_at": "2026-11-10T21:19:05.189474+00:00",
+"acted_at": null,
+"status": "sent",
+"stage": null,
+"chosen_option": null,
+"note": null,
+"lane": "clinics",
+"lane_name": "Clinic & dental owners (UAE, KSA, UK)",
+"intent": "buyer",
+"priority": 9.7,
+"author_name": "Frank Clough",
+"author_headline": "Co-founder at Axone | Payment plans and financing for UK dental clinics | Dentist | INSEAD MBA",
+"author_url": "https://www.linkedin.com/in/mrfclough?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB3mEvkBcen5aiIQ9rhyNH9hqXmDLYuLSsg",
+"post_url": "https://www.linkedin.com/posts/mrfclough_as-a-rule-brits-will-go-to-extraordinary-activity-7525966383680012288-SNRe",
+"post_text": "As a rule, Brits will go to extraordinary lengths to avoid an awkward conversation about money.\n\nBarclays actually quantified this recently: half of UK adults consider talking about personal finances a taboo, and an estimated 2.8 million of us would rather “do anything” than talk about it.\n\nNowhere is that discomfort more visible than inside a dental surgery.\n\nI spent years on both sides of the chair. First as a dentist diagnosing the problem and planning the care, then as an operator responsible for keeping the clinic running.\n\nIn all that time, I never met a clinician who enjoyed talking about prices. We spent five years studying anatomy, biomaterials, and clinical governance - so the moment treatment planning finishes, the instinct is to flee the room.\n\n“Just ask reception for the printed estimate on your way out”. That was my default for my first year in practice.\n\nBut the front desk doesn't want that conversation either.\n\nStanding at reception, within earshot of four other patients, asking someone if they’d like to apply for third-party finance through a clunky portal is deeply uncomfortable.\n\nThe patient nods politely, says they need to check with their partner, leaves the building, and the case quietly dies. Not because they didn't want the treatment, but because the conversation was embarrassing.\n\nPrivate healthcare doesn't need a harder sell at the desk.\n\nIt needs a checkout that is discreet, flexible, and private on the patient’s own phone - while writing cleanly ba",
+"posted_at": "2026-11-10T17:03:31.563000+00:00",
+"likes": 18,
+"comments": 1,
+"why": "Former UK dentist turned co-founder discusses awkward dental financing conversations. High ICP fit and value room.",
+"best_angle": "field_detail",
+"options": [
+{
+"angle": "sharp_question",
+"text": "Discussing treatment costs within earshot of four other patients is brutal. Do clinics that move that payment link straight to SMS see a real drop in drop-offs?"
+},
+{
+"angle": "field_detail",
+"text": "That line about the case quietly dying outside the building because the conversation was embarrassing is so spot on. The drop-off happens in the exact gap between leaving the chair and opening a clunky portal later."
+},
+{
+"angle": "pushback",
+"text": "I'd argue the front desk doesn't just dislike the finance chat because it's awkward. They hate it because it blocks the queue when a phone call is ringing and three patients are waiting to check in."
+}
+],
+"my_comment": null
+},
 {
 "id": 398,
 "created_at": "2026-11-10T13:50:47.325596+00:00",
@@ -12399,10 +12741,10 @@
 "usage": [
 {
 "day": "2026-11-10",
-"posts_scraped": 195,
-"cards_sent": 15,
-"llm_input_tokens": 171911,
-"llm_output_tokens": 62373,
+"posts_scraped": 372,
+"cards_sent": 24,
+"llm_input_tokens": 280266,
+"llm_output_tokens": 98516,
 "llm_cost_usd": 0.0
 },
 {
@@ -12614,7 +12956,7 @@
 "llm_cost_usd": 0.0
 }
 ],
-"apify_month_usd": 3.99,
+"apify_month_usd": 4.35,
 "apify_month_cap_usd": 5.0,
 "learned": 256,
 "metrics": {},
